@@ -1,0 +1,54 @@
+---
+title: "CE091 - Métodos de Pesquisa"
+output:
+  html_document:
+    toc: false
+---
+
+```{r setup, include=FALSE, cache=FALSE}
+source("setup_knitr.R")
+```
+
+[![Build Status](https://travis-ci.org/leg-ufpr/ce091.svg?branch=master)](https://travis-ci.org/leg-ufpr/ce001)
+
+<!-- <div class="alert alert-danger" role="alert"> -->
+<!-- **AVISO:** -->
+<!-- </div> -->
+
+# Detalhes da oferta da disciplina
+
+- **Cursos:**
+  - Estatística noturno
+- **Período:** primeiro semestre de 2018
+- **Professor Responsável**
+  - [Elias Teixeira Krainski][], [LEG][]/DEST/UFPR, Turma MB
+- **Horários e Locais:**
+  - Sexta, 19:00 - 22:30h, **PA-01**
+- **Horários de atendimento dos professores:**
+    - quintas, 18:00 - 19:000 (preferenciais). Outros horários
+      podem ser agendados previamente por email.
+- **Frequência**: de acordo com as normas da Universidade, mínimo de 75%
+- **Avaliação**: 
+  - **Avaliação 1**: conteúdo teórico baseado no livro texto 
+  - **Avaliação 2**: desenvolvimento de trabalho individual 
+  - A média final será a média das duas notas 
+- **Datas importantes:** De acordo com a [Resolução 30/17 - CEPE][]:
+    - **19/02**: Início do semestre letivo
+    - **23/06**: Final do semestre letivo
+    - **02/07-07/07**: Período de exames
+
+# Programa/objetivos da disciplina
+
+O objetivo desta disciplina é capacitar os alunos em conceitos básicos
+de técnicas de pesquisa que permitam a análise crítica de estudos científicos. 
+
+# Ementa 
+
+Ética e Meio Ambiente. Relações Ciência, Tecnologia e Sociedade. Métodos de Pesquisa. Elaboração de Projeto e Relatório de Pesquisa. Referências Bibliográficas. Prática de Pesquisa.
+
+ 
+<!-- links -->
+
+[Elias Teixeira Krainski]: http://www.leg.ufpr.br/~elias/
+[LEG]: http://www.leg.ufpr.br
+[Resolução 30/17 - CEPE]: http://www.est.ufpr.br/calendario/cepe3017.pdf

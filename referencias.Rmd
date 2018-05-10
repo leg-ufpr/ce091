@@ -1,0 +1,28 @@
+---
+title: "Referências Bibliográficas"
+output:
+  html_document:
+    toc: false
+---
+
+## Referência básica
+
+## Referência complementar 
+
+- Marconi, Marina de Andrade & Lakatos, Eva Maria. (2008) **fundamentos de metodologia científica** (7ª Edição). Ed. Atlas
+
+- **Nota:** existem diversos textos compatíveis com o
+      programa do curso. Consulte o professor sobre a adequação de
+      qualquer outra referência bibliográfica.
+
+## Referências *online*
+
+-  Gerhardt, T. E; Silveira, D. T. [Métodos de Pesquisa](http://www.ufrgs.br/cursopgdr/downloadsSerie/derad005.pdf)
+
+## Leituras complementares
+
+- Hilborn, R; Mangel, M.
+  [The ecological detective: confronting models with data](http://press.princeton.edu/titles/5987.html).
+  Princeton University Press, 1997.
+-  [Uma senhora toma chá. Como a estatística revolucionou a ciência no século XX](http://www.zahar.com.br/livro/uma-senhora-toma-cha).
+  Rio de Janeiro: Zahar, 2009.

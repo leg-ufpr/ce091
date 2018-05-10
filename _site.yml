@@ -1,0 +1,49 @@
+name: "ce091"
+output_dir: "."
+exclude: ["README.md", "\\.sh", "cache"]
+output:
+  html_document:
+    theme: flatly
+    highlight: default
+    code_folding: hide
+    number_sections: false
+    toc: true
+    toc_depth: 4
+    toc_float:
+      collapsed: false
+      smooth_scroll: false
+    includes:
+      in_header: analytics.html
+      after_body: footer.html
+navbar:
+  title: "CE091"
+  left:
+    - text: "Home"
+      href: index.html
+    - text: "Aulas"
+      href: aulas.html
+    - text: "Referências"
+      href: referencias.html
+    - text: "Programas"
+      href: programas.html
+    - text: "Notas"
+      href: notas.html
+    - text: "Materiais"
+      menu:
+      - text: "Slides"
+      - text: "Dados públicos [PDF]"
+        href: slides/pesq_publ_bras.pdf
+      - text: "Pesquisa: aspectos teóricos e conceituais [PDF]"
+        href: slides/topicos_cap1.pdf
+      - text: "Pesquisa científica [PDF]"
+        href: slides/topicos_cap2.pdf
+      - text: "Construção da pesquisa [PDF]"
+        href: slides/topicos_cap3.pdf
+      - text: "Estrutura de projeto [PDF]"
+        href: slides/topicos_cap4.pdf
+      - text: "Tecn. informação e comunicação [PDF]"
+        href: slides/topicos_cap5.pdf
+  right:
+    - text: GitHub
+      icon: fa-github fa-lg
+      href: https://github.com/leg-ufpr/ce091
