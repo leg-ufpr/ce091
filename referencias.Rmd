@@ -5,7 +5,7 @@ output:
     toc: false
 ---
 
-## Referência básica
+-  Gerhardt, T. E; Silveira, D. T. [Métodos de Pesquisa](http://www.ufrgs.br/cursopgdr/downloadsSerie/derad005.pdf
 
 ## Referência complementar 
 
@@ -17,7 +17,7 @@ output:
 
 ## Referências *online*
 
--  Gerhardt, T. E; Silveira, D. T. [Métodos de Pesquisa](http://www.ufrgs.br/cursopgdr/downloadsSerie/derad005.pdf)
+-  *Blog* sore [Metodologia Científica](https://blog.fastformat.co/category/metodologia-cientifica/)
 
 ## Leituras complementares
 
