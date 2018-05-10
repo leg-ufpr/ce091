@@ -1,0 +1,34 @@
+---
+title: "Cronograma das aulas do curso"
+output:
+  html_document:
+    toc: false
+---
+
+```{r setup, include=FALSE, cache=FALSE}
+source("setup_knitr.R")
+```
+
+Abaixo está o cronograma inicial planejado para a disciplina. (Pode
+sofrer alterações).
+
+- **23/02 (Sex)**: Introdução à disciplina. Dados públicos brasileiros 
+- **02/03 (Sex)**: Aspectos teóricos e conceituais em Métodos de Pesquisa
+- **09/03 (Sex)**: Tipos de pesquisa científica
+- **16/03 (Sex)**: Construção da pesquisa: 3 eixos, 7 etapas
+- **23/03 (Sex)**: Estrutura do projeto de pesquisa 
+- **30/03 (Sex)**: **Feriado.**
+- **06/04 (Sex)**: Apresentação do prof. Eduardo
+- **13/04 (Sex)**: (sem aula)
+- **20/04 (Sex)**: Tecnologias de informação e comunicação. Tópicos adicionais. 
+- **27/04 (Sex)**: Primeira avaliação 
+- **04/05 (Sex)**: Usando dados públicos 
+- **11/05 (Sex)**: Escrita, bibliografia, relatório dinâmico 
+- **18/05 (Sex)**: 
+- **25/05 (Sex)**: [RBRAS](http://www.rbras.org.br/rbras63). Não haverá aula.
+- **01/06 (Sex)**: **Recesso de feriado.**
+- **08/06 (Sex)**: 
+- **15/06 (Sex)**: Apresentações
+- **22/06 (Sex)**: Apresentações
+
+

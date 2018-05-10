@@ -17,7 +17,7 @@ output:
 
 ## Referências *online*
 
--  *Blog* sore [Metodologia Científica](https://blog.fastformat.co/category/metodologia-cientifica/)
+-  *Blog* sobre [Metodologia Científica](https://blog.fastformat.co/category/metodologia-cientifica/)
 
 ## Leituras complementares
 
