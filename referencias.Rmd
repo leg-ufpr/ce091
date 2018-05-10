@@ -5,7 +5,7 @@ output:
     toc: false
 ---
 
--  Gerhardt, T. E; Silveira, D. T. [Métodos de Pesquisa](http://www.ufrgs.br/cursopgdr/downloadsSerie/derad005.pdf
+-  Gerhardt, T. E; Silveira, D. T. [Métodos de Pesquisa](http://www.ufrgs.br/cursopgdr/downloadsSerie/derad005.pdf)
 
 ## Referência complementar 
 
