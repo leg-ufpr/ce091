@@ -8,9 +8,16 @@ library(maptools) ## alternativa, para funcao leglabs()
 library(leaflet) ## visualização alternativa de mapas
 
 ### Dados de internacoes Paraná, Outubro 2016
+### http://datasus.saude.gov.br/
+### <Acesso à Informação> + <Serviços> + <Transferência/Download de Arquivos> 
+### <Acesse o SIHSUS> 
+### Seleciona "Dados", "RD - AIH Reduzida", "2016", PR", "Outubro", <Enviar>
+### Clicar no link
+### link direto: ftp://ftp.datasus.gov.br/dissemin/publicos/SIHSUS/200801_/dados/RDPR1610.dbc
+
 s <- read.dbc('dados/RDPR1610.dbc')
 
-## ANS LINKS
+## ANS LINK para dados disponíveis
 ### Dados abertos da ANS: http://dados.gov.br/organization/agencia-nacional-de-saude-suplementar-ans
 ### Hospitalares: http://dados.gov.br/dataset/procedimentos-hospitalares-por-uf
 ###   PR direto: http://www.ans.gov.br/images/stories/Materiais_para_pesquisa/Perfil_setor/Dados_e_indicadores_do_setor/tiss/hospitalar/PR/TISS_Hospitalar_PR.zip
