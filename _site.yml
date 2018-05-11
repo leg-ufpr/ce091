@@ -41,6 +41,8 @@ navbar:
         href: slides/topicos_cap4.pdf
       - text: "Tecn. informação e comunicação [PDF]"
         href: slides/topicos_cap5.pdf
+      - text: "Trabalhando com dados [PDF]"
+        href: wdata-br.pdf
   right:
     - text: GitHub
       icon: fa-github fa-lg
