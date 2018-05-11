@@ -43,6 +43,9 @@ navbar:
         href: slides/topicos_cap5.pdf
       - text: "Trabalhando com dados [PDF]"
         href: slides/wdata-br.pdf
+      - text: "Dados de hospitalizações [R]"
+        href: rcode/hospitalizacoes.R
+
   right:
     - text: GitHub
       icon: fa-github fa-lg
