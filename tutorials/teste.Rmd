@@ -1,0 +1,68 @@
+---
+title: "Exemplo de citações"
+author: "Elias T. Krainski"
+date: "May 11, 2018"
+output: pdf_document
+bibliography: referencias.bib
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Resumo 
+
+Mostramos como citar figuras, tabelas e referências bibliográficas.
+
+## Lendo dados 
+
+Vamos considerar os dados de internações no estado do Acre em Março de 2018. 
+Lendo esses dados 
+
+```{r histograma, out.width="80%"}
+library(read.dbc)
+u <- 'ftp://ftp.datasus.gov.br/dissemin/publicos/SIHSUS/200801_/dados/RDAC1803.dbc'
+download.file(u, 'dados.dbc')
+d <- read.dbc('dados.dbc')
+```
+
+## Inserindo uma figura
+
+Vamos fazer uma figura do histograma da idade dos pacientes. 
+Vemos esse histograma na Figura \ref{hist}. 
+
+```{r hist, out.width="90%", fig.cap="\\label{hist}Histograma default."}
+h <- hist(d$IDADE, main='')
+j <- which.max(d$counts)
+```
+
+A classe de idade com maior frequencia é a faixa com idade entre `r h$breaks[j]` 
+e `r h$breaks[j+1]`, com um total de `r h$counts[j]`. 
+
+## Exemplos de referências bibliográficas 
+
+O pacote **ggplot2**, @ggplot2, tem sido bastante utilizado atualmente 
+para fazer gráficos. 
+Um histograma feito com esse pacote pode ser visto na Figura \ref{histogram}.
+
+```{r histogram, out.width="90%", fig.cap="\\label{histogram}Hitograma com ggplot2."}
+library(ggplot2)
+ggplot(data=d['IDADE']) + geom_histogram(aes(IDADE))
+```
+
+## Tabelas 
+
+Os são categorizados para serem visualizados em histograma. 
+O histograma nada mais é que a visualização de uma 
+tabela de frequencias desses dados categorizados. 
+Podemos ver as frequencias do histograma da Figure \ref{hist}  
+na Tabela \ref{freqtab}. 
+
+```{r kable}
+tab <- data.frame(Frequencia=h$counts)
+k <- length(h$breaks)
+rownames(tab) <- paste(h$breaks[-k], "a", h$breaks[-1])
+knitr::kable(tab, caption="\\label{freqtab}Tabela de frequencias.")
+```
+
+## Referências 

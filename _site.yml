@@ -45,6 +45,8 @@ navbar:
         href: slides/wdata-br.pdf
       - text: "Dados de hospitalizações [R]"
         href: rcode/hospitalizacoes.R
+      - text: "Referencias em rmarkdown"
+        href: tutorials/teste.Rmd
 
   right:
     - text: GitHub
