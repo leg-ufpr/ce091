@@ -3,7 +3,7 @@ title: "Exemplo de citações"
 author: "Elias T. Krainski"
 date: "May 11, 2018"
 output: pdf_document
-bibliography: referencias.bib
+bibliography: referencias.bib 
 ---
 
 ```{r setup, include=FALSE}
