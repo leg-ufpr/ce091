@@ -1,0 +1,27 @@
+---
+title: "Trabalho de métodos de pesquisa"
+author: "Elias Teixeira Krainski"
+date: "May, 2018"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Escolha uma entre as três possibilidades abaixo
+
+- Análise/revisão crítica de artigo científico 
+    - Individual
+    - Escolher artigo e enviar ao professor até dia 29/05 (caso não aprovado, professor escolherá artigo e enviará até dia 30/05)
+    - Apresentar a análise/revisão crítica
+
+- Elaboração de um projeto de pesquisa 
+    - Individual ou em dupla (pode ser utilizado em possível TCC)
+    - Tema livre (enviar rascunho do projeto até dia 29/05 e entregar versão final até 22/06)
+    - Apresentar o projeto
+
+- Desenvolvimento de uma pesquisa 
+    - Grupo de tamanho justificado pelo trabalho envolvido no desenvolvimento do projeto (especificar no projeto)
+    - Tema livre exequível no curto tempo disponível (enviar projeto até dia 29/05) 
+    - Apresentar projeto e relatório

@@ -47,6 +47,8 @@ navbar:
         href: rcode/hospitalizacoes.R
       - text: "Referencias em rmarkdown"
         href: tutorials/teste.Rmd
+      - text: "Trabalho"
+        href: trabalho.html
 
   right:
     - text: GitHub
