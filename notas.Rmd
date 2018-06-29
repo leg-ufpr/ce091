@@ -9,4 +9,13 @@ output:
 source("setup_knitr.R")
 ```
 
+- A média (`M`) é a média da Prova e Trabalho mais 10% de Frequencia
+- Situação (`Sit`): `Ap`: aprovado, `Ex`: exame, `Re`: reprovado
+
+```{r notas}
+notas <- read.csv2('misc/notas.csv')
+##notas <- notas[rowSums(!is.na(notas[,-1]))>0,]
+kable(notas, row.names = FALSE)
+```
+
 

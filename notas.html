@@ -23,7 +23,9 @@
 <script src="site_libs/navigation-1.1/codefolding.js"></script>
 <link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
 <script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
-<link href="site_libs/font-awesome-4.5.0/css/font-awesome.min.css" rel="stylesheet" />
+<link href="site_libs/font-awesome-5.0.13/css/fa-svg-with-js.css" rel="stylesheet" />
+<script src="site_libs/font-awesome-5.0.13/js/fontawesome-all.min.js"></script>
+<script src="site_libs/font-awesome-5.0.13/js/fa-v4-shims.min.js"></script>
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-66454501-5"></script>
 <script>
@@ -100,6 +102,9 @@ img {
 }
 .tabbed-pane {
   padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
 }
 button.code-folding-btn:focus {
   outline: none;
@@ -279,7 +284,291 @@ $(document).ready(function () {
 </div>
 
 
-
+<ul>
+<li>A média (<code>M</code>) é a média da Prova e Trabalho mais 10% de Frequencia</li>
+<li>Situação (<code>Sit</code>): <code>Ap</code>: aprovado, <code>Ex</code>: exame, <code>Re</code>: reprovado</li>
+</ul>
+<pre class="r"><code>notas &lt;- read.csv2(&#39;misc/notas.csv&#39;)
+##notas &lt;- notas[rowSums(!is.na(notas[,-1]))&gt;0,]
+kable(notas, row.names = FALSE)</code></pre>
+<table>
+<thead>
+<tr class="header">
+<th align="left">Matrícula</th>
+<th align="right">Prova</th>
+<th align="right">Trabalho</th>
+<th align="right">Frequencia</th>
+<th align="right">Media</th>
+<th align="left">Sit</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">GRR20149122</td>
+<td align="right">61</td>
+<td align="right">90</td>
+<td align="right">100</td>
+<td align="right">81</td>
+<td align="left">Apr.</td>
+</tr>
+<tr class="even">
+<td align="left">GRR20137525</td>
+<td align="right">94</td>
+<td align="right">90</td>
+<td align="right">100</td>
+<td align="right">97</td>
+<td align="left">Apr.</td>
+</tr>
+<tr class="odd">
+<td align="left">GRR20137526</td>
+<td align="right">74</td>
+<td align="right">80</td>
+<td align="right">100</td>
+<td align="right">82</td>
+<td align="left">Apr.</td>
+</tr>
+<tr class="even">
+<td align="left">GRR20149163</td>
+<td align="right">80</td>
+<td align="right">70</td>
+<td align="right">100</td>
+<td align="right">80</td>
+<td align="left">Apr.</td>
+</tr>
+<tr class="odd">
+<td align="left">GRR20159232</td>
+<td align="right">92</td>
+<td align="right">80</td>
+<td align="right">100</td>
+<td align="right">91</td>
+<td align="left">Apr.</td>
+</tr>
+<tr class="even">
+<td align="left">GRR20159983</td>
+<td align="right">88</td>
+<td align="right">90</td>
+<td align="right">100</td>
+<td align="right">94</td>
+<td align="left">Apr.</td>
+</tr>
+<tr class="odd">
+<td align="left">GRR20137538</td>
+<td align="right">84</td>
+<td align="right">90</td>
+<td align="right">100</td>
+<td align="right">92</td>
+<td align="left">Apr.</td>
+</tr>
+<tr class="even">
+<td align="left">GRR20137507</td>
+<td align="right">87</td>
+<td align="right">60</td>
+<td align="right">100</td>
+<td align="right">79</td>
+<td align="left">Apr.</td>
+</tr>
+<tr class="odd">
+<td align="left">GRR20149075</td>
+<td align="right">96</td>
+<td align="right">70</td>
+<td align="right">100</td>
+<td align="right">88</td>
+<td align="left">Apr.</td>
+</tr>
+<tr class="even">
+<td align="left">GRR20137544</td>
+<td align="right">84</td>
+<td align="right">80</td>
+<td align="right">100</td>
+<td align="right">87</td>
+<td align="left">Apr.</td>
+</tr>
+<tr class="odd">
+<td align="left">GRR20149080</td>
+<td align="right">91</td>
+<td align="right">80</td>
+<td align="right">100</td>
+<td align="right">91</td>
+<td align="left">Apr.</td>
+</tr>
+<tr class="even">
+<td align="left">GRR20135636</td>
+<td align="right">NA</td>
+<td align="right">60</td>
+<td align="right">100</td>
+<td align="right">35</td>
+<td align="left">Repr</td>
+</tr>
+<tr class="odd">
+<td align="left">GRR20124692</td>
+<td align="right">76</td>
+<td align="right">70</td>
+<td align="right">100</td>
+<td align="right">78</td>
+<td align="left">Apr.</td>
+</tr>
+<tr class="even">
+<td align="left">GRR20124691</td>
+<td align="right">NA</td>
+<td align="right">NA</td>
+<td align="right">100</td>
+<td align="right">5</td>
+<td align="left">Repr</td>
+</tr>
+<tr class="odd">
+<td align="left">GRR20124686</td>
+<td align="right">84</td>
+<td align="right">90</td>
+<td align="right">100</td>
+<td align="right">92</td>
+<td align="left">Apr.</td>
+</tr>
+<tr class="even">
+<td align="left">GRR20149088</td>
+<td align="right">84</td>
+<td align="right">60</td>
+<td align="right">100</td>
+<td align="right">77</td>
+<td align="left">Apr.</td>
+</tr>
+<tr class="odd">
+<td align="left">GRR20124678</td>
+<td align="right">82</td>
+<td align="right">80</td>
+<td align="right">100</td>
+<td align="right">86</td>
+<td align="left">Apr.</td>
+</tr>
+<tr class="even">
+<td align="left">GRR20124666</td>
+<td align="right">79</td>
+<td align="right">90</td>
+<td align="right">100</td>
+<td align="right">90</td>
+<td align="left">Apr.</td>
+</tr>
+<tr class="odd">
+<td align="left">GRR20159211</td>
+<td align="right">69</td>
+<td align="right">90</td>
+<td align="right">100</td>
+<td align="right">85</td>
+<td align="left">Apr.</td>
+</tr>
+<tr class="even">
+<td align="left">GRR20137558</td>
+<td align="right">86</td>
+<td align="right">80</td>
+<td align="right">100</td>
+<td align="right">88</td>
+<td align="left">Apr.</td>
+</tr>
+<tr class="odd">
+<td align="left">GRR20137598</td>
+<td align="right">75</td>
+<td align="right">90</td>
+<td align="right">100</td>
+<td align="right">88</td>
+<td align="left">Apr.</td>
+</tr>
+<tr class="even">
+<td align="left">GRR20149099</td>
+<td align="right">85</td>
+<td align="right">70</td>
+<td align="right">100</td>
+<td align="right">83</td>
+<td align="left">Apr.</td>
+</tr>
+<tr class="odd">
+<td align="left">GRR20159213</td>
+<td align="right">89</td>
+<td align="right">80</td>
+<td align="right">100</td>
+<td align="right">90</td>
+<td align="left">Apr.</td>
+</tr>
+<tr class="even">
+<td align="left">GRR20159323</td>
+<td align="right">91</td>
+<td align="right">80</td>
+<td align="right">100</td>
+<td align="right">91</td>
+<td align="left">Apr.</td>
+</tr>
+<tr class="odd">
+<td align="left">GRR20137581</td>
+<td align="right">80</td>
+<td align="right">90</td>
+<td align="right">100</td>
+<td align="right">90</td>
+<td align="left">Apr.</td>
+</tr>
+<tr class="even">
+<td align="left">GRR20137583</td>
+<td align="right">83</td>
+<td align="right">90</td>
+<td align="right">100</td>
+<td align="right">92</td>
+<td align="left">Apr.</td>
+</tr>
+<tr class="odd">
+<td align="left">GRR20137584</td>
+<td align="right">87</td>
+<td align="right">70</td>
+<td align="right">100</td>
+<td align="right">84</td>
+<td align="left">Apr.</td>
+</tr>
+<tr class="even">
+<td align="left">GRR20137520</td>
+<td align="right">NA</td>
+<td align="right">NA</td>
+<td align="right">100</td>
+<td align="right">5</td>
+<td align="left">Repr</td>
+</tr>
+<tr class="odd">
+<td align="left">GRR20149119</td>
+<td align="right">83</td>
+<td align="right">NA</td>
+<td align="right">100</td>
+<td align="right">47</td>
+<td align="left">Final</td>
+</tr>
+<tr class="even">
+<td align="left">GRR20124663</td>
+<td align="right">72</td>
+<td align="right">50</td>
+<td align="right">100</td>
+<td align="right">66</td>
+<td align="left">Final</td>
+</tr>
+<tr class="odd">
+<td align="left">GRR20159897</td>
+<td align="right">91</td>
+<td align="right">80</td>
+<td align="right">100</td>
+<td align="right">91</td>
+<td align="left">Apr.</td>
+</tr>
+<tr class="even">
+<td align="left">GRR20149129</td>
+<td align="right">89</td>
+<td align="right">80</td>
+<td align="right">100</td>
+<td align="right">90</td>
+<td align="left">Apr.</td>
+</tr>
+<tr class="odd">
+<td align="left">GRR20159077</td>
+<td align="right">76</td>
+<td align="right">90</td>
+<td align="right">100</td>
+<td align="right">88</td>
+<td align="left">Apr.</td>
+</tr>
+</tbody>
+</table>
 
 <center>
   <hr width="100%" size="3px">
