@@ -1,0 +1,87 @@
+---
+title: "Padrão de ocorrência de fantasmas no Rio Pequeno"
+author: "Elias Teixeira Krainski"
+date: "May, 2018"
+output: 
+  bookdown::pdf_book:
+    pandoc_args: ["--wrap=none", "--top-level-division=chapter"]
+    includes: 
+      in_header: tcc-preambulo.tex
+    toc: true
+    highlight: "default"
+    keep_tex: true
+    latex_engine: pdflatex
+    citation_package: biblatex
+documentclass: abntex2
+bibliography: freferencias.bib
+biblio-style: abntex2
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+\autor{ELIAS T. KRAINSKI \\ LUZIANE FRANCISCON}
+
+\titulo{ALGUNS MODELOS PARA DADOS ESPACIAIS}
+
+\orientador{Paulo Justiniano Ribeiro Junior}
+
+%\coorientador{Co-orientador 1\protect\\Co-orientador 2}
+
+\comentario{Trabalho de Conclusão de Curso apresentado na disciplina de Laboratório de Estatística II do Curso de Estatística do Departamento de Estatística, Setor de Ciências Exatas, Universidade Federal do Paraná.}
+
+\local{CURITIBA}
+
+\data{JUNHO 2005}
+
+\capa
+
+\folhaderosto
+
+# Introdução 
+
+A população tem frequentemente se preocupado com a aparição de fantasmas na ponte do Rio Pequeno. 
+Esse problema tem causado vários transtornos tais como pessoas não passando pelo local em 
+determinados horários. 
+Diante desse problema, faz-se necessário detectar o possível padrão de aparição dos fantasmas 
+de forma a levantar informação suficiente de forma a orentar a população sobre o problema. 
+
+# Revisão bibliográfica 
+
+Segundo @wiki a aparição de fantasmas varia no modo como eles se manifestam. 
+
+A aparição de fantasmas é um fenômeno que ocorre em escala mundial e os dez casos mais famosos são listados em @f10. 
+
+A aparição de fantasmas em pontes de rios não é incomum, 
+tendo sido relatado em @frio. 
+
+Dentro desse contexto, têm sido noticiadas aparições de fantasmas 
+a ponte do Rio Pequeno. 
+Diante disso, faz-se necessário uma investigação para com dois 
+objetivos, detectar a aparição e estudar seu padrão.
+
+# Objetivos 
+
+## Objetivo principal
+
+- Verificar a ocorrência da aparição de fantasmas na ponte do Rio Pequeno
+
+## Objetivo secundário
+
+- avaliar o padrão dessas aparições 
+
+# Métodologia 
+
+
+
+## Tipo de pesquisa 
+
+## População e amostra
+
+## Técnicas de coleta de dados 
+
+# Aspectos éticos 
+
+# Referências bibliográficas 
+

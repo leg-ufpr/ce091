@@ -1,0 +1,420 @@
+\documentclass[]{abntex2}
+\usepackage{lmodern}
+\usepackage{amssymb,amsmath}
+\usepackage{ifxetex,ifluatex}
+\usepackage{fixltx2e} % provides \textsubscript
+\ifnum 0\ifxetex 1\fi\ifluatex 1\fi=0 % if pdftex
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+\else % if luatex or xelatex
+  \ifxetex
+    \usepackage{mathspec}
+  \else
+    \usepackage{fontspec}
+  \fi
+  \defaultfontfeatures{Ligatures=TeX,Scale=MatchLowercase}
+\fi
+% use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+% use microtype if available
+\IfFileExists{microtype.sty}{%
+\usepackage{microtype}
+\UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\usepackage[margin=1in]{geometry}
+\usepackage{hyperref}
+\hypersetup{unicode=true,
+            pdftitle={Padrão de ocorrência de fantasmas no Rio Pequeno},
+            pdfauthor={Elias Teixeira Krainski},
+            pdfborder={0 0 0},
+            breaklinks=true}
+\urlstyle{same}  % don't use monospace font for urls
+\usepackage[style=abntex2]{biblatex}
+
+\addbibresource{freferencias.bib}
+\usepackage{longtable,booktabs}
+\usepackage{graphicx,grffile}
+\makeatletter
+\def\maxwidth{\ifdim\Gin@nat@width>\linewidth\linewidth\else\Gin@nat@width\fi}
+\def\maxheight{\ifdim\Gin@nat@height>\textheight\textheight\else\Gin@nat@height\fi}
+\makeatother
+% Scale images if necessary, so that they will not overflow the page
+% margins by default, and it is still possible to overwrite the defaults
+% using explicit options in \includegraphics[width, height, ...]{}
+\setkeys{Gin}{width=\maxwidth,height=\maxheight,keepaspectratio}
+\IfFileExists{parskip.sty}{%
+\usepackage{parskip}
+}{% else
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{6pt plus 2pt minus 1pt}
+}
+\setlength{\emergencystretch}{3em}  % prevent overfull lines
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\setcounter{secnumdepth}{5}
+% Redefines (sub)paragraphs to behave more like sections
+\ifx\paragraph\undefined\else
+\let\oldparagraph\paragraph
+\renewcommand{\paragraph}[1]{\oldparagraph{#1}\mbox{}}
+\fi
+\ifx\subparagraph\undefined\else
+\let\oldsubparagraph\subparagraph
+\renewcommand{\subparagraph}[1]{\oldsubparagraph{#1}\mbox{}}
+\fi
+
+%%% Use protect on footnotes to avoid problems with footnotes in titles
+\let\rmarkdownfootnote\footnote%
+\def\footnote{\protect\rmarkdownfootnote}
+
+%%% Change title format to be more compact
+\usepackage{titling}
+
+% Create subtitle command for use in maketitle
+\newcommand{\subtitle}[1]{
+  \posttitle{
+    \begin{center}\large#1\end{center}
+    }
+}
+
+\setlength{\droptitle}{-2em}
+  \title{Padrão de ocorrência de fantasmas no Rio Pequeno}
+  \pretitle{\vspace{\droptitle}\centering\huge}
+  \posttitle{\par}
+  \author{Elias Teixeira Krainski}
+  \preauthor{\centering\large\emph}
+  \postauthor{\par}
+  \predate{\centering\large\emph}
+  \postdate{\par}
+  \date{May, 2018}
+
+% Rxtraido de https://github.com/caio1982/Monografia-Latex
+% Portanto, creditos ao Caio Begotti e todos antes dele  
+
+% Numeração de acordo com UFPR
+\documentclass[pnumromarab,normaltoc]{abnt}
+
+% Para inserir palavras com alfabeto grego no texto
+\usepackage[polutonikogreek,brazil]{babel}
+
+% Pra suportar acentuação direito
+
+\usepackage[latin1]{inputenc}
+\usepackage{abnt-alf}
+
+% Para inserção de imagens
+\usepackage{graphicx}
+
+% Para links web serem clicáveis
+\usepackage{url}
+\usepackage{remreset}
+\usepackage[normalem]{ulem}
+
+% Força uso da font Computer Modern
+\usepackage[T1]{fontenc}
+\usepackage{textcomp}
+\usepackage{lmodern} % http://www.tug.dk/FontCatalogue/lmodern/
+
+% Minted para coloração de sintaxe dos códigos de programação (syntax highlighting)
+\usepackage{minted}
+
+% Estilo preferido do Minted pra Python
+\usemintedstyle{bw}
+\renewcommand{\theFancyVerbLine}{\sffamily \textcolor[rgb]{0.5,0.5,0.5}{\scriptsize \oldstylenums{\arabic{FancyVerbLine}}}}
+
+\makeatletter
+\@removefromreset{footnote}{chapter}
+\makeatother
+
+% Para que ele entenda o @
+\makeatletter
+
+% Capa da monografia
+\renewcommand{\capa} {
+\begin{titlepage}
+	\espaco{1.1}
+	
+	\begin{center}
+		\large\ABNTchapterfont\ABNTautordata
+	\end{center}
+	
+	\vspace{7.5cm}
+	
+	\begin{center}
+		\large\ABNTchapterfont\ABNTtitulodata\par
+	\end{center}
+	
+	\vfill
+	
+	\begin{center}
+		\textbf{\ABNTlocaldata}\par
+		\textbf{\ABNTdatadata}
+	\end{center}
+\end{titlepage}
+}
+
+% Folha de rosto
+\newcommand{\esporient}[2] {
+	\leftskip 0em
+	\@tempdima 5.5em
+	\advance\leftskip \@tempdima \null\nobreak\hskip -\leftskip
+	{#1#2\hfil}
+}
+
+\newcommand{\espcoorient}[2] {
+	\leftskip 0em
+	\@tempdima 7em
+	\advance\leftskip \@tempdima \null\nobreak\hskip -\leftskip
+	{#1#2\hfil}
+}
+
+\renewcommand{\folhaderosto} {
+\begin{titlepage}
+	\espaco{1.1}
+	
+	\begin{center}
+		\large\ABNTchapterfont\ABNTautordata
+	\end{center}
+	
+	\vspace{7.5cm}
+	
+	\begin{center}
+		\large\ABNTchapterfont\ABNTtitulodata\par
+	\end{center}
+	
+	\vspace{2cm}
+	
+	\hspace{.35\textwidth}
+	\begin{minipage}{.5\textwidth}
+		\begin{espacosimples}
+			\ABNTcomentariodata\par
+		\end{espacosimples}
+	\end{minipage}
+	
+	\hspace{.35\textwidth}
+	\begin{minipage}{.5\textwidth}
+		\begin{espacosimples}
+			\esporient{\numberline {Orientador:}}{\ignorespaces\ABNTorientadordata}
+		\end{espacosimples}
+	\end{minipage}
+	
+	\ABNTifnotempty{\ABNTcoorientadordata}{
+		\hspace{.35\textwidth}
+		\begin{minipage}{.5\textwidth}
+			\begin{espacosimples}
+				\espcoorient{\numberline {Co-Orientador:}}{\ignorespaces\ABNTcoorientadordata}
+			\end{espacosimples}
+		\end{minipage}}
+	
+	\vfill
+	
+	\begin{center}
+		\textbf{\ABNTlocaldata}\par
+		\textbf{\ABNTdatadata}
+	\end{center}
+
+\end{titlepage}
+}
+
+% Altera o tamanho das fontes dos capítulos e dos apêndices
+\renewcommand{\ABNTchapterfont}{\bfseries}
+\renewcommand{\ABNTchaptersize}{\Large}
+\renewcommand{\ABNTanapsize}{\Large}
+
+% Altera o espaçamento entre dots
+\renewcommand\@dotsep{2}
+
+% Altera forma de montagem do TOC
+\renewcommand\l@chapter[2]{
+  \ifnum \c@tocdepth >\m@ne
+    \addpenalty{-\@highpenalty}%
+    \vskip 1.0em \@plus\p@
+    \setlength\@tempdima{1.5em}%
+    \begingroup
+      \ifthenelse{\boolean{ABNTpagenumstyle}}
+        {\renewcommand{\@pnumwidth}{3.5em}}
+        {}
+      \parindent \z@ \rightskip \@pnumwidth
+      \parfillskip -\@pnumwidth
+      \leavevmode \normalsize\ABNTtocchapterfont
+      \advance\leftskip\@tempdima
+      \hskip -\leftskip
+      #1\nobreak\dotfill \nobreak%
+      \ifthenelse{\boolean{ABNTpagenumstyle}}
+         {%
+          \hb@xt@\@pnumwidth{\hss 
+            \ifthenelse{\not\equal{#2}{}}{{\normalfont p.\thinspace#2}}{}}\par
+         }
+         {%
+          \hb@xt@\@pnumwidth{\hss #2}\par
+         }
+      \penalty\@highpenalty
+    \endgroup
+  \fi
+}
+
+\renewcommand*\l@section{\@dottedtocline{1}{0em}{2.3em}}
+\renewcommand*\l@subsection{\@dottedtocline{2}{0em}{3.2em}}
+\renewcommand*\l@subsubsection{\@dottedtocline{3}{0em}{4.1em}}
+
+% Cria um comando auxiliar para montagem da lista de figuras
+\newcommand{\figfillnum}[1]{%
+  {\hspace{1em}\normalfont\dotfill}\nobreak
+  \hb@xt@\@pnumwidth{\hfil\normalfont #1}{}\par}
+
+% Cria um comando auxiliar para montagem da lista de tabelas
+\newcommand{\tabfillnum}[1]{%
+	{\hspace{1em}\normalfont\dotfill}\nobreak
+	\hb@xt@\@pnumwidth{\hfil\normalfont #1}{}\par}
+
+% Altera a forma de montagem da lista de figuras
+\renewcommand*{\l@figure}[2]{
+	\leftskip 3.1em
+	\rightskip 1.6em
+	\parfillskip -\rightskip
+	\parindent 0em
+	\@tempdima 2.0em
+	\advance\leftskip \@tempdima \null\nobreak\hskip -\leftskip
+	{Figura \normalfont #1}\nobreak \figfillnum{#2}}
+
+% Altera a forma de montagem de lista de tabelas
+\renewcommand*{\l@table}[2]{
+	\leftskip 3.4em
+	\rightskip 1.6em
+	\parfillskip -\rightskip
+	\parindent 0em
+	\@tempdima 2.0em
+	\advance\leftskip \@tempdima \null\nobreak\hskip -\leftskip
+	{Tabela \normalfont #1}\nobreak \tabfillnum{#2}}
+
+% Define os comandos que montam a lista de símbolos
+\newcommand{\listadesimbolos}{\pretextualchapter{Lista de Símbolos}\@starttoc{lsb}}
+\newcommand{\simbolo}[2]{{\addcontentsline{lsb}{simbolo}{\numberline{#1}{#2}}}#1}
+\newcommand{\l@simbolo}[2]{
+	\vspace{-0.75cm}
+	\leftskip 0em
+	\parindent 0em
+	\@tempdima 5em
+	\advance\leftskip \@tempdima \null\nobreak\hskip -\leftskip
+	{\normalfont #1}\hfil\nobreak\par}
+
+% Define o comando que monta a lista de siglas
+\newcommand{\listadesiglas}{\pretextualchapter{Lista de Siglas}\@starttoc{lsg}}
+\newcommand{\sigla}[2]{{\addcontentsline{lsg}{sigla}{\numberline{#1}{#2}}}#1}
+\newcommand{\l@sigla}[2]{
+	\vspace{-0.75cm}
+	\leftskip 0em
+	\parindent 0em
+	\@tempdima 5em
+	\advance\leftskip \@tempdima \null\nobreak\hskip -\leftskip
+	{\normalfont #1}\hfil\nobreak\par}
+
+% Define o tipo de numeração das páginas
+\renewcommand{\chaptertitlepagestyle}{plain}
+
+% Altera a posição da numeração de páginas dos elementos pré-textuais
+\renewcommand\pretextualchapter{
+	\if@openright\cleardoublepage\else\clearpage\fi
+	\pagestyle{\chaptertitlepagestyle}
+	\global\@topnum\z@
+	\@afterindentfalse
+	\@schapter}
+
+% Altera a posição da numeração de páginas dos elementos textuais
+\renewcommand{\ABNTchaptermark}[1]{
+	\ifthenelse{\boolean{ABNTNextOutOfTOC}}
+		{\markboth{\ABNTnextmark}{\ABNTnextmark}}
+		{\chaptermark{#1}
+		\pagestyle{\chaptertitlepagestyle}}}
+
+% Redefine o tipo de numeração das páginas
+\renewcommand{\ABNTBeginOfTextualPart}{
+	\renewcommand{\chaptertitlepagestyle}{plainheader}
+	\renewcommand{\thepage}{\arabic{page}}
+	\setcounter{page}{1}}
+
+\makeatother
+
+% Altera o tamanho do parágrafo
+\setlength{\parindent}{1.5cm}
+
+\begin{document}
+\maketitle
+
+{
+\setcounter{tocdepth}{1}
+\tableofcontents
+}
+\autor{ELIAS T. KRAINSKI \\ LUZIANE FRANCISCON}
+
+\titulo{ALGUNS MODELOS PARA DADOS ESPACIAIS}
+
+\orientador{Paulo Justiniano Ribeiro Junior}
+
+\%\coorientador{Co-orientador 1\protect\\Co-orientador 2}
+
+\comentario{Trabalho de Conclusão de Curso apresentado na disciplina de Laboratório de Estatística II do Curso de Estatística do Departamento de Estatística, Setor de Ciências Exatas, Universidade Federal do Paraná.}
+
+\local{CURITIBA}
+
+\data{JUNHO 2005}
+
+\capa
+
+\folhaderosto
+
+\hypertarget{introducao}{%
+\chapter{Introdução}\label{introducao}}
+
+A população tem frequentemente se preocupado com a aparição de fantasmas na ponte do Rio Pequeno. Esse problema tem causado vários transtornos tais como pessoas não passando pelo local em determinados horários. Diante desse problema, faz-se necessário detectar o possível padrão de aparição dos fantasmas de forma a levantar informação suficiente de forma a orentar a população sobre o problema.
+
+\hypertarget{revisao-bibliografica}{%
+\chapter{Revisão bibliográfica}\label{revisao-bibliografica}}
+
+Segundo \textcite{wiki} a aparição de fantasmas varia no modo como eles se manifestam.
+
+A aparição de fantasmas é um fenômeno que ocorre em escala mundial e os dez casos mais famosos são listados em \textcite{f10}.
+
+A aparição de fantasmas em pontes de rios não é incomum, tendo sido relatado em \textcite{frio}.
+
+Dentro desse contexto, têm sido noticiadas aparições de fantasmas a ponte do Rio Pequeno. Diante disso, faz-se necessário uma investigação para com dois objetivos, detectar a aparição e estudar seu padrão.
+
+\hypertarget{objetivos}{%
+\chapter{Objetivos}\label{objetivos}}
+
+\hypertarget{objetivo-principal}{%
+\section{Objetivo principal}\label{objetivo-principal}}
+
+\begin{itemize}
+\tightlist
+\item
+  Verificar a ocorrência da aparição de fantasmas na ponte do Rio Pequeno
+\end{itemize}
+
+\hypertarget{objetivo-secundario}{%
+\section{Objetivo secundário}\label{objetivo-secundario}}
+
+\begin{itemize}
+\tightlist
+\item
+  avaliar o padrão dessas aparições
+\end{itemize}
+
+\hypertarget{metodologia}{%
+\chapter{Métodologia}\label{metodologia}}
+
+\hypertarget{tipo-de-pesquisa}{%
+\section{Tipo de pesquisa}\label{tipo-de-pesquisa}}
+
+\hypertarget{populacao-e-amostra}{%
+\section{População e amostra}\label{populacao-e-amostra}}
+
+\hypertarget{tecnicas-de-coleta-de-dados}{%
+\section{Técnicas de coleta de dados}\label{tecnicas-de-coleta-de-dados}}
+
+\hypertarget{aspectos-eticos}{%
+\chapter{Aspectos éticos}\label{aspectos-eticos}}
+
+\printbibliography[title=Referências bibliográficas]
+
+
+\end{document}
