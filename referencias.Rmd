@@ -15,7 +15,7 @@ output:
 - Marconi, MA; Lakatos, EM. **Metodologia do trabalho científico**. São
   Paulo: Atlas, 2015.
 
-## Referência complementar
+## Referências complementares
 
 - Alves, R. **Filosofia da ciência: introdução ao jogo e a suas
   regras**. São Paulo: Loyola, 2007.
