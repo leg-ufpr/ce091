@@ -12,23 +12,30 @@ source("setup_knitr.R")
 Abaixo está o cronograma inicial planejado para a disciplina. (Pode
 sofrer alterações).
 
-- **23/02 (Sex)**: Introdução à disciplina. Dados públicos brasileiros 
-- **02/03 (Sex)**: Aspectos teóricos e conceituais em Métodos de Pesquisa
-- **09/03 (Sex)**: Tipos de pesquisa científica
-- **16/03 (Sex)**: Construção da pesquisa: 3 eixos, 7 etapas
-- **23/03 (Sex)**: Estrutura do projeto de pesquisa 
-- **30/03 (Sex)**: **Feriado.**
-- **06/04 (Sex)**: Apresentação do prof. Eduardo
-- **13/04 (Sex)**: (sem aula)
-- **20/04 (Sex)**: Tecnologias de informação e comunicação. Tópicos adicionais. 
-- **27/04 (Sex)**: Primeira avaliação 
-- **04/05 (Sex)**: Usando dados públicos 
-- **11/05 (Sex)**: Escrita, bibliografia, relatório dinâmico 
-- **18/05 (Sex)**: Template de projeto e TCC 
-- **25/05 (Sex)**: NÃO HAVERÁ AULA [VER AQUI](trabalho.html)
-- **01/06 (Sex)**: **Recesso de feriado.**
-- **08/06 (Sex)**: 
-- **15/06 (Sex)**: Apresentações
-- **22/06 (Sex)**: Apresentações
-- **06/07 (Sex)**: **Exame final**
+```{r, eval=FALSE, include=FALSE}
+## Gera a lista com as datas de todas as aulas. O resultado do último
+## comando pode ser copiado direto para o documento
+datas1 <- seq.Date(as.Date("2019-02-22"), as.Date("2019-06-21"),
+                      by = "week")
+datas1 <- format.Date(datas1, format = "%d/%m")
+cat(paste0("- **", datas1, "**:\n"))
+```
 
+- **22/02**: Apresentação da disciplina.
+- **01/03**:
+- **08/03**:
+- **15/03**:
+- **22/03**:
+- **29/03**:
+- **05/04**:
+- **12/04**:
+- **19/04**: **Feriado.**
+- **26/04**:
+- **03/05**:
+- **10/05**:
+- **17/05**:
+- **24/05**:
+- **31/05**:
+- **07/06**:
+- **14/06**:
+- **21/06**: **Feriado.**
