@@ -5,15 +5,33 @@ output:
     toc: false
 ---
 
--  Gerhardt, T. E; Silveira, D. T. [Métodos de Pesquisa](http://www.ufrgs.br/cursopgdr/downloadsSerie/derad005.pdf)
+## Referências básicas
 
-## Referência complementar 
+-  Gerhardt, TE; Silveira, DT. [Métodos de
+   Pesquisa](http://www.ufrgs.br/cursopgdr/downloadsSerie/derad005.pdf).
+   Porto Alegre: Editora da UFRGS, 2009.
+- Marconi, MA; Lakatos, EM. **Fundamentos de metodologia científica**.
+  São Paulo: Atlas, 2016.
+- Marconi, MA; Lakatos, EM. **Metodologia do trabalho científico**. São
+  Paulo: Atlas, 2015.
 
-- Marconi, Marina de Andrade & Lakatos, Eva Maria. (2008) **fundamentos de metodologia científica** (7ª Edição). Ed. Atlas
+## Referência complementar
 
-- **Nota:** existem diversos textos compatíveis com o
-      programa do curso. Consulte o professor sobre a adequação de
-      qualquer outra referência bibliográfica.
+- Alves, R. **Filosofia da ciência: introdução ao jogo e a suas
+  regras**. São Paulo: Loyola, 2007.
+- Box, GEP; Hunter, JS; Hunter, WG. [Statistics for experimenters:
+  Design Innovation and Discovery](http://statisticsforexperimenters.net).
+  Londres: John Wiley & Sons, 2005.
+- Dutra, LHA. **Introdução à teoria da ciência**. Florianópolis: Editora
+  da UFSC, 2017.
+- Eco, U. **Como se faz uma tese**. São Paulo: Perspectiva, 2016.
+- Kuhn, TS. **A estrutura das revoluções científicas**. São Paulo:
+  Perspectiva, 2011.
+- Popper, K. **A lógica da pesquisa científica**. São Paulo:
+  Cultrix, 2013.
+- **Nota:** existem diversos textos compatíveis com o programa do curso.
+  Consulte o professor sobre a adequação de qualquer outra referência
+  bibliográfica.
 
 ## Referências *online*
 
@@ -24,5 +42,20 @@ output:
 - Hilborn, R; Mangel, M.
   [The ecological detective: confronting models with data](http://press.princeton.edu/titles/5987.html).
   Princeton University Press, 1997.
--  [Uma senhora toma chá. Como a estatística revolucionou a ciência no século XX](http://www.zahar.com.br/livro/uma-senhora-toma-cha).
+- Huff, D.
+  [Como mentir com estatística](http://www.intrinseca.com.br/livro/624/).
+  Rio de Janeiro: Intrínseca, 2016.
+- Monasterio, L. **Técnicas avançadas de sobrevivência na
+  universidade**. Campinas: Vide Editorial, 2017.
+- Oakley, B.
+  [Aprendendo a aprender. Como ter sucesso em matemática, ciências ou qualquer outra matéria](http://www.infopress.com.br).
+  São Paulo: Infopress, 2015.
+- Pólya, G.
+  [How to solve it](https://www.penguin.co.uk/books/12619/how-to-solve-it).
+  London: Penguin Books, 1990.
+- Salsburg, D.
+  [Uma senhora toma chá. Como a estatística revolucionou a ciência no século XX](http://www.zahar.com.br/livro/uma-senhora-toma-cha).
   Rio de Janeiro: Zahar, 2009.
+- Wheelan, C.
+  [Estatística: o que é, para que serve, como funciona](http://www.zahar.com.br/livro/estatistica).
+  Rio de Janeiro: Zahar, 2016.
