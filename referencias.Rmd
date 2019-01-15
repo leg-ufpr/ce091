@@ -7,6 +7,8 @@ output:
 
 ## Referências básicas
 
+- Chalmers, AF. **O que é ciência afinal?**. São Paulo:
+  Brasiliense, 1993.
 -  Gerhardt, TE; Silveira, DT. [Métodos de
    Pesquisa](http://www.ufrgs.br/cursopgdr/downloadsSerie/derad005.pdf).
    Porto Alegre: Editora da UFRGS, 2009.
@@ -25,6 +27,7 @@ output:
 - Dutra, LHA. **Introdução à teoria da ciência**. Florianópolis: Editora
   da UFSC, 2017.
 - Eco, U. **Como se faz uma tese**. São Paulo: Perspectiva, 2016.
+- Feyerabend, P. **Contra o método**. São Paulo: Editora da UNESP, 2011.
 - Kuhn, TS. **A estrutura das revoluções científicas**. São Paulo:
   Perspectiva, 2011.
 - Popper, K. **A lógica da pesquisa científica**. São Paulo:
@@ -45,6 +48,8 @@ output:
 - Huff, D.
   [Como mentir com estatística](http://www.intrinseca.com.br/livro/624/).
   Rio de Janeiro: Intrínseca, 2016.
+- McInerny, DQ. **Use a lógica: um guia para o pensamento eficaz**. Rio
+  de Janeiro: BestSeller, 2007.
 - Monasterio, L. **Técnicas avançadas de sobrevivência na
   universidade**. Campinas: Vide Editorial, 2017.
 - Oakley, B.
