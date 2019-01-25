@@ -484,7 +484,34 @@ div.tocify {
 
 <div id="ce091" class="section level1">
 <h1>ce091</h1>
-<p>Métodos de Pesquisa</p>
+<p><a href="https://travis-ci.org/leg-ufpr/ce091"><img src="https://travis-ci.org/leg-ufpr/ce091.svg?branch=master" alt="Build Status" /></a></p>
+<div id="metodos-de-pesquisa" class="section level2">
+<h2>Métodos de Pesquisa</h2>
+<p>Repositório das disciplina <strong>Métodos de Pesquisa</strong> (CE091), ministrada na UFPR, para o curso de Estatística.</p>
+<p>Este repositório contém todo o material de aula e os arquivos necessários para gerar a página da disciplina, disponível em: <a href="http://cursos.leg.ufpr.br/ce091" class="uri">http://cursos.leg.ufpr.br/ce091</a></p>
+<div id="para-gerar-o-site" class="section level3">
+<h3>Para gerar o site</h3>
+<p>O site é todo construído usando apenas o <a href="http://rmarkdown.rstudio.com">R Markdown</a>, por isso, o código fonte está nos arquivos <code>Rmd</code>. Para gerar o site você precisará das versões mais recentes dos pacotes <code>rmarkdown</code> e <code>knitr</code>.</p>
+<ol style="list-style-type: decimal">
+<li>Copie (clone ou fork) esse repositório</li>
+<li>Abra o R na raíz, carregue os pacotes e renderize o site com <code>render_site()</code></li>
+</ol>
+<pre class="r"><code>library(rmarkdown)
+render_site()</code></pre>
+<p><strong>Observações</strong>:</p>
+<ul>
+<li>A publicação no site é automatizada através do <a href="https://travis-ci.org">Travis</a>. Os arquivos para essa automatização são <a href="./.travis.yml">.travis.yml</a> (configura o build como se fosse um pacote do R), <a href="./_build.sh">_build.sh</a> (roda o <strong>rmarkdown</strong>) na raíz do site, e <a href="./_deploy.sh">_deploy.sh</a> (clona e gera o site diretamente no branch <em>gh-pages</em>).</li>
+</ul>
+</div>
+<div id="licenca" class="section level3">
+<h3>Licença</h3>
+<p>O conteúdo deste repositório, das páginas, e do material da disciplina está está disponível por meio da <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.pt_BR">Licença Creative Commons 4.0</a> (Atribuição/NãoComercial/PartilhaIgual).</p>
+<div class="figure">
+<img src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" alt="Licença Creative Commons 4.0" />
+<p class="caption">Licença Creative Commons 4.0</p>
+</div>
+</div>
+</div>
 </div>
 
 <center>
