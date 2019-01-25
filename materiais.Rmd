@@ -1,0 +1,20 @@
+---
+title: "Materiais"
+output:
+  html_document:
+    toc: false
+---
+
+## Slides
+
+- Dados públicos [PDF](slides/pesq_publ_bras.pdf)
+- Pesquisa: aspectos teóricos e conceituais
+  [PDF](slides/topicos_cap1.pdf)
+- Pesquisa científica [PDF](slides/topicos_cap2.pdf)
+- Construção da pesquisa [PDF](slides/topicos_cap3.pdf)
+- Estrutura de projeto [PDF](slides/topicos_cap4.pdf)
+- Tecn. informação e comunicação [PDF](slides/topicos_cap5.pdf)
+- Trabalhando com dados [PDF](slides/wdata-br.pdf)
+- Dados de hospitalizações [script](rcode/hospitalizacoes.R)
+- Referencias em rmarkdown [Rmd](tutorials/teste.Rmd)
+- Trabalho [HTML](trabalho.html)

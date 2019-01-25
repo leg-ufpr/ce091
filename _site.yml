@@ -27,29 +27,7 @@ navbar:
     - text: "Notas"
       href: notas.html
     - text: "Materiais"
-      menu:
-      - text: "Slides"
-      - text: "Dados públicos [PDF]"
-        href: slides/pesq_publ_bras.pdf
-      - text: "Pesquisa: aspectos teóricos e conceituais [PDF]"
-        href: slides/topicos_cap1.pdf
-      - text: "Pesquisa científica [PDF]"
-        href: slides/topicos_cap2.pdf
-      - text: "Construção da pesquisa [PDF]"
-        href: slides/topicos_cap3.pdf
-      - text: "Estrutura de projeto [PDF]"
-        href: slides/topicos_cap4.pdf
-      - text: "Tecn. informação e comunicação [PDF]"
-        href: slides/topicos_cap5.pdf
-      - text: "Trabalhando com dados [PDF]"
-        href: slides/wdata-br.pdf
-      - text: "Dados de hospitalizações [R]"
-        href: rcode/hospitalizacoes.R
-      - text: "Referencias em rmarkdown"
-        href: tutorials/teste.Rmd
-      - text: "Trabalho"
-        href: trabalho.html
-
+      href: materiais.html
   right:
     - text: GitHub
       icon: fa-github fa-lg
