@@ -27,15 +27,20 @@ cat(paste0("- **", datas1, "**:\n"))
 - **15/03**:
 - **22/03**:
 - **29/03**:
+
 - **05/04**:
 - **12/04**:
 - **19/04**: **Feriado.**
 - **26/04**:
 - **03/05**:
 - **10/05**:
-- **17/05**:
-- **24/05**:
-- **31/05**:
-- **07/06**:
-- **14/06**:
+
+- **17/05**: Referências bibliográficas. Usando programas gerenciadores
+  de referências. Template para TCC.
+- **24/05**: Pesquisa reproduzível. Ferramentas para pesquisa
+  reproduzível.
+- **31/05**: Apresentações de artigos reproduzíveis. Sistemas
+  controladores de versões.
+- **07/06**: Apresentações dos projetos de pesquisa.
+- **14/06**: Apresentações dos projetos de pesquisa.
 - **21/06**: **Feriado.**
