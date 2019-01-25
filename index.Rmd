@@ -19,11 +19,13 @@ source("setup_knitr.R")
 
 - **Curso:** Estatística
 - **Período:** primeiro semestre de 2019
-- **Professor Responsável**
+- **Professores Responsáveis:**
+  - [Elias Teixeira Krainski][], [LEG][]/DEST/UFPR
   - [Fernando de Pol Mayer][], [LEG][]/DEST/UFPR
+  - [Wagner Hugo Bonat][], [LEG][]/DEST/UFPR
 - **Horários e Locais:**
   - Sexta, 19:00 - 22:10h, **Sala a confirmar**
-- **Horários de atendimento do professor:**
+- **Horários de atendimento dos professores:**
     - Terças e quintas, 14:00 - 19:00 (preferenciais). Outros horários
       podem ser agendados previamente por email.
 - **Frequência**: de acordo com as normas da Universidade, mínimo de 75%
@@ -49,6 +51,8 @@ Bibliográficas. Prática de Pesquisa.
 
 <!-- links -->
 
-[Fernando de Pol Mayer]: http://www.leg.ufpr.br/~fernandomayer
+[Elias Teixeira Krainski]: http://www.leg.ufpr.br/~elias/
+[Fernando de Pol Mayer]: http://leg.ufpr.br/~fernandomayer
+[Wagner Hugo Bonat]: http://leg.ufpr.br/~wbonat
 [LEG]: http://www.leg.ufpr.br
 [Resolução 64/18 - CEPE]: http://www.est.ufpr.br/calendario/cepe6418.pdf
