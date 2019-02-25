@@ -21,7 +21,8 @@ datas1 <- format.Date(datas1, format = "%d/%m")
 cat(paste0("- **", datas1, "**:\n"))
 ```
 
-- **22/02**: Apresentação da disciplina.
+- **22/02**: Apresentação da disciplina. Importância da técnica em pesquisa. 
+  [A história do pontiac e sorvete de baunilha](https://www.youtube.com/watch?v=ZY1IOEOy4HY)
 - **01/03**:
 - **08/03**:
 - **15/03**:
