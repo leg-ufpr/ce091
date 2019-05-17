@@ -304,3 +304,143 @@ da arte na área
 - **Nível de Avaliação**
   - Julgar, comparar, avaliar, validar, criticar, fundamentar, estimar,
   demonstrar
+
+---
+
+# Elementos textuais: material e métodos
+
+Descrever brevemente o que será feito e como será feito para se obter os
+resultados esperados e atingir os objetivos propostos.
+
+Descreva:
+
+- O conjunto de dados
+  - Modelo da pesquisa
+  - Local e período
+  - População e amostra
+  - Variáveis
+  - Procedimentos e instrumentos de coleta de dados
+- Os métodos estatísticos propostos
+- Recursos computacionais
+- Aspectos éticos (se houver)
+
+**Obs.**: Ao elaborar um projeto, lembre-se que está sendo planejado
+algo que será desenvolvido. Logo, utilize expressões de ações futuras
+tais como: "pretende-se utilizar ...", "será utilizado ..." .
+
+---
+
+# Elementos textuais: material e métodos
+
+- Modelo da pesquisa: delineamento, tipo, desenho
+  - Observacional
+    - Dimensão temporal da coleta de dados (transversal,
+  longitudinal/prospectiva, retrospectiva)
+  - Descritivo
+  - Experimental
+  - Teórico
+- No caso de metodologias menos usadas: fundamentar os seus
+  procedimentos e a sua concepção
+- Definição detalhada da população do estudo
+  - Critérios de inclusão e exclusão
+  - Processo de amostragem
+  - Cálculo do tamanho da amostra selecionada
+- Descrição das variáveis: primária e secundárias, dependente e
+independente
+
+---
+
+# Elementos textuais: cronograma de atividades
+
+Apresentar uma lista de atividades (por ordem e prazos) para execução do
+projeto de pesquisa.
+
+Ver modelo no template.
+
+---
+
+# Elementos pós-textuais: referências
+
+- As referências bibliográficas caracterizam um conjunto de elementos
+que permite a identificação, no todo ou em parte, de documentos
+impressos ou registrados em diversos tipos de materiais.
+- A palavra "Referências" deve ser centralizada e na mesma tipologia da
+fonte utilizada para as seções primárias
+- Não deve ser numerada
+- As referências são apresentadas em forma de listagem de acordo com um
+sistema de chamada adotado.
+- Consulte ABNT NBR 6023
+- **Não liste se não citar**
+- **Não cite se não listar**
+
+---
+
+# Estilo científico
+
+- Redação científica
+  - Objetividade
+  - Concisão
+  - Clareza
+  - Precisão
+  - Coerência
+  - Correção
+  - Encadeamento
+  - Impessoalidade
+- A linguagem científica é informativa, clara, de ordem racional,
+  firmada em dados concretos e válidos
+
+---
+
+# O que geralmente torna fraco um projeto?
+
+- Objetivos pouco claros
+- Problema de pesquisa mal definido
+- Falta de relevância
+- Falta de inovação
+- Falta de aplicabilidade
+- Falta de rigor metodológico
+- Análise estatística inadequada
+- Incoerência entre fundamentação teórica e métodos
+- Prazos e metas inatingíveis
+- Estilo rebuscado e falta de objetividade
+
+---
+
+# Paginação e aspectos gráficos
+
+- Definem as normas para
+  - Numeração de páginas
+  - Tamanho de margens
+  - Tamanho e tipo de fontes
+  - Espaçamento entre linhas
+  - Indicativo numérico de seções e sub-seções
+- **Mais importante**
+  - Use um [template](https://docs.ufpr.br/~giolo/Lab/Templates/)
+
+---
+
+# Ferramentas para elaboração de projetos
+
+- Ferramentas para texto
+  - Sharelatex
+  - Overleaf
+- Ferramentas para referências
+  - Mendeley
+  - Zotero
+
+---
+
+# Para a próxima aula
+
+- Sharelatex (lembrar ou recuperar login e senha)
+- Mendeley (criar conta)
+- Tema e grupo para projeto (1 ou 2 pessoas)
+
+
+---
+
+# Referências
+
+- https://docs.ufpr.br/~giolo/Lab/Material/Projeto.html
+- https://www.slideshare.net/rilvalopes/projeto-de-pesquisa-18435149/1
+- https://www.slideshare.net/ValescaL/pg-projeto-depesquisa20121
