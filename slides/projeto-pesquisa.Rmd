@@ -1,0 +1,249 @@
+---
+title: Projeto de pesquisa
+author: Fernando Mayer
+date: 2019-05-17
+output: xaringan::moon_reader
+---
+
+# Projeto de pesquisa
+
+### O que é
+
+- Partes organizadas de maneira lógica, que servem de base para o
+desenvolvimento de **qualquer tipo de trabalho científico**.
+
+### Por quê?
+
+- Como toda atividade racional e sistemática, a pesquisa científica
+exige que as ações desenvolvidas ao longo do seu processo sejam
+efetivamente **planejadas**.
+
+---
+
+# Porque elaborar um projeto de pesquisa
+
+- **"Mapa" que orienta a pesquisa**
+  - Para garantir que haja uma pergunta de natureza científica e uma
+    metodologia apropriada para estudar essa questão
+
+- **Para planejar as fases da investigação**
+  - Para descrever detalhes de como o estudo será realizado
+
+- **Para incorporar todas as questões práticas e éticas que precisam ser
+  abordadas**
+
+- **Para garantir que se tenha em conta as necessidades de recursos para
+  realizar a pesquisa (financiamento, logística)**
+
+- **Para informar outras partes interessadas sobre as intenções do
+  pesquisador**
+
+- **Para obter financiamento**
+
+---
+
+# O projeto deve ter um enfoque específico e delimitado
+
+- Não tentar cobrir uma área ampla com o projeto
+  - Evitar projetos "panorâmicos"
+
+- Definir de forma restritiva (DELIMITAR)
+  - Não se pode resolver todos os problemas sobre o tema escolhido com
+    uma investigação
+
+---
+
+# Estrutura do projeto de pesquisa
+
+- Cada instituição, departamento, órgão financiador, ..., possui sua
+  própria estrutura de projeto
+
+- No entanto, de maneira geral, o **conteúdo** é sempre o mesmo
+  - Título
+  - Introdução
+  - Revisão de literatura (fundamentação teorica)
+  - Justificativa
+  - Objetivos
+  - Métodos
+  - Referências
+  - Cronograma
+  - Orçamento (opcional)
+  - Anexos e Apêndices (opcional)
+
+---
+
+# Estrutura do projeto de pesquisa
+
+A estrutura do projeto de pesquisa do curso de Estatística (Lab. A) é a
+seguinte.
+
+- **Elementos pré-textuais**
+  - Capa (título)
+  - Folha de rosto
+  - Sumário
+- **Elementos textuais**
+  - Introdução
+  - Objetivos
+  - Material e Métodos
+  - Cronograma de atividades
+- **Elementos pós-textuais**
+  - Referências
+
+---
+
+# Elementos pré-textuais: capa
+
+Deve constar:
+
+- Nome da Instituição
+- Autoria
+- Título do trabalho (e subtítulo quando houver)
+- Local (cidade da instituição)
+- Ano
+
+---
+
+# Elementos pré-textuais: título (capa)
+
+**O título do projeto deve ser conciso**
+
+- Deve dar uma indicação geral do que se está investigando
+- Um título muito longo e técnico não desperta interesse
+- Um título simples e informativo descreve o estudo em uma frase
+  - Incluir o objetivo do estudo e/ou modelo e/ou principal resultado
+- Curto: não mais que 10-15 palavras
+- Títulos longos (> 15 palavras): anti-estético; reflexo da falta de
+  concisão e prolixidade
+- Quando mais longo, pode ser decomposto em um subtítulo
+  - Separado do título por dois pontos (quando for explicativo) ou ponto
+  e vírgula (quando se tratar de subtítulo complementar)
+
+**Dica do dia: deixe o título para o final**
+  - Será mais fácil formular uma declaração concisa e objetiva quando se
+  tem o projeto escrito
+  - Ter um título provisório até então
+
+---
+
+# Elementos pré-textuais: título (capa)
+
+**Exemplos**
+
+- **Adequados**
+  - Fatores associados ao baixo risco cardiometabólico em mulheres
+  obesas
+  - Avaliação do rastreamento do câncer do colo do útero na Estratégia
+  Saúde da Família no Município de Amparo, São Paulo, Brasil
+  - Fatores associados à realização de cesariana em hospitais
+  brasileiros
+- **Inadequados**
+  - Obesidade na mulher
+  - Distribuição espacial e sazonal da leptospirose
+
+---
+
+# Elementos pré-textuais: folha de rosto
+
+Deve constar:
+
+- Nome completo do(s) autor(es)
+- Título do trabalho (e subtítulo quando houver)
+- Nota indicativa do tipo de projeto (tese, dissertação, trabalho de
+conclusão de curso) e objetivo (aprovação em disciplina, nome da
+instituição a que é submetido, grau pretendido)
+- Nome do orientador
+- Local (cidade da instituição)
+- Ano
+
+---
+
+# Elementos pré-textuais: sumário
+
+- Consiste na enumeração dos capítulos do trabalho, na ordem em que
+aparecem no texto, com a página inicial de cada capítulo.
+- Os capítulos devem ser numerados em algarismos arábicos, a partir da
+Introdução até as Referências
+- Havendo subdivisão nos capítulos, deve ser adotada a numeração
+progressiva, sempre em número arábico, de acordo com a Norma
+ABNT/NBR-6024
+- Não devem ser usados algarismos romanos, nem letra.
+
+---
+
+# Elementos textuais: introdução
+
+- Deve despertar interesse
+- Controvérsias e lacunas no conhecimento
+- Referências selecionadas
+- Verbo no presente
+- Texto sem sub-seções
+
+Composta pelos seguintes itens:
+
+- Apresentação geral do assunto (opcional)
+- Revisão teórica (ou de literatura)
+- Problema de pesquisa
+- Hipótese(s) de pesquisa
+- Justificativa
+
+---
+
+# Elementos textuais: introdução
+
+### Revisão de literatura (fundamentação teorica)
+
+- A revisão de literatura pode ser uma seção à parte, após a Introdução
+  ou fazer parte desta
+  - **No nosso caso ela faz parte da introdução**
+- Apresenta-se revisão da literatura recente (últimos 5 anos)
+- Específica sobre o tema abordado
+- Fixar os limites: fornecer definições explícitas de conceitos-chave da
+  pesquisa
+  - O mesmo termo nem sempre tem um significado único, entendido da
+  mesma forma por todos
+- Não fornecer definições mecanicistas, de dicionário
+
+---
+
+# Elementos textuais: introdução
+
+### Problema de pesquisa
+
+- Formulação clara, precisa e operacional
+- O problema deve ser viável
+- Questão não resolvida, cuja resposta tem alguma relevância
+- Deve ser formulado sob a forma de pergunta, orientando a investigação
+  - (Não necessariamente a pergunta será colocada no texto)
+
+---
+
+# Elementos textuais: introdução
+
+### Hipótese(s) de pesquisa
+
+- Suposição formulada para solucionar o problema
+  - Explicação provisória; proposição testável que poderá ser a resposta
+    do problema
+- Função da hipótese: orientar o pesquisador, guiando-o na busca da
+    resposta para o problema
+- Redigida de forma afirmativa: é a resposta provisória ao problema de
+pesquisa
+- Relação de associação ou dependência entre variáveis
+- Evitar expressões valorativas: bom, mau, ruim
+- Ser coerente com uma teoria que a sustente: fundamentação teórica
+- A hipótese deve ser plausível, verificável, específica, simples, não
+deve envolver julgamento de valor
+
+---
+
+# Elementos textuais: introdução
+
+### Justificatica
+
+- **Relevância**: para a estatística, para a ciência, para a sociedade
+- **Motivação**: pessoal, profissional, social e teórica para a escolha
+ do tema
+- **Contribuições**: apontar contribuições de ordem prática ou ao estado
+da arte na área
+- **Viabilidade**: o projeto é realizável, factível
+- **Lacunas na literatura**: necessidade de realizar o estudo
