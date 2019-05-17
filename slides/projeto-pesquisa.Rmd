@@ -247,3 +247,60 @@ deve envolver julgamento de valor
 da arte na área
 - **Viabilidade**: o projeto é realizável, factível
 - **Lacunas na literatura**: necessidade de realizar o estudo
+
+---
+
+# Elementos textuais: objetivos
+
+- Resultados a alcançar
+- **Objetivo geral**: da resposta ao problema de pesquisa
+- **Objetivos específicos**: operacionalizam o modo como se pretende
+  atingir o objetivo geral
+- Os objetivos devem ser redigidos com o verbo no infinitivo
+  - Realizar análise descritiva dos dados para ...
+  - Ajustar modelos de regressão logística para ...
+  - Comparar os resultados dos modelos a fim de ...
+
+---
+
+# Elementos textuais: objetivos
+
+- **Objetivo geral**
+  - Objetivo amplo
+  - Descrição de um desempenho
+  - O objetivo bem definido indica que o projeto tem condições de se
+    concretizar
+  -Especificação escrita de modo claro do que se espera alcançar
+- **Objetivos específicos**
+  - São as etapas que devem ser cumpridas para se chegar ao **objetivo
+    geral**
+  - Cada objetivo específico é escrito em uma alínea
+  - Verbo no infinitivo: deve ser preciso e não dar margem a muitas
+    interpretações
+  - Evitar excesso de objetivos específicos: impacto negativo sobre os
+  avaliadores
+  - Evitar verbos abertos a muitas interpretações (saber, compreender,
+  conhecer, apreciar)
+  - Precisam ser claros, factíveis, específicos
+  - Três a cinco objetivos específicos
+
+---
+
+# Elementos textuais: objetivos
+
+### Descrevendo objetivos
+
+- **Nível de conhecimento**
+  - Identificar, verificar, expor, descrever, enumerar, especificar,
+    determinar
+- **Nível de compreensão e interpretação**
+  - Distinguir, explicar, predizer, relacionar, deduzir, interpretar
+- **Nível de Aplicação**
+  - Aplicar, resolver, construir, provar
+- **Nível de Análise**
+  - Analisar, distinguir, categorizar, comparar, selecionar
+- **Nível de Síntese**
+  - Propor, explicar, combinar, compilar, formular
+- **Nível de Avaliação**
+  - Julgar, comparar, avaliar, validar, criticar, fundamentar, estimar,
+  demonstrar
