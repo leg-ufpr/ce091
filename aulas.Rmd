@@ -39,6 +39,9 @@ cat(paste0("- **", datas1, "**:\n"))
 - **PARTE III**
 - **17/05**: Referências bibliográficas. Usando programas gerenciadores
   de referências. Template para TCC.
+  - Projeto de pesquisa. [Slides](slides/projeto-pesquisa.html).
+  - Gestão de referências bibliográficas com Mendeley.
+    [Slides](slides/mendeley.html).
 - **24/05**: Pesquisa reproduzível. Ferramentas para pesquisa
   reproduzível.
 - **31/05**: Apresentações de artigos reproduzíveis. Sistemas
