@@ -1,0 +1,26 @@
+---
+title: Alguma coisa
+author: FM
+output: pdf_document
+---
+
+```{r echo=FALSE}
+knitr::read_chunk("mark.R")
+```
+
+# Intro
+
+Um texto
+
+```{r dados, echo=FALSE}
+```
+
+Uma figura
+
+```{r figura, out.width="50%"}
+```
+
+Mais uma
+
+```{r fig2}
+```
