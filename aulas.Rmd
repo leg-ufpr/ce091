@@ -44,6 +44,12 @@ cat(paste0("- **", datas1, "**:\n"))
     [Slides](slides/mendeley.html).
 - **24/05**: Pesquisa reproduzível. Ferramentas para pesquisa
   reproduzível.
+  - [Slides](http://leg.ufpr.br/~fernandomayer/pesqrep) sobre pesquisa
+    reproduzível.
+  - [Arquivos](misc/Teste_knitr.zip) do knitr feitos em sala usando
+    [code
+    externalization](https://yihui.name/knitr/demo/externalization/)
+    (para uso no ShareLatex).
 - **31/05**: Apresentações de artigos reproduzíveis. Sistemas
   controladores de versões.
 - **07/06**: Apresentações dos projetos de pesquisa.
