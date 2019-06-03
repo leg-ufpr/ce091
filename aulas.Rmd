@@ -52,6 +52,15 @@ cat(paste0("- **", datas1, "**:\n"))
     (para uso no ShareLatex).
 - **31/05**: Apresentações de artigos reproduzíveis. Sistemas
   controladores de versões.
+  - [Git-rautu](https://github.com/fernandomayer/git-rautu):
+    configuração e comandos básicos do Git.
+  - [Version control with
+    git](http://swcarpentry.github.io/git-novice/): curso do Software
+    Carpentry.
+  - Como configurar o [git para usar dentro do
+    RStudio](http://swcarpentry.github.io/git-novice/14-supplemental-rstudio/index.html).
 - **07/06**: Apresentações dos projetos de pesquisa.
+  - André, Maike, Luan e Dennis, Gustavo.
 - **14/06**: Apresentações dos projetos de pesquisa.
+  - Thays, Rafael e Laís, Mateus, Ananda, Rafael e Igor.
 - **21/06**: **Feriado.**
