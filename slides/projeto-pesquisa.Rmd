@@ -2,7 +2,9 @@
 title: Projeto de pesquisa
 author: Fernando Mayer
 date: 2019-05-17
-output: xaringan::moon_reader
+output:
+  xaringan::moon_reader:
+    self_contained: true
 ---
 
 # Projeto de pesquisa
