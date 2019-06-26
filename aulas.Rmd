@@ -26,11 +26,11 @@ cat(paste0("- **", datas1, "**:\n"))
   [A história do pontiac e sorvete de baunilha](https://www.youtube.com/watch?v=ZY1IOEOy4HY)
 - **01/03**: Capitulo 1 [Slides](slides/topicos_cap1.pdf)
 - **08/03**: Capitulo 2 [Slides](slides/topicos_cap2.pdf)
-- **15/03**: Capitulo 3 e Capitulo 4 [Slides](slides/topicos_cap3.pdf) e [Slides](slides/topicos_cap4.pdf)
-- **22/03**: Apresentações de artigos
+- **15/03**: Capitulo 3 [Slides](slides/topicos_cap3.pdf) 
+- **22/03**: Capitulo 4 e 5 [Slides](slides/topicos_cap4e5.pdf)
 - **29/03**: Apresentações de artigos
 - **PARTE II**
-- **05/04**: Valor p e teste de hipóteses
+- **05/04**: Apresentações de artigos
 - **12/04**: Valor p e teste de hipóteses
 - **19/04**: **Feriado.**
 - **26/04**: 
