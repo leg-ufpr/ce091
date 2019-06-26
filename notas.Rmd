@@ -9,4 +9,8 @@ output:
 source("setup_knitr.R")
 ```
 
-Em breve.
+```{r notas, echo=FALSE}
+nt <- read.csv('misc/notas201901.csv')
+kable(nt, row.names = FALSE)
+```
+
