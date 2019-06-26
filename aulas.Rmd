@@ -24,16 +24,16 @@ cat(paste0("- **", datas1, "**:\n"))
 - **PARTE I**
 - **22/02**: Apresentação da disciplina. Importância da técnica em pesquisa.
   [A história do pontiac e sorvete de baunilha](https://www.youtube.com/watch?v=ZY1IOEOy4HY)
-- **01/03**:
-- **08/03**:
-- **15/03**:
-- **22/03**:
-- **29/03**:
+- **01/03**: Capitulo 1
+- **08/03**: Capitulo 2
+- **15/03**: Capitulo 3 e Capitulo 4
+- **22/03**: Apresentações de artigos
+- **29/03**: Apresentações de artigos
 - **PARTE II**
-- **05/04**:
-- **12/04**:
+- **05/04**: Valor p e teste de hipóteses
+- **12/04**: Valor p e teste de hipóteses
 - **19/04**: **Feriado.**
-- **26/04**:
+- **26/04**: 
 - **03/05**:
 - **10/05**:
 - **PARTE III**
