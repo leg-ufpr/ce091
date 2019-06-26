@@ -256,27 +256,10 @@ $(document).ready(function () {
 }
 </style>
 
-<script>
-$(document).ready(function () {
-  window.buildTabsets("TOC");
-});
-
-$(document).ready(function () {
-  $('.tabset-dropdown > .nav-tabs > li').click(function () {
-    $(this).parent().toggleClass('nav-tabs-open')
-  });
-});
-</script>
-
 <!-- code folding -->
 <style type="text/css">
 .code-folding-btn { margin-bottom: 4px; }
 </style>
-<script>
-$(document).ready(function () {
-  window.initializeCodeFolding("hide" === "show");
-});
-</script>
 
 
 
@@ -349,7 +332,68 @@ $(document).ready(function () {
 </div>
 
 
-<p>Em breve.</p>
+<table>
+<thead>
+<tr class="header">
+<th align="left">Matrícula</th>
+<th align="right">Avaliação.1</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">GRR20149157</td>
+<td align="right">85</td>
+</tr>
+<tr class="even">
+<td align="left">GRR20159284</td>
+<td align="right">90</td>
+</tr>
+<tr class="odd">
+<td align="left">GRR20160239</td>
+<td align="right">90</td>
+</tr>
+<tr class="even">
+<td align="left">GRR20160215</td>
+<td align="right">80</td>
+</tr>
+<tr class="odd">
+<td align="left">GRR20160230</td>
+<td align="right">90</td>
+</tr>
+<tr class="even">
+<td align="left">GRR20159455</td>
+<td align="right">80</td>
+</tr>
+<tr class="odd">
+<td align="left">GRR20160219</td>
+<td align="right">95</td>
+</tr>
+<tr class="even">
+<td align="left">GRR20159111</td>
+<td align="right">85</td>
+</tr>
+<tr class="odd">
+<td align="left">GRR20176432</td>
+<td align="right">95</td>
+</tr>
+<tr class="even">
+<td align="left">GRR20149112</td>
+<td align="right">90</td>
+</tr>
+<tr class="odd">
+<td align="left">GRR20160206</td>
+<td align="right">90</td>
+</tr>
+<tr class="even">
+<td align="left">GRR20160217</td>
+<td align="right">90</td>
+</tr>
+<tr class="odd">
+<td align="left">GRR20159231</td>
+<td align="right">90</td>
+</tr>
+</tbody>
+</table>
 
 <center>
   <hr width="100%" size="3px">
@@ -377,6 +421,28 @@ $(document).ready(function () {
 
 
 </script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open')
+  });
+});
+</script>
+
+<!-- code folding -->
+<script>
+$(document).ready(function () {
+  window.initializeCodeFolding("hide" === "show");
+});
+</script>
+
 
 <!-- dynamically load mathjax for compatibility with self-contained -->
 <script>
