@@ -11,6 +11,8 @@ source("setup_knitr.R")
 
 ```{r notas, echo=FALSE}
 nt <- read.csv('misc/notas201901.csv')
-kable(nt, row.names = FALSE)
+nt$MediaFinal <- ceiling(apply(nt[, 2:4], 1, function(x) {
+    sum(x, na.rm = TRUE)/3
+}))
+knitr::kable(nt, row.names = FALSE)
 ```
-
