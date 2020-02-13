@@ -15,25 +15,48 @@ sofrer alterações).
 ```{r, eval=FALSE, include=FALSE}
 ## Gera a lista com as datas de todas as aulas. O resultado do último
 ## comando pode ser copiado direto para o documento
-datas1 <- seq.Date(as.Date("2019-02-22"), as.Date("2019-06-21"),
+datas1 <- seq.Date(as.Date("2020-03-06"), as.Date("2020-06-26"),
                       by = "week")
 datas1 <- format.Date(datas1, format = "%d/%m")
 cat(paste0("- **", datas1, "**:\n"))
 ```
 
+- **06/03**: Apresentação da disciplina. Questões gerais sobre ciência e
+  método científico.
+- **13/03**: Aspectos teóricos e conceituais: conceitos-base e
+  construção do conhecimento.
+- **20/03**: Introdução à filosofia da ciência e ao método científico.
+- **27/03**: A pesquisa científica. Tipos de pesquisa.
+- **03/04**: A construção da pesquisa.
+- **10/04**: **Feriado**.
+- **17/04**: Artigos científicos: leitura, redação e avaliação.
+- **24/04**: **Apresentação de artigos científicos**.
+- **01/05**: **Feriado**.
+- **08/05**: Estrutura do projeto de pesquisa.
+- **15/05**: Formatação de projeto de pesquisa e TCC. Templates.
+- **22/05**: RBRAS.
+- **29/05**: Gerenciamento de referências bibliográficas. Mendeley e
+  inserção no texto.
+- **05/06**: Pesquisa reproduzível. Ferramentas para pesquisa
+  reproduzível.
+- **12/06**: **Recesso**.
+- **19/06**: **Apresentações dos projetos de pesquisa**.
+- **26/06**: **Apresentações dos projetos de pesquisa**.
+
+<!---
 - **PARTE I**
 - **22/02**: Apresentação da disciplina. Importância da técnica em pesquisa.
   [A história do pontiac e sorvete de baunilha](https://www.youtube.com/watch?v=ZY1IOEOy4HY)
 - **01/03**: Capitulo 1 [Slides](slides/topicos_cap1.pdf)
 - **08/03**: Capitulo 2 [Slides](slides/topicos_cap2.pdf)
-- **15/03**: Capitulo 3 [Slides](slides/topicos_cap3.pdf) 
+- **15/03**: Capitulo 3 [Slides](slides/topicos_cap3.pdf)
 - **22/03**: Capitulo 4 e 5 [Slides](slides/topicos_cap4e5.pdf)
 - **29/03**: Apresentações de artigos
 - **PARTE II**
 - **05/04**: Apresentações de artigos
 - **12/04**: Valor p e teste de hipóteses
 - **19/04**: **Feriado.**
-- **26/04**: 
+- **26/04**:
 - **03/05**:
 - **10/05**:
 - **PARTE III**
@@ -64,3 +87,4 @@ cat(paste0("- **", datas1, "**:\n"))
 - **14/06**: Apresentações dos projetos de pesquisa.
   - Thays, Rafael e Laís, Mateus, Ananda, Rafael e Igor.
 - **21/06**: **Feriado.**
+--->
