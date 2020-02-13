@@ -5,6 +5,9 @@ output:
     toc: false
 ---
 
+Em breve.
+
+<!---
 ## Slides
 
 - Dados públicos [PDF](slides/pesq_publ_bras.pdf)
@@ -18,3 +21,4 @@ output:
 - Dados de hospitalizações [script](rcode/hospitalizacoes.R)
 - Referencias em rmarkdown [Rmd](tutorials/teste.Rmd)
 - Trabalho [HTML](trabalho.html)
+--->

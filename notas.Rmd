@@ -9,7 +9,9 @@ output:
 source("setup_knitr.R")
 ```
 
-```{r notas, echo=FALSE}
+Em breve.
+
+```{r notas, echo=FALSE, eval=FALSE}
 nt <- read.csv('misc/notas201901.csv')
 nt$MediaFinal <- ceiling(apply(nt[, 2:4], 1, function(x) {
     sum(x, na.rm = TRUE)/3
