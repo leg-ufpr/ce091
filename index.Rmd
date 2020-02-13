@@ -12,17 +12,14 @@ source("setup_knitr.R")
 [![Build Status](https://travis-ci.org/leg-ufpr/ce091.svg?branch=master)](https://travis-ci.org/leg-ufpr/ce091)
 
 <!-- <div class="alert alert-danger" role="alert"> -->
-<!-- **AVISO:** Exame final dia 6/7. Apostila (consulta) + análise de artigo -->
 <!-- </div> -->
 
 # Detalhes da oferta da disciplina
 
 - **Curso:** Estatística
-- **Período:** primeiro semestre de 2019
-- **Professores Responsáveis:**
-  - [Elias Teixeira Krainski][], [LEG][]/DEST/UFPR
-  - [Fernando de Pol Mayer][], [LEG][]/DEST/UFPR
-  - [Wagner Hugo Bonat][], [LEG][]/DEST/UFPR
+- **Período:** primeiro semestre de 2020
+- **Professor Responsável:** [Fernando de Pol Mayer][],
+  [LEG][]/DEST/UFPR
 - **Horários e Locais:**
   - Sexta, 19:00 - 22:10h, **Sala a confirmar**
 - **Horários de atendimento dos professores:**
@@ -31,16 +28,16 @@ source("setup_knitr.R")
 - **Frequência**: de acordo com as normas da Universidade, mínimo de 75%
 - **Avaliação**:
   - A ser definido.
-- **Datas importantes:** De acordo com a [Resolução 64/18 - CEPE][]:
-    - **18/02**: Início do semestre letivo
-    - **22/06**: Final do semestre letivo
-    - **27/06-03/07**: Período de exames
+- **Datas importantes:** De acordo com a [Resolução 24/19 - CEPE][]:
+    - **02/03**: Início do semestre letivo
+    - **27/06**: Final do semestre letivo
+    - **06/07-11/07**: Período de exames
 
 # Programa/objetivos da disciplina
 
 O objetivo desta disciplina é capacitar os alunos em conceitos básicos
-de técnicas de pesquisa que permitam a análise crítica de estudos
-científicos.
+de técnicas de pesquisa que permitam a análise crítica e o
+desenvolvimento de trabalhos científicos.
 
 # Ementa
 
@@ -55,4 +52,4 @@ Bibliográficas. Prática de Pesquisa.
 [Fernando de Pol Mayer]: http://leg.ufpr.br/~fernandomayer
 [Wagner Hugo Bonat]: http://leg.ufpr.br/~wbonat
 [LEG]: http://www.leg.ufpr.br
-[Resolução 64/18 - CEPE]: http://www.est.ufpr.br/calendario/cepe6418.pdf
+[Resolução 24/19 - CEPE]: http://www.soc.ufpr.br/portal/wp-content/uploads/2019/11/cepe-24.19.pdf
