@@ -9,15 +9,18 @@ output:
 
 - Chalmers, AF. **O que é ciência afinal?**. São Paulo:
   Brasiliense, 1993.
--  Gerhardt, TE; Silveira, DT. [Métodos de
+- Dutra, LHA. **Introdução à teoria da ciência**. Florianópolis: Editora
+  da UFSC, 2017.
+- Gerhardt, TE; Silveira, DT. [Métodos de
    Pesquisa](https://www.lume.ufrgs.br/handle/10183/52806).
    Porto Alegre: Editora da UFRGS, 2009.
+- Heard, SB. **The Scientist`s Guide to Writing – How to Write More
+Easily and Effectively throughout Your Scientific Career**. Princeton:
+Princeton University Press, 2016.
 - Marconi, MA; Lakatos, EM. **Fundamentos de metodologia científica**.
   São Paulo: Atlas, 2016.
-- Marconi, MA; Lakatos, EM. **Metodologia do trabalho científico**. São
-  Paulo: Atlas, 2015.
-- Wallwork, A. **English for writing research papers**. Nova Iorque:
-  Springer, 2011.
+- Pereira, MG. **Artigos Científicos - Como Redigir, Publicar e
+  Avaliar**. Rio de Janeiro: Guanabara Koogan, 2011.
 
 ## Referências complementares
 
@@ -26,17 +29,28 @@ output:
 - Box, GEP; Hunter, JS; Hunter, WG. [Statistics for experimenters:
   Design Innovation and Discovery](http://statisticsforexperimenters.net).
   Londres: John Wiley & Sons, 2005.
-- Dutra, LHA. **Introdução à teoria da ciência**. Florianópolis: Editora
-  da UFSC, 2017.
+- Costa, N. **Lógica indutiva e probabilidade**. São Paulo:
+  Hucitec, 2008.
 - Eco, U. **Como se faz uma tese**. São Paulo: Perspectiva, 2016.
 - Feyerabend, P. **Contra o método**. São Paulo: Editora da UNESP, 2011.
+- Jaynes, ET. **Probability theory: the logic of science**. Cambridge
+  University Press, 2003.
+- Jeffreys, H. **Scientific inference**. Cambridge: Cambridge University
+  Press, 1957.
 - Kuhn, TS. **A estrutura das revoluções científicas**. São Paulo:
   Perspectiva, 2011.
+- Marconi, MA; Lakatos, EM. **Metodologia do trabalho científico**. São
+  Paulo: Atlas, 2015.
+- Pereira, JCR. **Bioestatística em outras palavras**. São Paulo:
+  Edusp, 2010.
 - Popper, K. **A lógica da pesquisa científica**. São Paulo:
   Cultrix, 2013.
-- **Nota:** existem diversos textos compatíveis com o programa do curso.
-  Consulte o professor sobre a adequação de qualquer outra referência
-  bibliográfica.
+- Wallwork, A. **English for writing research papers**. Nova Iorque:
+  Springer, 2011.
+
+**Nota:** existem diversos textos compatíveis com o programa do curso.
+Consulte o professor sobre a adequação de qualquer outra referência
+bibliográfica.
 
 ## Referências *online*
 
