@@ -31,12 +31,21 @@ Princeton University Press, 2016.
   Londres: John Wiley & Sons, 2005.
 - Costa, N. **Lógica indutiva e probabilidade**. São Paulo:
   Hucitec, 2008.
+- Demo, P. **Introdução à metologia da ciência**. São Paulo:
+  Atlas, 1985.
 - Eco, U. **Como se faz uma tese**. São Paulo: Perspectiva, 2016.
 - Feyerabend, P. **Contra o método**. São Paulo: Editora da UNESP, 2011.
 - Jaynes, ET. **Probability theory: the logic of science**. Cambridge
   University Press, 2003.
+- Hilborn, R; Mangel, M. [The ecological detective: confronting models
+  with data](http://press.princeton.edu/titles/5987.html). Princeton
+  University Press, 1997.
 - Jeffreys, H. **Scientific inference**. Cambridge: Cambridge University
   Press, 1957.
+- Kitzes, J; Turek, D; Deniz, F. (Eds.). [The Practice of Reproducible
+  Research: Case Studies and Lessons from the Data-Intensive
+  Sciences](https://www.practicereproducibleresearch.org/). Oakland, CA:
+  University of California Press, 2018.
 - Kuhn, TS. **A estrutura das revoluções científicas**. São Paulo:
   Perspectiva, 2011.
 - Marconi, MA; Lakatos, EM. **Metodologia do trabalho científico**. São
@@ -51,6 +60,73 @@ Princeton University Press, 2016.
 **Nota:** existem diversos textos compatíveis com o programa do curso.
 Consulte o professor sobre a adequação de qualquer outra referência
 bibliográfica.
+
+## Artigos
+
+- Peng, R. D. (2011). Reproducible research in computational science.
+Science, 334(6060), 1226–1227. https://doi.org/10.1126/science.1213847
+- Stodden, V., Seiler, J., & Ma, Z. (2018). An empirical analysis of
+  journal policy effectiveness for computational reproducibility.
+  Proceedings of the National Academy of Sciences of the United States
+  of America, 115(11), 2584–2589. https://doi.org/10.1073/pnas.1708290115
+- Gentleman, R., & Temple Lang, D. (2007). Statistical Analyses and
+  Reproducible Research. Journal of Computational and Graphical
+  Statistics, 16(1), 1–23. https://doi.org/10.1198/106186007X178663
+- Wilson, G., et al. (2014). Best Practices for Scientific Computing.
+PLoS Biology, 12(1), e1001745.
+https://doi.org/10.1371/journal.pbio.1001745
+- Box, G. E. P. (1976). Science and statistics. Journal of the American
+Statistical Association, 71(356), 791–799.
+https://doi.org/10.1080/01621459.1976.10480949
+- Lindley, D. V. (2000). The Philosophy of Statistics. Journal of the
+Royal Statistical Society: Series D (The Statistician), 49(3), 293–337.
+https://doi.org/10.1111/1467-9884.00238
+- Powers, S. M., & Hampton, S. E. (2019). Open science, reproducibility,
+and transparency in ecology. Ecological Applications, 29(1), e01822.
+https://doi.org/10.1002/eap.1822
+- Stodden, V., Seiler, J., & Ma, Z. (2018). An empirical analysis of
+journal policy effectiveness for computational reproducibility.
+Proceedings of the National Academy of Sciences of the United States of
+America, 115(11), 2584–2589. https://doi.org/10.1073/pnas.1708290115
+- Blischak, J. D., Davenport, E. R., & Wilson, G. (2016). A Quick
+Introduction to Version Control with Git and GitHub. PLOS Computational
+Biology, 12(1), e1004668. https://doi.org/10.1371/journal.pcbi.1004668
+- Steel, E. A., Liermann, M., & Guttorp, P. (2019). Beyond Calculations:
+A Course in Statistical Thinking. The American Statistician, 73(sup1),
+392–401. https://doi.org/10.1080/00031305.2018.1505657
+- Berger, J. O. (2003). Could Fisher, Jeffreys and Neyman have agreed on
+testing? Statistical Science, 18(1), 1–32.
+https://doi.org/10.1214/ss/1056397485
+- Carvalho, F. J., de Santana, D. G., & Sampaio, M. V. (2019). Modeling
+Overdispersion, Autocorrelation, and Zero-Inflated Count Data Via
+Generalized Additive Models and Bayesian Statistics in an Aphid
+Population Study. Neotropical Entomology, 1–12.
+https://doi.org/10.1007/s13744-019-00729-x
+- Perkel, J. M. (2018). A toolkit for data transparency takes shape.
+Nature, 560(7719), 513–515. https://doi.org/10.1038/d41586-018-05990-5
+- Hacking, I. (1964). On the foundations of statistics. British Journal
+for the Philosophy of Science, 15(57), 1–26.
+https://doi.org/10.1093/bjps/XV.57.1
+- Mayo, D. G. (1980). The Philosophical Relevance of Statistics. PSA:
+Proceedings of the Biennial Meeting of the Philosophy of Science
+Association, Vol. 1980, pp. 97–109. https://doi.org/10.2307/192556
+- Good, I. J. (1988). The interface between statistics and philosophy of
+science. Statistical Science, 3(4), 386–398.
+https://doi.org/10.1214/ss/1177012754
+- Lindley, D. V. (2000). The Philosophy of Statistics. Journal of the
+Royal Statistical Society: Series D (The Statistician), 49(3), 293–337.
+https://doi.org/10.1111/1467-9884.00238
+- da Silveira, F. (1989). A filosofia de Karl Popper e suas implicações
+no ensino da ciência. Caderno Brasileiro de Ensino de Física, 6(2),
+148–162.
+- Keshav, S. (2007). How to read a paper. Computer Communication Review,
+  37(3), 83–84. https://doi.org/10.1145/1273445.1273458
+- Berger, J. O. (2003). Could Fisher, Jeffreys and Neyman have agreed on
+testing? Statistical Science, 18(1), 1–32.
+https://doi.org/10.1214/ss/1056397485
+- Robert, C. P., Chopin, N., & Rousseau, J. (2009). Harold Jeffreys ’ s
+  Theory of Probability Revisited. 24(2), 141–172.
+  https://doi.org/10.1214/09-STS284
 
 ## Referências *online*
 
@@ -67,9 +143,6 @@ bibliográfica.
 
 ## Leituras complementares
 
-- Hilborn, R; Mangel, M.
-  [The ecological detective: confronting models with data](http://press.princeton.edu/titles/5987.html).
-  Princeton University Press, 1997.
 - Huff, D.
   [Como mentir com estatística](http://www.intrinseca.com.br/livro/624/).
   Rio de Janeiro: Intrínseca, 2016.
@@ -86,6 +159,8 @@ bibliográfica.
 - Salsburg, D.
   [Uma senhora toma chá. Como a estatística revolucionou a ciência no século XX](http://www.zahar.com.br/livro/uma-senhora-toma-cha).
   Rio de Janeiro: Zahar, 2009.
+- Spiegelhalter, D. [The art of Statistics: learning from
+  data](https://www.penguin.co.uk/books/294/294857/learning-from-data/9780241258767.html). London: Pelican, 2019.
 - Wheelan, C.
   [Estatística: o que é, para que serve, como funciona](http://www.zahar.com.br/livro/estatistica).
   Rio de Janeiro: Zahar, 2016.
