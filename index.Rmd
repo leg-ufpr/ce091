@@ -23,7 +23,7 @@ source("setup_knitr.R")
 - **Horários e Locais:**
   - Sexta, 19:00 - 22:10h, **Sala a confirmar**
 - **Horários de atendimento dos professores:**
-    - Terças e quintas, 14:00 - 19:00 (preferenciais). Outros horários
+    - Segundas, 15:30 - 19:00 (preferenciais). Outros horários
       podem ser agendados previamente por email.
 - **Frequência**: de acordo com as normas da Universidade, mínimo de 75%
 - **Avaliação**:
