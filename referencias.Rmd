@@ -84,6 +84,13 @@ Hall/CRC, 2016.
   Edusp, 2010.
 - Popper, K. **A lógica da pesquisa científica**. São Paulo:
   Cultrix, 2013.
+- **The Stanford Encyclopedia of Philosophy** (textos *online*
+  selecionados):
+  - Andersen, H; Hepburn, B, [Scientific Method](https://plato.stanford.edu/archives/sum2016/entries/scientific-method/), The Stanford Encyclopedia of Philosophy (Summer 2016 Edition), Edward N. Zalta (ed.).
+  - Frigg, R; Hartmann, S, [Models in Science](https://plato.stanford.edu/archives/spr2020/entries/models-science/), The Stanford Encyclopedia of Philosophy (Spring 2020 Edition), Edward N. Zalta (ed.).
+  - Hájek, A, [Interpretations of Probability](https://plato.stanford.edu/archives/fall2019/entries/probability-interpret/), The Stanford Encyclopedia of Philosophy (Fall 2019 Edition), Edward N. Zalta (ed.).
+  - Hansson, SO, [Science and Pseudo-Science](https://plato.stanford.edu/archives/sum2017/entries/pseudo-science/), The Stanford Encyclopedia of Philosophy (Summer 2017 Edition), Edward N. Zalta (ed.).
+  - Romeijn, J-W, [Philosophy of Statistics](https://plato.stanford.edu/archives/spr2017/entries/statistics/), The Stanford Encyclopedia of Philosophy (Spring 2017 Edition), Edward N. Zalta (ed.).
 
 **Nota:** existem diversos textos compatíveis com o programa do curso.
 Consulte o professor sobre a adequação de qualquer outra referência
@@ -159,10 +166,13 @@ Statistician, 73, 392–401.
 ## Referências *online*
 
 - [Aeon](https://aeon.co): "online sanctuary for serious thinking".
+- [Stanford Encyclopedia of Philosophy](https://plato.stanford.edu/).
 -  *Blog* sobre [Metodologia
    Científica](https://blog.fastformat.co/category/metodologia-cientifica/)
    (em português).
 - [Open Access Philosophy](http://www.wi-phi.com/).
+- [Portal da escrita
+  científica](http://www.escritacientifica.sc.usp.br/) - USP - São Carlos.
 - Disciplina [Métodos de
   Pesquisa](http://www.leg.ufpr.br/doku.php/disciplinas:ce091-2017-01)
   oferecida no primeiro semestre de 2017 pelo Prof. Paulo Justiniano
