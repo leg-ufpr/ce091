@@ -22,6 +22,28 @@ cat(paste0("- **", datas1, "**:\n"))
 ```
 
 - **06/03**: Apresentação da disciplina. Questões gerais sobre ciência e
+  conhecimento científico.
+- **13/03**: Aspectos teóricos e conceituais: conceitos-base e
+  construção do conhecimento.
+- **20/03**: Introdução à filosofia da ciência e ao método científico.
+- **27/03**: A pesquisa científica. Tipos de pesquisa.
+- **03/04**: A construção da pesquisa.
+- **10/04**: **Feriado**.
+- **17/04**: Estrutura do projeto de pesquisa.
+- **24/04**: Formatação de projeto de pesquisa e TCC. Templates.
+- **01/05**: **Feriado**.
+- **08/05**: Gerenciamento de referências bibliográficas.
+- **15/05**: Pesquisa reproduzível. Ferramentas para pesquisa
+  reproduzível.
+- **22/05**: RBRAS.
+- **29/05**: **Apresentações dos projetos de pesquisa**.
+- **05/06**: **Apresentações dos projetos de pesquisa**.
+- **12/06**: **Recesso**.
+- **19/06**: Atividades planejadas.
+- **26/06**: Atividades planejadas.
+
+<!---
+- **06/03**: Apresentação da disciplina. Questões gerais sobre ciência e
   método científico.
 - **13/03**: Aspectos teóricos e conceituais: conceitos-base e
   construção do conhecimento.
@@ -42,6 +64,7 @@ cat(paste0("- **", datas1, "**:\n"))
 - **12/06**: **Recesso**.
 - **19/06**: **Apresentações dos projetos de pesquisa**.
 - **26/06**: **Apresentações dos projetos de pesquisa**.
+--->
 
 <!---
 - **PARTE I**
