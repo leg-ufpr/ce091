@@ -1,0 +1,389 @@
+---
+title: "Tipos de pesquisa científica"
+short-title: "Pesquisa científica"
+author: "Elias T Krainski"
+short-author: "Elias"
+date: "Março, 2018"
+institute: "Laboratório de Estatística e Geoinformação"
+short-institute: "LEG/UFPR"
+department: |
+  | Universidade Federal do Paraná 
+  | Departamento de Estatística 
+safe-colums: true 
+output: 
+  legtheme::beamer_leg:
+    toc: true
+    slide_level: 2
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+# Introdução 
+
+## Introdução 
+
+- Pesquisa é o núcleo da ciência
+- Descobrir e interpretar fatos inseridos na realidade 
+- Resolução de problemas via procedimentos científicos 
+
+\pause 
+
+- classificação da pesquisa científica quanto à 
+
+    - abordagem 
+    - natureza 
+    - objetivos 
+    - procedimentos 
+
+# Classificação quanto à abordagem
+  
+## Pesquisa qualitativa 
+
+- não se preocupa com representatividade numérica
+- busca compreender um grupo social, organização 
+- recusa modelo positivista aplicado ao estudo da vida social
+- não faz julgamentos nem permite infervenção de preconceitos e crenças
+
+\pause 
+
+- explicar o porquê das coisas exprimindo o que convém ser feito 
+- dados não métricos (suscitados e de interação)
+- se valem de diferentes abordagens 
+
+\pause 
+
+- aplicada inicialmente em Antropologia e Sociologia 
+- aumento de aplicação em Psicologia e Educação 
+
+## Pesquisa qualitativa (cont.)
+
+- cientista é sujeito e objeto de suas pesquisas 
+- desenvolvimento imprevisível 
+- conhecimento parcial e limitado 
+- amostra 
+    - produzir informações aprofundadas e ilustrativas 
+    - capaz de produzir novas informações 
+
+\pause 
+
+- preocupa-se com aspectos da ralidade não quantificáveis 
+- compreensão e explicação das relações sociais 
+- trabalha com 
+    - significados, motivos, aspirações, crenças, valores e atitudes 
+- relações, processos e fenômenos não produzidos por operacionalização de variáveis 
+
+\pause 
+
+- criticada pelo
+    - empirismo, subjetividade e envolvimento emocional do pesquisador 
+
+## Característica da pesquisa qualitativa 
+
+- objetivação do fenômeno 
+- hierarquização das ações de 
+    - descrever, compreender, explicar 
+    - precisão das relações entre global e local 
+
+\pause 
+
+- observar diferenças netre mundo social e natural 
+- respeito ao carater interativo entre 
+    - objetivos, orientações teóricas e dados empíricos 
+\pause 
+
+- busca resultados mais fidedignos possíveis 
+- oposto ao pressuposto de modelo único 
+
+## Limitações da pesquisa qualitativa 
+
+- excessiva confiança no pesquisador 
+- risco de reflexão exautiva 
+    - tentativa de dar conta da totalidade do objetivo 
+    - controle de influência do observador 
+
+\pause 
+
+- falta de detalhes sobre processos 
+- não observar aspectos diferentes sob enfoques diferentes
+- sensação de domínio profundo o objeto de estudo 
+
+\pause 
+
+- envolvimento do pesquisador 
+    - na situação e sujeitos pesquisados 
+
+
+## Pesquisa quantitativa 
+
+- resultados quantificáveis 
+- amostras grandes, representativas de uma população 
+    - retrato real da população alvo
+
+\pause 
+
+- objetividade: 
+    - influenciada pelo positivismo 
+    - instrumentos padronizados e neutros
+    - realidade compreendida pela análise de dados 
+
+\pause 
+
+- recorre à linguagem matemática 
+    - descrever causas de um fenômeno 
+    - relações entre variáveis 
+
+\pause 
+
+- utilização conjunta com a qualitativa 
+     - melhor que isoladamente 
+
+## Pesquisa quantitativa (Cont.)
+
+- Positivismo (Auguste Comte): 
+    - conhecimento científico é a única forma de conhecimento verdadeiro
+    - "positivo", acepções: real, útil, certo, preciso, relativo, orgânico e simpático
+    - observação dos fenômenos (VS racionalismo e idealismo)
+       
+\pause 
+
+- O positivismo nega à ciência qualquer possibilidade de investigar a causa dos fenômenos naturais e sociais, considerando este tipo de pesquisa inútil e inacessível, voltando-se para a descoberta e o estudo das leis (relações constantes entre os fenômenos observáveis).
+
+## Aspectos da pesquisa qualitativa e quantitiativa 
+
+Aspecto                        |  Qualitativa  |  Quantitativa 
+-------------------------------|---------------|-----------------
+Enfone interpretação do objeto |    maior      |    menor 
+Importância no contexto        |    maior      |    menor 
+Prox. pesquisador com fenômeno |    maior      |    menor
+Alcance do estudo no tempo     |    maior      |    instantâneo 
+Quantidade de fontes de dados  |    várias     |    uma 
+Ponto de vista do pesquisador  | interno à org.|  ext. à organização 
+Quadro teórico e hipoteses     |menos estruturados | def rigorosamente
+----------------------------------------------------------------------
+
+## Comparação entre método qualitativo e quantitativo
+
+-----------------------------------------------------------------------
+          Qualitativa                     Quantitativa 
+-------------------------------- --------------------------------------
+Tenta compreender a totalidade   
+do fenômeno, mais que focar em     Foca em poucos conceitos
+conceitos especificos.          
+
+Poucas ideias preconcebidas.       Inicia com ideias pre concebidas
+Importância de interpretar         de como conceitos se relacionam
+eventos mais que do pesquisador.
+
+Coleta dados sem instrumentos      Utiliza procedimenotos estruturados
+formais e estruturados             e formais para coleta de dados
+
+Não controla contexto da pesquisa  Enfatiza objetividade na coleta e
+captando-o na totalidade           análise dos dados
+
+Analisa informações narradas de    Analisa dados numéricos através 
+forma organizada e intuitiva       de procedimentos estatísticos
+-----------------------------------------------------------------------
+
+# Classificação quanto à natureza 
+
+## Pesquisa básica 
+
+- gerar conhecimentos novos, úteis para avanço da ciência
+- sem aplicação prática prevista
+- envolve verdades e interesses universais 
+       
+
+## Pesquisa aplicada 
+
+- visa gerar conhecimentos para aplicação prática 
+- dirigida à solução de problemas específicos 
+- envolve verdades e interesses locais
+
+## Basica versus aplicada 
+
+- Quando a eletricidade foi descoberta, reis e nobres perguntaram com ironia: “Para que serve a eletricidade?” Faraday respondeu: “Para que serve uma criança recém-nascida?”
+- Louis Pasteur: “não há ciência aplicada, existem sim aplicações da ciência”
+
+\pause 
+
+- a relação entre ciência básica e aplicada não é uma via de mão única
+     - conhecimentos científicos teóricos de grande generalidade sobre microbiologia desenvolvido principalmente por Pasteur surgiu de tentativas de lidar com a fermentação na indústria vinícola. 
+     - conhecimentos teóricos desenvolvidos por Einstein sobre emissão estimulada contribuiu, anos mais tarde, para que fossem desenvolvidos lasers que são utilizados na medicina, metalurgia e outros. 
+
+# Classificação quanto aos objetivos 
+
+## Classificação quanto aos objetivos 
+
+- Pesquisa exploratória 
+    - proporcionar maior familiaridade com o problema 
+         - levantamentos bibliográficos 
+         - entrevistas com _experts_
+         - analise de exemplos (estudo de caso)
+
+\pause 
+
+- Pesquisa descritiva 
+    - exige série de informações sobre o que se deseja pesquisar
+    - descrever fatos e fenômenos
+    - estudos de caso, análise documental, pesquisa _ex-post-facto_ 
+
+\pause 
+
+- Pesquisa explicativa 
+     - identificar fatores que determinam ou contribuem para a ocorrência de fenômenos 
+     - pode ser continuação de uma descritiva
+
+# Classificação quanto aos procedimentos 
+
+## Classificação quanto aos procedimentos 
+
+- Pesquisa experimental 
+- Pesquisa bibliográfica 
+- Pesquisa documental 
+- Pesquisa de campo 
+- Pesqusa _ex-post-facto_ 
+- Pesquisa de levantamento 
+- Pesquisa com _survey_ 
+- Estudo de caso 
+- Pesquisa participante 
+- Pesquisa ação
+- Pesquisa etnográfica
+- Pesquisa etnometodológica 
+
+## Pesquisa experimental
+
+- Delimitar objeto de estudo e variáveis influenciadoras e 
+definir formas de controle e observação dos efeitos 
+
+- Planejamento rigoroso
+    - variável resposta
+    - variáveis de controle 
+    - desenho experimental, esquema de coleta de dados
+
+- Exemplos:
+    - dois grupos: experimental e controle 
+    - um grupo: antes e depois
+
+## Pesquisa bibliográfica 
+
+- Levantamento de referências teóricas publicadas
+    - artigos científicos
+    - livros
+    - relatórios de pesquisa
+
+- Permite conhecer o que já se estudou sobre o assunto
+
+- Faz parte de **toda pesquisa científica**
+
+## Pesquisa documental 
+
+- Similar à pesquisa bibliográfica
+- Fontes mais difersificadas
+    - tabelas estatísticas, 
+    - jornais,
+    - revistas, 
+    - relatórios, 
+    - documentos oficiais, 
+    - cartas, 
+    - filmes, 
+    - fotografias,
+    - pinturas, 
+    - tapeçarias, 
+    - relatórios de empresas, 
+    - vídeos de programas de televisão, 
+    - outros tipos de documentos.
+
+## Pesquisa de campo 
+
+- Realiza coleta de dados **primários**
+    - dados em primeira mão, fornecidos diretamente pela unidade de pesquisa/observação
+
+- Recurso de diferentes tipos de pesquisa
+    - _ex-post-facto_
+    - pesquisa-ação
+    - pesquisa participante
+
+## Pesqusa _ex-post-facto_ 
+
+- Relacionar possível relação causal entre um fato e um fenômeno
+- Realizada quando há impossibilidade de aplicação da pesquisa experimental
+    - pela impossibilidade de manipular as variáveis de controle 
+    
+- Exemplo: 
+    - estudar causas de evasão escolar
+
+
+## Pesquisa de levantamento 
+
+- Utilizada em estudos exploratórios e descritivos 
+- Levantamento de uma amostra ou levantamento de uma população (censo)
+- Coleta de dados através de questionários ou entrevistas
+- Conhecimento direto da realidade num momento no tempo
+
+
+## Pesquisa com _survey_ 
+
+- Busca informação diretamente num grupo de interesse, representante de uma população alvo
+
+- Útil em pesquisas exploratórias e descritivas
+
+- Respondente não identificável
+
+
+## Estudo de caso 
+
+- Amplamente usada nas ciências biomédicas e sociais
+
+- Estudo de uma entidade bem definida 
+     - programa, instituição, sistema educativo, pessoa, ou unidade social
+
+- Conhecer uma determinada situação e o que há nela de essencial e característico
+
+- Pode-se ter estudos de casos múltiplo 
+     - Exemplos: 
+          - estudo de caso simultâneo em vários indivíduos 
+          - diferentes escolas desenvolvendo um mesmo projeto
+
+## Pesquisa participante 
+
+- Envolvimento e identificação do pesquisador com as pessoas investigadas
+
+- Criada por Bronislaw Malinowski para conhecer os nativos das ilhas Trobriand: ele foi se tornar um deles
+    - montava sua tenda nas aldeias que desejava estudar, aprendia suas línguas e observava sua vida quotidiana
+
+- Exemplo: estabelecimento de um programa e a determinação de ações básicas de grupos de trabalho
+
+## Pesquisa ação
+
+- Participação planejada do pesquisador na situação problemática a ser investigada
+    - transformar as realidades observadas 
+
+- Criticada pelo envolvimento ativo do pesquisador e à ação por parte das pessoas ou grupos envolvidos no problema
+
+- Usada por pesquisadores identificados pelas ideologias reformistas e participativas
+
+## Pesquisa etnográfica
+
+- Estudo de um grupo ou povo
+
+- Características 
+     - observação participante, entrevista intensiva e análise de documentos;
+     - interação entre pesquisador e objeto pesquisado;
+     - flexibilidade para modificar os rumos da pesquisa;
+     - ênfase no processo, e não nos resultados finais;
+     - visão dos sujeitos pesquisados sobre suas experiências;
+     - não intervenção do pesquisador sobre o ambiente pesquisado;
+     - variação do período, que pode ser de semanas, de meses e até de anos;
+     - coleta dos dados descritivos, transcritos literalmente para a utilização no relatório.
+
+- Exemplo: pesquisas realizadas sobre os processos educativos
+
+## Pesquisa etnometodológica 
+
+- Raiz grega: estratégias que as pessoas utilizam cotidianamente para viver
+
+- Compreender como as pessoas constroem ou reconstroem a sua realidade social
+
+- Análise dos procedimentos a que os indivíduos recorrem para concretizar as suas ações diárias

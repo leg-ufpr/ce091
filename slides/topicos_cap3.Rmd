@@ -1,0 +1,267 @@
+---
+title: "A construção da pesquisa"
+short-title: "Pesquisa - construção"
+author: "Elias T Krainski"
+short-author: "Elias"
+date: "Março, 2018"
+institute: "Laboratório de Estatística e Geoinformação"
+short-institute: "LEG/UFPR"
+department: |
+  | Universidade Federal do Paraná 
+  | Departamento de Estatística 
+safe-colums: true 
+output: 
+  legtheme::beamer_leg:
+    toc: true
+    slide_level: 2
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+# Introdução 
+
+## Introdução 
+
+- Etapas: aspectos teóricos e conceituais
+- Eixos e etapas de um projeto de pesquisa
+- Importância do projeto
+
+## Más condutas 
+  
+- No início pouco se sabe 
+- Sensação de se perder mesmo antes de iniciar
+- Problema: como sair disso
+
+\pause 
+
+- Caos inicial não deve ser fonte de preocupação. Causas: 
+    - marca de espírito inquieto
+    - não alimentação de simplismos e certezas prontas
+
+\pause 
+
+- Fuga antecipada:
+    - gulodice livresca ou estatística 
+    - impasse das hipóteses 
+    - ênfase obscura
+
+## Gulodice livresca ou estatística 
+
+- Demasiado livros, artigos, dados pode gerar desmotivação
+
+\pause 
+
+- Refletir mais
+- Ler poucos textos bem escolhidos 
+- Interpretar judiciosamente dados significativos 
+
+\pause 
+
+- Preferível o caminho mais simples 
+- Descongestionar o cérebro 
+- Pensar de forma ordenada e criativa 
+
+## Impasse das hipóteses 
+
+- Coleta de dados antes de formular hipóteses 
+- Prática antes de definir objetivos 
+
+\pause 
+
+- Escolha da técnica após objetivos claros 
+- Definir bem o projeto de pesquisa 
+- Não vale ter boas técnicas e projeto mal definido
+
+\pause 
+
+- Coleta de dados após 
+     - problematização e questões pertinentes definidas
+
+## Ênfase obscura 
+
+- Impressão e intimidação incial 
+- Falso crédito à expressão rebuscada 
+
+\pause 
+
+- Ambição desmesurada e confusão 
+    - reconstrução industrial 
+    - futuro do ensino 
+    - destino de países em desenvolvimento 
+ 
+\pause 
+
+- Claresa e objetividade: exercício difícil
+- Sugestões para esse problema: 
+    - sistematização de palavras utilizadas 
+    - explicação de todas as frases
+    - dar sentido a cada conceito e termo
+
+
+# Elaboração da pesquisa científica: 3 eixos
+
+## Eixo 1: Ruptura 
+
+- Bagagem "teórica" possui várias armadilhas 
+- Ideas inspiradas em aparências imediatas e partidarismos 
+    - terreno "arenoso"
+
+\pause 
+
+- Importância de rompimento
+    - ruptura guia a um sitema conceitual organizado 
+    - susetível de expressar a lógica 
+
+\pause 
+
+- Contempla duas etapas iniciais da pesquisa: 
+    - Questão inical 
+    - Exploração (leitura, coleta de dados exploratória)
+
+## Eixo 2: Contrução
+
+- Após ruptura: 
+     - construção de propostas 
+     - elaboração de plano de pesquisa 
+     - operações necessárias para a operacionalização 
+
+\pause 
+
+- Necessário para validação da pesquisa 
+- Proposta com resistência à prova 
+- Propostas explicativas: 
+     - produto de trabalho fundamentado
+     - logicamente e conceitualmente validamente constituído 
+
+\pause 
+
+- Contempla as etapas 3 e 4 da pesquisa:
+    - Problemática 
+    - Construção do modelo de análsie 
+
+## Eixo 3: Constatação 
+
+- O _status_ científico: 
+    - se suscetível à verificação por informações reais concretas 
+
+- Essa comprovação de fatos: 
+    - chamada de constatação 
+    - experimentação 
+
+\pause 
+
+- Contempla as 3 etapas finais da pesquisa:
+    - Coleta de dados
+    - Análise das informações
+    - Conclusões
+
+# Sete etapas da pesquisa 
+
+## Sete etapas da pesquisa
+
+\centerline{\includegraphics[width=0.6\textwidth]{figs/pesquisa-7etapas.png}}
+
+Fonte: \url{https://blog.fastformat.co/as-sete-etapas-da-pesquisa-cientifica/}
+
+## 1. Questão incial
+
+- Formular um projeto a partir de uma questão inical 
+    - expressar o que se busca conhecer, elucidar, compreender 
+    - fio condutor da pesquisa
+    - Clareza, exequiblidade, pertinência
+
+\pause 
+
+\centerline{\includegraphics[width=0.99\textwidth]{figs/QUIVY_CAMPENHOUDT-1995p38.png}}
+
+## 2. Exploração: Leitura e coleta de dados exploratória
+
+Leitura 
+
+- Escolher textos de síntese num primeiro momento
+    - seguida por textos que tenham análise e interpretações
+- Escolher textos que apresentem abordagens e enfoques diferentes
+
+- Resumir: Evidenciar idéias principais e suas articulações
+    - qualidade do resumo é diretamente proporcional à qualidade da leitura
+    
+\pause 
+
+Informações exploratórias 
+
+- Entrevistas, observações, dados secundários, documentos, entre outros
+- Permite tomar consciência de aspectos que experiência e leituras não puderam evidenciar
+
+## 3. Problemática
+
+- Abordagem teórica a ser adotada
+    - elucidar as perspectivas teóricas por trás de diferente abordagens
+    - adotar um quadro teórico conveniente e adaptável ao problema
+
+\pause 
+
+- A exploração conduz à elaboração da problemática, que reporta novamete à 
+leitura e coleta de dados iniciais (ver flechas de retroação na figura das etapas)
+
+## 4. Construção do modelo de análise 
+
+- Elaborar as hipóteses ou questões de estudo 
+     - estas deve ser respondidas (ou não) a partir de conceitos ou modelos teóricos
+- Conceitos e hipóteses interligados para formar conjuntamente um quadro de análise coerente
+
+\pause 
+
+- Dois métodos de construção das hipóteses 
+    - hipotético-indutivo, prevalece inicialmente 
+        - parte da observação, derivando novos conceitose indicadores
+    - hipotético-dedutivo, quando há idédias conceituais
+        - parte de um postulado ou conceito
+
+## 5. Coleta de dados
+
+- O que coletar 
+    - dados úteis para testar as hipóteses
+
+\pause 
+
+- Com quem coletar
+    - recorte num espaço geográfico, temporal e social
+    - amostra representativa (quantitativamente) ou ilustrativa (qualitativamente)
+
+\pause 
+
+- Como coletar
+    - Instrumentos
+        - capaz de fornecer informações necessárias e relevantes 
+        - testar, assegurando adequação e precisão
+        - colocar sistematicamente em prática
+
+## 6. Análise das informações 
+
+- Verificar se as informações coletadas corroboram ou não as hipóteses e questões de pesquisa 
+- Segunda função: interpretar fatos não cogitados, rever/refinar hipóteses
+
+\pause 
+
+- Operacionalização da análise:
+    - Análise descritiva dos dados, focando nos objetivos/hipóteses
+    - Mensurar relações entre variáveis, como previstas pelas hipóteses 
+    - Comparar/medir relações entre variáveis (testar) 
+          - Análise estatística (quantitativa)
+          - Análise de conteúdo (qualitativa)
+
+## 7. Conclusões
+
+- Síntese da linha(s) de pesquisa, apresentando
+     - questão de pesquisa 
+     - principais característica do modelo de análise e hipóteses 
+     - campo de coleta de dados, métodos escolhidos e a coleta em si
+     - comparar resultados esperados e obtidos, descrevendo principais distãncias encontradas 
+
+\pause 
+
+- Novos conhecimentos
+     - relacionados ao objeto de análise 
+     - novos conhecimentos teóricos

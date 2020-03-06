@@ -1,0 +1,232 @@
+---
+title: "Estrutura do projeto de pesquisa"
+short-title: "Projeto"
+author: "Elias T Krainski"
+short-author: "Elias"
+date: "Março, 2018"
+institute: "Laboratório de Estatística e Geoinformação"
+short-institute: "LEG/UFPR"
+department: |
+  | Universidade Federal do Paraná 
+  | Departamento de Estatística 
+safe-colums: true 
+output: 
+  legtheme::beamer_leg:
+    toc: true
+    slide_level: 2
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+# Introdução 
+
+## Introdução 
+
+- Título do projeto
+- Introdução
+- Revisão bibliográfica 
+- Metodologia 
+- Aspectos éticos
+
+## O projeto de pesquisa
+  
+- Rege e sintetiza a pesquisa
+- Não ocorre no início do processo
+- Após delimitar tema/problema 
+
+\pause 
+
+- Baseado em
+     - quadro teórico 
+     - hipóteses
+     - documentação pertinente 
+     - métodos e técnicas 
+
+## Título do projeto
+
+- Simples, expressões claras (alterável)
+- Conciso, sem detalhes
+- Provoca atrai, 
+- Sintetiza ideias
+
+\pause 
+
+- Subtítulo, para clarificar 
+
+## Introdução 
+
+- Contem o tema, justificativa e questões/hipóteses - formulação
+- Delimita o específico, o tema e a pergunta 
+- Justificativa, relevância
+- Originalidade (exige exposição do existente)
+- Viabilidade
+- Interesse pessoal
+- Objetivos 
+    - extremamente breve 
+    - intelegível mesmo para não especialistas 
+
+## Revisão bibliográfica 
+
+- Expor resumidamente principais idéias já discutidas 
+- Levantamento de críticas, dúvidas (se for o caso)
+- Diferenciação do projeto em questão 
+
+\pause 
+
+- Quadro teórico adequado ao recorte temático 
+- Justificativa da formulação de hipóteses 
+
+## Metodologia 
+
+- Como verificar as hipóteses ou questões de pesquisa 
+- Inclui tipo de pesquisa, técnicas de coleta e análise de dados 
+- Inclui procedimentos éticos (se a pesquisa envolve seres humanos)
+- Indica como realizar a pesquisa
+- Especifica etapas e procedimentos em cada uma 
+
+## Escolha do tipo de pesquisa
+
+- Natureza: básica ou aplicada 
+- Objetivos: exploratória, descritiva ou explicativa 
+- Procedimento: experimental, levantamento, estudo de caso, bibliográfica, outro
+
+\pause 
+
+- Pesquisador iniciante mais explora que explica 
+- Universo e forma de seleção da amostra
+- Unidade de análise e sujeito de pesquisa 
+
+## Sujeitos da pesquisa, população e amostra 
+
+- Depende de até que ponto deseja-se generalizar 
+- Quantos casos, indivíduos, unidades 
+
+\pause 
+
+- Quantitativa: amostragem, tamanho de amostra, inferência
+    - evitar: percentual X da população 
+
+\pause 
+
+- Qualitativa: não existe regra (infelizmente)
+    - seleção depende do problema: quem mais conhece o assunto
+    - iniciantes pensam ser mais fácil 
+
+\pause 
+
+- Eesenho do estudo 
+- Evitar preferências pessoais 
+
+
+## Técnicas de coleta de dados 
+
+- Bibliográfica: Necessária em toda pesquisa. 
+- Documental: Coleta de documentos relevantes 
+- Eletrônica: Informações coletadas, principalmente, da internet 
+
+\pause 
+
+- Questionário: documento com perguntas, respondido pelo informante
+     - Elaboração das questões considerando, percepção, estereótipos, mecanismos de defesa, e outros
+     - Pré-teste: aplicação de alguns exemplares
+
+\pause 
+
+- Formulário: similar ao questionário, entrevistador anota questões
+- Entrevista: técnica de interação social 
+    - diálogo assimétrico, exploratorio ou coleta de informações
+    - estruturada, semi-estruturada, não estruturada, orientada, em grupo, informal
+
+\pause 
+
+- Observação: uso dos sentidos para apreensão de aspectos relevantes da realidade
+- Diário/notas de campo: em pesquisas etnográficas
+
+## Técnicas de análise de dados 
+
+- Descrição dos procedimentos adotados para a análise dos dados 
+    - Quantitativa: 
+        - organização/codificação dos dados
+        - emprego de técnicas estatísticas
+    - Qualitativa: 
+
+Análise de conteúdo                     |  Análise de discurso
+----------------------------------------|-----------------------------------
+Interpretação qualitativa e quantitativa| Interpretação qualitativa
+Compreensão do pensamento do sujeito    | Sentido manifestado pelo sujeito
+a partir do conteúdo expresso           |
+Supõe transparência de linguagem        | Linguagem não transparente
+Significações detectadas por indicadores| Foco na posição discursiva
+a ele ligados                           |
+
+
+## Aspectos éticos 
+
+- Garantia de não discriminação na seleção dos sujeitos de pesquisa
+- Cuidados especiais a grupos especiais (gestantes, crianças, entre outros)
+- Adequada avaliação de risco-benefício
+- Obtenção de consentimento informado 
+- Garantia de preservação de privacidade
+- Se há grupos comparativos, avaliar existência de paridade
+
+## Outros ítens 
+
+- Bibliografia 
+    - citar todo material bibliográfico consultado 
+
+- Cronograma
+    - Especificação do período de tempo para realização de cada etapa de pesquisa
+
+- Orçamento
+    - Estimativa de gastos em cada etapa ou ítens de despesa
+
+# Aspéctos éticos 
+
+## Introdução 
+
+- Usos de tecnologias de informação e comunicação - TIC na pesquisa científica 
+- Identifica ferramentas de busca através das TIC
+- Discutir critérios de seleção das fontes de informação
+- Identificar e discutir principais problemas éticos e profissionais na utilização de NTIC
+
+
+## Usos de tecnologias de informação e comunicação - TIC na pesquisa científica 
+
+- As TIC disponibilizam grande volume e diversidade de informação
+- Requer-se habilidades para seleção e tratamento eficiente de informação
+
+- Uso em 
+    - elaboração e gerenciamento de projetos
+    - gerenciamento de recursos
+    - pesquisa bibliográfica
+    - coleta de dados
+    - análise de dados
+    - descoberta automática (simulação)
+    - apoio à publicação, ilustração e apresentação
+    
+## Busca bibliográfica
+
+- Essencial para sucesso em uma pesquisa 
+- É possível haver alterações durante a pesquisa 
+- Elaboração de uma busca
+    - definição do conteúdo 
+    - procedimento de busca
+    - limitações de ordem linguística 
+    - recursos disponíveis 
+
+## Ética, plágio 
+
+- Ética: propriedade do caráter,  base do termo moral 
+    - estudo dos juízos e conduta humana
+    - susceptível à qualificação de bem ou mal
+- Plágio: ato de assinar ou apresentar obra de outro autor, sem dar os créditos 
+    - plágio integral: transcrição, sem citação da fonte de um texto completo
+    - plágio parcial: cópia de frases ou parágrafos de diversas fontes para dificultar a identificação
+    - plágio conceitual: apropriação de conceito(s)/teoria 
+
+- Heteroplágio: autor apropriar-se da obra de outra pessoa 
+- Autoplágio: autor copiar trechos seus e distribuí-los em diferentes artigos como se fossem originais
+
+
