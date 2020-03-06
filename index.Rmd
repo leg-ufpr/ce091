@@ -21,13 +21,17 @@ source("setup_knitr.R")
 - **Professor Responsável:** [Fernando de Pol Mayer][],
   [LEG][]/DEST/UFPR
 - **Horários e Locais:**
-  - Sexta, 19:00 - 22:10h, **Sala a confirmar**
+  - Sexta, 19:00 - 22:10h, **PA-06**
 - **Horários de atendimento dos professores:**
     - Segundas, 15:30 - 19:00 (preferenciais). Outros horários
       podem ser agendados previamente por email.
 - **Frequência**: de acordo com as normas da Universidade, mínimo de 75%
 - **Avaliação**:
-  - A ser definido.
+  - Elaboração de um projeto de pesquisa (será avaliada a parte escrita
+    e a apresentação/didática)
+  - Apresentação e discussão de artigos científicos
+  - Atividades complementares
+  - Participação nas aulas
 - **Datas importantes:** De acordo com a [Resolução 24/19 - CEPE][]:
     - **02/03**: Início do semestre letivo
     - **27/06**: Final do semestre letivo
