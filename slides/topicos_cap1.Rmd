@@ -1,0 +1,286 @@
+---
+title: "Aspectos teóricos e conceituais"
+short-title: "Conceitos"
+author: "Elias T Krainski"
+short-author: "Elias"
+date: "Março, 2018"
+institute: "Laboratório de Estatística e Geoinformação"
+short-institute: "LEG/UFPR"
+department: |
+  | Universidade Federal do Paraná 
+  | Departamento de Estatística 
+safe-colums: true 
+output: 
+  legtheme::beamer_leg:
+    toc: true
+    slide_level: 2
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+# Introdução
+
+## Introdução 
+
+### Tópicos de métodos de pesquisa
+
+1. princípios fundamentais da pesquisa científica
+2. do tema ao problema 
+3. a revisão da literatura 
+4. a classificação das pesquisas
+5. planejamento da pesquisa
+
+# Conceitos base 
+
+## Pesquisa 
+
+### Segundo Gil (2007, p. 17): 
+- procedimento racional e sistemático
+    - objetiva proporcionar respostas aos problemas propostos
+    - desenvolve-se por um processo constituído de várias fases 
+        - formulação do problema até a apresentação e discussão dos resultados
+
+\pause 
+
+1. procedimento racional e sistemático
+
+2. objetiva proporcionar respostas aos problemas propostos
+
+
+## Metodologia
+
+- Fonseca (2002), _methodos_ significa organização, e _logos_, estudo sistemático,
+pesquisa, investigação; 
+
+- o estudo da organização, dos caminhos a serem percorridos, para se realizar uma pesquisa ou um estudo, ou para se fazer
+ciência. 
+
+- Etimologicamente, significa o estudo dos caminhos, dos instrumentos utilizados para fazer uma pesquisa científica.
+
+
+## Metodologia científica 
+
+- do grego methodos; _met'hodos_: “caminho para chegar a um fim”
+    - caminho em direção a um objetivo; 
+
+\pause 
+
+- Metodologia: estudo do método
+    - corpo de regras e procedimentos estabelecidos para realizar uma pesquisa; 
+
+\pause 
+
+- Científica: deriva de ciência
+    - compreende o conjunto de conhecimentos precisos, 
+    metodicamente ordenados em relação a determinado domínio do saber
+
+## Conhecimento
+
+
+### Fonseca (2002, p. 10)
+
+- o homem interage com o mundo a sua volta, 
+    - interpreta o universo a partir das referências sociais e culturais do meio em que vive
+    - apropria-se do conhecimento através das sensações, que os seres e os fenômenos lhe transmitem
+    - a partir dessas sensações elabora representações
+
+- O conhecimento humano é na sua essência um esforço para resolver contradições, entre as representações do objeto e a realidade do mesmo. 
+
+- Contudo essas representações, não constituem o objeto real. 
+
+- O objeto real existe independentemente de o homem o conhecer ou não.
+
+## Tipos e formas de aquisição 
+
+- Dependendo da forma pela qual se chega a essa representação, pode ser classificado de 
+    - popular (senso comum)
+    - filosófico 
+    - científico
+    - teológico
+    - mítico
+     
+\pause 
+
+- Supondo que todo conhecimento humano reporta a um ponto de vista e a um lugar social, 
+compreende-se que são quatro os pontos principais da busca do conhecimento
+    - empírico, filosófico, científico e teológico
+
+
+## Conhecimento popular (senso comum) 
+
+- Surge da necessidade de re solver problemas imediatos
+
+- Adquirido através de ações não planejadas
+    - instintivo, espontâneo, subjetivo, acrítico, permeado pelas opiniões, emoções e valores de quem o produz 
+
+- Varia de acordo com o conhecimento relativo da maioria dos sujeitos num determinado momento histórico
+
+## Conhecimento teológico 
+
+- Revelado pela fé divina ou crença religiosa
+- Não confirmado ou negado
+- Depende da formação moral e das crenças de cada indivíduo
+- Fundamentado exclusivamente na fé humana e desprovido de método
+- Crença na existência de entes divinos e superiores que controlam a Vida e o Universo
+
+## Conhecimento mítico 
+
+- Inspirado pelos deuses e do qual se fala sem nenhuma preocupação em relação à prova dos acontecimentos. 
+
+- Se baseia na intuição 
+
+- Foi a primeira forma de explicação sobre as coisas e era fantasiosa. 
+
+## Conhecimento filosófico 
+
+- Tales de Mileto (precursor da filosofia): explicações criteriosas 
+- Cosmologia, a ordem do mundo através de uma explicação racional
+    - sem autoridade: filósofo quer ser questionado para todos usarem a lógica 
+- Questionar e encontrar respostas racionais (sem comprovação) 
+    - sistemático: construção das ideias através da reflexão; 
+    - elucidativo: tentativa racional de compreensão dos problemas, conceitos e pensamentos; 
+    - crítico: informações devem ser analisadas e refletidas antes de se tornarem verdade absoluta; 
+    - especulativo: trata de conclusões obtidas através de hipóteses e possibilidades
+
+## Conhecimento científico
+
+### Fonseca (2002, p. 11)
+
+- Produzido pela investigação científica, através de seus métodos. 
+
+- Aprimoramento do senso comum, 
+
+- Origem nos seus procedimentos de verificação baseados na metodologia científica. 
+
+- Objetivo, metódico, passível de demonstração e comprovação. 
+
+- Permite a elaboração conceitual da realidade que se deseja 
+verdadeira e impessoal, passível de ser submetida a testes de falseabilidade. 
+
+- Caráter provisório, uma vez que pode ser continuamente testado, 
+enriquecido e reformulado. 
+    - Para que tal possa acontecer, deve ser de domínio público.
+
+## Ciência 
+
+- Uma forma particular de conhecer o mundo
+
+- Saber produzido através do raciocínio lógico associado à experimentação prática 
+
+- Conjunto de modelos de observação, identificação, descrição, investigação experimental e explanação teórica de fenômenos
+
+- O método científico envolve técnicas exatas, objetivas e sistemáticas. 
+
+- Regras fixas para a formação de conceitos, condução de observações, realização de experimentos e validação de hipóteses
+
+- Objetivo básico não é descobrir verdades ou de se constituir como uma compreensão plena da realidade. 
+     - fornecer conhecimento provisório, que facilite a interação com o mundo, possibilitando previsões confiáveis sobre acontecimentos futuros e indicar mecanismos de controle que possibilitem uma intervenção sobre eles.
+
+## Poder da ciência 
+
+### Posicionamento 
+
+- A ciência adquiriu alto poder em relação todo o conhecimento produzido 
+
+- Mantém uma posição privilegiada em relação aos demais conhecimentos
+
+- Posição adquirida ao longo da história, sobretudo em Biologia, Químicae Física
+
+\pause 
+
+### Entretanto
+
+- É apenas uma das formas de se conhecer o mundo
+- Na sociedade ocidental, segundo Minayo (2007), 
+    - “a ciência é a forma hegemônica de construção do conhecimento, 
+     embora seja considerada por muitos críticos como um novo mito da 
+     atualidade por causa de sua pretensão de ser único motor e critério de verdade” (p.35).
+
+## Natureza da ciência em três momentos
+
+### Paradigma da modernidade
+
+- uma e só uma forma de conhecimento verdadeiro e uma racionalidade experimental, quantitativa e neutra
+
+### Crise do paradigma dominante
+
+- revisão sobre o rigor científico pautado no rigor matemático e de construção de novos paradigmas
+
+### Paradigma emergente 
+- se aproxima do senso comum e do local, sem perder de vista o discurso científico e o global
+
+## Paradigma da modernidade: dominante atualmente 
+
+- Copérnico, Kepler, Galileu, Newton, Bacon e Descartes
+    - racionalidade mecanicista: homem e o universo como máquinas; 
+    - reducionista: reduz o todo às partes 
+    - cartesiano: separa o mundo natural-empírico dos outros mundos não verificáveis, como o espiritual-simbólico
+
+\pause 
+
+- Detalhamento: 
+    - distinção entre conhecimento científico e conhecimento do senso comum, entre natureza e pessoa humana, corpo e mente, corpo e espírito; 
+    - a certeza da experiência ordenada; 
+    - a linguagem matemática como o modelo de representação; 
+    - a medição dos dados coletados; 
+    - a análise que decompõe o todo em partes; 
+    - formulação de leis à luz de regularidades observadas; 
+    - a expulsão da intenção; 
+    - a ideia do mundo máquina; 
+    - a possibilidade de descobrir as leis da sociedade
+
+
+## Crise do paradigma dominante
+
+- relatividade e simultaneidade (Einstein): tempo e espaço absolutos de Newton em debate; 
+- incerteza e continuum (Heisenberg e Bohr): abalaram o rigor da medição; 
+- impossibilidade da completa medição, rigor da matemática (Gödel)
+- nova visão de matéria e natureza (Ilya Prigogine) 
+- Detalhamento:
+    - em vez de eternidade, a história;
+    - em vez do determinismo, a impossibilidade; 
+    - em vez do mecanicismo, a espontaneidade e a auto-organização; 
+    - em vez da reversibilidade, a irreversibilidade e a evolução; 
+    - em vez da ordem, a desordem; 
+    - em vez da necessidade, a criatividade e o acidente.
+
+## Paradigma emergente 
+
+- novo paradigma que se aproxima do senso comum e do local
+    - sem perder de vista o discurso científico e o global
+- todo o conhecimento científico-natural é científico-social, 
+- todo conhecimento é local e total, 
+- todo conhecimento é autoconhecimento 
+    - prisma mais contemplativo que ativo
+- todo conhecimento científico visa constituir-se em senso comum
+    - o conhecimento científico dialoga com outras formas de conhecimento deixando-se penetrar por elas
+
+
+# Construção do conhecimento 
+
+## Construção do conhecimento 
+
+### Tartuce (2006)
+
+- Conhecimento como a manifestação da consciência de conhecer
+    - ao viver, o ser humano tem experiências progressivas, da dor e do prazer, da fome e saciedade, do quente e do frio, entre muitas outras
+    - é o conhecimento que se dá pela vivência circunstancial e estrutural das propriedades necessárias à adaptação, interpretação e assimilação do meio interior e exterior do ser
+
+- Relações entre sensação, percepção e conhecimento
+
+
+
+## Conhecimento empírico
+
+
+
+## Conhecimento filosófico 
+
+## Conhecimento teológico 
+
+## Conhecimento científico 
+
+# Método científico 
+
