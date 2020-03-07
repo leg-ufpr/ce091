@@ -25,7 +25,7 @@ cat(paste0("- **", datas1, "**:\n"))
   conhecimento científico.
   - [Questionário](https://forms.gle/32Be2J9jDyh1EXnd6) pré-disciplina
   - Origens do conhecimento: senso comum e saber científico.
-    [Slides](slides/00_Intro.html)
+    [Slides](slides/00_Intro.html).
 - **13/03**: Aspectos teóricos e conceituais: conceitos-base e
   construção do conhecimento.
 - **20/03**: Introdução à filosofia da ciência e ao método científico.
