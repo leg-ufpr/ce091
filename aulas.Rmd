@@ -27,7 +27,7 @@ cat(paste0("- **", datas1, "**:\n"))
   - Origens do conhecimento: senso comum e saber científico.
     [Slides](slides/00_Intro.html).
 - **13/03**: Aspectos teóricos e conceituais: conceitos-base e
-  construção do conhecimento.
+  construção do conhecimento. [Slides](slides/topicos_cap1.html).
 - **20/03**: Introdução à filosofia da ciência e ao método científico.
 - **27/03**: A pesquisa científica. Tipos de pesquisa.
 - **03/04**: A construção da pesquisa.
