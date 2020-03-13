@@ -6,7 +6,7 @@ date: "2020-03-13"
 output:
   xaringan::moon_reader:
     css: ["default", "fc.css", "fc-fonts.css"]
-    self_contained: FALSE
+    self_contained: TRUE
     nature:
       highlightStyle: github
       highlightLines: TRUE
@@ -151,7 +151,7 @@ histórico
 
 - Aprimoramento do senso comum
 
-- Origem nos procedimentos de verificação baseados na metodologia
+- Origem nos **procedimentos de verificação** baseados na metodologia
 científica
 
 - Objetivo, metódico, passível de demonstração e comprovação
@@ -172,159 +172,162 @@ enriquecido e reformulado
 
 - Uma forma particular de conhecer o mundo
 
-- Saber produzido através do raciocínio lógico associado à experimentação prática
+- Saber produzido através do raciocínio lógico associado à
+  experimentação prática
 
-- Conjunto de modelos de observação, identificação, descrição, investigação experimental e explanação teórica de fenômenos
+- Conjunto de modelos de observação, identificação, descrição,
+  investigação experimental e explanação teórica de fenômenos
 
-- O método científico envolve técnicas exatas, objetivas e sistemáticas.
+- O método científico envolve técnicas exatas, objetivas e sistemáticas
 
-- Regras fixas para a formação de conceitos, condução de observações, realização de experimentos e validação de hipóteses
+- Regras fixas para a formação de conceitos, condução de observações,
+  realização de experimentos e validação de hipóteses
 
-- Objetivo básico não é descobrir verdades ou de se constituir como uma compreensão plena da realidade.
-     - fornecer conhecimento provisório, que facilite a interação com o mundo, possibilitando previsões confiáveis sobre acontecimentos futuros e indicar mecanismos de controle que possibilitem uma intervenção sobre eles.
+- Objetivo **não é descobrir verdades** ou de se constituir como uma
+  compreensão plena da realidade
+  - Fornecer **conhecimento provisório**
+  - Possibilita previsões confiáveis sobre acontecimentos futuros
+  - Indica mecanismos de controle que possibilitem uma intervenção sobre
+    eles
+
+> *A Ciência é um processo de aprendizado da natureza, onde ideias
+> concorrentes sobre como funciona o mundo são medidas contra
+> observações.*
+
+> Richard Feynman, 1965
 
 ---
 # Conceitos base
 
-## Poder da ciência
+## O que é ciência
 
-### Posicionamento
+### Poder da ciência
 
 - A ciência adquiriu alto poder em relação todo o conhecimento produzido
 
 - Mantém uma posição privilegiada em relação aos demais conhecimentos
 
-- Posição adquirida ao longo da história, sobretudo em Biologia, Químicae Física
+- Posição adquirida ao longo da história, sobretudo em Biologia,
+  Química e Física
 
-\pause
-
-### Entretanto
-
-- É apenas uma das formas de se conhecer o mundo
-- Na sociedade ocidental, segundo Minayo (2007),
-    - “a ciência é a forma hegemônica de construção do conhecimento,
-     embora seja considerada por muitos críticos como um novo mito da
-     atualidade por causa de sua pretensão de ser único motor e critério de verdade” (p.35).
-
----
-# Conceitos base
-
-## Natureza da ciência em três momentos
-
-### Paradigma da modernidade
-
-- uma e só uma forma de conhecimento verdadeiro e uma racionalidade experimental, quantitativa e neutra
-
-### Crise do paradigma dominante
-
-- revisão sobre o rigor científico pautado no rigor matemático e de construção de novos paradigmas
-
-### Paradigma emergente
-- se aproxima do senso comum e do local, sem perder de vista o discurso científico e o global
-
----
-# Conceitos base
-
-## Paradigma da modernidade: dominante atualmente
-
-- Copérnico, Kepler, Galileu, Newton, Bacon e Descartes
-    - racionalidade mecanicista: homem e o universo como máquinas;
-    - reducionista: reduz o todo às partes
-    - cartesiano: separa o mundo natural-empírico dos outros mundos não verificáveis, como o espiritual-simbólico
-
-\pause
-
-- Detalhamento:
-    - distinção entre conhecimento científico e conhecimento do senso comum, entre natureza e pessoa humana, corpo e mente, corpo e espírito;
-    - a certeza da experiência ordenada;
-    - a linguagem matemática como o modelo de representação;
-    - a medição dos dados coletados;
-    - a análise que decompõe o todo em partes;
-    - formulação de leis à luz de regularidades observadas;
-    - a expulsão da intenção;
-    - a ideia do mundo máquina;
-    - a possibilidade de descobrir as leis da sociedade
-
----
-# Conceitos base
-
-## Crise do paradigma dominante
-
-- relatividade e simultaneidade (Einstein): tempo e espaço absolutos de Newton em debate;
-- incerteza e continuum (Heisenberg e Bohr): abalaram o rigor da medição;
-- impossibilidade da completa medição, rigor da matemática (Gödel)
-- nova visão de matéria e natureza (Ilya Prigogine)
-- Detalhamento:
-    - em vez de eternidade, a história;
-    - em vez do determinismo, a impossibilidade;
-    - em vez do mecanicismo, a espontaneidade e a auto-organização;
-    - em vez da reversibilidade, a irreversibilidade e a evolução;
-    - em vez da ordem, a desordem;
-    - em vez da necessidade, a criatividade e o acidente.
-
----
-# Conceitos base
-
-## Paradigma emergente
-
-- novo paradigma que se aproxima do senso comum e do local
-    - sem perder de vista o discurso científico e o global
-- todo o conhecimento científico-natural é científico-social,
-- todo conhecimento é local e total,
-- todo conhecimento é autoconhecimento
-    - prisma mais contemplativo que ativo
-- todo conhecimento científico visa constituir-se em senso comum
-    - o conhecimento científico dialoga com outras formas de conhecimento deixando-se penetrar por elas
+- Os cientistas foram capazes de estabelecer uma linguagem universal,
+fundamentada em conceitos, métodos e técnicas para a compreensão do
+mundo, das coisas, dos fenômenos, dos processos, das relações e das
+representações.
+  - Regras universais e padrões rígidos permitindo uma linguagem comum
+  divulgada e conhecida no mundo inteiro
+  - Atualização e críticas permanentes fizeram da ciência a "crença"
+    mais respeitável a partir da modernidade
 
 ---
 # A construção do conhecimento
 
 ## Construção do conhecimento
 
-### Tartuce (2006)
+- Para Platão, conhecimento é crença, verdadeira e justificada
 
-- Conhecimento como a manifestação da consciência de conhecer
-    - ao viver, o ser humano tem experiências progressivas, da dor e do prazer, da fome e saciedade, do quente e do frio, entre muitas outras
-    - é o conhecimento que se dá pela vivência circunstancial e estrutural das propriedades necessárias à adaptação, interpretação e assimilação do meio interior e exterior do ser
+- **Crença**
+  - Estado mental que pode ser verdadeiro ou falso
+  - Elemento subjetivo do conhecimento
+  - É a certeza que se tem sobre alguma coisa
+  - Diferente de acreditar: posso acreditar e ainda assim ter dúvidas
 
-- Relações entre sensação, percepção e conhecimento
+- **Verdade**
+  - O que é real ou possivelmente real dentro de um sistema de valores
+  - Para Nietzsche é um ponto de vista
+
+- **Justificação**
+  - Autorização a crer em alguma coisa
+  - Quando o indivíduo acredita em alguma coisa verdadeira, e está
+  justificado a crer, sua crença é conhecimento
+  - A justificação é um elemento fundamental do conhecimento
+
+<!-- - Conhecimento como a manifestação da consciência de conhecer -->
+<!-- - ao viver, o ser humano tem experiências progressivas, da dor e do
+prazer, da fome e saciedade, do quente e do frio, entre muitas outras
+--> <!-- - é o conhecimento que se dá pela vivência circunstancial e
+estrutural das propriedades necessárias à adaptação, interpretação e
+assimilação do meio interior e exterior do ser -->
+
+<!-- - Relações entre sensação, percepção e conhecimento -->
 
 ---
 # A construção do conhecimento
 
 ## Tipos e formas de aquisição
 
-- Dependendo da forma pela qual se chega a essa representação, pode ser classificado de
-    - popular (senso comum)
-    - filosófico
-    - científico
-    - teológico
-    - mítico
+Dependendo da forma pela qual se chega a essa representação, pode ser
+classificado de
 
-\pause
+- Empírico
+- Filosófico
+- Teológico ou mítico
+- Científico
 
-- Supondo que todo conhecimento humano reporta a um ponto de vista e a um lugar social,
-compreende-se que são quatro os pontos principais da busca do conhecimento
-    - empírico, filosófico, científico e teológico
+<!-- - Supondo que todo conhecimento humano reporta a um ponto de vista
+e a --> <!-- um lugar social, compreende-se que são quatro os pontos
+principais da --> <!-- busca do conhecimento --> <!-- - empírico,
+filosófico, científico e teológico -->
 
 ---
 # A construção do conhecimento
 
 ## Conhecimento empírico
 
+- Adquirido no cotidiano, por meio de nossas experiências
+- Construído por meio de tentativas e erros num agrupamento de ideias
+- Caracterizado pelo senso comum, pela forma espontânea e direta de
+  entendermos
+- Características:
+  - Conjunto de opiniões geralmente aceitas em épocas determinadas,
+  e que as opiniões contrárias aparecem como aberrações individuais.
+  - É valorativo por excelência, pois se fundamenta numa operação
+  operada com base em estados de ânimo e emoções.
+  - É também reflexivo.
+  - É verificável.
+  - É falível e inexato.
+
+O principal mérito do método empírico é o de assinalar com vigor
+a importância da experiência na origem dos nossos conhecimentos.
+
 ---
 # A construção do conhecimento
 
 ## Conhecimento filosófico
 
-- Tales de Mileto (precursor da filosofia): explicações criteriosas
-- Cosmologia, a ordem do mundo através de uma explicação racional
-    - sem autoridade: filósofo quer ser questionado para todos usarem a lógica
-- Questionar e encontrar respostas racionais (sem comprovação)
-    - sistemático: construção das ideias através da reflexão;
-    - elucidativo: tentativa racional de compreensão dos problemas, conceitos e pensamentos;
-    - crítico: informações devem ser analisadas e refletidas antes de se tornarem verdade absoluta;
-    - especulativo: trata de conclusões obtidas através de hipóteses e possibilidades
+A palavra *filosofia* foi introduzida por Pitágoras, e é composta, em
+grego, de *philos*, “amigo”, e *sophia*, “sabedoria”.
+
+- A Filosofia é a fonte de todas as áreas do conhecimento humano
+  - Todas as ciências não só dependem dela, como nela se incluem
+  - É a ciência das primeiras causas e princípios.
+  - Destituída de objeto particular, mas assume o papel orientador de
+  cada ciência na solução de problemas universais.
+- Procura conhecer as causas reais dos fenômenos, não as causas próximas
+como as ciências particulares.
+- Procura conhecer, também, as causas profundas e remotas de todas as
+coisas e, para elas, respostas.
+- Características:
+  - É valorativo, pois seu ponto de partida consiste em hipóteses, que
+não poderão ser submetidas à observação.
+  - Não é verificável.
+  - Tem a característica de sistemático.
+  - É infalível e exato.
+
+É caracterizado pelo esforço da razão para questionar os problemas
+humanos e poder discernir entre o certo e o errado, unicamente
+recorrendo às luzes da própria razão humana.
+
+<!-- - Tales de Mileto (precursor da filosofia): explicações criteriosas
+--> <!-- - Cosmologia, a ordem do mundo através de uma explicação
+racional --> <!-- - sem autoridade: filósofo quer ser questionado para
+todos usarem a lógica --> <!-- - Questionar e encontrar respostas
+racionais (sem comprovação) --> <!-- - sistemático: construção das
+ideias através da reflexão; --> <!-- - elucidativo: tentativa racional
+de compreensão dos problemas, conceitos e pensamentos; --> <!-- -
+crítico: informações devem ser analisadas e refletidas antes de se
+tornarem verdade absoluta; --> <!-- - especulativo: trata de conclusões
+obtidas através de hipóteses e possibilidades -->
 
 
 ---
@@ -333,26 +336,89 @@ compreende-se que são quatro os pontos principais da busca do conhecimento
 ## Conhecimento teológico
 
 - Revelado pela fé divina ou crença religiosa
+
 - Não confirmado ou negado
+
 - Depende da formação moral e das crenças de cada indivíduo
+
 - Fundamentado exclusivamente na fé humana e desprovido de método
-- Crença na existência de entes divinos e superiores que controlam a Vida e o Universo
 
-## Conhecimento mítico
+- Crença na existência de entes divinos e superiores que controlam a
+  Vida e o Universo
 
-- Inspirado pelos deuses e do qual se fala sem nenhuma preocupação em relação à prova dos acontecimentos.
-
-- Se baseia na intuição
-
-- Foi a primeira forma de explicação sobre as coisas e era fantasiosa.
+<!-- ## Conhecimento mítico --> <!-- - Inspirado pelos deuses e do qual
+se fala sem nenhuma preocupação em relação à prova dos acontecimentos.
+--> <!-- - Se baseia na intuição --> <!-- - Foi a primeira forma de
+explicação sobre as coisas e era fantasiosa. -->
 
 ---
 # A construção do conhecimento
 
 ## Conhecimento científico
 
+- O conhecimento científico surge a partir:
+  - Da determinação de um objeto específico de investigação
+  - Da explicitação de um método para essa investigação
+- Forma de conhecimento objetivo, racional, sistemático, geral,
+  verificável e falível
+- As áreas da Ciência podem ser classificadas em duas grandes dimensões:
+   - Puras (o desenvolvimento de teorias) e aplicadas (a aplicação de
+   teorias às necessidades humanas)
+   - Naturais (o estudo do mundo natural) e sociais (o estudo do
+   comportamento humano e da sociedade)
+- Características:
+  - É real (factual), porque lida com ocorrências ou fatos
+  - Constitui um conhecimento contingente, pois suas proposições ou
+  hipóteses têm sua veracidade ou falsidade conhecida por intermédio da
+  experiência e não apenas razão, como ocorre no conhecimento filosófico.
+  - É sistemático.
+  - Possui características de verificabilidade.
+  - É falível, em virtude de não ser definitivo, absoluto ou final e,
+  por este motivo, é aproximadamente exato.
+
+---
+# A construção do conhecimento
+
+## Conhecimento científico
+
+- Pretende atingir o melhor índice de validade e fidelidade do
+conhecimento de um fenômeno
+- Para isso, é necessário que a busca do conhecimento de um fenômeno
+seja guiada por perguntas básicas que encaminharão o encontro de
+respostas
+    - O que conhecer?
+    - Por que conhecer?
+    - Para que conhecer?
+    - Como conhecer?
+    - Com que conhecer?
+    - Em que local conhecer?
+- Tais procedimentos acabam por caracterizar uma **ação metodológica**
+
 ---
 # Método científico
+
+- É a forma mais seguras inventadas pelos homens para controlar o
+movimento das coisas que cerceiam um fato e montar formas de compreensão
+adequada dos fenômenos.
+- Fatos – acontecem na realidade, independentemente de haver ou não
+quem os conheça.
+- Fenômeno – é a percepção que o observador tem do fato. Pessoas
+diversas podem observar no mesmo fato fenômenos diferentes.
+- Paradigmas – constituem-se em referenciais teóricos que servirão
+de orientação para a opção metodológica de investigação.
+- Método Científico – é a expressão lógica do raciocínio associada à
+formulação de argumentos convincentes. Utiliza-se de:
+  - Termos – são palavras, declarações, significações convencionais que
+se referem a um objeto.
+  - Conceito – é a representação, expressão e interiorização daquilo que
+a coisa é (compreensão da coisa).
+  - Definição – é a manifestação e apreensão dos elementos contidos no
+conceito, tratando de decidir em torno do que se duvida ou do que é
+ambivalente.
+
+Saber utilizar adequadamente termos, conceitos e definições significa
+metodologicamente expressar na Ciência aquilo que o indivíduo
+sabe e quer transmitir
 
 
 ---
@@ -360,12 +426,171 @@ compreende-se que são quatro os pontos principais da busca do conhecimento
 
 ## Método dedutivo
 
+- René Descartes (1596-1650) apresenta o Método Dedutivo a partir da
+matemática e de suas regras de evidência, análise, síntese e enumeração.
+- Esse método parte do geral e, a seguir, desce para o particular.
+- O protótipo do raciocínio dedutivo é o **silogismo**, que, a partir de
+duas proposições chamadas **premissas**, retira uma terceira chamada
+conclusão.
+- Exemplo:
+
+> Todo mamífero tem um coração.
+
+> Ora, todos os cães são mamíferos.
+
+> Logo, todos os cães têm um coração.
+
+- As duas premissas são verdadeiras, portanto a conclusão é verdadeira.
+- Parte-se de princípios reconhecidos como **verdadeiros e
+indiscutíveis**, possibilitando chegar a conclusões de maneira puramente
+formal, em virtude de sua **lógica**.
+- Este método tem larga aplicação na Matemática e na Física, cujos
+ princípios podem ser enunciados por leis.
+
 ---
 # Método científico
 
 ## Método indutivo
 
+- Para Francis Bacon (1561-1626), o conhecimento científico é o único
+caminho seguro para a verdade dos fatos.
+- Como Galileu, critica Aristóteles por considerar que o silogismo e o
+processo de abstração não propiciam um conhecimento completo do
+universo.
+- O conhecimento é fundamentado exclusivamente na experiência, sem levar
+em consideração princípios preestabelecidos.
+- O conhecimento científico, para Bacon, tem por finalidade servir o
+homem e dar-lhe poder sobre a natureza.
+- Bacon, um dos fundadores do Método Indutivo, considera:
+  - as circunstâncias e a frequência com que ocorre determinado fenômeno
+  - os casos em que o fenômeno não se verifica
+  - os casos em que o fenômeno apresenta intensidade diferente
+
+---
+# Método científico
+
+## Método indutivo
+
+- Exemplo:
+
+> Antônio é mortal.
+
+> Benedito é mortal.
+
+> Carlos é mortal.
+
+> Zózimo é mortal.
+
+> Ora, Antônio, Benedito, Carlos, ... e Zózimo são homens.
+
+> Logo, (todos) os homens são mortais.
+
+- A partir da observação, é possível formular uma **hipótese
+explicativa** da causa do fenômeno.
+- Portanto, por meio da indução chega-se a **conclusões que são apenas
+prováveis**.
+
 ---
 # Método científico
 
 ## Método hipotético-dedutivo
+
+- Método definido por Karl Popper, a partir de suas críticas ao método
+indutivo.
+- Para ele, o método indutivo não se justifica, pois o salto indutivo de
+“alguns” para “todos” exigiria que a observação de fatos isolados fosse
+infinita.
+- Pode ser explicado a partir do seguinte esquema:
+> PROBLEMA – HIPÓTESES – DEDUÇÃO DE CONSEQUÊNCIAS OBSERVADAS – TENTATIVA DE FALSEAMENTO – CORROBORAÇÃO
+
+- Para tentar explicar um problema, são formuladas hipóteses; destas
+deduzem-se consequências que deverão ser testadas ou falseadas.
+- Falsear significa tentar tornar falsas as consequências deduzidas das
+hipóteses.
+- Enquanto no método dedutivo se procura confirmar a hipótese, no método
+hipotético-dedutivo se procuram evidências empíricas para derrubá-la.
+- Quando não se consegue derrubar a hipótese, tem-se sua corroboração
+- Segundo Popper, a hipótese se mostra válida, pois superou todos os
+testes
+- Porém ela não é definitivamente confirmada, pois a qualquer
+momento poderá surgir um fato que a invalide.
+
+---
+
+<!-- ### Entretanto -->
+
+<!-- - É apenas uma das formas de se conhecer o mundo -->
+<!-- - Na sociedade ocidental, segundo Minayo (2007), -->
+<!--     - “a ciência é a forma hegemônica de construção do conhecimento, -->
+<!--      embora seja considerada por muitos críticos como um novo mito da -->
+<!--      atualidade por causa de sua pretensão de ser único motor e critério de verdade” (p.35). -->
+
+<!-- --- -->
+<!-- # Conceitos base -->
+
+<!-- ## Natureza da ciência em três momentos -->
+
+<!-- ### Paradigma da modernidade -->
+
+<!-- - uma e só uma forma de conhecimento verdadeiro e uma racionalidade experimental, quantitativa e neutra -->
+
+<!-- ### Crise do paradigma dominante -->
+
+<!-- - revisão sobre o rigor científico pautado no rigor matemático e de construção de novos paradigmas -->
+
+<!-- ### Paradigma emergente -->
+<!-- - se aproxima do senso comum e do local, sem perder de vista o discurso científico e o global -->
+
+<!-- --- -->
+<!-- # Conceitos base -->
+
+<!-- ## Paradigma da modernidade: dominante atualmente -->
+
+<!-- - Copérnico, Kepler, Galileu, Newton, Bacon e Descartes -->
+<!--     - racionalidade mecanicista: homem e o universo como máquinas; -->
+<!--     - reducionista: reduz o todo às partes -->
+<!--     - cartesiano: separa o mundo natural-empírico dos outros mundos não verificáveis, como o espiritual-simbólico -->
+
+<!-- \pause -->
+
+<!-- - Detalhamento: -->
+<!--     - distinção entre conhecimento científico e conhecimento do senso comum, entre natureza e pessoa humana, corpo e mente, corpo e espírito; -->
+<!--     - a certeza da experiência ordenada; -->
+<!--     - a linguagem matemática como o modelo de representação; -->
+<!--     - a medição dos dados coletados; -->
+<!--     - a análise que decompõe o todo em partes; -->
+<!--     - formulação de leis à luz de regularidades observadas; -->
+<!--     - a expulsão da intenção; -->
+<!--     - a ideia do mundo máquina; -->
+<!--     - a possibilidade de descobrir as leis da sociedade -->
+
+<!-- --- -->
+<!-- # Conceitos base -->
+
+<!-- ## Crise do paradigma dominante -->
+
+<!-- - relatividade e simultaneidade (Einstein): tempo e espaço absolutos de Newton em debate; -->
+<!-- - incerteza e continuum (Heisenberg e Bohr): abalaram o rigor da medição; -->
+<!-- - impossibilidade da completa medição, rigor da matemática (Gödel) -->
+<!-- - nova visão de matéria e natureza (Ilya Prigogine) -->
+<!-- - Detalhamento: -->
+<!--     - em vez de eternidade, a história; -->
+<!--     - em vez do determinismo, a impossibilidade; -->
+<!--     - em vez do mecanicismo, a espontaneidade e a auto-organização; -->
+<!--     - em vez da reversibilidade, a irreversibilidade e a evolução; -->
+<!--     - em vez da ordem, a desordem; -->
+<!--     - em vez da necessidade, a criatividade e o acidente. -->
+
+<!-- --- -->
+<!-- # Conceitos base -->
+
+<!-- ## Paradigma emergente -->
+
+<!-- - novo paradigma que se aproxima do senso comum e do local -->
+<!--     - sem perder de vista o discurso científico e o global -->
+<!-- - todo o conhecimento científico-natural é científico-social, -->
+<!-- - todo conhecimento é local e total, -->
+<!-- - todo conhecimento é autoconhecimento -->
+<!--     - prisma mais contemplativo que ativo -->
+<!-- - todo conhecimento científico visa constituir-se em senso comum -->
+<!--     - o conhecimento científico dialoga com outras formas de conhecimento deixando-se penetrar por elas -->
