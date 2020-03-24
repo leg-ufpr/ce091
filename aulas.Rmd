@@ -21,6 +21,10 @@ datas1 <- format.Date(datas1, format = "%d/%m")
 cat(paste0("- **", datas1, "**:\n"))
 ```
 
+<div class="alert alert-danger" role="alert">
+Cronograma temporariamente suspenso
+</div>
+
 - **06/03**: Apresentação da disciplina. Questões gerais sobre ciência e
   conhecimento científico.
   - [Questionário](https://forms.gle/32Be2J9jDyh1EXnd6) pré-disciplina
