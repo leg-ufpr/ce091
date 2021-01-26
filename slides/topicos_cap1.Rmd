@@ -1,18 +1,44 @@
 ---
 title: "Aspectos teóricos e conceituais"
 author: "Elias Teixeira Krainski, Fernando de Pol Mayer (LEG/DEST/UFPR)"
-date: "2020-03-13"
+date: |
+  | 2021-01-25
+  | Última atualização `r Sys.Date()`
 # bibliography: bib/ref.bib
 output:
   xaringan::moon_reader:
     css: ["default", "fc.css", "fc-fonts.css"]
-    self_contained: TRUE
+    self_contained: FALSE
     nature:
       highlightStyle: github
       highlightLines: TRUE
       countIncrementalSlides: FALSE
 ---
 
+# Conceitos base e construção do conhecimento
+
+
+## Material baseado em:
+
+- Gerhardt, TE; Silveira, DT. [Métodos de
+   Pesquisa](https://www.lume.ufrgs.br/handle/10183/52806).
+   Porto Alegre: Editora da UFRGS, 2009.
+- Material de aula dos Profs. Carlos Soares e Paulo Lana (CEM/UFPR)
+
+## Objetivos
+
+- Introduzir os conceitos-chave sobre a metodologia científica e a
+  produção de conhecimento
+
+- Caracterizar os diferentes tipos de conhecimento e seus pressupostos
+
+- Discutir o processo de construção do conhecimento científico
+
+---
+class: center, middle, inverse
+# Conceitos base
+
+---
 # Conceitos base
 
 ## Metodologia científica
@@ -72,7 +98,8 @@ output:
 
 ## O que é metodologia?
 
-- *logos*: estudo
+- *methodos*: organização
+- *logos*: estudo sistemático, pesquisa, investigação
 - Estudo dos caminhos a serem percorridos
 
 .pull-left[
@@ -141,6 +168,56 @@ histórico
 > calculation.*
 
 > Pierre Simon Laplace, 1819
+
+---
+# Senso comum
+
+## Os tipos de conhecimento do "senso comum"
+
+1. A intuição
+  - A intuição é a percepção imediata, sem necessidade de intervenção do
+    raciocínio (o fogo queima, as coisas caem, ...)
+  - Sua base é a simples observação
+  - Parece auto-evidente, o que reduz a nossa vontade de testar a sua
+    validade
+2. A tradição
+  - Transmite saber que parece verdadeiro e útil para todos, no passado,
+    no presente e no futuro
+  - A tradição dita o que se deve conhecer, muitas vezes, sem qualquer
+    fundamento
+  - Exemplos do conhecimento baseado na tradição
+     - A superstição: o número 13
+     - As "proibições" e "combinações" alimentares não racionalizadas
+      (leite com manga)
+     - As proibições semi-racionalizadas (passar debaixo de uma escada dá azar)
+     - Os tabus sociais (a proibição do incesto, casamentos consanguíneos)
+3. A autoridade
+  - Se encarrega da transmissão da tradição de forma COERCITIVA.
+  - Papel midiático, governos, força indevida
+  - Exemplos do conhecimento autoritário
+     - A escola tradicional
+     - O conhecimento **mitológico** e/ou **religioso**
+  - O valor do conhecimento imposto repousa em nosso consentimento em
+    recebê-lo
+
+---
+# Senso comum
+
+.pull-left[
+## Vantagens
+- Permite a solução rápida de muitos de nossos problemas imediatos
+- É cômodo porque não exige planejamento ou programação
+- É um conhecer sem o trabalho da reflexão e do teste crítico
+]
+.pull-right[
+## Desvantagens
+- Caráter utilitarista, sem um aprofundamento crítico
+- Utilizamos o conhecimento que "funciona", sem compreendermos as razões
+  do seu sucesso
+- Subjetividade e baixo poder de crítica
+- Linguagem vaga
+- Desconhecimento dos limites de validade
+]
 
 ---
 # Conceitos base
@@ -220,27 +297,68 @@ representações.
     mais respeitável a partir da modernidade
 
 ---
+# Conceitos base
+
+## O que é fazer ciência ou uma pesquisa científica?
+
+- É perceber um PROBLEMA (que é a **pergunta de pesquisa**) e pensar que
+  esta situação poderia ser compreendida ou resolvida por meio de
+  explicações ou soluções possíveis
+- Deve-se oferecer tais explicações (**hipóteses de trabalho**)
+- **Testar estas explicações**
+  - Ter a percepção de que este novo conhecimento é mais seguro e
+    confiável, na medida em que ele pode ser usado para gerar novos
+    conhecimentos
+
+### Existe um MÉTODO para fazermos CIÊNCIA?
+
+.pull-left[
+### Não
+
+Se pensarmos no método científico como um conjunto de regras precisas e
+fáceis
+]
+.pull-right[
+### Sim
+
+Se pensamos no MÉTODO CIENTÍFICO como um **conjunto de regras e
+atitudes** para procurarmos e testarmos criticamente as melhores
+suposições ou explicações propostas para fatos que desconhecemos
+]
+
+
+---
+class: center, middle, inverse
 # A construção do conhecimento
 
-## Construção do conhecimento
 
+---
+# A construção do conhecimento
+
+## Conhecimento
+
+- É um processo dinâmico e inacabado
+- Essencial a existência do homem
+- O desejo de saber é inato ao seres humanos
 - Para Platão, conhecimento é crença, verdadeira e justificada
+
 
 - **Crença**
   - Estado mental que pode ser verdadeiro ou falso
   - Elemento subjetivo do conhecimento
   - É a certeza que se tem sobre alguma coisa
-  - Diferente de acreditar: posso acreditar e ainda assim ter dúvidas
+  <!-- - Diferente de acreditar: posso acreditar e ainda assim ter dúvidas -->
 
 - **Verdade**
   - O que é real ou possivelmente real dentro de um sistema de valores
-  - Para Nietzsche é um ponto de vista
+  <!-- - Para Nietzsche é um ponto de vista -->
 
 - **Justificação**
   - Autorização a crer em alguma coisa
   - Quando o indivíduo acredita em alguma coisa verdadeira, e está
   justificado a crer, sua crença é conhecimento
   - A justificação é um elemento fundamental do conhecimento
+
 
 <!-- - Conhecimento como a manifestação da consciência de conhecer -->
 <!-- - ao viver, o ser humano tem experiências progressivas, da dor e do
@@ -276,16 +394,16 @@ filosófico, científico e teológico -->
 
 - Adquirido no cotidiano, por meio de nossas experiências
 - Construído por meio de tentativas e erros num agrupamento de ideias
-- Caracterizado pelo senso comum, pela forma espontânea e direta de
+- Caracterizado pelo **senso comum**, pela forma espontânea e direta de
   entendermos
 - Características:
   - Conjunto de opiniões geralmente aceitas em épocas determinadas,
   e que as opiniões contrárias aparecem como aberrações individuais.
-  - É valorativo por excelência, pois se fundamenta numa operação
-  operada com base em estados de ânimo e emoções.
-  - É também reflexivo.
-  - É verificável.
-  - É falível e inexato.
+  - É **valorativo** por excelência, pois se fundamenta em operações base em
+    estados de ânimo e emoções.
+  - É também **reflexivo**.
+  - É **verificável**.
+  - É **falível e inexato**.
 
 O principal mérito do método empírico é o de assinalar com vigor
 a importância da experiência na origem dos nossos conhecimentos.
@@ -298,7 +416,7 @@ a importância da experiência na origem dos nossos conhecimentos.
 A palavra *filosofia* foi introduzida por Pitágoras, e é composta, em
 grego, de *philos*, “amigo”, e *sophia*, “sabedoria”.
 
-- A Filosofia é a fonte de todas as áreas do conhecimento humano
+- A Filosofia é a fonte de **todas** as áreas do conhecimento humano
   - Todas as ciências não só dependem dela, como nela se incluem
   - É a ciência das primeiras causas e princípios.
   - Destituída de objeto particular, mas assume o papel orientador de
@@ -308,15 +426,15 @@ como as ciências particulares.
 - Procura conhecer, também, as causas profundas e remotas de todas as
 coisas e, para elas, respostas.
 - Características:
-  - É valorativo, pois seu ponto de partida consiste em hipóteses, que
+  - É **valorativo**, pois seu ponto de partida consiste em hipóteses, que
 não poderão ser submetidas à observação.
-  - Não é verificável.
-  - Tem a característica de sistemático.
-  - É infalível e exato.
+  - **Não é verificável**.
+  - Tem a característica de **sistemático**.
+  - É **infalível e exato**.
 
-É caracterizado pelo esforço da razão para questionar os problemas
+É caracterizado pelo esforço da **razão** para questionar os problemas
 humanos e poder discernir entre o certo e o errado, unicamente
-recorrendo às luzes da própria razão humana.
+recorrendo às luzes da própria **razão humana**.
 
 <!-- - Tales de Mileto (precursor da filosofia): explicações criteriosas
 --> <!-- - Cosmologia, a ordem do mundo através de uma explicação
@@ -357,32 +475,33 @@ explicação sobre as coisas e era fantasiosa. -->
 ## Conhecimento científico
 
 - O conhecimento científico surge a partir:
-  - Da determinação de um objeto específico de investigação
-  - Da explicitação de um método para essa investigação
+  - Da determinação de um **objeto** específico de investigação
+  - Da explicitação de um **método** para essa investigação
 - Forma de conhecimento objetivo, racional, sistemático, geral,
   verificável e falível
 - As áreas da Ciência podem ser classificadas em duas grandes dimensões:
-   - Puras (o desenvolvimento de teorias) e aplicadas (a aplicação de
+   - **Puras** (o desenvolvimento de teorias) e **aplicadas** (a aplicação de
    teorias às necessidades humanas)
-   - Naturais (o estudo do mundo natural) e sociais (o estudo do
+   - **Naturais** (o estudo do mundo natural) e **sociais** (o estudo do
    comportamento humano e da sociedade)
 - Características:
-  - É real (factual), porque lida com ocorrências ou fatos
-  - Constitui um conhecimento contingente, pois suas proposições ou
+  - É **real** (factual), porque lida com ocorrências ou fatos
+  - Constitui um **conhecimento contingente**, pois suas proposições ou
   hipóteses têm sua veracidade ou falsidade conhecida por intermédio da
   experiência e não apenas razão, como ocorre no conhecimento filosófico.
-  - É sistemático.
-  - Possui características de verificabilidade.
-  - É falível, em virtude de não ser definitivo, absoluto ou final e,
-  por este motivo, é aproximadamente exato.
+  - É **sistemático**.
+  - Possui características de **verificabilidade**.
+  - É **falível**, em virtude de não ser definitivo, absoluto ou final e,
+  por este motivo, é **aproximadamente exato**.
 
 ---
 # A construção do conhecimento
 
 ## Conhecimento científico
 
-- Pretende atingir o melhor índice de validade e fidelidade do
+- Pretende atingir o **melhor índice de validade e fidelidade** do
 conhecimento de um fenômeno
+
 - Para isso, é necessário que a busca do conhecimento de um fenômeno
 seja guiada por perguntas básicas que encaminharão o encontro de
 respostas
@@ -392,34 +511,37 @@ respostas
     - Como conhecer?
     - Com que conhecer?
     - Em que local conhecer?
+
 - Tais procedimentos acabam por caracterizar uma **ação metodológica**
 
 ---
 # Método científico
 
-- É a forma mais seguras inventadas pelos homens para controlar o
-movimento das coisas que cerceiam um fato e montar formas de compreensão
-adequada dos fenômenos.
-- Fatos – acontecem na realidade, independentemente de haver ou não
+É a forma mais segura inventada pelo homem para **controlar o movimento
+das coisas que cerceiam um fato** e montar formas de compreensão adequada
+dos fenômenos.
+
+
+- **Fatos**: acontecem na realidade, independentemente de haver ou não
 quem os conheça.
-- Fenômeno – é a percepção que o observador tem do fato. Pessoas
+- **Fenômeno**: é a percepção que o observador tem do fato. Pessoas
 diversas podem observar no mesmo fato fenômenos diferentes.
-- Paradigmas – constituem-se em referenciais teóricos que servirão
+- **Paradigmas**: constituem-se em referenciais teóricos que servirão
 de orientação para a opção metodológica de investigação.
-- Método Científico – é a expressão lógica do raciocínio associada à
+- **Método Científico**: é a expressão lógica do raciocínio associada à
 formulação de argumentos convincentes. Utiliza-se de:
-  - Termos – são palavras, declarações, significações convencionais que
+  - **Termos**: são palavras, declarações, significações convencionais que
 se referem a um objeto.
-  - Conceito – é a representação, expressão e interiorização daquilo que
+  - **Conceito**: é a representação, expressão e interiorização daquilo que
 a coisa é (compreensão da coisa).
-  - Definição – é a manifestação e apreensão dos elementos contidos no
+  - **Definição**: é a manifestação e apreensão dos elementos contidos no
 conceito, tratando de decidir em torno do que se duvida ou do que é
 ambivalente.
 
-Saber utilizar adequadamente termos, conceitos e definições significa
+*Saber utilizar adequadamente termos, conceitos e definições significa
 metodologicamente expressar na Ciência aquilo que o indivíduo
 sabe e quer transmitir
-
+*
 
 ---
 # Método científico
@@ -454,17 +576,17 @@ formal, em virtude de sua **lógica**.
 
 - Para Francis Bacon (1561-1626), o conhecimento científico é o único
 caminho seguro para a verdade dos fatos.
-- Como Galileu, critica Aristóteles por considerar que o silogismo e o
+- Como Galileu, critica Aristóteles por considerar que **o silogismo e o
 processo de abstração não propiciam um conhecimento completo do
-universo.
-- O conhecimento é fundamentado exclusivamente na experiência, sem levar
-em consideração princípios preestabelecidos.
+universo**.
+<!-- - O conhecimento é fundamentado exclusivamente na experiência, sem levar -->
+<!-- em consideração princípios preestabelecidos. -->
 - O conhecimento científico, para Bacon, tem por finalidade servir o
 homem e dar-lhe poder sobre a natureza.
 - Bacon, um dos fundadores do Método Indutivo, considera:
-  - as circunstâncias e a frequência com que ocorre determinado fenômeno
-  - os casos em que o fenômeno não se verifica
-  - os casos em que o fenômeno apresenta intensidade diferente
+  - as circunstâncias e a **frequência** com que ocorre determinado fenômeno
+  - os casos em que o fenômeno não se **verifica**
+  - os casos em que o fenômeno apresenta **intensidade diferente**
 
 ---
 # Método científico
@@ -498,17 +620,17 @@ prováveis**.
 - Método definido por Karl Popper, a partir de suas críticas ao método
 indutivo.
 - Para ele, o método indutivo não se justifica, pois o salto indutivo de
-“alguns” para “todos” exigiria que a observação de fatos isolados fosse
-infinita.
+“alguns” para “todos” exigiria que a **observação de fatos isolados fosse
+infinita**.
 - Pode ser explicado a partir do seguinte esquema:
 > PROBLEMA – HIPÓTESES – DEDUÇÃO DE CONSEQUÊNCIAS OBSERVADAS – TENTATIVA DE FALSEAMENTO – CORROBORAÇÃO
 
 - Para tentar explicar um problema, são formuladas hipóteses; destas
-deduzem-se consequências que deverão ser testadas ou falseadas.
+deduzem-se consequências que deverão ser testadas ou **falseadas**.
 - Falsear significa tentar tornar falsas as consequências deduzidas das
 hipóteses.
-- Enquanto no método dedutivo se procura confirmar a hipótese, no método
-hipotético-dedutivo se procuram evidências empíricas para derrubá-la.
+- Enquanto no método dedutivo se procura confirmar a hipótese, no **método
+hipotético-dedutivo se procuram evidências empíricas para derrubá-la**.
 - Quando não se consegue derrubar a hipótese, tem-se sua corroboração
 - Segundo Popper, a hipótese se mostra válida, pois superou todos os
 testes
@@ -516,6 +638,7 @@ testes
 momento poderá surgir um fato que a invalide.
 
 ---
+# Conclusões
 
 <!-- ### Entretanto -->
 
