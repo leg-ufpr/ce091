@@ -137,5 +137,27 @@ testes
 - Porém ela não é definitivamente confirmada, pois a qualquer
 momento poderá surgir um fato que a invalide.
 
----
-# Conclusões
+```{r, include=FALSE}
+
+cons <- seq(0, 8, length.out = 100)
+flock <- seq(0, 16, length.out = 100)
+plot(cons ~ flock)
+
+a <- 2
+b <- 0.2
+x <- flock
+## y <- (a * flock * exp(-b * flock)) * exp(log(rnorm(100)))
+set.seed(20)
+y <- abs((a * x * exp(-b * x)) + rnorm(100))
+plot(y ~ x)
+
+modA <- nls(y ~ a * x, start = list(a = 1))
+modB <- nls(y ~ (a * x/(1 + b * x)), start = list(a = 1, b = 0.1))
+modC <- nls(y ~ a * x * exp(-b * x), start = list(a = 1, b = 0.1))
+
+plot(y ~ x)
+lines(x, predict(modA), col = 1)
+lines(x, predict(modB), col = 2)
+lines(x, predict(modC), col = 3)
+
+```
