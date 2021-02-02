@@ -1,0 +1,141 @@
+---
+title: "Visões alternativas do método científico"
+author: "Fernando de Pol Mayer (LEG/DEST/UFPR)"
+date: |
+  | 2021-02-01
+  | Última atualização `r Sys.Date()`
+# bibliography: bib/ref.bib
+output:
+  xaringan::moon_reader:
+    css: ["default", "ibm-plex.css", "ibm-plex-fonts.css"]
+    self_contained: FALSE
+    nature:
+      ratio: "16:9"
+      highlightStyle: github
+      highlightLines: TRUE
+      countIncrementalSlides: FALSE
+---
+
+# Visões alternativas do método científico
+
+## Material baseado em:
+
+- Gerhardt, TE; Silveira, DT. [Métodos de
+   Pesquisa](https://www.lume.ufrgs.br/handle/10183/52806).
+   Porto Alegre: Editora da UFRGS, 2009.
+
+
+## Objetivos
+
+- Introduzir os conceitos-chave sobre a metodologia científica e a
+  produção de conhecimento
+
+- Caracterizar os diferentes tipos de conhecimento e seus pressupostos
+
+- Discutir o processo de construção do conhecimento científico
+
+---
+class: center, middle, inverse
+# Método científico
+
+
+---
+# Método científico
+
+## Método dedutivo
+
+- René Descartes (1596-1650) apresenta o Método Dedutivo a partir da
+matemática e de suas regras de evidência, análise, síntese e enumeração.
+- Esse método parte do geral e, a seguir, desce para o particular.
+- O protótipo do raciocínio dedutivo é o **silogismo**, que, a partir de
+duas proposições chamadas **premissas**, retira uma terceira chamada
+conclusão.
+- Exemplo:
+
+> Todo mamífero tem um coração.
+
+> Ora, todos os cães são mamíferos.
+
+> Logo, todos os cães têm um coração.
+
+- As duas premissas são verdadeiras, portanto a conclusão é verdadeira.
+- Parte-se de princípios reconhecidos como **verdadeiros e
+indiscutíveis**, possibilitando chegar a conclusões de maneira puramente
+formal, em virtude de sua **lógica**.
+- Este método tem larga aplicação na Matemática e na Física, cujos
+ princípios podem ser enunciados por leis.
+
+???
+
+Algum comnetário aqui
+
+---
+# Método científico
+
+## Método indutivo
+
+- Para Francis Bacon (1561-1626), o conhecimento científico é o único
+caminho seguro para a verdade dos fatos.
+- Como Galileu, critica Aristóteles por considerar que **o silogismo e o
+processo de abstração não propiciam um conhecimento completo do
+universo**.
+<!-- - O conhecimento é fundamentado exclusivamente na experiência, sem levar -->
+<!-- em consideração princípios preestabelecidos. -->
+- O conhecimento científico, para Bacon, tem por finalidade servir o
+homem e dar-lhe poder sobre a natureza.
+- Bacon, um dos fundadores do Método Indutivo, considera:
+  - as circunstâncias e a **frequência** com que ocorre determinado fenômeno
+  - os casos em que o fenômeno não se **verifica**
+  - os casos em que o fenômeno apresenta **intensidade diferente**
+
+---
+# Método científico
+
+## Método indutivo
+
+- Exemplo:
+
+> Antônio é mortal.
+
+> Benedito é mortal.
+
+> Carlos é mortal.
+
+> Zózimo é mortal.
+
+> Ora, Antônio, Benedito, Carlos, ... e Zózimo são homens.
+
+> Logo, (todos) os homens são mortais.
+
+- A partir da observação, é possível formular uma **hipótese
+explicativa** da causa do fenômeno.
+- Portanto, por meio da indução chega-se a **conclusões que são apenas
+prováveis**.
+
+---
+# Método científico
+
+## Método hipotético-dedutivo
+
+- Método definido por Karl Popper, a partir de suas críticas ao método
+indutivo.
+- Para ele, o método indutivo não se justifica, pois o salto indutivo de
+“alguns” para “todos” exigiria que a **observação de fatos isolados fosse
+infinita**.
+- Pode ser explicado a partir do seguinte esquema:
+> PROBLEMA – HIPÓTESES – DEDUÇÃO DE CONSEQUÊNCIAS OBSERVADAS – TENTATIVA DE FALSEAMENTO – CORROBORAÇÃO
+
+- Para tentar explicar um problema, são formuladas hipóteses; destas
+deduzem-se consequências que deverão ser testadas ou **falseadas**.
+- Falsear significa tentar tornar falsas as consequências deduzidas das
+hipóteses.
+- Enquanto no método dedutivo se procura confirmar a hipótese, no **método
+hipotético-dedutivo se procuram evidências empíricas para derrubá-la**.
+- Quando não se consegue derrubar a hipótese, tem-se sua corroboração
+- Segundo Popper, a hipótese se mostra válida, pois superou todos os
+testes
+- Porém ela não é definitivamente confirmada, pois a qualquer
+momento poderá surgir um fato que a invalide.
+
+---
+# Conclusões
