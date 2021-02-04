@@ -127,6 +127,24 @@ prováveis**.
 ---
 # Método científico
 
+## Aprendizado dedutivo-indutivo
+
+- O processo **dedutivo-indutivo** de aprendizado é orientado pelo
+  cérebro humano
+- É conhecido desde o tempo de Aristóteles e faz parte de nossa
+  **experiência cotidiana**
+
+O aprendizado avança conforme ilustrado na figura abaixo
+`r Citep(bib, "Box2005", before = "extraída de ")`:
+
+```{r, echo=FALSE, out.width='70%'}
+knitr::include_graphics("deduction-induction.png")
+## knitr::include_graphics("../img/deduction-induction.png")
+```
+
+---
+# Método científico
+
 ## Método hipotético-dedutivo
 
 - Método definido por Karl Popper, a partir de suas críticas ao método
@@ -149,32 +167,18 @@ testes
 - Porém ela não é definitivamente confirmada, pois a qualquer
 momento poderá surgir um fato que a invalide.
 
-```{r, include=FALSE}
-cons <- seq(0, 8, length.out = 100)
-flock <- seq(0, 16, length.out = 100)
-plot(cons ~ flock)
+---
+# Método científico
 
-a <- 2
-b <- 0.2
-x <- flock
-## y <- (a * flock * exp(-b * flock)) * exp(log(rnorm(100)))
-set.seed(20)
-y <- abs((a * x * exp(-b * x)) + rnorm(100))
-plot(y ~ x)
+## Um loop de feedback `r Citep(bib, "Box2005")`
 
-modA <- nls(y ~ a * x, start = list(a = 1))
-modB <- nls(y ~ (a * x/(1 + b * x)), start = list(a = 1, b = 0.1))
-modC <- nls(y ~ a * x * exp(-b * x), start = list(a = 1, b = 0.1))
-
-plot(y ~ x)
-lines(x, predict(modA), col = 1)
-lines(x, predict(modB), col = 2)
-lines(x, predict(modC), col = 3)
+```{r, echo=FALSE, out.width='60%'}
+knitr::include_graphics("feedback-loop.png")
 ```
 
 ---
 class: center, middle, inverse
-# Visões alternativas do método científico
+# Como a ciência funciona
 
 ---
 # Como a ciência funciona
@@ -446,6 +450,10 @@ Se a hipótese nula **não** for rejeitada
 > Apesar de ser a mais utilizada na estatística (e na ciência em geral), a
 visão Poperiana do método científico é apenas uma entre várias
 alternativas.
+
+---
+class: center, middle, inverse
+# Visões alternativas do método científico
 
 
 ---
@@ -765,47 +773,23 @@ $$
   - Mas e aí?
 
 ---
-# Como a ciência funciona
+# Visões alternativas do método científico
 
-## Aprendizado dedutivo-indutivo
+</br>
+</br>
 
-- O processo **dedutivo-indutivo** de aprendizado é orientado pelo
-  cérebro humano
-- É conhecido desde o tempo de Aristóteles e faz parte de nossa
-  **experiência cotidiana**
-
-O aprendizado avança conforme ilustrado na figura abaixo
-`r Citep(bib, "Box2005", before = "extraída de ")`:
-
-```{r, echo=FALSE, out.width='70%'}
-knitr::include_graphics("deduction-induction.png")
-## knitr::include_graphics("../img/deduction-induction.png")
-```
-
----
-# Como a ciência funciona
-
-## Um loop de feedback `r Citep(bib, "Box2005")`
-
-```{r, echo=FALSE, out.width='60%'}
-knitr::include_graphics("feedback-loop.png")
-```
-
----
-# Como a ciência funciona
-
-```{r, echo=FALSE, out.width='60%'}
-knitr::include_graphics("feynman.jpg")
-```
-
+.pull-left-40[
 > *As declarações da ciência não são sobre o que é verdade e o que não é
 verdade, mas declarações do que é conhecido com **diferentes graus de
 certeza** *
 
-@[ProfFeynman](https://twitter.com/ProfFeynman)
-
-
-
+> @[ProfFeynman](https://twitter.com/ProfFeynman)
+]
+.pull-right-60[
+```{r, echo=FALSE, out.width='80%'}
+knitr::include_graphics("feynman.jpg")
+```
+]
 
 ---
 class: center, middle, inverse
@@ -817,4 +801,27 @@ class: center, middle, inverse
 
 ```{r refs, echo=FALSE, results="asis"}
 PrintBibliography(bib)
+```
+
+```{r, include=FALSE, eval=FALSE}
+cons <- seq(0, 8, length.out = 100)
+flock <- seq(0, 16, length.out = 100)
+plot(cons ~ flock)
+
+a <- 2
+b <- 0.2
+x <- flock
+## y <- (a * flock * exp(-b * flock)) * exp(log(rnorm(100)))
+set.seed(20)
+y <- abs((a * x * exp(-b * x)) + rnorm(100))
+plot(y ~ x)
+
+modA <- nls(y ~ a * x, start = list(a = 1))
+modB <- nls(y ~ (a * x/(1 + b * x)), start = list(a = 1, b = 0.1))
+modC <- nls(y ~ a * x * exp(-b * x), start = list(a = 1, b = 0.1))
+
+plot(y ~ x)
+lines(x, predict(modA), col = 1)
+lines(x, predict(modB), col = 2)
+lines(x, predict(modC), col = 3)
 ```
