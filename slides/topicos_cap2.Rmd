@@ -2,7 +2,7 @@
 title: "Tipos de pesquisa científica"
 author: "Elias Teixeira Krainski, Fernando de Pol Mayer (LEG/DEST/UFPR)"
 date: |
-  | 2021-02-08
+  | 2021-02-18
   | Última atualização `r Sys.Date()`
 # bibliography: bib/ref.bib
 output:
