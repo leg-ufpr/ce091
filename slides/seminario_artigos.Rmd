@@ -1,0 +1,203 @@
+---
+title: "Seminários: como mentir com estatística"
+output:
+  html_document:
+    toc: false
+    code_folding: show
+---
+
+<!-- Retirado de  -->
+<!-- https://github.com/fernandomayer/ce082-2016-2/blob/gh-pages/02_sem_CME.Rmd -->
+
+# Introdução
+
+Seminário é uma técnica de estudo que inclui **pesquisa**, **discussão**
+e **debate**. Sua finalidade é **pesquisar e ensinar a pesquisar**, e
+visa mais a *formação* do que a *informação*. Essa técnica desenvolve
+não só a capacidade de pesquisa, de análise sistemática de fatos, mas
+também o hábito do **raciocínio** e a **capacidade de síntese**.
+
+Um seminário não pode ser apenas a reprodução de um tema. É necessário
+raciocinar (aprender) sobre o tema, sintetizar as principais ideias, e
+expor de maneira lógica e ordenada. A finalidade do seminário é expor
+ideias de maneira que todos na audiência entendam, e o processo para se
+chegar nesse resultado final também faz parte do aprendizado.
+
+# Tema
+
+O tema deste seminário será o livro [Como mentir com estatística][] de
+Darrell Huff. Cada um dos 10 capítulos do livro será o tema de seminário
+de um grupo.
+
+# Grupos
+
+Com 43 alunos, haverão 7 grupos com 4 integrantes, e 3 grupos com 5
+integrantes.
+
+Cada grupo deverá escolher:
+
+- **Organizador**: responsável por gerenciar as atividades do grupo. Faz
+  parte de suas atribuições marcar os encontros, coordenar o material do
+  seminário, e, de preferência, designar os trabalhos a cada componente.
+- **Relator(es)**: é aquele que apresenta o seminário. Pode ser uma só
+  pessoa, duas ou mais (até o máximo de membros do grupo). Apesar da
+  figura do relator, a responsabilidade pelo execução, apresentação e
+  conteúdo do seminário é de responsabilidade de todos do grupo.
+
+Além disso, cada grupo terá um "grupo comentador", ou seja, outro grupo
+que terá a tarefa de comentar, de maneira crítica e construtiva, sobre o
+seminário apresentado. Os membros do gupo comentador também deverão ler
+com antecedência o capítulo do livro do grupo que estará avaliando.
+
+Os grupos são os seguintes:
+
+- G1: Arthur (org), Rafael S., Wagner C., Davi P., Wagner R.
+- G2: Igor (org), Vanessa, Roger, Junot, Luan
+- G3: Luciana (org), Bianca, Rafael M., Letícia, Andressa
+- G4: Caroline (org), Carla, Gustavo, Pedro
+- G5: Wagner (org), Cristian, Eduardo, Ana Flavia
+- G6: Ariel (org), Allan, Fábio, Rafael M., Jayme
+- G7: Luka (org), Paulo, Luan, Moizes P.
+- G8: Alisson (org), Denis, Rodrigo, Jean
+- G9: Guilherme S. (org), Guilherme C., Lazaro S., Marcio Jr.
+- G10: Mirkon G. (org), Thiago A., William B.
+
+O capítulo do livro atribuído para cada grupo será sorteado da seguinte
+forma:
+
+```{r}
+grupo <- paste0("G", 1:10)
+set.seed(0811)
+caps <- paste0("cap", 1:10)
+caps <- sample(caps)
+```
+
+Os grupos comentadores serão sorteados com:
+
+```{r}
+set.seed(2504)
+gc <- sample(grupo)
+```
+
+Dessa forma, a tabela final com os grupos, capítulos e grupos
+comentadores está abaixo:
+
+```{r}
+da <- data.frame(Grupo = grupo,
+                 Capítulo = caps,
+                 Grupo_comentador = gc)
+kable(da)
+```
+
+**Observação**: o grupo comentador é o grupo que irá comentar sobre o
+seminário do grupo apresentador. Por exemplo, o G4 será o grupo
+comentador do seminário do G1, o G6 será o grupo comentador do G2, e
+assim por diante.
+
+# Roteiro
+
+O roteiro para o seminário é uma forma de "organizar as ideias" para a
+apresentação em si.
+
+O roteiro deverá conter os principais tópicos, em sequência, do que se
+espera para a apresentação. Deve ser de no máximo uma página, e não pode
+ser um mero resumo ou síntese dos tópicos (se houver) de cada capítulo.
+
+O roteiro deverá ser entregue **uma semana antes da apresentação** para
+o professor e para cada membro do grupo comentador.
+
+Modificações no roteiro podem ser feitas até a data da apresentação,
+desde que sejam entregues novos roteiros e comunicado no início da
+apresentação.
+
+# Etapas e conteúdo
+
+Para o desenvolvimento do seminário sugere-se seguir as seguintes
+etapas:
+
+- Determinar o tema central, que como um "fio condutor", estabelece a
+  ordenação da apresentação
+- Divisão do tema central em tópicos
+- Síntese das ideias do autor em cada tópico
+
+O **conteúdo** da apresentação deve (*obrigatoriamente*) seguir esta
+apresentação:
+
+- **Roteiro** (ou plano do seminário): a síntese (em tópicos) daquilo
+  que irá ser apresentado, para que a platéia possa se familiarizar
+  antecipadamente com a apresentação
+- **Introdução**: deve-se expor o tema, utilizando linguagem **pessoal**
+  na apresentação da proposição central.
+- **Conteúdo**: é a exposição das ideias do autor. Deve seguir as
+  seguintes regras:
+    - Deve ser apresentado dividido em unidades, com linguagem objetiva
+      e concisa, evitando maiores detalhes.
+    - A transcrição de trechos só deve ser feita quando extremamente
+      necessária.
+    - Deve-se evitar a reprodução de títulos e sub-títulos do texto
+      consultado.
+- **Conclusão**: deve-se fazer uma interpretação pessoal (do grupo)
+  sobre as ideias do autor.
+- **Grupo**: listar os membros do grupo e a contribuição de cada um para
+  o seminário.
+
+# Avaliação
+
+Os critérios a seguir deverão ser levados em conta na avaliação do
+professor, mas também devem ser utilizados pelos membros dos grupos
+comentadores e demais participantes do seminário.
+
+1. Sobre o procedimento na elaboração do seminário
+    - Exatidão com o tema proposto
+    - Planejamento:
+        - Sequência de desenvolvimento
+        - Adequação do roteiro com a apresentação
+    - Adequação do tema ao tempo disponível
+2. Sobre a exposição oral
+    - Qualidade da exposição
+        - Controle
+        - Voz e vocabulário
+        - Relacionamento com a classe
+    - Qualidade e quantidade de slides
+
+# Duração
+
+Cada grupo terá 15 minutos para fazer a exposição oral. Posteriormente,
+o grupo comentador e os demais alunos terão 5 minutos para fazerem
+comentários, perguntas ou sugestões.
+
+# Datas
+
+Considerando 20 minutos de apresentação e discussão, serão apresentados
+4 seminários (grupos) por aula, com início dia 26/09.
+
+O sorteio das datas e horários para cada grupo está abaixo:
+
+```{r}
+## Cria as datas
+datas <- c(as.Date("2016-09-26"),
+           as.Date("2016-10-03"),
+           as.Date("2016-10-10"))
+
+## Cria as horas
+horas <- seq(as.POSIXct("2016-09-26 20:40"),
+             as.POSIXct("2016-09-26 22:00"),
+             length = 5)[1:4]
+horas <- format(horas, "%H:%M")
+
+## Sorteio dos grupos para os três dias
+set.seed(2707)
+d1 <- sample(grupo, size = 4)
+d2 <- sample(grupo[-which(grupo %in% d1)], size = 4)
+d3 <- sample(grupo[-which(grupo %in% c(d1, d2))], size = 2)
+
+db <- data.frame(Data = rep(datas, each = 4),
+                 Hora = horas,
+                 Grupo = c(d1, d2, d3, NA, NA))
+kable(db)
+```
+
+
+
+
+[Como mentir com estatística]: http://www.intrinseca.com.br/livro/624/
