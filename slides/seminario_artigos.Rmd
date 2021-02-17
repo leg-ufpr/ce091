@@ -1,10 +1,32 @@
 ---
-title: "Seminários: como mentir com estatística"
+title: "Apresentação de seminários"
+author: "Fernando de Pol Mayer (LEG/DEST/UFPR)"
+date: |
+  | 2021-02-18
+  | Última atualização `r Sys.Date()`
+# bibliography: bib/ref.bib
 output:
-  html_document:
-    toc: false
-    code_folding: show
+  xaringan::moon_reader:
+    css: ["default", "ibm-plex.css", "ibm-plex-fonts.css"]
+    self_contained: FALSE
+    nature:
+      ratio: "16:9"
+      highlightStyle: github
+      highlightLines: TRUE
+      countIncrementalSlides: FALSE
 ---
+
+```{r, cache=FALSE, include=FALSE}
+source("setup_knitr.R")
+library(RefManageR)
+BibOptions(check.entries = FALSE,
+           bib.style = "authoryear",
+           cite.style = "authoryear",
+           style = "markdown",
+           hyperlink = FALSE,
+           dashed = FALSE)
+bib <- ReadBib("refs.bib", check = FALSE)
+```
 
 <!-- Retirado de  -->
 <!-- https://github.com/fernandomayer/ce082-2016-2/blob/gh-pages/02_sem_CME.Rmd -->
@@ -23,12 +45,14 @@ expor de maneira lógica e ordenada. A finalidade do seminário é expor
 ideias de maneira que todos na audiência entendam, e o processo para se
 chegar nesse resultado final também faz parte do aprendizado.
 
+---
 # Tema
 
 O tema deste seminário será o livro [Como mentir com estatística][] de
 Darrell Huff. Cada um dos 10 capítulos do livro será o tema de seminário
 de um grupo.
 
+---
 # Grupos
 
 Com 43 alunos, haverão 7 grupos com 4 integrantes, e 3 grupos com 5
@@ -94,6 +118,7 @@ seminário do grupo apresentador. Por exemplo, o G4 será o grupo
 comentador do seminário do G1, o G6 será o grupo comentador do G2, e
 assim por diante.
 
+---
 # Roteiro
 
 O roteiro para o seminário é uma forma de "organizar as ideias" para a
@@ -110,6 +135,7 @@ Modificações no roteiro podem ser feitas até a data da apresentação,
 desde que sejam entregues novos roteiros e comunicado no início da
 apresentação.
 
+---
 # Etapas e conteúdo
 
 Para o desenvolvimento do seminário sugere-se seguir as seguintes
@@ -141,6 +167,7 @@ apresentação:
 - **Grupo**: listar os membros do grupo e a contribuição de cada um para
   o seminário.
 
+---
 # Avaliação
 
 Os critérios a seguir deverão ser levados em conta na avaliação do
@@ -160,12 +187,14 @@ comentadores e demais participantes do seminário.
         - Relacionamento com a classe
     - Qualidade e quantidade de slides
 
+---
 # Duração
 
 Cada grupo terá 15 minutos para fazer a exposição oral. Posteriormente,
 o grupo comentador e os demais alunos terão 5 minutos para fazerem
 comentários, perguntas ou sugestões.
 
+---
 # Datas
 
 Considerando 20 minutos de apresentação e discussão, serão apresentados
@@ -196,8 +225,5 @@ db <- data.frame(Data = rep(datas, each = 4),
                  Grupo = c(d1, d2, d3, NA, NA))
 kable(db)
 ```
-
-
-
 
 [Como mentir com estatística]: http://www.intrinseca.com.br/livro/624/
