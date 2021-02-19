@@ -17,3 +17,4 @@ logo/
 .snm
 .toc
 slides/*.pdf
+slides/*.html
