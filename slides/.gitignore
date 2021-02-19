@@ -1,2 +1,6 @@
 *_files/
 *.log
+*.pdf
+*.html
+!pesq_publ_bras.pdf
+!wdata-br.pdf
