@@ -33,19 +33,28 @@ bib <- ReadBib("refs.bib", check = FALSE)
 
 # Introdução
 
-Seminário é uma técnica de estudo que inclui **pesquisa**, **discussão**
-e **debate**. Sua finalidade é **pesquisar e ensinar a pesquisar**, e
-visa mais a *formação* do que a *informação*. Essa técnica desenvolve
-não só a capacidade de pesquisa, de análise sistemática de fatos, mas
-também o hábito do **raciocínio** e a **capacidade de síntese**.
+- Seminário é uma técnica de estudo que inclui **pesquisa**, **discussão**
+e **debate**.
 
-Um seminário não pode ser apenas a reprodução de um tema. É necessário
-raciocinar (aprender) sobre o tema, sintetizar as principais ideias, e
-expor de maneira lógica e ordenada. A finalidade do seminário é expor
-ideias de maneira que todos na audiência entendam, e o processo para se
-chegar nesse resultado final também faz parte do aprendizado.
+- Sua finalidade é **pesquisar e ensinar a pesquisar**, e visa mais a
+*formação* do que a *informação*.
+
+- Essa técnica desenvolve não só a capacidade de pesquisa, de análise
+sistemática de fatos, mas também o hábito do **raciocínio** e a
+**capacidade de síntese**.
+
+- Um seminário não pode ser apenas a reprodução de um tema.
+
+- É necessário raciocinar (aprender) sobre o tema, sintetizar as
+principais ideias, e expor de maneira lógica e ordenada.
+
+- A finalidade do seminário é expor ideias de maneira que todos na
+audiência entendam, e o processo para se chegar nesse resultado final
+também faz parte do aprendizado.
 
 ---
+exclude: true
+
 # Tema
 
 O tema deste seminário será o livro [Como mentir com estatística][] de
@@ -53,6 +62,8 @@ Darrell Huff. Cada um dos 10 capítulos do livro será o tema de seminário
 de um grupo.
 
 ---
+exclude: true
+
 # Grupos
 
 Com 43 alunos, haverão 7 grupos com 4 integrantes, e 3 grupos com 5
@@ -119,6 +130,8 @@ comentador do seminário do G1, o G6 será o grupo comentador do G2, e
 assim por diante.
 
 ---
+exclude: true
+
 # Roteiro
 
 O roteiro para o seminário é uma forma de "organizar as ideias" para a
@@ -149,23 +162,24 @@ etapas:
 O **conteúdo** da apresentação deve (*obrigatoriamente*) seguir esta
 apresentação:
 
-- **Roteiro** (ou plano do seminário): a síntese (em tópicos) daquilo
-  que irá ser apresentado, para que a platéia possa se familiarizar
-  antecipadamente com a apresentação
 - **Introdução**: deve-se expor o tema, utilizando linguagem **pessoal**
   na apresentação da proposição central.
-- **Conteúdo**: é a exposição das ideias do autor. Deve seguir as
-  seguintes regras:
-    - Deve ser apresentado dividido em unidades, com linguagem objetiva
-      e concisa, evitando maiores detalhes.
-    - A transcrição de trechos só deve ser feita quando extremamente
-      necessária.
-    - Deve-se evitar a reprodução de títulos e sub-títulos do texto
-      consultado.
-- **Conclusão**: deve-se fazer uma interpretação pessoal (do grupo)
-  sobre as ideias do autor.
-- **Grupo**: listar os membros do grupo e a contribuição de cada um para
-  o seminário.
+- **Desenvolvimento**: expor como o artigo foi estruturado e
+  desenvolvido
+  - Quais foram os objetivos?
+  - Você consegue identificar a(s) pergunta(s) de pesquisa?
+  - Quais métodos foram utilizados para atingir os objetivos? (Não é
+    necessário entrar nos detalhes).
+  - Como você classificaria a pesquisa em relação à abordagem, natureza,
+    objetivos e procedimentos? (Ver slides).
+- **Conclusão**: deve-se fazer uma interpretação pessoal (ou da dupla)
+  sobre o **formato** do artigo
+  - O texto está escrito de forma clara e acessível?
+  - O texto segue uma linha de raciocínio lógica?
+  - Os autores conseguiram atingir os objetivos propostos?
+  - Você acha que o método proposto foi adequado? Teria alguma ideia
+    alternativa?
+
 
 ---
 # Avaliação
