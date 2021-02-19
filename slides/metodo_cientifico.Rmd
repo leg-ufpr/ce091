@@ -7,7 +7,7 @@ date: |
 # bibliography: bib/ref.bib
 output:
   xaringan::moon_reader:
-    css: ["default", "ibm-plex.css", "ibm-plex-fonts.css"]
+    css: ["default", "config/ibm-plex.css", "config/ibm-plex-fonts.css"]
     self_contained: FALSE
     nature:
       ratio: "16:9"
@@ -17,7 +17,7 @@ output:
 ---
 
 ```{r, cache=FALSE, include=FALSE}
-source("setup_knitr.R")
+source("config/setup_knitr.R")
 library(RefManageR)
 BibOptions(check.entries = FALSE,
            bib.style = "authoryear",
@@ -25,7 +25,7 @@ BibOptions(check.entries = FALSE,
            style = "markdown",
            hyperlink = FALSE,
            dashed = FALSE)
-bib <- ReadBib("refs.bib", check = FALSE)
+bib <- ReadBib("config/refs.bib", check = FALSE)
 ```
 
 # Visões alternativas do método científico
@@ -145,7 +145,7 @@ O aprendizado avança conforme ilustrado na figura abaixo
 `r Citep(bib, "Box2005", before = "extraída de ")`:
 
 ```{r, echo=FALSE, out.width='70%'}
-knitr::include_graphics("deduction-induction.png")
+knitr::include_graphics("img/deduction-induction.png")
 ## knitr::include_graphics("../img/deduction-induction.png")
 ```
 
@@ -194,7 +194,7 @@ momento poderá surgir um fato que a invalide.
 ## Um loop de feedback `r Citep(bib, "Box2005")`
 
 ```{r, echo=FALSE, out.width='60%'}
-knitr::include_graphics("feedback-loop.png")
+knitr::include_graphics("img/feedback-loop.png")
 ```
 
 ---
@@ -330,7 +330,7 @@ espécie em uma lagoa.
 .pull-right[
 ```{r, echo = FALSE, out.width = '70%', fig.cap = cap}
 cap <- "Proporções amostrais supondo \\(p=0.5\\) na população."
-knitr::include_graphics("hypothesis-test-intuition.png")
+knitr::include_graphics("img/hypothesis-test-intuition.png")
 ```
 ]
 
@@ -814,7 +814,7 @@ certeza** *
 ]
 .pull-right-60[
 ```{r, echo=FALSE, out.width='80%'}
-knitr::include_graphics("feynman.jpg")
+knitr::include_graphics("img/feynman.jpg")
 ```
 ]
 
