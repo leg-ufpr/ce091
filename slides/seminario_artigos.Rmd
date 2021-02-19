@@ -52,14 +52,132 @@ principais ideias, e expor de maneira lógica e ordenada.
 audiência entendam, e o processo para se chegar nesse resultado final
 também faz parte do aprendizado.
 
+- Na disciplina de **Métodos de Pesquisa**, o seminário terá um caráter
+  ainda mais metodológico e formativo
+
 ---
-exclude: true
+# Objetivos
 
-# Tema
+## Objetivo geral
 
-O tema deste seminário será o livro [Como mentir com estatística][] de
-Darrell Huff. Cada um dos 10 capítulos do livro será o tema de seminário
-de um grupo.
+O objetivo geral é fazer uma análise crítica sobre um artigo científico.
+
+## Objetivos específicos
+
+- Aprender a encontrar artigos científicos relevantes para sua pesquisa
+- Aprender a identificar o tipo de pesquisa exposta no artigo, quanto a
+  alguns critérios
+- Aprender a identificar os objetivos e os métodos utilizados pelos
+  autores para atingir esses objetivos
+- Fazer um julgamento crítico (pessoal) sobre a forma e o conteúdo do
+  artigo (sem se aprofundar no método em si)
+
+---
+# Sobre o artigo
+
+.pull-left-60[
+## Tema
+
+- O tema do artigo deve estar preferencialmente relacionado ao tema do
+seu projeto de pesquisa.
+- Temas paralelos e/ou isolados podem também ser utilizados, por exemplo
+  - Se o seu tema geral de pesquisa for "aplicar o método X para
+    resolver o problema Y", o artigo pode ser sobre
+    - a aplicação do método X para resolver o problema Y (ideal)
+    - a aplicação ou exposição ou revisão do método X
+    - qual é o problema Y e por que ele deveria ser objeto de estudo
+]
+.pull-right-40[
+## Tipo de publicação
+
+- O artigo deve **obrigatoriamente** ser um artigo científico, ou seja,
+  estão excluídos: artigos em blogs, sites, jornais, revistas ou
+  qualquer outro meio, tutoriais online, etc.
+- Os artigos científicos devem ter sido publicados preferencialmente em
+  **revistas científicas com avaliação por pares**. No entanto isso não
+  exclui artigos publicados em anais de congresso, por exemplo (desde
+  que não seja resumo)
+]
+
+## Busca
+
+- Evite usar o Google para pesquisar em revistas científicas, pois a
+  busca geral trará informações de diversos meios não necessariamente
+  científicos
+- Use o Google Scholar ou Google Acadêmico (https://scholar.google.com/)
+  para fazer a busca. Essa ferramenta procura apenas em revistas
+  científicas
+
+
+
+---
+# Etapas e conteúdo
+
+O **conteúdo** da apresentação deve **obrigatoriamente** seguir esta
+sequência:
+
+- **Introdução**: deve-se expor o tema, utilizando linguagem **pessoal**
+  na apresentação da proposição central.
+  - Aonde o artigo foi publicado? (Revista científica, congresso, etc).
+  - Do que se trata o artigo?
+  - Por que isso é importante ser estudado?
+  - Como o artigo está estruturado? (Introdução, metodologia, etc).
+- **Desenvolvimento**: expor como o artigo foi estruturado e
+  desenvolvido
+  - Quais foram os objetivos?
+  - Você consegue identificar a(s) pergunta(s) de pesquisa?
+  - Quais métodos foram utilizados para atingir os objetivos? (Não é
+    necessário entrar nos detalhes).
+  - Como você classificaria a pesquisa em relação à abordagem, natureza,
+    objetivos e procedimentos? (Ver slides).
+- **Conclusão**: deve-se fazer uma interpretação pessoal (ou da dupla)
+  sobre o **formato** do artigo
+  - O texto está escrito de forma clara e acessível?
+  - O texto segue uma linha de raciocínio lógica?
+  - Os autores conseguiram atingir os objetivos propostos?
+  - Você acha que o método proposto foi adequado? Teria alguma ideia
+    alternativa?
+
+<!-- Para o desenvolvimento do seminário sugere-se seguir as seguintes -->
+<!-- etapas: -->
+
+<!-- - Identificar o problema de pesquisa e os objetivos -->
+<!-- - Identificar o método proposto -->
+<!-- - Verificar se os objetivos foram alcançados -->
+
+
+---
+# Avaliação
+
+Os critérios a seguir deverão ser levados em conta na avaliação do
+professor
+
+1. Sobre o procedimento na elaboração do seminário
+  - Escolha de artigo/tema relevante
+  - Planejamento:
+     - Sequência de desenvolvimento
+     - Adequação das etapas obrigatórias (slide anterior)
+  - Adequação da apresentação ao tempo disponível
+  - Verificar se as perguntas (slide anterior) foram respondidas
+2. Sobre a exposição oral
+  - Qualidade da exposição
+     - Controle
+     - Voz e vocabulário
+  - Qualidade e quantidade de slides
+
+
+---
+# Duração e datas
+
+## Duração
+
+- Cada aluno (ou dupla) terá 10 minutos para fazer a exposição oral
+- Poderá haver de 2 a 3 minutos para comentários ao final de cada
+  apresentação
+
+## Datas
+
+- Os seminários serão apresentados no dia 01/03/2021 (segunda-feira)
 
 ---
 exclude: true
@@ -147,97 +265,3 @@ o professor e para cada membro do grupo comentador.
 Modificações no roteiro podem ser feitas até a data da apresentação,
 desde que sejam entregues novos roteiros e comunicado no início da
 apresentação.
-
----
-# Etapas e conteúdo
-
-Para o desenvolvimento do seminário sugere-se seguir as seguintes
-etapas:
-
-- Determinar o tema central, que como um "fio condutor", estabelece a
-  ordenação da apresentação
-- Divisão do tema central em tópicos
-- Síntese das ideias do autor em cada tópico
-
-O **conteúdo** da apresentação deve (*obrigatoriamente*) seguir esta
-apresentação:
-
-- **Introdução**: deve-se expor o tema, utilizando linguagem **pessoal**
-  na apresentação da proposição central.
-- **Desenvolvimento**: expor como o artigo foi estruturado e
-  desenvolvido
-  - Quais foram os objetivos?
-  - Você consegue identificar a(s) pergunta(s) de pesquisa?
-  - Quais métodos foram utilizados para atingir os objetivos? (Não é
-    necessário entrar nos detalhes).
-  - Como você classificaria a pesquisa em relação à abordagem, natureza,
-    objetivos e procedimentos? (Ver slides).
-- **Conclusão**: deve-se fazer uma interpretação pessoal (ou da dupla)
-  sobre o **formato** do artigo
-  - O texto está escrito de forma clara e acessível?
-  - O texto segue uma linha de raciocínio lógica?
-  - Os autores conseguiram atingir os objetivos propostos?
-  - Você acha que o método proposto foi adequado? Teria alguma ideia
-    alternativa?
-
-
----
-# Avaliação
-
-Os critérios a seguir deverão ser levados em conta na avaliação do
-professor, mas também devem ser utilizados pelos membros dos grupos
-comentadores e demais participantes do seminário.
-
-1. Sobre o procedimento na elaboração do seminário
-    - Exatidão com o tema proposto
-    - Planejamento:
-        - Sequência de desenvolvimento
-        - Adequação do roteiro com a apresentação
-    - Adequação do tema ao tempo disponível
-2. Sobre a exposição oral
-    - Qualidade da exposição
-        - Controle
-        - Voz e vocabulário
-        - Relacionamento com a classe
-    - Qualidade e quantidade de slides
-
----
-# Duração
-
-Cada grupo terá 15 minutos para fazer a exposição oral. Posteriormente,
-o grupo comentador e os demais alunos terão 5 minutos para fazerem
-comentários, perguntas ou sugestões.
-
----
-# Datas
-
-Considerando 20 minutos de apresentação e discussão, serão apresentados
-4 seminários (grupos) por aula, com início dia 26/09.
-
-O sorteio das datas e horários para cada grupo está abaixo:
-
-```{r}
-## Cria as datas
-datas <- c(as.Date("2016-09-26"),
-           as.Date("2016-10-03"),
-           as.Date("2016-10-10"))
-
-## Cria as horas
-horas <- seq(as.POSIXct("2016-09-26 20:40"),
-             as.POSIXct("2016-09-26 22:00"),
-             length = 5)[1:4]
-horas <- format(horas, "%H:%M")
-
-## Sorteio dos grupos para os três dias
-set.seed(2707)
-d1 <- sample(grupo, size = 4)
-d2 <- sample(grupo[-which(grupo %in% d1)], size = 4)
-d3 <- sample(grupo[-which(grupo %in% c(d1, d2))], size = 2)
-
-db <- data.frame(Data = rep(datas, each = 4),
-                 Hora = horas,
-                 Grupo = c(d1, d2, d3, NA, NA))
-kable(db)
-```
-
-[Como mentir com estatística]: http://www.intrinseca.com.br/livro/624/
