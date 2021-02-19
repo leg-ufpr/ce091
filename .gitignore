@@ -16,5 +16,3 @@ logo/
 .out
 .snm
 .toc
-slides/*.pdf
-slides/*.html
