@@ -822,6 +822,11 @@ knitr::include_graphics("feynman.jpg")
 class: center, middle, inverse
 # Referências
 
+```{r, include=FALSE, eval=FALSE}
+## Para gerar o PDF
+xaringanBuilder::build_pdf("metodo_cientifico.Rmd")
+```
+
 
 ---
 # Referências
