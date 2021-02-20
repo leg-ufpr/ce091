@@ -7,7 +7,7 @@ date: |
 # bibliography: bib/ref.bib
 output:
   xaringan::moon_reader:
-    css: ["default", "ibm-plex.css", "ibm-plex-fonts.css"]
+    css: ["default", "config/ibm-plex.css", "config/ibm-plex-fonts.css"]
     self_contained: FALSE
     nature:
       ratio: "16:9"
@@ -17,7 +17,7 @@ output:
 ---
 
 ```{r, cache=FALSE, include=FALSE}
-source("setup_knitr.R")
+source("config/setup_knitr.R")
 library(RefManageR)
 BibOptions(check.entries = FALSE,
            bib.style = "authoryear",
@@ -25,7 +25,7 @@ BibOptions(check.entries = FALSE,
            style = "markdown",
            hyperlink = FALSE,
            dashed = FALSE)
-bib <- ReadBib("refs.bib", check = FALSE)
+bib <- ReadBib("config/refs.bib", check = FALSE)
 ```
 
 # A construção da pesquisa
@@ -38,153 +38,211 @@ bib <- ReadBib("refs.bib", check = FALSE)
 
 ## Objetivos
 
+- Conhecer os eixos e as etapas que compõem um projeto de pesquisa
+- Compreender a importância do projeto para a realização da pesquisa
+  científica
 
 ---
 class: center, middle, inverse
 # Introdução
 
 ---
-# Introdução
+# Antes de começar...
 
-## Introdução
+## Algumas condutas que dificultam começar (ou começar mal) uma pesquisa
 
-- Etapas: aspectos teóricos e conceituais
-- Eixos e etapas de um projeto de pesquisa
-- Importância do projeto
+- No início sabemos muito pouco aquilo que queremos estudar
 
-## Más condutas
+- Desejamos que o trabalho seja útil e que possamos chegar ao fim
 
-- No início pouco se sabe
-- Sensação de se perder mesmo antes de iniciar
-- Problema: como sair disso
+- Sensação de se perder mesmo antes de ter começado
+
+- **Como sair disso?**
 
 --
 
-- Caos inicial não deve ser fonte de preocupação. Causas:
-    - marca de espírito inquieto
-    - não alimentação de simplismos e certezas prontas
-
---
-
-- Fuga antecipada:
-    - gulodice livresca ou estatística
-    - impasse das hipóteses
-    - ênfase obscura
+- Isso pode ser chamado de fuga antecipada e pode se dar de três formas
+  - Gulodice livresca ou estatística
+  - Impasse das hipóteses
+  - Ênfase obscura
 
 ---
+# Algumas condutas que dificultam começar (ou começar mal) uma pesquisa
+
 ## Gulodice livresca ou estatística
 
-- Demasiado livros, artigos, dados pode gerar desmotivação
+- "Encher a cabeça" com grande quantidade de livros, artigos e dados
+  pode gerar desmotivação
 
---
+- A abundância de informações mal absorvidas leva a embaralhar ainda
+  mais as ideias. O que fazer:
+  - Refletir mais
+  - Ler poucos textos bem escolhidos
+  - Interpretar judiciosamente dados significativos
 
-- Refletir mais
-- Ler poucos textos bem escolhidos
-- Interpretar judiciosamente dados significativos
+- É preferível escolher o caminho mais simples e mais curto para chegar
+  ao melhor resultado
 
---
+- Não devemos nos engajar em um trabalho importante sem antes termos
+  refletido sobre o que queremos saber e de que forma proceder
 
-- Preferível o caminho mais simples
-- Descongestionar o cérebro
-- Pensar de forma ordenada e criativa
+- Descongestionar o cérebro de números e palavras é o primeiro passo
+  para começar a pensar de forma ordenada e criativa
 
 ---
+# Algumas condutas que dificultam começar (ou começar mal) uma pesquisa
+
 ## Impasse das hipóteses
 
-- Coleta de dados antes de formular hipóteses
-- Prática antes de definir objetivos
+- Coleta de dados antes de formular hipóteses de pesquisa
 
---
+- Colocar em prática as técnicas de pesquisa antes de saber o que se vai
+  pesquisar
+  - É comum querer fazer alguma análise sem pensar na hipótese de
+  trabalho
 
-- Escolha da técnica após objetivos claros
-- Definir bem o projeto de pesquisa
-- Não vale ter boas técnicas e projeto mal definido
+- Só podemos escolher uma técnica de investigação se tivermos uma ideia
+  dos dados que queremos/precisamos coletar (*o contrário também é
+  verdadeiro*)
+  - Para responder a pergunta X, que dados são necessários?
+  - Com os dados Y, qual técnica posso utilizar para responder à
+    pergunta X?
 
---
+- Isso implica que devemos definir muito bem o projeto de pesquisa
 
-- Coleta de dados após
-     - problematização e questões pertinentes definidas
+- Esse tipo de fuga por antecipação é comum, e decorrente das crenças de
+  que:
+  - o uso das técnicas de pesquisa determina o valor intelectual e o
+    caráter científico do trabalho
+  - basta acumular um grande número de informações sobre o tema e
+    submetê-lo a uma variedade de técnicas estatísticas para se obter
+    uma resposta
 
 ---
+# Algumas condutas que dificultam começar (ou começar mal) uma pesquisa
+
 ## Ênfase obscura
 
-- Impressão e intimidação incial
-- Falso crédito à expressão rebuscada
+.pull-left[
+- É comum que pesquisadores iniciantes sejam impressionados e
+  intimidados pelo que eles pensam ser a ciência
+- Para assegurar uma credibilidade, acreditam ser útil expressar-se de
+uma forma "difícil" e incompreensível
+- Seguidamente, muitos também continuam a raciocinar dessa forma
+- Isso implica em duas formas dominates de projetos de pesquisa:
+  - **Ambição desmesurada**: acredita-se que o problema é dos outros, da
+    forma de ensino, do seu país em desenvolvivmento, etc
+  - **Confusão total**: utiliza uma linguagem enfática, mas ao mesmo
+    tempo vazia, que dificilmente esconde um projeto vazio e
+    desinteressante
+]
+.pull-right[
+- É preciso saber definir todas as palavras utilizadas e explicar todas
+  as frases formuladas
 
---
+- Isso implica na necessidade de se utilizar uma linguagem clara e
+  objetiva, mas ao mesmo tempo científica e acadêmica
 
-- Ambição desmesurada e confusão
-    - reconstrução industrial
-    - futuro do ensino
-    - destino de países em desenvolvimento
+- É um exercício difícil, mas extremamente importante para que todos os
+  conceitos e termos façam sentido e não sejam colocados por mero acaso
+  (o famoso "encher linguiça")
 
---
-
-- Claresa e objetividade: exercício difícil
-- Sugestões para esse problema:
-    - sistematização de palavras utilizadas
-    - explicação de todas as frases
-    - dar sentido a cada conceito e termo
+- Num texto científico, cada palavra e cada conceito tem muito peso,
+  pois apresenta um ponto de vista de cada pesquisador
+]
 
 ---
-# Elaboração da pesquisa científica: 3 eixos
+class: center, middle, inverse
+# Os três grandes eixos da pesquisa
+
+---
+# Os três grandes eixos da pesquisa
 
 ## Eixo 1: Ruptura
 
-- Bagagem "teórica" possui várias armadilhas
-- Ideas inspiradas em aparências imediatas e partidarismos
-    - terreno "arenoso"
+- Nossa bagagem "teórica" possui várias armadilhas
 
---
+- Ideias inspiradas em aparências imediatas e partidarismos
+  - Geralmente ilusórias e preconceituosas
+  - Construir uma pesquisa nessas bases é construí-la sobre um "terreno
+    arenoso"
 
-- Importância de rompimento
-    - ruptura guia a um sitema conceitual organizado
-    - susetível de expressar a lógica
+- Importância da ruptura
+  - Romper com as ideias preconcebidas e com falsas evidências que nos
+    dão somente a ilusão de compreender as coisas
 
---
+- Contempla as etapas iniciais da pesquisa (etapa 1):
+  - Questão inical
+  - Exploração (leitura, coleta de dados exploratória)
 
-- Contempla duas etapas iniciais da pesquisa:
-    - Questão inical
-    - Exploração (leitura, coleta de dados exploratória)
 
 ---
-## Eixo 2: Contrução
+# Os três grandes eixos da pesquisa
 
-- Após ruptura:
-     - construção de propostas
-     - elaboração de plano de pesquisa
-     - operações necessárias para a operacionalização
+## Eixo 2: Construção
 
---
+- A ruptura só se efetua ao nos referirmos a um sistema conceitual
+  organizado, suscetível de expressar a lógica que se supõe ser a base
+  do objeto em estudo
 
-- Necessário para validação da pesquisa
-- Proposta com resistência à prova
-- Propostas explicativas:
-     - produto de trabalho fundamentado
-     - logicamente e conceitualmente validamente constituído
+- Só assim é possível:
+  - construir as propostas explicativas do objeto em estudo
+  - elaborar o plano de pesquisa
+  - definir as operações necessárias a serem colocadas em prática
+  - descrever os resultados esperados ao final da pesquisa
 
---
+- Sem essa construção teórica, não há pesquisa válida, pois não podemos
+  submeter a prova qualquer proposta
+
+- As propostas explicativas devem ser produto de um trabalho
+  fundamentado numa lógica e num sistame conceitual validamente
+  constituído
 
 - Contempla as etapas 3 e 4 da pesquisa:
-    - Problemática
-    - Construção do modelo de análsie
+  - Problemática
+  - Construção do modelo de análsie
+
+<!-- - Após ruptura: -->
+<!--      - construção de propostas -->
+<!--      - elaboração de plano de pesquisa -->
+<!--      - operações necessárias para a operacionalização -->
+<!-- - Necessário para validação da pesquisa -->
+<!-- - Proposta com resistência à prova -->
+<!-- - Propostas explicativas: -->
+<!--      - produto de trabalho fundamentado -->
+<!--      - logicamente e conceitualmente validamente constituído -->
+<!-- - Contempla as etapas 3 e 4 da pesquisa: -->
+<!--     - Problemática -->
+<!--     - Construção do modelo de análsie -->
 
 ---
+# Os três grandes eixos da pesquisa
+
 ## Eixo 3: Constatação
 
-- O _status_ científico:
-    - se suscetível à verificação por informações reais concretas
+- Uma proposta de pesquisa tem direito ao *status* científico quando
+  - ela é suscetível de ser verificada por informações da realidade
+    concreta
 
-- Essa comprovação de fatos:
-    - chamada de constatação
-    - experimentação
+- Essa comprovação de fatos é chamada de **constatação** ou
+  **experimentação**
 
---
+- Corresponde às 3 etapas finais da pesquisa:
+  - Coleta de dados
+  - Análise das informações
+  - Conclusões
 
-- Contempla as 3 etapas finais da pesquisa:
-    - Coleta de dados
-    - Análise das informações
-    - Conclusões
+
+<!-- - O _status_ científico: -->
+<!--     - se suscetível à verificação por informações reais concretas -->
+<!-- - Essa comprovação de fatos: -->
+<!--     - chamada de constatação -->
+<!--     - experimentação -->
+<!-- - Contempla as 3 etapas finais da pesquisa: -->
+<!--     - Coleta de dados -->
+<!--     - Análise das informações -->
+<!--     - Conclusões -->
+
 
 ---
 # Sete etapas da pesquisa
