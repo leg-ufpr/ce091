@@ -51,7 +51,7 @@ class: center, middle, inverse
 
 ## Algumas condutas que dificultam começar (ou começar mal) uma pesquisa
 
-- No início sabemos muito pouco aquilo que queremos estudar
+- No início sabemos muito pouco sobre aquilo que queremos estudar
 
 - Desejamos que o trabalho seja útil e que possamos chegar ao fim
 
@@ -155,6 +155,19 @@ uma forma "difícil" e incompreensível
 class: center, middle, inverse
 # Os três grandes eixos da pesquisa
 
+Ruptura
+
+Construção
+
+Constatação
+
+---
+# Os três grandes eixos da pesquisa
+
+```{r, echo=FALSE, out.width="50%"}
+knitr::include_graphics("img/sete_etapas_pesquisa.png")
+```
+
 ---
 # Os três grandes eixos da pesquisa
 
@@ -171,7 +184,7 @@ class: center, middle, inverse
   - Romper com as ideias preconcebidas e com falsas evidências que nos
     dão somente a ilusão de compreender as coisas
 
-- Contempla as etapas iniciais da pesquisa (etapa 1):
+- Contempla as etapas iniciais da pesquisa (etapas 1 e 2):
   - Questão inical
   - Exploração (leitura, coleta de dados exploratória)
 
@@ -195,7 +208,7 @@ class: center, middle, inverse
   submeter a prova qualquer proposta
 
 - As propostas explicativas devem ser produto de um trabalho
-  fundamentado numa lógica e num sistame conceitual validamente
+  fundamentado numa lógica e num sistema conceitual validamente
   constituído
 
 - Contempla as etapas 3 e 4 da pesquisa:
@@ -243,120 +256,242 @@ class: center, middle, inverse
 <!--     - Análise das informações -->
 <!--     - Conclusões -->
 
+---
+class: center, middle, inverse
+# As sete etapas da pesquisa
 
 ---
-# Sete etapas da pesquisa
+# As sete etapas da pesquisa
 
-## Sete etapas da pesquisa
-
-\centerline{\includegraphics[width=0.6\textwidth]{figs/pesquisa-7etapas.png}}
-
-Fonte: \url{https://blog.fastformat.co/as-sete-etapas-da-pesquisa-cientifica/}
+```{r, echo=FALSE, fig.cap=cap, out.width="50%"}
+cap <- "Fonte: https://blog.fastformat.co/as-sete-etapas-da-pesquisa-cientifica"
+knitr::include_graphics("img/sete_etapas_pesquisa.png")
+```
 
 ---
 ## 1. Questão incial
 
 - Formular um projeto a partir de uma questão inical
-    - expressar o que se busca conhecer, elucidar, compreender
-    - fio condutor da pesquisa
-    - Clareza, exequiblidade, pertinência
 
---
+- Deve ser o fio condutor da pesquisa
 
-\centerline{\includegraphics[width=0.99\textwidth]{figs/QUIVY_CAMPENHOUDT-1995p38.png}}
+- Deve expressar o que se busca conhecer, elucidar, compreender
+
+- Deve apresentar clareza, exequiblidade, pertinência
+  - Qualidades de clareza:
+     - Ser precisa
+     - Ser concisa e unívoca
+  - Qualidades de exequibilidade:
+     - Ser realista
+  - Qualidades de pertinência
+     - Ser uma questão verdadeira
+     - Abordar o que já existe sobre o tema e fundamentar as
+       transformações do novo estudo sobre o tema
 
 ---
-## 2. Exploração: Leitura e coleta de dados exploratória
+## 2. Exploração: leitura e coleta de dados exploratórios
 
-Leitura
+.pull-left[
+### Leituras
 
-- Escolher textos de síntese num primeiro momento
-    - seguida por textos que tenham análise e interpretações
-- Escolher textos que apresentem abordagens e enfoques diferentes
+- Critérios de escolha
+  - Escolher textos de síntese num primeiro momento (seguido por textos
+    que tenham análise e interpretações)
+  - Escolher textos que apresentem abordagens e enfoques diferentes
+  - Consulte pessoas informadas sobre o tema
+  - Locais de busca (biblioteca, internet, etc)
+- Informação inicial das pesquisas já realizadas sobre o tema e
+contribuições para o projeto
+- Como ler
+  - Resumir: evidenciar ideias principais e suas articulações
+  - Tente tornar claro o pensamento do autor (tente explicar para você mesmo)
+]
+.pull-right[
+### Informações exploratórias
 
-- Resumir: Evidenciar idéias principais e suas articulações
-    - qualidade do resumo é diretamente proporcional à qualidade da leitura
-
---
-
-Informações exploratórias
-
+- Complemento às leituras
 - Entrevistas, observações, dados secundários, documentos, entre outros
-- Permite tomar consciência de aspectos que experiência e leituras não puderam evidenciar
+- Permite tomar consciência de aspectos que experiência e leituras não
+  puderam evidenciar
+- O objetivo não consiste em validar as ideias preconcebidas, mas em
+encontrar outras ideias
+- Três tipos de interlocutores são interessantes
+  - especialistas científicos sobre o tema em estudo
+  - informantes privilegiados
+  - pessoas diretamente envolvidas
+- Ao final desta etapa, o pesquisador poderá ser levado a reformular sua questão
+inicial
+
+]
 
 ---
 ## 3. Problemática
 
-- Abordagem teórica a ser adotada
-    - elucidar as perspectivas teóricas por trás de diferente abordagens
-    - adotar um quadro teórico conveniente e adaptável ao problema
+.pull-left[
+- Abordagem ou perspectiva teórica a ser adotada
+- Significa responder a questão: **como vou abordar tal objeto**?
+- Dois momentos:
+  - Primeiro momento
+     - Levantamento das problemáticas possíveis e comparação
+     - Elucidar as perspectivas teóricas por trás de diferente
+       abordagens
+  - Segundo momento
+     - Explicitar sua própria problemática
+     - Adotar um quadro teórico que convém e que temos a capacidade de
+       dominar o suficiente
+     - Reformular a questão inicial de forma que ela se torne a questão
+       central da pesquisa
+]
+.pull-right[
+- A formulação da questão inicial
+- As leituras
+- As observações exploratórias
+- A problemática
 
---
+são componentes complementares de um processo em *espiral* onde se efetua
+a **ruptura** e onde se elaboram os fundamentos do **modelo de análise**
+(etapa 4) que **operacionalizará** a abordagem escolhida
 
 - A exploração conduz à elaboração da problemática, que reporta novamete à
-leitura e coleta de dados iniciais (ver flechas de retroação na figura das etapas)
+leitura e coleta de dados iniciais (ver flechas no desenho)
+]
 
 ---
 ## 4. Construção do modelo de análise
 
+.pull-left[
 - Elaborar as hipóteses ou questões de estudo
-     - estas deve ser respondidas (ou não) a partir de conceitos ou modelos teóricos
-- Conceitos e hipóteses interligados para formar conjuntamente um quadro de análise coerente
+  - devem ser respondidas a partir de conceitos ou **modelos
+    teóricos**
+- É um prolongamento natural da **problemática**
+- É a **operacionalização** da abordagem teórica, que guiará o trabalho de
+  coleta e análise de dados
+- A construção de conceitos é abstrata e tenta dar conta do real
+  - mas não dá conta de todas as dimensões da realidade
+  - expressa somente o essencial segundo o ponto de vista do pesquisador
+<!-- - Conceitos e hipóteses devem ser  interligadas para formar -->
+  <!-- conjuntamente um quadro de análise coerente -->
+- Métodos principais de construção das hipóteses
+  - **hipotético-indutivo**, prevalece inicialmente
+     - parte da observação, derivando novos conceitos e hipóteses
+  - **hipotético-dedutivo**, quando há idéias conceituais
+     - parte de um postulado ou conceito geral
+]
 
---
-
-- Dois métodos de construção das hipóteses
-    - hipotético-indutivo, prevalece inicialmente
-        - parte da observação, derivando novos conceitose indicadores
-    - hipotético-dedutivo, quando há idédias conceituais
-        - parte de um postulado ou conceito
+.pull-right[
+```{r, echo=FALSE, out.width="90%"}
+knitr::include_graphics("img/metodos_hipoteticos.png")
+```
+]
 
 ---
 ## 5. Coleta de dados
 
-- O que coletar
-    - dados úteis para testar as hipóteses
+.pull-left[
+Conceber essa etapa deve levar em conta três questões a serem respondidas
 
---
+- **O que coletar**
+  - dados úteis para testar as hipóteses
 
-- Com quem coletar
-    - recorte num espaço geográfico, temporal e social
-    - amostra representativa (quantitativamente) ou ilustrativa (qualitativamente)
+- **Com quem coletar**
+  - recorte num espaço geográfico, temporal e social
+  - amostra representativa (quantitativamente) ou ilustrativa (qualitativamente)
 
---
+- **Como coletar**
+  - Instrumentos de coleta
+     - capaz de fornecer informações necessárias e relevantes
+     - testar, assegurando adequação e precisão
+     - colocar sistematicamente em prática
+]
+.pull-right[
 
-- Como coletar
-    - Instrumentos
-        - capaz de fornecer informações necessárias e relevantes
-        - testar, assegurando adequação e precisão
-        - colocar sistematicamente em prática
+- Obter informações de forma que se possa aplicar posteriormente o
+tratamento necessário para testar as hipóteses
+
+- É necessário se preocupar desde o início com o tipo de dado a ser
+coletado, dependendo da análise que deverá ser feita posteriormente
+]
 
 ---
 ## 6. Análise das informações
 
-- Verificar se as informações coletadas corroboram ou não as hipóteses e questões de pesquisa
+.pull-left-60[
+- Verificar se as informações coletadas corroboram ou não as hipóteses e
+  questões da pesquisa
 - Segunda função: interpretar fatos não cogitados, rever/refinar hipóteses
 
---
-
 - Operacionalização da análise:
-    - Análise descritiva dos dados, focando nos objetivos/hipóteses
-    - Mensurar relações entre variáveis, como previstas pelas hipóteses
-    - Comparar/medir relações entre variáveis (testar)
-          - Análise estatística (quantitativa)
-          - Análise de conteúdo (qualitativa)
+  1. Análise descritiva dos dados, focando nos objetivos/hipóteses
+  2. Mensurar relações entre variáveis, como previstas pelas hipóteses
+  3. Comparar as relações observadas com as relações teoricamente
+  esperadas pela hipótese e mensurar o distanciamento entre elas
+     - Se o distanciamento é nulo ou muito pequeno, pode-se concluir que
+     a hipótese faz sentido
+     - Caso contrário, é necessário examinar de onde provém esse
+     distanciamento e tirar as conclusões apropriadas
+]
+.pull-right-40[
+
+- É comparando os resultados encontrados com os resultados esperados
+pela hipótese que poderemos tirar conclusões
+
+- Se houver divergência entre os resultados observados e esperados
+pode-se elaborar novas hipóteses e, a partir de uma nova análise dos dados
+disponíveis, examinar em que medida elas divergem
+]
+
+---
+## 6. Análise das informações
+
+```{r, echo=FALSE, out.width="60%"}
+knitr::include_graphics("img/feedback-loop.png")
+```
 
 ---
 ## 7. Conclusões
 
-- Síntese da linha(s) de pesquisa, apresentando
-     - questão de pesquisa
-     - principais característica do modelo de análise e hipóteses
-     - campo de coleta de dados, métodos escolhidos e a coleta em si
-     - comparar resultados esperados e obtidos, descrevendo principais distãncias encontradas
+.pull-left[
+1\. Síntese da linha de pesquisa, apresentando
+  - Questão de pesquisa
+  - Principais característica do modelo de análise e hipóteses
+  - Coleta de dados, métodos escolhidos
+  - Comparar resultados esperados e obtidos, descrevendo principais
+    divergências encontradas
+]
+.pull-right[
+2\. Perspectivas práticas
+  - Todo pesquisador deseja que seu trabalho sirva para alguma coisa
+  - O problema é que as conclusões raramente conduzem à uma aplicação
+  prática **clara e indiscutível**
+  - Procura-se responder
+     - Quais elementos de análise são mais importantes e em que sua
+       implicação é indiscutível?
+     - O que as análises sugerem para estudos futuros?
+]
 
---
 
-- Novos conhecimentos
-     - relacionados ao objeto de análise
-     - novos conhecimentos teóricos
+---
+## 7. Conclusões
+
+3\. Novos aportes de conhecimento produzido
+  - Novos conhecimentos relativos ao **objeto de análise**
+     - O que sei a mais sobre o objeto de análise?
+     - O que sei além do objeto de análise?
+     - Quanto mais o resultado obtido se distanciar do conhecimento
+     corrente, mais terá chances de que o novo conhecimento produzido traga
+     contribuições
+  - Novos **conhecimentos teóricos**
+     - Não somente o objeto de estudo foi explicitado, como também a
+     pertinência da problemática e do modelo de análise foi testada
+     - Um trabalho de pesquisa deve permitir igualmente a avaliação da
+     problemática e do modelo de análise
+     - Para o **pesquisador iniciante**, não se trata de fazer grandes
+     descobertas teóricas inéditas
+     - Trata-se de ele próprio descobrir novas perspectivas teóricas,
+     mesmo que elas sejam amplamente conhecidas
+     - Nossa ótica aqui é a da **formação**
+
+```{r, include=FALSE, eval=FALSE}
+## Para gerar o PDF
+xaringanBuilder::build_pdf("topicos_cap3.Rmd")
+```
