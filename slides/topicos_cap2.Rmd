@@ -584,3 +584,8 @@ pesquisa/observação
   - estudos de relatórios e entrevistas
   - gravações em víde e áudio
 ]
+
+```{r, include=FALSE, eval=FALSE}
+## Para gerar o PDF
+xaringanBuilder::build_pdf("topicos_cap2.Rmd")
+```

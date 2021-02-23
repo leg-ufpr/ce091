@@ -7,7 +7,7 @@ date: |
 # bibliography: bib/ref.bib
 output:
   xaringan::moon_reader:
-    css: ["default", "ibm-plex.css", "ibm-plex-fonts.css"]
+    css: ["default", "config/ibm-plex.css", "config/ibm-plex-fonts.css"]
     self_contained: FALSE
     nature:
       ratio: "16:9"
@@ -17,7 +17,7 @@ output:
 ---
 
 ```{r, cache=FALSE, include=FALSE}
-source("setup_knitr.R")
+source("config/setup_knitr.R")
 library(RefManageR)
 BibOptions(check.entries = FALSE,
            bib.style = "authoryear",
@@ -25,7 +25,7 @@ BibOptions(check.entries = FALSE,
            style = "markdown",
            hyperlink = FALSE,
            dashed = FALSE)
-bib <- ReadBib("refs.bib", check = FALSE)
+bib <- ReadBib("config/refs.bib", check = FALSE)
 ```
 
 <!-- Retirado de  -->
@@ -108,7 +108,22 @@ seu projeto de pesquisa.
   para fazer a busca. Essa ferramenta procura apenas em revistas
   científicas
 
+---
+# Publicações científicas
 
+- Publicação periódica
+- Editor-chefe, editores associados e colaboradores
+- Revisão por pares
+- Registro científico permanente
+
+- Tipos de artigos
+  - Letters ou comunicações
+  - Notas breves
+  - **Artigos**
+  - Documento suplementar
+  - Revisão de literatura
+
+- Custos
 
 ---
 # Etapas e conteúdo
