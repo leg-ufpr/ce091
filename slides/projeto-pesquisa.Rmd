@@ -1,50 +1,71 @@
 ---
-title: Projeto de pesquisa
-author: Fernando Mayer
-date: 2019-05-17
+title: "Estruturação do projeto de pesquisa"
+author: "Fernando de Pol Mayer (LEG/DEST/UFPR)"
+date: |
+  | 2021-02-23
+  | Última atualização `r Sys.Date()`
+# bibliography: bib/ref.bib
 output:
   xaringan::moon_reader:
-    self_contained: true
+    css: ["default", "config/ibm-plex.css", "config/ibm-plex-fonts.css"]
+    self_contained: FALSE
+    nature:
+      ratio: "16:9"
+      highlightStyle: github
+      highlightLines: TRUE
+      countIncrementalSlides: FALSE
 ---
 
+```{r, cache=FALSE, include=FALSE}
+source("config/setup_knitr.R")
+library(RefManageR)
+BibOptions(check.entries = FALSE,
+           bib.style = "authoryear",
+           cite.style = "authoryear",
+           style = "markdown",
+           hyperlink = FALSE,
+           dashed = FALSE)
+bib <- ReadBib("config/refs.bib", check = FALSE)
+xaringanExtra::use_xaringan_extra("tachyons")
+```
+
+# Estruturação do projeto de pesquisa
+
+## Material baseado em:
+
+- Gerhardt, TE; Silveira, DT. [Métodos de
+   Pesquisa](https://www.lume.ufrgs.br/handle/10183/52806).
+   Porto Alegre: Editora da UFRGS, 2009.
+- Material de aula da Profa. Suely Ruiz Giolo (UFPR). Disponível em
+  https://docs.ufpr.br/~giolo/Lab/Material/Projeto.html
+- Material de aula da Profa. Rilva Lopes se Sousa-Muñoz (UFPB).
+  Disponível em
+  https://www.slideshare.net/rilvalopes/projeto-de-pesquisa-18435149/1
+- Autor desconhecido. Disponível em
+  https://www.slideshare.net/ValescaL/pg-projeto-depesquisa20121
+
+## Objetivos
+
+- Conhecer os elementos que compõem um projeto de pesquisa
+- Compreender as formas de organizar e sistematizar os diferentes
+  elementos constitutivos de um projeto de pesquisa
+- Conhecer a formatação específica do projeto de pesquisa do curso de
+  Estatística da UFPR
+
+---
+class: center, middle, inverse
+# Introdução
+
+---
 # Projeto de pesquisa
 
+.pull-left-40[
 ### O que é
 
 - Partes organizadas de maneira lógica, que servem de base para o
 desenvolvimento de **qualquer tipo de trabalho científico**.
 
-### Por quê?
-
-- Como toda atividade racional e sistemática, a pesquisa científica
-exige que as ações desenvolvidas ao longo do seu processo sejam
-efetivamente **planejadas**.
-
----
-
-# Porque elaborar um projeto de pesquisa
-
-- **"Mapa" que orienta a pesquisa**
-  - Para garantir que haja uma pergunta de natureza científica e uma
-    metodologia apropriada para estudar essa questão
-
-- **Para planejar as fases da investigação**
-  - Para descrever detalhes de como o estudo será realizado
-
-- **Para incorporar todas as questões práticas e éticas que precisam ser
-  abordadas**
-
-- **Para garantir que se tenha em conta as necessidades de recursos para
-  realizar a pesquisa (financiamento, logística)**
-
-- **Para informar outras partes interessadas sobre as intenções do
-  pesquisador**
-
-- **Para obter financiamento**
-
----
-
-# O projeto deve ter um enfoque específico e delimitado
+### O projeto deve ter um enfoque específico e delimitado
 
 - Não tentar cobrir uma área ampla com o projeto
   - Evitar projetos "panorâmicos"
@@ -52,9 +73,33 @@ efetivamente **planejadas**.
 - Definir de forma restritiva (DELIMITAR)
   - Não se pode resolver todos os problemas sobre o tema escolhido com
     uma investigação
+]
+.pull-right-60[
+### Porque elaborar um projeto de pesquisa
+
+Como toda atividade racional e sistemática, a pesquisa científica exige
+que as ações desenvolvidas ao longo do seu processo sejam efetivamente
+**planejadas**.
+
+- "Mapa" que orienta a pesquisa
+  - Para garantir que haja uma pergunta de natureza científica e uma
+    metodologia apropriada para estudar essa questão
+- Para planejar as fases da investigação
+  - Para descrever detalhes de como o estudo será realizado
+- Para incorporar todas as questões práticas e éticas que precisam ser
+  abordadas
+- Para garantir que se tenha em conta as necessidades de recursos para
+  realizar a pesquisa (financiamento, logística)
+- Para informar outras partes interessadas sobre as intenções do
+  pesquisador
+- Para obter financiamento
+]
 
 ---
+class: center, middle, inverse
+# Estrutura do projeto de pesquisa
 
+---
 # Estrutura do projeto de pesquisa
 
 - Cada instituição, departamento, órgão financiador, ..., possui sua
@@ -73,10 +118,9 @@ efetivamente **planejadas**.
   - Anexos e Apêndices (opcional)
 
 ---
-
 # Estrutura do projeto de pesquisa
 
-A estrutura do projeto de pesquisa do curso de Estatística (Lab. A) é a
+A estrutura do projeto de pesquisa do **curso de Estatística** (Lab. A) é a
 seguinte.
 
 - **Elementos pré-textuais**
@@ -92,7 +136,6 @@ seguinte.
   - Referências
 
 ---
-
 # Elementos pré-textuais: capa
 
 Deve constar:
@@ -104,9 +147,9 @@ Deve constar:
 - Ano
 
 ---
-
 # Elementos pré-textuais: título (capa)
 
+.pull-left[
 **O título do projeto deve ser conciso**
 
 - Deve dar uma indicação geral do que se está investigando
@@ -119,16 +162,8 @@ Deve constar:
 - Quando mais longo, pode ser decomposto em um subtítulo
   - Separado do título por dois pontos (quando for explicativo) ou ponto
   e vírgula (quando se tratar de subtítulo complementar)
-
-**Dica do dia: deixe o título para o final**
-  - Será mais fácil formular uma declaração concisa e objetiva quando se
-  tem o projeto escrito
-  - Ter um título provisório até então
-
----
-
-# Elementos pré-textuais: título (capa)
-
+]
+.pull-right[
 **Exemplos**
 
 - **Adequados**
@@ -142,216 +177,314 @@ Deve constar:
   - Obesidade na mulher
   - Distribuição espacial e sazonal da leptospirose
 
----
+.bg-light-yellow.b--orange.ba.bw2.br3.shadow-5.ph4.mt1[
+**Dica do dia**
+- **Deixe o título para o final**
+- Será mais fácil formular uma declaração concisa e objetiva quando se
+tem o projeto escrito
+- Ter um título provisório até então
+]
+]
 
+---
 # Elementos pré-textuais: folha de rosto
 
 Deve constar:
 
 - Nome completo do(s) autor(es)
 - Título do trabalho (e subtítulo quando houver)
-- Nota indicativa do tipo de projeto (tese, dissertação, trabalho de
-conclusão de curso) e objetivo (aprovação em disciplina, nome da
-instituição a que é submetido, grau pretendido)
+- Nota indicativa do tipo de projeto
+  - tese
+  - dissertação
+  - trabalho de conclusão de curso
+- e objetivo
+  - aprovação em disciplina
+  - nome da instituição a que é submetido
+  - grau pretendido
 - Nome do orientador
 - Local (cidade da instituição)
 - Ano
 
 ---
-
 # Elementos pré-textuais: sumário
 
 - Consiste na enumeração dos capítulos do trabalho, na ordem em que
 aparecem no texto, com a página inicial de cada capítulo.
+
 - Os capítulos devem ser numerados em algarismos arábicos, a partir da
 Introdução até as Referências
+
 - Havendo subdivisão nos capítulos, deve ser adotada a numeração
 progressiva, sempre em número arábico, de acordo com a Norma
 ABNT/NBR-6024
+
 - Não devem ser usados algarismos romanos, nem letra.
 
----
+.bg-light-yellow.b--orange.ba.bw2.br3.shadow-5.ph4.mt5[
+**Dica do dia**
+- Jamais faça um sumário "na mão"
+- Os *softwares* de edição de texto possuem ferramentas para construir o
+sumário automaticamente
+  - No Word (ou qualquer outro parecido) isso não é tão simples
+  - No LaTeX e derivados isso é natural
+]
 
+---
 # Elementos textuais: introdução
 
+**Uma das principais partes do texto**, pois é onde despertará o
+interesse (ou não) do leitor
+
 - Deve despertar interesse
+
 - Controvérsias e lacunas no conhecimento
+
 - Referências selecionadas
+
 - Verbo no presente
-- Texto sem sub-seções
 
-Composta pelos seguintes itens:
+- Texto **sem** sub-seções
 
-- Apresentação geral do assunto (opcional)
+**Composta pelos seguintes itens**:
+
+- Apresentação geral do assunto
+
 - Revisão teórica (ou de literatura)
+
 - Problema de pesquisa
+
 - Hipótese(s) de pesquisa
+
 - Justificativa
 
 ---
-
 # Elementos textuais: introdução
 
-### Revisão de literatura (fundamentação teorica)
+## Revisão de literatura (fundamentação teórica)
+
+### O que já se sabe sobre o assunto?
+
+- Expor resumidamente as principais ideias já discutidas por outros
+  autores
 
 - A revisão de literatura pode ser uma seção à parte, após a Introdução
   ou fazer parte desta
   - **No nosso caso ela faz parte da introdução**
+
 - Apresenta-se revisão da literatura recente (últimos 5 anos)
+
 - Específica sobre o tema abordado
+
 - Fixar os limites: fornecer definições explícitas de conceitos-chave da
   pesquisa
   - O mesmo termo nem sempre tem um significado único, entendido da
   mesma forma por todos
+
 - Não fornecer definições mecanicistas, de dicionário
 
----
+- Explicar no que seu trabalho irá se diferenciar e/ou no que vai
+  contribuir para o tema abordado
 
+---
 # Elementos textuais: introdução
 
-### Problema de pesquisa
+## Problema de pesquisa
+
+### O que pode ainda ser investigado?
+
+É aquilo que se identificou ser uma questão ainda em aberto e que
+pretende-se explorar
 
 - Formulação clara, precisa e operacional
+
 - O problema deve ser viável
+
 - Questão não resolvida, cuja resposta tem alguma relevância
+
 - Deve ser formulado sob a forma de pergunta, orientando a investigação
   - (Não necessariamente a pergunta será colocada no texto)
 
 ---
-
 # Elementos textuais: introdução
 
-### Hipótese(s) de pesquisa
+## Hipótese(s) de pesquisa
+
+### Qual é a ideia inicial que deverá ser testada?
 
 - Suposição formulada para solucionar o problema
   - Explicação provisória; proposição testável que poderá ser a resposta
     do problema
+
 - Função da hipótese: orientar o pesquisador, guiando-o na busca da
     resposta para o problema
+
 - Redigida de forma afirmativa: é a resposta provisória ao problema de
 pesquisa
+
 - Relação de associação ou dependência entre variáveis
+
 - Evitar expressões valorativas: bom, mau, ruim
+
 - Ser coerente com uma teoria que a sustente: fundamentação teórica
+
 - A hipótese deve ser plausível, verificável, específica, simples, não
 deve envolver julgamento de valor
 
 ---
-
 # Elementos textuais: introdução
 
-### Justificatica
+## Justificativa
+
+### Por quê realizar este trabalho?
 
 - **Relevância**: para a estatística, para a ciência, para a sociedade
+
 - **Motivação**: pessoal, profissional, social e teórica para a escolha
  do tema
+
 - **Contribuições**: apontar contribuições de ordem prática ou ao estado
 da arte na área
+
 - **Viabilidade**: o projeto é realizável, factível
+
 - **Lacunas na literatura**: necessidade de realizar o estudo
 
 ---
-
 # Elementos textuais: objetivos
 
-- Resultados a alcançar
-- **Objetivo geral**: da resposta ao problema de pesquisa
-- **Objetivos específicos**: operacionalizam o modo como se pretende
-  atingir o objetivo geral
-- Os objetivos devem ser redigidos com o verbo no infinitivo
-  - Realizar análise descritiva dos dados para ...
-  - Ajustar modelos de regressão logística para ...
-  - Comparar os resultados dos modelos a fim de ...
+.pull-left[
+### Objetivo geral
+
+- Dar resposta ao problema de pesquisa
+
+- Objetivo amplo
+
+- Descrição de um desempenho
+
+- O objetivo bem definido indica que o projeto tem condições de se
+concretizar
+
+- Especificação escrita de modo claro do que se espera alcançar
+]
+.pull-right[
+### Objetivos específicos
+
+- **Operacionalizam** o modo como se pretende atingir o objetivo geral
+- São as etapas que devem ser cumpridas para se chegar ao **objetivo
+geral**
+- Cada objetivo específico é escrito em uma alínea
+- Verbo no infinitivo: deve ser preciso e não dar margem a muitas
+interpretações
+  - **Realizar** análise descritiva dos dados para ...
+  - **Ajustar** modelos de regressão logística para ...
+  - **Comparar** os resultados dos modelos a fim de ...
+- Evitar excesso de objetivos específicos: impacto negativo sobre os
+avaliadores
+- Evitar verbos abertos a muitas interpretações (saber, compreender,
+conhecer, apreciar)
+- Precisam ser claros, factíveis, específicos
+- Três a cinco objetivos específicos
+]
 
 ---
-
 # Elementos textuais: objetivos
 
-- **Objetivo geral**
-  - Objetivo amplo
-  - Descrição de um desempenho
-  - O objetivo bem definido indica que o projeto tem condições de se
-    concretizar
-  -Especificação escrita de modo claro do que se espera alcançar
-- **Objetivos específicos**
-  - São as etapas que devem ser cumpridas para se chegar ao **objetivo
-    geral**
-  - Cada objetivo específico é escrito em uma alínea
-  - Verbo no infinitivo: deve ser preciso e não dar margem a muitas
-    interpretações
-  - Evitar excesso de objetivos específicos: impacto negativo sobre os
-  avaliadores
-  - Evitar verbos abertos a muitas interpretações (saber, compreender,
-  conhecer, apreciar)
-  - Precisam ser claros, factíveis, específicos
-  - Três a cinco objetivos específicos
-
----
-
-# Elementos textuais: objetivos
-
-### Descrevendo objetivos
+## Descrevendo objetivos
 
 - **Nível de conhecimento**
   - Identificar, verificar, expor, descrever, enumerar, especificar,
     determinar
+
 - **Nível de compreensão e interpretação**
   - Distinguir, explicar, predizer, relacionar, deduzir, interpretar
+
 - **Nível de Aplicação**
   - Aplicar, resolver, construir, provar
+
 - **Nível de Análise**
   - Analisar, distinguir, categorizar, comparar, selecionar
+
 - **Nível de Síntese**
   - Propor, explicar, combinar, compilar, formular
+
 - **Nível de Avaliação**
   - Julgar, comparar, avaliar, validar, criticar, fundamentar, estimar,
   demonstrar
 
 ---
-
 # Elementos textuais: material e métodos
 
 Descrever brevemente o que será feito e como será feito para se obter os
 resultados esperados e atingir os objetivos propostos.
 
-Descreva:
+### Dados
 
-- O conjunto de dados
-  - Modelo da pesquisa
-  - Local e período
-  - População e amostra
-  - Variáveis
-  - Procedimentos e instrumentos de coleta de dados
-- Os métodos estatísticos propostos
-- Recursos computacionais
-- Aspectos éticos (se houver)
-
-**Obs.**: Ao elaborar um projeto, lembre-se que está sendo planejado
-algo que será desenvolvido. Logo, utilize expressões de ações futuras
-tais como: "pretende-se utilizar ...", "será utilizado ..." .
-
----
-
-# Elementos textuais: material e métodos
-
-- Modelo da pesquisa: delineamento, tipo, desenho
+.pull-left[
+- **Modelo da pesquisa**: delineamento, tipo, desenho
   - Observacional
     - Dimensão temporal da coleta de dados (transversal,
-  longitudinal/prospectiva, retrospectiva)
+    longitudinal/prospectiva, retrospectiva)
   - Descritivo
   - Experimental
   - Teórico
-- No caso de metodologias menos usadas: fundamentar os seus
-  procedimentos e a sua concepção
-- Definição detalhada da população do estudo
+
+- No caso de metodologias de obtenção de dados menos usadas: fundamentar
+  os seus procedimentos e a sua concepção
+
+- Local e período (se pertinente)
+]
+.pull-right[
+- **População e amostra**
   - Critérios de inclusão e exclusão
-  - Processo de amostragem
-  - Cálculo do tamanho da amostra selecionada
-- Descrição das variáveis: primária e secundárias, dependente e
-independente
+  - Processo de amostragem/coleta/observação
+  - Justificar o tamanho da amostra (se pertinente)
+
+- **Variáveis envolvidas/coletadas/observadas**
+  - Descrever todas as variáveis utilizadas
+  - Definir variáveis primárias e secundárias
+  - Definir variáveis dependentes e independentes
+
+- **Procedimentos e instrumentos de coleta de dados**
+  - Como os dados foram coletados
+  - Por quem os dados foram coletados
+]
 
 ---
+# Elementos textuais: material e métodos
 
+### Métodos
+
+.pull-left[
+- Descrever **em detalhes** o tipo de análise que será realizada
+
+- Para o curso de Estatística, essa é a parte mais importante
+
+- Deve-se explorar ao máximo as tecnicalidades da metodologia
+
+- O contexto geral da metodologia deve estar descrito na revisão de
+literatura (introdução)
+  - Aqui deve-se focar especificamente na sua proposta metodológica
+
+- Caso o seu projeto seja **teórico**, esta seção deve conter as
+ferramentas (computacionais/teóricas) que serão utilizadas
+]
+.pull-right[
+- Descrever os recursos computacionais utilizados e suas versões
+  (*softwares*, pacotes, etc)
+
+- Descrever os aspectos éticos (se houver)
+
+.bg-light-yellow.b--orange.ba.bw2.br3.shadow-5.ph4.mt5[
+**Dica do dia**
+- Ao elaborar um projeto, lembre-se que está sendo planejado algo que
+será desenvolvido
+- Logo, utilize expressões de ações futuras tais como
+  - "pretende-se utilizar ..."
+  - "será utilizado ..."
+]
+]
+
+---
 # Elementos textuais: cronograma de atividades
 
 Apresentar uma lista de atividades (por ordem e prazos) para execução do
@@ -360,23 +493,119 @@ projeto de pesquisa.
 Ver modelo no template.
 
 ---
-
 # Elementos pós-textuais: referências
 
-- As referências bibliográficas caracterizam um conjunto de elementos
+As referências bibliográficas caracterizam um conjunto de elementos
 que permite a identificação, no todo ou em parte, de documentos
 impressos ou registrados em diversos tipos de materiais.
-- A palavra "Referências" deve ser centralizada e na mesma tipologia da
-fonte utilizada para as seções primárias
-- Não deve ser numerada
-- As referências são apresentadas em forma de listagem de acordo com um
-sistema de chamada adotado.
-- Consulte ABNT NBR 6023
-- **Não liste se não citar**
-- **Não cite se não listar**
+
+.pull-left[
+- Toda ideia que foi extraída de uma referência externa (artigos,
+  livros, etc) deve ser devidamente citada no texto, e referenciada no
+  final do texto
+
+- Uma citação deve ser feita quando
+  - a ideia/fato/resultado for proveniente de outra fonte
+  - deseja-se salientar que uma afirmação pertence à outra fonte
+]
+.pull-right[
+- As citações no texto são feitas pelo sobrenome do autor do artigo e
+  pelo ano da publicação
+  - **Fulano, 2020**
+
+- Caso sejam dois autores, a citação é feita pelo sobrenome dos dois
+  autores
+  - **Fulano e Ciclano, 2020**
+
+- Quando são mais de dois autores, utiliza-se o sobrenome do primeiro
+  autor, seguido da expressão *et al*, que vem do Latim e significa "e
+  outros"
+  - **Fulano *et al*, 2020**
+]
 
 ---
+# Elementos pós-textuais: referências
 
+.pull-left[
+- As citações podem se dar basicamente de duas formas
+  - **Implicitamente**, quando a citação se torna parte do contexto da frase
+     - "Segundo Fulano (2020), não existem evidências contrárias."
+  - **Explicitamente**, quando a citação é indireta
+     - [...] já que não existem evidências contrárias (Fulano, 2020)."
+
+- No final do texto deverá haver uma seção de "Referências", contendo
+  uma lista com todas as citações realizadas no texto, com suas
+  informações completas (autores, título, revista, etc)
+
+- A lista de referências deve conter **apenas** as obras citadas no texto
+  - **Não liste se não citar**
+  - **Não cite se não listar**
+]
+.pull-right[
+- Existem diversos sistemas de citação, e cada revista/instituição/curso
+  pode adotar um sistema diferente
+
+- Cada sistema possui um padrão, tanto para as citações no texto, quanto
+  para a lista de referências
+
+- No Brasil, em geral, os documentos técnicos e científicos seguem os
+  padrões determinados pela Associação Brasileira de Normas Técnicas
+  (ABNT), mas podem existir diversas variações
+
+- A norma principal para elaboração de referências é a ABNT NBR 6023,
+  mas existem outras para definir formatação do texto e outras
+  características
+
+- O ideal é utilizar alguma ferramenta que faça a formatação de forma
+  automática (geralmente os arquivos de formatação são disponibilizados)
+]
+
+---
+# Elementos pós-textuais: referências
+
+## Plágio
+
+Plágio é o ato de assinar ou apresentar uma obra intelectual de qualquer
+natureza contendo partes de uma obra que pertença a outro autor, **sem
+colocar os créditos para esse autor original**.
+
+.pull-left[
+- Muitas vezes o plágio pode ser não intencional, por isso é preciso
+  estar atento ao se utilizar informações de outras fontes
+
+- Os três tipos mais comuns de plágio são
+  - **Plágio integral**: transcrição, sem citação da fonte de um texto
+    completo
+  - **Plágio parcial**: cópia de frases ou parágrafos de diversas
+    fontes, para dificultar a identificação
+  - **Plágio conceitual**: apropriação de um ou vários
+    conceitos/teorias, que o autor de um texto apresenta como se fossem
+    seus
+]
+.pull-right[
+- Ainda existem outros conceitos realcionados ao plágio
+  - **Heteroplágio**: autor apropriar-se da obra de outra pessoa
+  - **Autoplágio**: autor copia trechos seus e os distribui em
+    diferentes artigos como se fossem originais
+]
+
+---
+# Paginação e aspectos gráficos
+
+- Definem as normas para
+  - Numeração de páginas
+  - Tamanho de margens
+  - Tamanho e tipo de fontes
+  - Espaçamento entre linhas
+  - Indicativo numérico de seções e sub-seções
+- **Mais importante**
+  - Use um [template](https://docs.ufpr.br/~giolo/Lab/Templates/)
+
+---
+class: center, middle, inverse
+# Estilo científico
+
+---
 # Estilo científico
 
 - Redação científica
@@ -392,7 +621,18 @@ sistema de chamada adotado.
   firmada em dados concretos e válidos
 
 ---
+# Estilo científico
 
+Dicas de escrita científica
+
+---
+# Estilo científico
+
+- Tabelas
+- Figuras
+- Equações
+
+---
 # O que geralmente torna fraco um projeto?
 
 - Objetivos pouco claros
@@ -406,21 +646,8 @@ sistema de chamada adotado.
 - Prazos e metas inatingíveis
 - Estilo rebuscado e falta de objetividade
 
----
-
-# Paginação e aspectos gráficos
-
-- Definem as normas para
-  - Numeração de páginas
-  - Tamanho de margens
-  - Tamanho e tipo de fontes
-  - Espaçamento entre linhas
-  - Indicativo numérico de seções e sub-seções
-- **Mais importante**
-  - Use um [template](https://docs.ufpr.br/~giolo/Lab/Templates/)
 
 ---
-
 # Ferramentas para elaboração de projetos
 
 - Ferramentas para texto
@@ -429,20 +656,3 @@ sistema de chamada adotado.
 - Ferramentas para referências
   - Mendeley
   - Zotero
-
----
-
-# Para a próxima aula
-
-- Sharelatex (lembrar ou recuperar login e senha)
-- Mendeley (criar conta)
-- Tema e grupo para projeto (1 ou 2 pessoas)
-
-
----
-
-# Referências
-
-- https://docs.ufpr.br/~giolo/Lab/Material/Projeto.html
-- https://www.slideshare.net/rilvalopes/projeto-de-pesquisa-18435149/1
-- https://www.slideshare.net/ValescaL/pg-projeto-depesquisa20121
