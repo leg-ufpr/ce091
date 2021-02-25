@@ -9,6 +9,8 @@ output:
   xaringan::moon_reader:
     css: ["default", "config/ibm-plex.css", "config/ibm-plex-fonts.css"]
     self_contained: FALSE
+    includes:
+      in_header: "config/mathjax-equation-numbers.html"
     nature:
       ratio: "16:9"
       highlightStyle: github
@@ -41,8 +43,6 @@ xaringanExtra::use_xaringan_extra("tachyons")
 - Material de aula da Profa. Rilva Lopes se Sousa-Muñoz (UFPB).
   Disponível em
   https://www.slideshare.net/rilvalopes/projeto-de-pesquisa-18435149/1
-- Autor desconhecido. Disponível em
-  https://www.slideshare.net/ValescaL/pg-projeto-depesquisa20121
 
 ## Objetivos
 
@@ -108,7 +108,7 @@ class: center, middle, inverse
 - No entanto, de maneira geral, o **conteúdo** é sempre o mesmo
   - Título
   - Introdução
-  - Revisão de literatura (fundamentação teorica)
+  - Revisão de literatura (fundamentação teórica)
   - Justificativa
   - Objetivos
   - Métodos
@@ -127,11 +127,13 @@ seguinte.
   - Capa (título)
   - Folha de rosto
   - Sumário
+
 - **Elementos textuais**
   - Introdução
   - Objetivos
   - Material e Métodos
   - Cronograma de atividades
+
 - **Elementos pós-textuais**
   - Referências
 
@@ -141,9 +143,13 @@ seguinte.
 Deve constar:
 
 - Nome da Instituição
+
 - Autoria
+
 - Título do trabalho (e subtítulo quando houver)
+
 - Local (cidade da instituição)
+
 - Ano
 
 ---
@@ -192,7 +198,9 @@ tem o projeto escrito
 Deve constar:
 
 - Nome completo do(s) autor(es)
+
 - Título do trabalho (e subtítulo quando houver)
+
 - Nota indicativa do tipo de projeto
   - tese
   - dissertação
@@ -201,8 +209,11 @@ Deve constar:
   - aprovação em disciplina
   - nome da instituição a que é submetido
   - grau pretendido
+
 - Nome do orientador
+
 - Local (cidade da instituição)
+
 - Ano
 
 ---
@@ -330,6 +341,10 @@ pesquisa
 - A hipótese deve ser plausível, verificável, específica, simples, não
 deve envolver julgamento de valor
 
+</br>
+
+.large.center[**hipótese de pesquisa** `\\(\neq\\)` **hipótese estatística**]
+
 ---
 # Elementos textuais: introdução
 
@@ -358,8 +373,6 @@ da arte na área
 - Dar resposta ao problema de pesquisa
 
 - Objetivo amplo
-
-- Descrição de um desempenho
 
 - O objetivo bem definido indica que o projeto tem condições de se
 concretizar
@@ -414,8 +427,8 @@ conhecer, apreciar)
 ---
 # Elementos textuais: material e métodos
 
-Descrever brevemente o que será feito e como será feito para se obter os
-resultados esperados e atingir os objetivos propostos.
+Descrever o que será feito e como será feito para se obter os resultados
+esperados e atingir os objetivos propostos.
 
 ### Dados
 
@@ -440,13 +453,13 @@ resultados esperados e atingir os objetivos propostos.
   - Justificar o tamanho da amostra (se pertinente)
 
 - **Variáveis envolvidas/coletadas/observadas**
-  - Descrever todas as variáveis utilizadas
+  - Descrever todas as variáveis necessárias
   - Definir variáveis primárias e secundárias
   - Definir variáveis dependentes e independentes
 
 - **Procedimentos e instrumentos de coleta de dados**
-  - Como os dados foram coletados
-  - Por quem os dados foram coletados
+  - Como os dados serão coletados
+  - Por quem os dados serão coletados
 ]
 
 ---
@@ -474,6 +487,9 @@ ferramentas (computacionais/teóricas) que serão utilizadas
 
 - Descrever os aspectos éticos (se houver)
 
+- Definir as **hipóteses estatísticas** que ajudarão a elucidar as
+  **hipóteses de pesquisa**
+
 .bg-light-yellow.b--orange.ba.bw2.br3.shadow-5.ph4.mt5[
 **Dica do dia**
 - Ao elaborar um projeto, lembre-se que está sendo planejado algo que
@@ -490,7 +506,16 @@ será desenvolvido
 Apresentar uma lista de atividades (por ordem e prazos) para execução do
 projeto de pesquisa.
 
-Ver modelo no template.
+</br>
+
+```{r, echo=FALSE, out.width="90%"}
+knitr::include_graphics("img/cronograma.png")
+```
+
+</br>
+
+- Este é um exemplo
+- As atividades devem ser adequadas para cada projeto
 
 ---
 # Elementos pós-textuais: referências
@@ -501,8 +526,8 @@ impressos ou registrados em diversos tipos de materiais.
 
 .pull-left[
 - Toda ideia que foi extraída de uma referência externa (artigos,
-  livros, etc) deve ser devidamente citada no texto, e referenciada no
-  final do texto
+  livros, etc) deve ser devidamente **citada** no texto, e
+  **referenciada** no final do texto
 
 - Uma citação deve ser feita quando
   - a ideia/fato/resultado for proveniente de outra fonte
@@ -518,9 +543,9 @@ impressos ou registrados em diversos tipos de materiais.
   - **Fulano e Ciclano, 2020**
 
 - Quando são mais de dois autores, utiliza-se o sobrenome do primeiro
-  autor, seguido da expressão *et al*, que vem do Latim e significa "e
+  autor, seguido da expressão *et al.*, que vem do Latim e significa "e
   outros"
-  - **Fulano *et al*, 2020**
+  - **Fulano *et al.*, 2020**
 ]
 
 ---
@@ -598,8 +623,33 @@ colocar os créditos para esse autor original**.
   - Tamanho e tipo de fontes
   - Espaçamento entre linhas
   - Indicativo numérico de seções e sub-seções
+
 - **Mais importante**
-  - Use um [template](https://docs.ufpr.br/~giolo/Lab/Templates/)
+  - Use um **template** (https://docs.ufpr.br/~giolo/Lab/Templates/)
+
+---
+# O que geralmente torna um projeto "fraco"?
+
+- Objetivos pouco claros
+
+- Problema de pesquisa mal definido
+
+- Falta de relevância
+
+- Falta de inovação
+
+- Falta de aplicabilidade
+
+- Falta de rigor metodológico
+
+- Análise estatística inadequada
+
+- Incoerência entre fundamentação teórica e métodos
+
+- Prazos e metas inatingíveis
+
+- Estilo rebuscado e falta de objetividade
+
 
 ---
 class: center, middle, inverse
@@ -617,42 +667,376 @@ class: center, middle, inverse
   - Correção
   - Encadeamento
   - Impessoalidade
+
 - A linguagem científica é informativa, clara, de ordem racional,
   firmada em dados concretos e válidos
 
 ---
 # Estilo científico
 
-Dicas de escrita científica
+**Para redigir é preciso:**
+
+1. Ter algo a dizer
+
+2. Ao escrever, submeter os pensamentos a alguma ordem que faça sentido
+
+**Em termos gerais, os aspectos a considerar seriam:**
+
+1. Há certas ideias ou fatos que se quer comunicar
+
+2. Tais ideias deverão ser concretizadas em palavras e expressões
+
+3. As palavras e expressões deverão ser englobadas em frases e
+   parágrafos gramaticalmente corretos e claros
+
+4. Palavras, frases e parágrafos devem fluir de um/a para o/a outro/a,
+espelhando um pensamento ordenado e lógico
+
+5. O que se escreve destina-se a um público específico com certas
+características e exigências
+  - Não é o mesmo escrever um email ou redigir uma comunicação a ser
+    apresentada em uma reunião científica
 
 ---
 # Estilo científico
 
-- Tabelas
-- Figuras
-- Equações
+## Problemas comuns
+
+- Não ter clareza no que se quer comunicar
+  - Deixe claro para você mesmo antes de escrever
+
+- Vocabulário inadequado para uma redação acadêmica
+  - Isto se corrige **lendo** e **ouvindo** pessoas da área (seminários,
+    congressos, etc)
+
+- As frases e parágrafos podem violar as regras gramaticais
+  estabelecidas
+  - Não devemos "inventar" enquanto escrevemos
+
+- A transição de um parágrafo ao seguinte pode ser muito abrupta ou
+pouco lógica, ou a ordem de apresentação pode ser confusa
+  - Faça um plano antes de começar a redigir: escreva tópicos e depois
+  os desenvolva
 
 ---
-# O que geralmente torna fraco um projeto?
+# Estilo científico
 
-- Objetivos pouco claros
-- Problema de pesquisa mal definido
-- Falta de relevância
-- Falta de inovação
-- Falta de aplicabilidade
-- Falta de rigor metodológico
-- Análise estatística inadequada
-- Incoerência entre fundamentação teórica e métodos
-- Prazos e metas inatingíveis
-- Estilo rebuscado e falta de objetividade
+## Alguns conselhos
+
+- Ache e elimine palavras inúteis
+
+- Prefira palavras curtas, simples e familiares evite palavras longas e
+jargão
+  - "na eventualidade de" (longo) $\Rightarrow$ "se" ou "caso" (curto)
+
+- Prefira o termo concreto ao abstrato
+  - "busca de lucratividade" (abstrato) $\Rightarrow$ "busca do lucro"
+    (concreto)
+
+- Prefira o ativo ao passivo
+  - "não fui comunicado" (passivo) $\Rightarrow$ "não me comunicaram tal
+    coisa" (ativo)
+
+- Prefira a palavra única a uma locução equivalente composta de várias
+palavras
+
+- Prefira o vocabulário português consagrado a neologismos, anglicismos,
+  vocabulário coloquial, etc
+
+.bg-light-yellow.b--orange.ba.bw2.br3.shadow-5.ph4.mt1[
+**Dica do dia**
+
+Para traduzir **termos estatísticos** consulte o [Glossário de
+Estatística Inglês-Português](https://www.spestatistica.pt/glossario) da
+SPE (Sociedade Portuguesa de Estatística) e ABE (Associação Brasileira
+de Estatística)
+]
 
 
 ---
-# Ferramentas para elaboração de projetos
+# Estilo científico
 
-- Ferramentas para texto
-  - Sharelatex
-  - Overleaf
-- Ferramentas para referências
-  - Mendeley
-  - Zotero
+## Principais conselhos para frases e parágrafos
+
+.pull-left[
+- Cada parágrafo deve conter **uma única afirmação ou noção central**
+  - Se ele contiver duas ou mais afirmações importantes, divida-o em
+    dois ou mais parágrafos
+- Prefira quase sempre a ordem natural das palavras na frase (sujeito -
+predicado - complemento), evitando as inversões causadoras de
+ambiguidade
+  - "Os formandos e os professores organizaram a festa" (ordem direta)
+  - "Organizaram a festa os formandos e os professores" (ordem inversa)
+- Palavras que modificam ou qualificam outras (adjetivos e advérbios)
+devem situar-se o mais perto possível dos termos que modificam ou qualificam
+  - "Os alunos devem apresentar-se na quadra só de tênis" (ambiguidade)
+  - "O uso de tênis pelos alunos é obrigatório na quadra" (mais claro)
+]
+.pull-right[
+- O uso de pronomes que substituam outros termos deve ser usado com
+cuidado
+  - "Eu vi os anúncios dos tênis Nike, mas não gostei deles"
+    (ambiguidade)
+  - "Eu vi os anúncios dos tênis Nike, mas não gostei desses tênis"
+  (mais claro)
+  - Note que a palavra "tênis" foi repetida. Em geral, as repetições
+  devem ser evitadas, mas podem ser úteis para evitar ambiguidades.
+- As primeiras e as últimas palavras de um parágrafo atraem mais a
+   atenção
+  - O que se quer enfatizar no parágrafo deve vir no início ou no final
+- Não introduza em excesso, expressões ou frases que modifiquem ou
+   qualifiquem as afirmações
+- É preferível a forma mais breve à mais longa de armar frases e
+parágrafos
+  - Entretanto, a busca da brevidade não deve prejudicar a clareza
+]
+
+---
+# Estilo científico
+
+.pull-left[
+## Principais elementos gramaticais de conexão
+
+- Partículas de conexão, como "e", "mas", "embora", etc
+
+- Advérbios e locuções de sentido adverbial, como "evidentemente", "por
+  exemplo", "já que é assim", "como veremos", etc.
+
+- Pronomes e artigos
+  - Por exemplo, quando uma frase começa com "Ele" ou com "O homem em
+  questão", uma conexão está sendo estabelecida necessariamente com algo
+  dito antes
+
+- Repetições gramaticalmente válidas
+  - Por exemplo, aquelas introduzidas pela palavra "tal"
+]
+.pull-right[
+## Revisão do texto
+
+- A releitura do texto produzido, para correção e polimento, é essencial
+
+- O melhor método é deixar repousar o texto por alguns dias antes de
+proceder com a releitura
+  - Se ela for feita imediatamente após terminada a redação, o autor não
+  conseguirá perceber "de fora" o produto de seu trabalho
+
+- Outro método excelente é solicitar a um colega que leia o seu texto
+]
+
+---
+# Estilo científico
+
+## Ao reler o trabalho, tente responder às seguintes perguntas
+
+1. Será que permaneci na minha temática principal, sem introduzir
+irrelevâncias, detalhes excessivos, desenvolvimentos colaterais? Ou o
+desenvolvimento dos tópicos centrais é suficiente?
+
+2. Cada parágrafo do texto é uma **unidade natural e equilibrada**, bem
+situada no conjunto? Existem tópicos fora de contexto, aparentemente
+isolados ou irrelevantes?
+
+3. Minhas frases são concisas e diretas, ou longas demais e tortuosas?
+Seu sentido é sempre claro? Todos os pronomes substitutivos usados têm
+de fato um antecedente?
+
+4. Serei capaz de definir cada palavra que usei, sem exceção? Empreguei
+na maioria dos casos termos concretos e usuais, evitando modismos,
+jargão e termos vagos?
+
+5. O efeito geral do texto é o pretendido ao planejá-lo? Não haverá
+partes maçantes ou pesadas?
+
+6. Uma pessoa não especializada no assunto entenderá o meu texto? As
+afirmações nele contidas estarão suficientemente apoiadas em dados,
+exemplos e outros elementos imprescindíveis?
+
+---
+# Estilo científico
+
+## Tabelas
+
+.pull-left[
+- A finalidade de uma tabela é resumir dados de maneira a fornecer o
+máximo de informação num mínimo de espaço.
+
+- Toda tabela deve ter significado próprio, dispensando consultas ao texto.
+
+- Deve ser colocada em posição vertical, para facilitar a leitura dos
+  dados.
+  - Se não for possível, deve ser colocada em posição horizontal, com o
+  título voltado para a margem esquerda da folha
+  - Se a tabela não couber em uma página, deve ser continuada na página
+  seguinte
+
+- Se a tabela for proveniente de outra fonte, a referência deve ser
+  colocada no rodapé da tabela
+  - Se a tabela for de sua própria autoria, não há necessidade de
+    auto-referenciamento
+]
+.pull-right[
+- Toda tabela **deve ser citada no texto** e inserida o mais próximo
+possível do trecho a que se refere.
+  - A identificação se faz com a palavra **Tabela**, seguida do número de
+  ordem em algarismos arábicos (Tabela 1, Tabela 2, etc)
+  - Deve obedecer uma sequência para cada capítulo ou uma única
+  sequência para todo o documento
+  - Jamais escreva "conforme Tabela acima (abaixo)"
+
+- A legenda deve aparecer sempre na **parte superior** da tabela
+  - O número da tabela sempre precede a legenda
+  - Deve ser o mais claro e **completa** possível
+]
+
+---
+# Estilo científico
+
+## Tabelas
+
+```{r, include=FALSE}
+str(airquality)
+agg <- aggregate(cbind(Ozone, Temp, Wind) ~ Month,
+                 data = airquality, mean)
+names(agg) <- c("Mês", "Ozônio", "Temperatura", "Vento")
+agg <- round(agg, 2)
+```
+
+*[...]*
+
+*Os valores médios de ozônio, temperatura e vento são apresentados na
+Tabela 1.*
+
+Tabela 1. Valores médios de ozônio (ppb), temperatura ( $^\circ$F), e
+vento (mph), medidos na cidade de Nova Iorque entre maio e setembro de
+1973.
+
+```{r, echo=FALSE, results='asis'}
+knitr::kable(agg)
+```
+
+---
+# Estilo científico
+
+## Figuras
+
+.pull-left-40[
+- Figuras podem ser gráficos, imagens, mapas, etc, utilizados para
+  ilustrar conceitos e ilustrações
+
+- Segue as mesmas regras das tabelas, com a excessão de que a legenda
+  deve ser posicionada na **parte inferior** da figura
+]
+.pull-right-60[
+
+*[...]*
+
+*As temperauras medianas mais altas foram observadas entre os meses de
+junho e agosto (Figura 1).*
+
+```{r, echo=FALSE, out.width="60%"}
+boxplot(Temp ~ Month, airquality, xlab = "Mês", ylab = "Temperatura")
+```
+Figura 1. Distribuição mensal da temperatura ( $^\circ$F) medida na
+cidade de Nova Iorque entre maio e setembro de 1973.
+]
+
+---
+# Estilo científico
+
+## Equações
+
+.pull-left[
+- Para facilitar a leitura, as equações e fórmulas devem ser destacadas
+no texto e, se necessário, numeradas sequencialmente com algarismos
+arábicos entre parênteses, alinhados à direita
+
+- Na sequência normal do texto, é permitido o uso de uma entrelinha
+maior que comporte seus elementos (expoentes, índices, entre outros)
+
+- Devem ser numeradas somente as equações e fórmulas que forem citadas
+  no texto
+]
+.pull-right[
+
+*[...] o modelo adotado é deinido na equação (1)*
+
+\begin{align}
+\label{eq:nada}
+Y = \beta_0 + \beta_1 X
+\end{align}
+
+*onde $\beta_0$ e $\beta_1$ são os parâmetros a serem estimados.*
+
+]
+
+---
+# Estilo científico
+
+## Palavras e expressões latinas utilizadas em textos científicos
+
+.pull-left[
+- *apud* ou *ap.*: citado por, conforme, segundo. É usada em citações de
+segunda mão, ou seja, para indicar a fonte de uma citação indireta.
+- *et alii* ou *et al.*: e outros. É usada quando a obra foi executada
+por mais de três autores: cita-se o nome do primeiro, seguido da
+expressão *et alii* ou *et al.*
+- *exempli gratia* ou *e. g.*: exemplo ou por exemplo. Expressão usada
+  para iniciar a exemplificação do que foi exposto, do princípio
+  estabelecido, daquilo que acabou de se afirmar.
+- *ibdem* ou *ibid.*: no mesmo lugar, na mesma obra. Permite evitar a
+repetição do título de uma obra já citada.
+- *id est* ou *i. e.*: isto é, ou seja. Permite explicar ou esclarecer
+  uma indicação numa listagem exaustiva de opções ou por meio de uma
+  outra frase reafirmando a indicação anterior.
+- *idem* ou *id.*: o mesmo (autor). Permite evitar a repetição do nome
+do autor já citado.
+]
+.pull-right[
+- *in*: em. É usada para indicar em que obra se encontra determinado
+artigo, capítulo ou parte citada.
+- *infra*: abaixo; linhas ou páginas adiante.
+- *ipsis litteris*: literalmente, com as mesmas palavras. É usada para
+expressar que a citação é fiel, ou literal.
+- *ipsis verbis*: com as mesmas palavras, literalmente. É usada da mesma
+maneira que *ipsis litteris*.
+- *loco citato* ou *loc. cit.*: no lugar citado, ou seja, na obra
+  citada.
+- *opus citatum* ou *op. cit.*: na obra citada.
+- *passim* ou *pass.*: aqui e ali; em várias passagens.
+- *sequentia* ou *seq.* ou *et seq.*: e seguintes; que se seguem.
+- *sic*: assim. É usada para indicar que o original está reproduzido
+exatamente, por errado ou estranho que possa parecer.
+- *supra*: acima; linhas acima ou páginas atrás.
+]
+
+---
+# Materiais para consulta
+
+- [Estruturação do projeto de pesquisa (Lab.
+  A)](https://docs.ufpr.br/~giolo/Lab/Material/Projeto.html) - Profa.
+  Suely Ruiz Giolo (UFPR)
+
+- [Estruturação do TCC (Lab.
+  B)](https://docs.ufpr.br/~giolo/Lab/Material/TCC.html) - Profa. Suely
+  Ruiz Giolo (UFPR)
+
+- [Projetos de pesquisa
+  defendidos](https://docs.ufpr.br/~giolo/Lab/TCC/Projetos/Projetos-Concluidos.html)
+  por alunos orientados pela Profa. Suely Ruiz Giolo (UFPR)
+
+- [TCCs
+defendidos](https://docs.ufpr.br/~giolo/Lab/TCC/TCC_s/TCC-Concluidos.html)
+por alunos orientados pela Profa. Suely Ruiz Giolo (UFPR)
+
+- [TCCs defendidos](http://www.coordest.ufpr.br/tccs1/) pelos alunos do
+  curso de Estatística (UFPR)
+
+- [Templates para projeto e
+  TCC](https://docs.ufpr.br/~giolo/Lab/Templates/) - Profa. Suely Ruiz
+  Giolo (UFPR)
+
+
+```{r, include=FALSE, eval=FALSE}
+## Para gerar o PDF
+xaringanBuilder::build_pdf("projeto-pesquisa.Rmd")
+```
