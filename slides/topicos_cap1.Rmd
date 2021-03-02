@@ -7,7 +7,7 @@ date: |
 # bibliography: bib/ref.bib
 output:
   xaringan::moon_reader:
-    css: ["default", "fc.css", "fc-fonts.css"]
+    css: ["default", "config/fc.css", "config/fc-fonts.css"]
     self_contained: FALSE
     nature:
       highlightStyle: github
