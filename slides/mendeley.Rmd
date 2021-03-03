@@ -1,44 +1,67 @@
 ---
 title: "Gestão de Referências Bibliográficas com Mendeley"
+author: "Walmes Marques Zeviani, Fernando de Pol Mayer (LEG/DEST/UFPR)"
 date: |
-  | 24 Mar 2017
-  | Última atualização: `r Sys.Date()`
-author: |
-  | Walmes M. Zeviani
-  | Fernando P. Mayer
-output: xaringan::moon_reader
+  | 2017-03-24
+  | Última atualização `r Sys.Date()`
+# bibliography: bib/ref.bib
+output:
+  xaringan::moon_reader:
+    css: ["default", "config/ibm-plex.css", "config/ibm-plex-fonts.css"]
+    self_contained: FALSE
+    includes:
+      in_header: "config/mathjax-equation-numbers.html"
+    nature:
+      ratio: "16:9"
+      highlightStyle: github
+      highlightLines: TRUE
+      countIncrementalSlides: FALSE
 ---
 
-```{r pacotes, include=FALSE}
-library(knitr)
-opts_chunk$set(out.width = "80%",
-               fig.align = "center")
+```{r, cache=FALSE, include=FALSE}
+source("config/setup_knitr.R")
+library(RefManageR)
+BibOptions(check.entries = FALSE,
+           bib.style = "authoryear",
+           cite.style = "authoryear",
+           style = "markdown",
+           hyperlink = FALSE,
+           dashed = FALSE)
+bib <- ReadBib("config/refs.bib", check = FALSE)
+xaringanExtra::use_xaringan_extra("tachyons")
+
+knitr::opts_chunk$set(out.width = "60%")
+
 ```
 
 # Justificativa e objetivos
 
-**Justificativa**
+.pull-left[
+## Justificativa
 
-  * Uma pesquisa é fundamentada em outras que a antecederam.
-  * Fazer referências manualmente é laborioso.
-  * Existem várias normas para citações bibliográficas.
-  * Existem várias fontes bibliográficas.
-  * É um processo sistemático e normatizado.
+- Uma pesquisa é fundamentada em outras que a antecederam.
 
-**Objetivos**
+- Fazer referências manualmente é laborioso.
 
-  * Apresentar o gerenciador de referências bibliográficas.
-    * Importar referências.
-    * Fazer buscas e anotações.
-    * Exportar referências.
-  * Fazer citações nas normas da ABNT com
-    * LibreOffice,
-    * Markdown,
-    * LaTeX.
+- Existem várias normas para citações bibliográficas.
 
-<!-- <center> -->
-<!--   <https://gitlab.c3sl.ufpr.br/walmes/mendeley-tutorial> -->
-<!-- </center> -->
+- Existem várias fontes bibliográficas.
+
+- É um processo sistemático e normatizado.
+]
+.pull-right[
+## Objetivos
+
+- Apresentar o gerenciador de referências bibliográficas.
+  - Importar referências.
+  - Fazer buscas e anotações.
+  - Exportar referências.
+
+- Fazer citações nas normas da ABNT com
+  - LibreOffice
+  - Markdown
+  - LaTeX
+]
 
 ---
 
@@ -46,12 +69,17 @@ opts_chunk$set(out.width = "80%",
 
 ## Para que servem
 
-  * Indicar a fonte da informação utilizada.
-  * Situar o trabalho em um conjunto de obras.
-  * Dar suporte às afirmações.
-  * Dar crédito a quem merece sobre ideias, descobertas, alegações.
-  * Permitir que o leitor conheça a fonte em profundidade.
-  * [@pereira2012artigos].
+- Indicar a fonte da informação utilizada.
+
+- Situar o trabalho em um conjunto de obras.
+
+- Dar suporte às afirmações.
+
+- Dar crédito a quem merece sobre ideias, descobertas, alegações.
+
+- Permitir que o leitor conheça a fonte em profundidade.
+
+- `r Citet(bib, "pereira2012artigos")`
 
 ---
 
@@ -59,29 +87,34 @@ opts_chunk$set(out.width = "80%",
 
 ## O que é o Mendeley
 
-  * É um programa para gestão de referências biográficas.
-  * É uma rede social para colaboração em pesquisa.
-  * Permite importar, organizar e compartilhar coleções de refências
-    bibliográficas.
-  * *Web importer*: plugin do navegador que **importa com um clique**.
-  * *Mendeley Desktop*: programa para sincronizar, ler e fazer a
-    referência das obras importadas.
+- É um programa para gestão de referências biográficas.
+
+- É uma rede social para colaboração em pesquisa.
+
+- Permite importar, organizar e compartilhar coleções de refências
+bibliográficas.
+
+- **Web importer**: plugin do navegador que **importa com um clique**.
+
+- **Mendeley Desktop**: programa para sincronizar, ler e fazer a
+referência das obras importadas.
 
 ---
 
 Home do Mendeley
 
 ```{r, echo = FALSE}
-img <- c("../img/mendeley-home.png")
+img <- c("img/mendeley-home.png")
 include_graphics(img)
 ```
 
 ---
+exclude: true
 
 Feed depois de logar
 
 ```{r, echo = FALSE}
-img <- c("../img/mendeley-feed.png")
+img <- c("img/mendeley-feed.png")
 include_graphics(img)
 ```
 
@@ -90,7 +123,7 @@ include_graphics(img)
 Biblioteca de referências
 
 ```{r, echo = FALSE}
-img <- c("../img/mendeley-library.png")
+img <- c("img/mendeley-library.png")
 include_graphics(img)
 ```
 
@@ -98,8 +131,8 @@ include_graphics(img)
 
 Estatística do perfil
 
-```{r, echo = FALSE}
-img <- c("../img/mendeley-stats.png")
+```{r, echo = FALSE, out.width='50%'}
+img <- c("img/mendeley-stats.png")
 include_graphics(img)
 ```
 
@@ -107,8 +140,8 @@ include_graphics(img)
 
 Sugestões de leitura e usuários
 
-```{r, echo = FALSE}
-img <- c("../img/mendeley-suggests.png")
+```{r, echo = FALSE, out.width='50%'}
+img <- c("img/mendeley-suggests.png")
 include_graphics(img)
 ```
 
@@ -118,8 +151,8 @@ include_graphics(img)
 
 Permite extrair os metadados
 
-```{r, echo = FALSE}
-img <- c("../img/mendeley-web-importer.png")
+```{r, echo = FALSE, out.width='50%'}
+img <- c("img/mendeley-web-importer.png")
 include_graphics(img)
 ```
 
@@ -128,7 +161,7 @@ include_graphics(img)
 Add on instalado no navegador
 
 ```{r, echo = FALSE}
-img <- c("../img/firefox-add-ons.png")
+img <- c("img/firefox-add-ons.png")
 include_graphics(img)
 ```
 
@@ -136,8 +169,8 @@ include_graphics(img)
 
 Busca de artigo no Scielo
 
-```{r, echo = FALSE}
-img <- c("../img/scielo-busca.png")
+```{r, echo = FALSE, out.width='50%'}
+img <- c("img/scielo-busca.png")
 include_graphics(img)
 ```
 
@@ -145,8 +178,8 @@ include_graphics(img)
 
 Resultado da busca
 
-```{r, echo = FALSE}
-img <- c("../img/scielo-resultado.png")
+```{r, echo = FALSE, out.width='50%'}
+img <- c("img/scielo-resultado.png")
 include_graphics(img)
 ```
 
@@ -154,8 +187,8 @@ include_graphics(img)
 
 Importação do artigo para o Mendeley
 
-```{r, echo = FALSE}
-img <- c("../img/scielo-importacao.png")
+```{r, echo = FALSE, out.width='40%'}
+img <- c("img/scielo-importacao.png")
 include_graphics(img)
 ```
 
@@ -164,57 +197,29 @@ include_graphics(img)
 Biblioteca de referências com a recém importada
 
 ```{r, echo = FALSE}
-img <- c("../img/scielo-importado.png")
+img <- c("img/scielo-importado.png")
 include_graphics(img)
 ```
 
 ---
+exclude: true
 
 ## Motores de Busca
 
-  * <http://www-periodicos-capes-gov-br.ez22.periodicos.capes.gov.br/>.
-  * <https://apps.webofknowledge.com/>.
-  * <http://www.sciencedirect.com/>.
-  * <https://books.google.com.br>.
-  * <http://www.ottobib.com/>.
-  * <http://manas.tungare.name/software/isbn-to-bibtex/>.
+- <http://www-periodicos-capes-gov-br.ez22.periodicos.capes.gov.br/>.
+- <https://apps.webofknowledge.com/>.
+- <http://www.sciencedirect.com/>.
+- <https://books.google.com.br>.
+- <http://www.ottobib.com/>.
+- <http://manas.tungare.name/software/isbn-to-bibtex/>.
 
 ---
-
-## Usando o *proxy* da UFPR
-
-  * Permite acessar os periódicos CAPES da sua casa como se estivesse na
-    Universidade.
-  * Requer email `@ufpr.br`.
-  * <https://www.portal.ufpr.br/acesso_domestico_CAPES.pdf>
-  * <https://www.portal.ufpr.br/conexao_domestica_mozilla.pdf>
-
----
-
-## Usando o *proxy* da UFPR
-
-```{r, echo = FALSE, out.width="70%"}
-img <- c("../img/firefox-proxy-ufpr.png")
-include_graphics(img)
-```
-
----
-
-Logar o usuário UFPR e senha (mesmos do email UFPR)
-
-```{r, echo = FALSE}
-img <- c("../img/firefox-email-ufpr.png")
-include_graphics(img)
-```
-
----
-
 # Mendeley Desktop
 
 Abrir o Mendeley Desktop
 
 ```{r, echo = FALSE}
-img <- c("../img/mendeley-icone.png")
+img <- c("img/mendeley-icone.png")
 include_graphics(img)
 ```
 
@@ -223,7 +228,7 @@ include_graphics(img)
 Busca dentro da coleção
 
 ```{r, echo = FALSE}
-img <- c("../img/mendeley-busca.png")
+img <- c("img/mendeley-busca.png")
 include_graphics(img)
 ```
 
@@ -231,17 +236,8 @@ include_graphics(img)
 
 Anotações no PDF e fichamento
 
-```{r, echo = FALSE, out.width = "100%"}
-img <- c("../img/mendeley-anotacoes.png")
-include_graphics(img)
-```
-
----
-
-Opções de exportação
-
-```{r, echo = FALSE, out.width = "100%"}
-img <- c("../img/mendeley-exportar.png")
+```{r, echo = FALSE, out.width = "80%"}
+img <- c("img/mendeley-anotacoes.png")
 include_graphics(img)
 ```
 
@@ -249,29 +245,50 @@ include_graphics(img)
 
 Opções de importação
 
-```{r, echo = FALSE, out.width = "100%"}
-img <- c("../img/mendeley-adicionar.png")
+```{r, echo = FALSE, out.width = "70%"}
+img <- c("img/mendeley-adicionar.png")
 include_graphics(img)
 ```
 
 ---
 
-# Citações com o LibreOffice
+Opções de exportação
+
+```{r, echo = FALSE, out.width = "70%"}
+img <- c("img/mendeley-exportar.png")
+include_graphics(img)
+```
+
+---
+# Arquivos de estilo de formatação
 
 ## Obter o CSL para ABNT
 
-  * CSL: citation style language.
-  * Arquivo XML que define as normas para fazer citações.
-  * ABNT UFPR 2011
-    <https://wisleyvelasco.com.br/2013/05/16/estilos-mendeley/>.
-  * <https://github.com/citation-style-language/styles/blob/master/associacao-brasileira-de-normas-tecnicas-ufpr.csl>.
+- CSL: Citation Style Language.
+
+- Arquivo XML que define as normas para fazer citações.
+
+- Pode ser baixado em
+  - https://citationstyles.org/
+  - https://www.zotero.org/styles
+  - https://github.com/citation-style-language/styles
+
+
+---
+# Citações com o LibreOffice
+
+## Exemplo: usando o CSL para ABNT-UFPR
+
+- Baixe o CSL em
+  - https://www.zotero.org/styles/associacao-brasileira-de-normas-tecnicas-ufpr
+
 
 ---
 
 Mudar e adicionar estilos de citação
 
-```{r, echo = FALSE, out.width = "100%"}
-img <- c("../img/mendeley-estilos.png")
+```{r, echo = FALSE, out.width = "70%"}
+img <- c("img/mendeley-estilos.png")
 include_graphics(img)
 ```
 
@@ -279,8 +296,8 @@ include_graphics(img)
 
 Adicionar o CSL para o ABNT UFPR
 
-```{r, echo = FALSE, out.width = "100%"}
-img <- c("../img/mendeley-abnt-ufpr.png")
+```{r, echo = FALSE, out.width = "70%"}
+img <- c("img/mendeley-abnt-ufpr.png")
 include_graphics(img)
 ```
 
@@ -289,7 +306,7 @@ include_graphics(img)
 Instalando o plugin no LibreOffice
 
 ```{r, echo = FALSE}
-img <- c("../img/mendeley-libre-plugin.png")
+img <- c("img/mendeley-libre-plugin.png")
 include_graphics(img)
 ```
 
@@ -298,7 +315,7 @@ include_graphics(img)
 Fazendo citações
 
 ```{r, echo = FALSE}
-img <- c("../img/libre-citar.png")
+img <- c("img/libre-citar.png")
 include_graphics(img)
 ```
 
@@ -307,22 +324,64 @@ include_graphics(img)
 Produzindo as referências
 
 ```{r, echo = FALSE}
-img <- c("../img/libre-referencias.png")
+img <- c("img/libre-referencias.png")
 include_graphics(img)
 ```
+
+---
+# Usando a VPN da UFPR
+
+- Muitas vezes os artigos que precisamos são pagos, e por isso não
+  conseguimos acessar
+
+- No Brasil, existe um convênio entre as Universidades Federais,
+  CAPES/CNPq e diversas editoras
+
+- Quando um banco de dados de artigos é acessado de **dentro** de uma
+  rede federal, os artigos são liberados (na maioria dos casos)
+  - Isso requer estar fisicamente dentro da Universidade
+
+- Uma forma de acessar a rede UFPR de casa é usar uma VPN (*Virtual
+Private Network*)
+
+- Depois de instalar, você pode "ligar" a VPN, e toda a sua navegação
+  será feita como se você estivesse na rede UFPR
+
+- Para instalar e configurar uma VPN da UFPR, acesse:
+  - https://www.agtic.ufpr.br/portal/guia-de-acesso-remoto-vpn/
+
+
 
 ---
 
 # Resumo
 
-  * O Mendeley
-    * É gerenciador gratuíto de referências bibliográficas.
-    * É uma rede social para divulgação/colaboração de pesquisadores.
-    * Recurso de importação/exportação/sincronização.
-    * Recursos de organização e compartilhamento de coleções.
-    * Recursos de busca e anotação.
-  * Citações nas Normas da ABNT.
-    * CLS da ABNT para o Mendeley.
-    * LibreOffice com plugin do Mendeley.
-    * (R)Markdown com CSL ABNT e referências em `*.bib`.
-    * LaTeX com `abntcite` e referências em `*.bib`.
+- O Mendeley
+  - É gerenciador gratuíto de referências bibliográficas.
+  - É uma rede social para divulgação/colaboração de pesquisadores.
+  - Recurso de importação/exportação/sincronização.
+  - Recursos de organização e compartilhamento de coleções.
+  - Recursos de busca e anotação.
+
+- Citações nas Normas da ABNT.
+  - CSL da ABNT para o Mendeley.
+  - LibreOffice com plugin do Mendeley.
+  - (R)Markdown com CSL ABNT e referências em `*.bib`.
+  - LaTeX com `abntcite` e referências em `*.bib`.
+
+
+---
+class: center, middle, inverse
+# Referências
+
+```{r, include=FALSE, eval=FALSE}
+## Para gerar o PDF
+xaringanBuilder::build_pdf("mendeley.Rmd")
+```
+
+---
+# Referências
+
+```{r refs, echo=FALSE, results="asis"}
+PrintBibliography(bib)
+```
