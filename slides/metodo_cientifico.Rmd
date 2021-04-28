@@ -8,7 +8,7 @@ date: |
 output:
   xaringan::moon_reader:
     css: ["default", "config/ibm-plex.css", "config/ibm-plex-fonts.css"]
-    self_contained: TRUE
+    self_contained: FALSE
     nature:
       ratio: "16:9"
       highlightStyle: github
@@ -754,14 +754,14 @@ Baseada no **Teorema de Bayes**
 \begin{align*}
 [H_i|D] &= \frac{[DH_i]}{[D]} \\
       &= \frac{[D|H_i] [H_i]}{[D]} \\
-      &\propto [D|H_i] [D]
+      &\propto [D|H_i] [H_i]
 \end{align*}
 
 - $[H_i|D]$ é a probabilidade da hipótese $H_i$, condicionada aos dados
   $D$ (**posterior**)
 - $[D|H_i]$ é a probabilidade do dado, condicionada à hipótese
   (**verossimilhança**)
-- $[D]$ é a distribuição de probabilidade **a priori** para os dados
+- $[H_i]$ é a distribuição de probabilidade **a priori** para a hipótese
 - O resultado será a probabilidade de cada uma das $i=1,\ldots,k$
   hipóteses concorrentes
 <!-- - É possível incorporar informações prévias sobre uma hipótese, por meio -->
@@ -854,7 +854,7 @@ knitr::include_graphics("img/feynman.jpg")
 ]
 
 ---
-exclude: true
+exclude: false
 # Exemplo
 
 **Hipótese de pesquisa**: bandos maiores de pássaros possuem uma taxa maior
@@ -869,8 +869,8 @@ de consumo (forrageamento)
 | :--      | :--                 | :--                                                                |
 | A        | $C=a$               | Consumo independente do tamanho do bando (modelo **nulo**)         |
 | B        | $C=aS$              | Consumo é proporcional ao tamanho do bando                         |
-| C        | $C=\frac{AS}{1+bS}$ | Consumo satura à medida que o tamanho da bando aumenta             |
-| D        | $C=aSe^{-bS}$       | Consumo aumenta e depois diminui com o aumento do tamanho do bando |
+| C        | $C=\frac{aS}{1+bS}$ | Consumo satura à medida que o tamanho da bando aumenta             |
+| D        | $C=aS\text{e}^{-bS}$ | Consumo aumenta e depois diminui com o aumento do tamanho do bando |
 
 
 ]
@@ -904,21 +904,32 @@ legend("topright", legend = LETTERS[1:4], col = 1:4, lty = 1, lwd = 2)
 ]
 
 ---
-exclude: true
+exclude: false
 # Exemplo
 
 .pull-left[
 
 ### Popperiana/clássica
 
-- Modelos B, C, e D seriem confrontados **individualmente** com o modelo
-  nulo
-- As hipóteses não podem (a princípio) serem testadas "par-a-par" pois
-  isso diminui o nível de significância do teste
-
 $$
 \text{P}[D|H_0]
 $$
+
+- Modelos B, C, e D seriam confrontados **individualmente** com o modelo
+  nulo
+
+\begin{align*}
+H_0 = H_A &\text{ vs } H_B \\
+H_0 = H_A &\text{ vs } H_C \\
+H_0 = H_A &\text{ vs } H_D
+\end{align*}
+
+- Em cada teste há apenas duas possíveis decisões: **rejeitar** ou **não
+  rejeitar** $H_0$
+
+- As hipóteses não podem (a princípio) serem testadas "par-a-par" pois
+  isso diminui o nível de significância (global) do teste
+
 
 ]
 
@@ -926,11 +937,28 @@ $$
 
 ### Lakatosiana/bayesiana
 
+$$
+\text{P}[H_i|D], \quad i = A, B, C, D
+$$
+
 - O confronto seria entre os quatro modelos competidores e os dados
 
+- Pode-se determinar o **grau de plausibilidade** de cada
+  hipótese/modelo
+
+\begin{align*}
+[H_A|D] &= p_A \\
+[H_B|D] &= p_B \\
+[H_C|D] &= p_C \\
+[H_D|D] &= p_D
+\end{align*}
+
+- Se, por exemplo,
 $$
-\text{P}[H_i|D], \quad i = 1, 2, 3, 4
+p_D > p_C > p_B > p_A
 $$
+então assumimos que o modelo D é o mais plausível **entre os 4
+testados**
 
 ]
 
