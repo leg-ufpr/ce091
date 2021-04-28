@@ -856,29 +856,6 @@ knitr::include_graphics("img/feynman.jpg")
 ---
 # Exemplo
 
-```{r, include=FALSE, eval=FALSE}
-cons <- seq(0, 8, length.out = 100)
-flock <- seq(0, 16, length.out = 100)
-plot(cons ~ flock)
-
-a <- 2
-b <- 0.2
-x <- flock
-## y <- (a * flock * exp(-b * flock)) * exp(log(rnorm(100)))
-set.seed(20)
-y <- abs((a * x * exp(-b * x)) + rnorm(100))
-plot(y ~ x)
-
-modA <- nls(y ~ a * x, start = list(a = 1))
-modB <- nls(y ~ (a * x/(1 + b * x)), start = list(a = 1, b = 0.1))
-modC <- nls(y ~ a * x * exp(-b * x), start = list(a = 1, b = 0.1))
-
-plot(y ~ x)
-lines(x, predict(modA), col = 1, lwd = 2)
-lines(x, predict(modB), col = 2, lwd = 2)
-lines(x, predict(modC), col = 3, lwd = 2)
-```
-
 **Hipótese de pesquisa**: bandos maiores de pássaros possuem uma taxa maior
 de consumo (forrageamento)
 
@@ -899,7 +876,23 @@ de consumo (forrageamento)
 
 .pull-right[
 
-```{r, echo=FALSE, fig.show="hold", out.width="100%", fig.width=8, fig.height=6}
+```{r, echo=FALSE, out.width="100%", fig.width=8, fig.height=6}
+cons <- seq(0, 8, length.out = 100)
+flock <- seq(0, 16, length.out = 100)
+## plot(cons ~ flock)
+
+a <- 2
+b <- 0.2
+x <- flock
+## y <- (a * flock * exp(-b * flock)) * exp(log(rnorm(100)))
+set.seed(20)
+y <- abs((a * x * exp(-b * x)) + rnorm(100))
+## plot(y ~ x)
+
+modA <- nls(y ~ a * x, start = list(a = 1))
+modB <- nls(y ~ (a * x/(1 + b * x)), start = list(a = 1, b = 0.1))
+modC <- nls(y ~ a * x * exp(-b * x), start = list(a = 1, b = 0.1))
+
 plot(y ~ x, ylab = "Taxa de consumo (C)", xlab = "Tamanho do bando (S)")
 lines(x, rep(2.3, length(x)), col = 1, lwd = 2)
 lines(x, predict(modA), col = 2, lwd = 2)
