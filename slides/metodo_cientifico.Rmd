@@ -8,7 +8,7 @@ date: |
 output:
   xaringan::moon_reader:
     css: ["default", "config/ibm-plex.css", "config/ibm-plex-fonts.css"]
-    self_contained: FALSE
+    self_contained: TRUE
     nature:
       ratio: "16:9"
       highlightStyle: github
@@ -854,6 +854,7 @@ knitr::include_graphics("img/feynman.jpg")
 ]
 
 ---
+exclude: true
 # Exemplo
 
 **Hipótese de pesquisa**: bandos maiores de pássaros possuem uma taxa maior
@@ -903,6 +904,7 @@ legend("topright", legend = LETTERS[1:4], col = 1:4, lty = 1, lwd = 2)
 ]
 
 ---
+exclude: true
 # Exemplo
 
 .pull-left[
