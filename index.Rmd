@@ -11,26 +11,20 @@ source("setup_knitr.R")
 
 [![Build Status](https://travis-ci.org/leg-ufpr/ce091.svg?branch=master)](https://travis-ci.org/leg-ufpr/ce091)
 
-<div class="alert alert-danger" role="alert">
-**ATENÇÃO às informações para o período de paralisação**:
-
-- Devido à suspenção do calendário acadêmico, nenhuma atividade (mesmo
-que remota) pode ser realizada nesse período
-- Um encaminhamento oficial deverá sugrir nos próximos dias, então
-iremos aguardar para avaliar a continuidade da disciplina
-</div>
+<!-- <div class="alert alert-danger" role="alert"> -->
+<!-- </div> -->
 
 # Detalhes da oferta da disciplina
 
 - **Curso:** Estatística
-- **Período:** primeiro semestre de 2020
+- **Período:** primeiro semestre de 2021 (*online*)
 - **Professor Responsável:** [Fernando de Pol Mayer][],
   [LEG][]/DEST/UFPR
 - **Horários e Locais:**
-  - Sexta, 19:00 - 22:10h, **PA-06**
-- **Horários de atendimento dos professores:**
-    - Segundas, 15:30 - 19:00 (preferenciais). Outros horários
-      podem ser agendados previamente por email.
+  - Sexta, 19:00 - 21:00h, **Teams**
+<!-- - **Horários de atendimento dos professores:** -->
+<!--     - Segundas, 15:30 - 19:00 (preferenciais). Outros horários -->
+<!--       podem ser agendados previamente por email. -->
 - **Frequência**: de acordo com as normas da Universidade, mínimo de 75%
 - **Avaliação**:
   - Elaboração de um projeto de pesquisa (será avaliada a parte escrita
@@ -38,16 +32,38 @@ iremos aguardar para avaliar a continuidade da disciplina
   - Apresentação e discussão de artigos científicos
   - Atividades complementares
   - Participação nas aulas
-- **Datas importantes:** De acordo com a [Resolução 24/19 - CEPE][]:
-    - **02/03**: Início do semestre letivo
-    - **27/06**: Final do semestre letivo
-    - **06/07-11/07**: Período de exames
+- **Datas importantes:**
+    - **08/10/2021**: Início das aulas
+    - **17/12/2021**: Final das aulas
+    - **22/12/2021**: Exame final
 
-# Programa/objetivos da disciplina
+# Ojetivos
 
 O objetivo desta disciplina é capacitar os alunos em conceitos básicos
 de técnicas de pesquisa que permitam a análise crítica e o
-desenvolvimento de trabalhos científicos.
+desenvolvimento de trabalhos científicos. Mais especificamente:
+
+- Estimular o pensamento crítico
+- Entender o papel da Estatística como lógica da ciência
+- Compreender os diferentes formatos de pesquisas científicas
+- Dominar ferramentas que auxiliem na elaboração de pesquisas
+
+# Programa
+
+1. **Filosofia da Ciência**: Questões gerais sobre ciência e
+conhecimento científico. Introdução à filosofia da ciência e ao método
+científico. Lógica dedutiva e indutiva. O problema da indução. Exposição
+às diferentes teorias científicas: o falsificacionismo de Popper, os
+paradigmas de Kuhn e os programas de pesquisa de Lakatos. Introdução à
+filosofia da Estatística.
+2. **Métodos de pesquisa**: Aspectos teóricos e conceituais:
+conceitos-base e construção do conhecimento. A pesquisa científica.
+Tipos de pesquisa. A construção da pesquisa. Estrutura do projeto de
+pesquisa.
+3. **Ferramentas para pesquisa científica**: Formatação de projeto de
+pesquisa e TCC. Templates. Gerenciamento de referências bibliográficas.
+Pesquisa reproduzível. Ferramentas para pesquisa reproduzível (renv,
+knitr, rmarkdown).
 
 # Ementa
 
@@ -58,8 +74,5 @@ Bibliográficas. Prática de Pesquisa.
 
 <!-- links -->
 
-[Elias Teixeira Krainski]: http://www.leg.ufpr.br/~elias/
 [Fernando de Pol Mayer]: http://leg.ufpr.br/~fernandomayer
-[Wagner Hugo Bonat]: http://leg.ufpr.br/~wbonat
 [LEG]: http://www.leg.ufpr.br
-[Resolução 24/19 - CEPE]: http://www.soc.ufpr.br/portal/wp-content/uploads/2019/11/cepe-24.19.pdf
