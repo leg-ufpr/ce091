@@ -24,8 +24,8 @@ navbar:
       href: aulas.html
     - text: "Referências"
       href: referencias.html
-    - text: "Notas"
-      href: notas.html
+    # - text: "Notas"
+    #   href: notas.html
     - text: "Materiais"
       href: materiais.html
   right:
