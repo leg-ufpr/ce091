@@ -3,9 +3,10 @@ output_dir: "docs"
 exclude: ["README.md", "\\.sh", "cache"]
 output:
   html_document:
+    css: ["default", "config/sydney-site.css", "config/sydney-site-fonts.css"]
     theme: flatly
-    highlight: default
-    code_folding: hide
+    highlight: textmate
+    # code_folding: hide
     number_sections: false
     toc: true
     toc_depth: 4
