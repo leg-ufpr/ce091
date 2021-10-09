@@ -1,0 +1,11 @@
+xaringan::moon_reader:
+  # css: ["default", "config/ibm-plex.css", "config/ibm-plex-fonts.css"]
+  css: ["default", "config/sydney.css", "config/sydney-fonts.css"]
+  self_contained: TRUE
+  includes:
+    in_header: "config/mathjax-equation-numbers.html"
+  nature:
+    ratio: "16:9"
+    highlightStyle: github
+    highlightLines: TRUE
+    countIncrementalSlides: FALSE

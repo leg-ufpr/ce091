@@ -4,12 +4,12 @@ opts_chunk$set(
     ## cache = TRUE,
     tidy = FALSE,
     comment = "#",
-    collapse = TRUE, ## colapsa chunks em R Markdown
-    fig.width = 10,
-    fig.height = 8,
+    collapse = FALSE, ## colapsa chunks em R Markdown
+    fig.width = 8,
+    fig.height = 6,
     fig.align = "center",
-    out.width = "80%",
-    ## dpi = 80, ## aumentar o dpi para exibir maior.
+    out.width = "90%",
+    dpi = 192, ## aumentar o dpi para exibir maior.
     ## dev = "png",
     cache.path = "cache/",
     fig.path = "figures/"
