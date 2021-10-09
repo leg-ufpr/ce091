@@ -1,5 +1,7 @@
 # ce091
 
+[![deploy](https://github.com/leg-ufpr/ce091/actions/workflows/run.yml/badge.svg)](https://github.com/leg-ufpr/ce091/actions/workflows/run.yml)
+
 ## Métodos de Pesquisa
 
 Repositório das disciplina **Métodos de Pesquisa** (CE091), ministrada

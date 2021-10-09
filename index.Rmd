@@ -9,6 +9,8 @@ output:
 source("setup_knitr.R")
 ```
 
+[![deploy](https://github.com/leg-ufpr/ce091/actions/workflows/run.yml/badge.svg)](https://github.com/leg-ufpr/ce091/actions/workflows/run.yml)
+
 <!-- <div class="alert alert-danger" role="alert"> -->
 <!-- </div> -->
 
