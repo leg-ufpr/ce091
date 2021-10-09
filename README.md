@@ -1,7 +1,5 @@
 # ce091
 
-[![Build Status](https://travis-ci.org/leg-ufpr/ce091.svg?branch=master)](https://travis-ci.org/leg-ufpr/ce091)
-
 ## Métodos de Pesquisa
 
 Repositório das disciplina **Métodos de Pesquisa** (CE091), ministrada
