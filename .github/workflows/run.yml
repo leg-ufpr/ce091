@@ -1,0 +1,64 @@
+name: deploy
+
+# Only run this when the main branch changes
+on:
+  push:
+    branches:
+    - master
+
+env:
+  RENV_PATHS_ROOT: ~/.local/share/renv
+
+# This job installs dependencies, build the site, and pushes it to `gh-pages``
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+
+    # Install R
+    - name: Set up R
+      uses: r-lib/actions/setup-r@v1
+
+    - name: Set up pandoc
+      uses: r-lib/actions/setup-pandoc@v1
+
+    # Install system dependencies
+    - name: Install system dependencies
+      run: |
+        sudo apt-get update -y
+        # sudo apt-get install -y libmagick++-dev
+        # sudo apt-get install -y libudunits2-dev
+        # sudo apt-get install -y libxml2-dev
+        # sudo apt-get install -y libpq-dev
+        # sudo apt-get install -y gdal-bin
+        # sudo apt-get install -y libgdal-dev
+        # sudo apt-get install -y libproj-dev
+        # sudo apt-get install -y libcurl4-openssl-dev
+        # sudo apt-get install -y jags
+
+    - name: Cache packages
+      uses: actions/cache@v1
+      with:
+        path: ${{ env.RENV_PATHS_ROOT }}
+        key: ${{ runner.os }}-renv-${{ hashFiles('**/renv.lock') }}
+        restore-keys: |
+          ${{ runner.os }}-renv-
+
+    - name: Restore packages
+      shell: Rscript {0}
+      run: |
+        if (!requireNamespace("renv", quietly = TRUE)) install.packages("renv")
+        renv::restore()
+
+    # Build the site
+    - name: Build site
+      run: |
+        Rscript -e "rmarkdown::render_site()"
+
+    # Push the book's HTML to github-pages
+    - name: GitHub Pages action
+      uses: peaceiris/actions-gh-pages@v3.6.1
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        publish_dir: ./docs/
