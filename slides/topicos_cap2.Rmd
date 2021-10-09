@@ -1,23 +1,12 @@
 ---
 title: "Tipos de pesquisa científica"
 author: "Elias Teixeira Krainski, Fernando de Pol Mayer (LEG/DEST/UFPR)"
-date: |
-  | 2021-02-18
-  | Última atualização `r Sys.Date()`
-# bibliography: bib/ref.bib
-output:
-  xaringan::moon_reader:
-    css: ["default", "config/ibm-plex.css", "config/ibm-plex-fonts.css"]
-    self_contained: FALSE
-    nature:
-      ratio: "16:9"
-      highlightStyle: github
-      highlightLines: TRUE
-      countIncrementalSlides: FALSE
+date: 2021-02-18 .footnotesize[(última atualização `r Sys.Date()`)]
 ---
 
 ```{r, cache=FALSE, include=FALSE}
 source("config/setup_knitr.R")
+opts_chunk$set(fig.path = "figures/03_RNG_inversa/")
 library(RefManageR)
 BibOptions(check.entries = FALSE,
            bib.style = "authoryear",
@@ -27,6 +16,7 @@ BibOptions(check.entries = FALSE,
            dashed = FALSE)
 bib <- ReadBib("config/refs.bib", check = FALSE)
 xaringanExtra::use_xaringan_extra("tachyons")
+## knitr::opts_chunk$set(out.width = "80%")
 ```
 
 # Tipos de pesquisa científica
@@ -587,5 +577,5 @@ pesquisa/observação
 
 ```{r, include=FALSE, eval=FALSE}
 ## Para gerar o PDF
-xaringanBuilder::build_pdf("topicos_cap2.Rmd")
+xaringanBuilder::build_pdf("slides/topicos_cap2.Rmd")
 ```

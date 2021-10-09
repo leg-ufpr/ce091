@@ -13,7 +13,7 @@
 
 <title>CE091 - Métodos de Pesquisa</title>
 
-<script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+<script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/flatly.min.css" rel="stylesheet" />
 <script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
@@ -29,8 +29,7 @@
        code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
        pre:not([class]) { background-color: white }</style>
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
-<script src="site_libs/navigation-1.1/codefolding.js"></script>
-<link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
+<link href="site_libs/highlightjs-9.12.0/textmate.css" rel="stylesheet" />
 <script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
 <link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet" />
 <link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet" />
@@ -68,6 +67,9 @@ if (window.hljs) {
 
 
 
+<link rel="stylesheet" href="default" type="text/css" />
+<link rel="stylesheet" href="config/sydney-site.css" type="text/css" />
+<link rel="stylesheet" href="config/sydney-site-fonts.css" type="text/css" />
 
 
 
@@ -226,9 +228,6 @@ $(document).ready(function () {
 </style>
 
 <!-- code folding -->
-<style type="text/css">
-.code-folding-btn { margin-bottom: 4px; }
-</style>
 
 
 
@@ -265,16 +264,13 @@ $(document).ready(function () {
   <a href="referencias.html">Referências</a>
 </li>
 <li>
-  <a href="notas.html">Notas</a>
-</li>
-<li>
   <a href="materiais.html">Materiais</a>
 </li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
         <li>
   <a href="https://github.com/leg-ufpr/ce091">
-    <span class="fas fa-github fa-lg"></span>
+    <span class="fa fa-github fa-lg"></span>
      
     GitHub
   </a>
@@ -286,14 +282,6 @@ $(document).ready(function () {
 
 <div id="header">
 
-<div class="btn-group pull-right float-right">
-<button type="button" class="btn btn-default btn-xs btn-secondary btn-sm dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span>Code</span> <span class="caret"></span></button>
-<ul class="dropdown-menu dropdown-menu-right" style="min-width: 50px;">
-<li><a id="rmd-show-all-code" href="#">Show All Code</a></li>
-<li><a id="rmd-hide-all-code" href="#">Hide All Code</a></li>
-</ul>
-</div>
-
 
 
 <h1 class="title toc-ignore">CE091 - Métodos de Pesquisa</h1>
@@ -301,27 +289,17 @@ $(document).ready(function () {
 </div>
 
 
-<p><a href="https://travis-ci.org/leg-ufpr/ce091"><img src="https://travis-ci.org/leg-ufpr/ce091.svg?branch=master" alt="Build Status" /></a></p>
-<div class="alert alert-danger" role="alert">
-<p><strong>ATENÇÃO às informações para o período de paralisação</strong>:</p>
-<ul>
-<li>Devido à suspenção do calendário acadêmico, nenhuma atividade (mesmo que remota) pode ser realizada nesse período</li>
-<li>Um encaminhamento oficial deverá sugrir nos próximos dias, então iremos aguardar para avaliar a continuidade da disciplina</li>
-</ul>
-</div>
+<!-- <div class="alert alert-danger" role="alert"> -->
+<!-- </div> -->
 <div id="detalhes-da-oferta-da-disciplina" class="section level1">
 <h1>Detalhes da oferta da disciplina</h1>
 <ul>
 <li><strong>Curso:</strong> Estatística</li>
-<li><strong>Período:</strong> primeiro semestre de 2020</li>
+<li><strong>Período:</strong> primeiro semestre de 2021 (<em>online</em>)</li>
 <li><strong>Professor Responsável:</strong> <a href="http://leg.ufpr.br/~fernandomayer">Fernando de Pol Mayer</a>, <a href="http://www.leg.ufpr.br">LEG</a>/DEST/UFPR</li>
 <li><strong>Horários e Locais:</strong>
 <ul>
-<li>Sexta, 19:00 - 22:10h, <strong>PA-06</strong></li>
-</ul></li>
-<li><strong>Horários de atendimento dos professores:</strong>
-<ul>
-<li>Segundas, 15:30 - 19:00 (preferenciais). Outros horários podem ser agendados previamente por email.</li>
+<li>Sexta, 19:00 - 21:00h, <strong>Teams</strong> <!-- - **Horários de atendimento dos professores:** --> <!--     - Segundas, 15:30 - 19:00 (preferenciais). Outros horários --> <!--       podem ser agendados previamente por email. --></li>
 </ul></li>
 <li><strong>Frequência</strong>: de acordo com as normas da Universidade, mínimo de 75%</li>
 <li><strong>Avaliação</strong>:
@@ -331,17 +309,31 @@ $(document).ready(function () {
 <li>Atividades complementares</li>
 <li>Participação nas aulas</li>
 </ul></li>
-<li><strong>Datas importantes:</strong> De acordo com a <a href="http://www.soc.ufpr.br/portal/wp-content/uploads/2019/11/cepe-24.19.pdf">Resolução 24/19 - CEPE</a>:
+<li><strong>Datas importantes:</strong>
 <ul>
-<li><strong>02/03</strong>: Início do semestre letivo</li>
-<li><strong>27/06</strong>: Final do semestre letivo</li>
-<li><strong>06/07-11/07</strong>: Período de exames</li>
+<li><strong>08/10/2021</strong>: Início das aulas</li>
+<li><strong>17/12/2021</strong>: Final das aulas</li>
+<li><strong>22/12/2021</strong>: Exame final</li>
 </ul></li>
 </ul>
 </div>
-<div id="programaobjetivos-da-disciplina" class="section level1">
-<h1>Programa/objetivos da disciplina</h1>
-<p>O objetivo desta disciplina é capacitar os alunos em conceitos básicos de técnicas de pesquisa que permitam a análise crítica e o desenvolvimento de trabalhos científicos.</p>
+<div id="ojetivos" class="section level1">
+<h1>Ojetivos</h1>
+<p>O objetivo desta disciplina é capacitar os alunos em conceitos básicos de técnicas de pesquisa que permitam a análise crítica e o desenvolvimento de trabalhos científicos. Mais especificamente:</p>
+<ul>
+<li>Estimular o pensamento crítico</li>
+<li>Entender o papel da Estatística como lógica da ciência</li>
+<li>Compreender os diferentes formatos de pesquisas científicas</li>
+<li>Dominar ferramentas que auxiliem na elaboração de pesquisas</li>
+</ul>
+</div>
+<div id="programa" class="section level1">
+<h1>Programa</h1>
+<ol style="list-style-type: decimal">
+<li><strong>Filosofia da Ciência</strong>: Questões gerais sobre ciência e conhecimento científico. Introdução à filosofia da ciência e ao método científico. Lógica dedutiva e indutiva. O problema da indução. Exposição às diferentes teorias científicas: o falsificacionismo de Popper, os paradigmas de Kuhn e os programas de pesquisa de Lakatos. Introdução à filosofia da Estatística.</li>
+<li><strong>Métodos de pesquisa</strong>: Aspectos teóricos e conceituais: conceitos-base e construção do conhecimento. A pesquisa científica. Tipos de pesquisa. A construção da pesquisa. Estrutura do projeto de pesquisa.</li>
+<li><strong>Ferramentas para pesquisa científica</strong>: Formatação de projeto de pesquisa e TCC. Templates. Gerenciamento de referências bibliográficas. Pesquisa reproduzível. Ferramentas para pesquisa reproduzível (renv, knitr, rmarkdown).</li>
+</ol>
 </div>
 <div id="ementa" class="section level1">
 <h1>Ementa</h1>
@@ -391,11 +383,6 @@ $(document).ready(function () {
 </script>
 
 <!-- code folding -->
-<script>
-$(document).ready(function () {
-  window.initializeCodeFolding("hide" === "show");
-});
-</script>
 
 
 <!-- dynamically load mathjax for compatibility with self-contained -->

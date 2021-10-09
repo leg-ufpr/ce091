@@ -13,7 +13,7 @@
 
 <title>Cronograma das aulas do curso</title>
 
-<script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+<script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/flatly.min.css" rel="stylesheet" />
 <script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
@@ -29,9 +29,10 @@
        code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
        pre:not([class]) { background-color: white }</style>
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
-<script src="site_libs/navigation-1.1/codefolding.js"></script>
-<link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
+<link href="site_libs/highlightjs-9.12.0/textmate.css" rel="stylesheet" />
 <script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+<script src="site_libs/kePrint-0.0.1/kePrint.js"></script>
+<link href="site_libs/lightable-0.0.1/lightable.css" rel="stylesheet" />
 <link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet" />
 <link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet" />
 <!-- Global site tag (gtag.js) - Google Analytics -->
@@ -68,6 +69,9 @@ if (window.hljs) {
 
 
 
+<link rel="stylesheet" href="default" type="text/css" />
+<link rel="stylesheet" href="config/sydney-site.css" type="text/css" />
+<link rel="stylesheet" href="config/sydney-site-fonts.css" type="text/css" />
 
 
 
@@ -226,9 +230,6 @@ $(document).ready(function () {
 </style>
 
 <!-- code folding -->
-<style type="text/css">
-.code-folding-btn { margin-bottom: 4px; }
-</style>
 
 
 
@@ -265,16 +266,13 @@ $(document).ready(function () {
   <a href="referencias.html">Referências</a>
 </li>
 <li>
-  <a href="notas.html">Notas</a>
-</li>
-<li>
   <a href="materiais.html">Materiais</a>
 </li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
         <li>
   <a href="https://github.com/leg-ufpr/ce091">
-    <span class="fas fa-github fa-lg"></span>
+    <span class="fa fa-github fa-lg"></span>
      
     GitHub
   </a>
@@ -286,14 +284,6 @@ $(document).ready(function () {
 
 <div id="header">
 
-<div class="btn-group pull-right float-right">
-<button type="button" class="btn btn-default btn-xs btn-secondary btn-sm dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span>Code</span> <span class="caret"></span></button>
-<ul class="dropdown-menu dropdown-menu-right" style="min-width: 50px;">
-<li><a id="rmd-show-all-code" href="#">Show All Code</a></li>
-<li><a id="rmd-hide-all-code" href="#">Hide All Code</a></li>
-</ul>
-</div>
-
 
 
 <h1 class="title toc-ignore">Cronograma das aulas do curso</h1>
@@ -302,100 +292,180 @@ $(document).ready(function () {
 
 
 <p>Abaixo está o cronograma inicial planejado para a disciplina. (Pode sofrer alterações).</p>
-<div class="alert alert-danger" role="alert">
-<p>Cronograma temporariamente suspenso</p>
-</div>
-<ul>
-<li><strong>06/03</strong>: Apresentação da disciplina. Questões gerais sobre ciência e conhecimento científico.
-<ul>
-<li><a href="https://forms.gle/32Be2J9jDyh1EXnd6">Questionário</a> pré-disciplina</li>
-<li>Origens do conhecimento: senso comum e saber científico. <a href="slides/00_Intro.html">Slides</a>.</li>
-</ul></li>
-<li><strong>13/03</strong>: Aspectos teóricos e conceituais: conceitos-base e construção do conhecimento. <a href="slides/topicos_cap1.html">Slides</a>.</li>
-<li><strong>20/03</strong>: Introdução à filosofia da ciência e ao método científico.</li>
-<li><strong>27/03</strong>: A pesquisa científica. Tipos de pesquisa.</li>
-<li><strong>03/04</strong>: A construção da pesquisa.</li>
-<li><strong>10/04</strong>: <strong>Feriado</strong>.</li>
-<li><strong>17/04</strong>: Estrutura do projeto de pesquisa.</li>
-<li><strong>24/04</strong>: Formatação de projeto de pesquisa e TCC. Templates.</li>
-<li><strong>01/05</strong>: <strong>Feriado</strong>.</li>
-<li><strong>08/05</strong>: Gerenciamento de referências bibliográficas.</li>
-<li><strong>15/05</strong>: Pesquisa reproduzível. Ferramentas para pesquisa reproduzível.</li>
-<li><strong>22/05</strong>: RBRAS.</li>
-<li><strong>29/05</strong>: <strong>Apresentações dos projetos de pesquisa</strong>.</li>
-<li><strong>05/06</strong>: <strong>Apresentações dos projetos de pesquisa</strong>.</li>
-<li><strong>12/06</strong>: <strong>Recesso</strong>.</li>
-<li><strong>19/06</strong>: Atividades planejadas.</li>
-<li><strong>26/06</strong>: Atividades planejadas.</li>
-</ul>
-<!---
-- **06/03**: Apresentação da disciplina. Questões gerais sobre ciência e
-  método científico.
-- **13/03**: Aspectos teóricos e conceituais: conceitos-base e
-  construção do conhecimento.
-- **20/03**: Introdução à filosofia da ciência e ao método científico.
-- **27/03**: A pesquisa científica. Tipos de pesquisa.
-- **03/04**: A construção da pesquisa.
-- **10/04**: **Feriado**.
-- **17/04**: Artigos científicos: leitura, redação e avaliação.
-- **24/04**: **Apresentação de artigos científicos**.
-- **01/05**: **Feriado**.
-- **08/05**: Estrutura do projeto de pesquisa.
-- **15/05**: Formatação de projeto de pesquisa e TCC. Templates.
-- **22/05**: RBRAS.
-- **29/05**: Gerenciamento de referências bibliográficas. Mendeley e
-  inserção no texto.
-- **05/06**: Pesquisa reproduzível. Ferramentas para pesquisa
-  reproduzível.
-- **12/06**: **Recesso**.
-- **19/06**: **Apresentações dos projetos de pesquisa**.
-- **26/06**: **Apresentações dos projetos de pesquisa**.
---->
-<!---
-- **PARTE I**
-- **22/02**: Apresentação da disciplina. Importância da técnica em pesquisa.
-  [A história do pontiac e sorvete de baunilha](https://www.youtube.com/watch?v=ZY1IOEOy4HY)
-- **01/03**: Capitulo 1 [Slides](slides/topicos_cap1.pdf)
-- **08/03**: Capitulo 2 [Slides](slides/topicos_cap2.pdf)
-- **15/03**: Capitulo 3 [Slides](slides/topicos_cap3.pdf)
-- **22/03**: Capitulo 4 e 5 [Slides](slides/topicos_cap4e5.pdf)
-- **29/03**: Apresentações de artigos
-- **PARTE II**
-- **05/04**: Apresentações de artigos
-- **12/04**: Valor p e teste de hipóteses
-- **19/04**: **Feriado.**
-- **26/04**:
-- **03/05**:
-- **10/05**:
-- **PARTE III**
-- **17/05**: Referências bibliográficas. Usando programas gerenciadores
-  de referências. Template para TCC.
-  - Projeto de pesquisa. [Slides](slides/projeto-pesquisa.html).
-  - Gestão de referências bibliográficas com Mendeley.
-    [Slides](slides/mendeley.html).
-- **24/05**: Pesquisa reproduzível. Ferramentas para pesquisa
-  reproduzível.
-  - [Slides](http://leg.ufpr.br/~fernandomayer/pesqrep) sobre pesquisa
-    reproduzível.
-  - [Arquivos](misc/Teste_knitr.zip) do knitr feitos em sala usando
-    [code
-    externalization](https://yihui.name/knitr/demo/externalization/)
-    (para uso no ShareLatex).
-- **31/05**: Apresentações de artigos reproduzíveis. Sistemas
-  controladores de versões.
-  - [Git-rautu](https://github.com/fernandomayer/git-rautu):
-    configuração e comandos básicos do Git.
-  - [Version control with
-    git](http://swcarpentry.github.io/git-novice/): curso do Software
-    Carpentry.
-  - Como configurar o [git para usar dentro do
-    RStudio](http://swcarpentry.github.io/git-novice/14-supplemental-rstudio/index.html).
-- **07/06**: Apresentações dos projetos de pesquisa.
-  - André, Maike, Luan e Dennis, Gustavo.
-- **14/06**: Apresentações dos projetos de pesquisa.
-  - Thays, Rafael e Laís, Mateus, Ananda, Rafael e Igor.
-- **21/06**: **Feriado.**
---->
+<table class="table table-striped table-bordered" style="margin-left: auto; margin-right: auto;">
+<thead>
+<tr>
+<th style="text-align:center;">
+Semana
+</th>
+<th style="text-align:center;">
+Data
+</th>
+<th style="text-align:center;">
+Hora
+</th>
+<th style="text-align:left;">
+Conteúdo
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center;">
+1
+</td>
+<td style="text-align:center;">
+08/10/21
+</td>
+<td style="text-align:center;">
+19:00
+</td>
+<td style="text-align:left;">
+Apresentação da disciplina e ambientação. Análise de questionário online.
+</td>
+</tr>
+<tr>
+<td style="text-align:center;">
+2
+</td>
+<td style="text-align:center;">
+15/10/21
+</td>
+<td style="text-align:center;">
+19:00
+</td>
+<td style="text-align:left;">
+Questões gerais sobre ciência e conhecimento científico. Aspectos teóricos e conceituais: conceitos-base e construção do conhecimento
+</td>
+</tr>
+<tr>
+<td style="text-align:center;">
+3
+</td>
+<td style="text-align:center;">
+22/10/21
+</td>
+<td style="text-align:center;">
+19:00
+</td>
+<td style="text-align:left;">
+Introdução à filosofia da ciência e ao método científico.
+</td>
+</tr>
+<tr>
+<td style="text-align:center;">
+4
+</td>
+<td style="text-align:center;">
+29/10/21
+</td>
+<td style="text-align:center;">
+19:00
+</td>
+<td style="text-align:left;">
+A pesquisa científica. Tipos de pesquisa. A construção da pesquisa.
+</td>
+</tr>
+<tr>
+<td style="text-align:center;background-color: lightgray !important;">
+5
+</td>
+<td style="text-align:center;background-color: lightgray !important;">
+05/11/21
+</td>
+<td style="text-align:center;background-color: lightgray !important;">
+19:00
+</td>
+<td style="text-align:left;background-color: lightgray !important;">
+Apresentações de artigos científicos.
+</td>
+</tr>
+<tr>
+<td style="text-align:center;background-color: lightgray !important;">
+6
+</td>
+<td style="text-align:center;background-color: lightgray !important;">
+12/11/21
+</td>
+<td style="text-align:center;background-color: lightgray !important;">
+19:00
+</td>
+<td style="text-align:left;background-color: lightgray !important;">
+Apresentações de artigos científicos.
+</td>
+</tr>
+<tr>
+<td style="text-align:center;">
+7
+</td>
+<td style="text-align:center;">
+19/11/21
+</td>
+<td style="text-align:center;">
+19:00
+</td>
+<td style="text-align:left;">
+Estrutura do projeto de pesquisa. Formatação de projeto de pesquisa e TCC.
+</td>
+</tr>
+<tr>
+<td style="text-align:center;">
+8
+</td>
+<td style="text-align:center;">
+26/11/21
+</td>
+<td style="text-align:center;">
+19:00
+</td>
+<td style="text-align:left;">
+Artigos científicos, referências bibliográficas, e gerenciamento de bibliografia
+</td>
+</tr>
+<tr>
+<td style="text-align:center;">
+9
+</td>
+<td style="text-align:center;">
+03/12/21
+</td>
+<td style="text-align:center;">
+19:00
+</td>
+<td style="text-align:left;">
+Pesquisa reproduzível. Ferramentas para pesquisa reproduzível.
+</td>
+</tr>
+<tr>
+<td style="text-align:center;background-color: lightgray !important;">
+10
+</td>
+<td style="text-align:center;background-color: lightgray !important;">
+10/12/21
+</td>
+<td style="text-align:center;background-color: lightgray !important;">
+19:00
+</td>
+<td style="text-align:left;background-color: lightgray !important;">
+Apresentações dos projetos de pesquisa.
+</td>
+</tr>
+<tr>
+<td style="text-align:center;background-color: lightgray !important;">
+11
+</td>
+<td style="text-align:center;background-color: lightgray !important;">
+17/12/21
+</td>
+<td style="text-align:center;background-color: lightgray !important;">
+19:00
+</td>
+<td style="text-align:left;background-color: lightgray !important;">
+Apresentações dos projetos de pesquisa.
+</td>
+</tr>
+</tbody>
+</table>
 
 <center>
   <hr width="100%" size="3px">
@@ -439,11 +509,6 @@ $(document).ready(function () {
 </script>
 
 <!-- code folding -->
-<script>
-$(document).ready(function () {
-  window.initializeCodeFolding("hide" === "show");
-});
-</script>
 
 
 <!-- dynamically load mathjax for compatibility with self-contained -->
