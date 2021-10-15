@@ -6,7 +6,7 @@ date: 2019-01-25 .footnotesize[(última atualização `r Sys.Date()`)]
 
 ```{r, cache=FALSE, include=FALSE}
 source("config/setup_knitr.R")
-opts_chunk$set(fig.path = "figures/03_RNG_inversa/")
+opts_chunk$set(fig.path = "figures/topicos_cap1")
 library(RefManageR)
 BibOptions(check.entries = FALSE,
            bib.style = "authoryear",
@@ -19,9 +19,7 @@ xaringanExtra::use_xaringan_extra("tachyons")
 ## knitr::opts_chunk$set(out.width = "80%")
 ```
 
-
 # Conceitos base e construção do conhecimento
-
 
 ## Material baseado em:
 
@@ -76,20 +74,32 @@ class: center, middle, inverse
 
 ## O que é pesquisa?
 
+.pull-left[
 - Procedimento **racional** e **sistemático**
+
   - Proporcionar respostas aos problemas propostos
+
   - Processo constituído de várias fases
      - Formulação do problema até a apresentação e discussão dos
      resultados
+
 - Razões para a realização de uma pesquisa
+
   - Razões **intelectuais**: conhecer pela própria satisfação de
     conhecer
+
   - Razões **práticas**: conhecer para resolver problemas
+]
+.pull-right[
 - Fundamental ter:
+
   - Conhecimento do assunto (?)
+
   - Recursos humanos, materiais e financeiros
+
   - Noção dos próprios limites
      - Visão "romântica" do *gênio*, que inventa e promove descobertas
+
 - Primeira fase da pesquisa: **planejamento** de todos os processos
   utilizados
   - Escolha do tema
@@ -97,6 +107,7 @@ class: center, middle, inverse
   - Objetivos
   - Hipóteses
   - Operacionalização dos métodos
+]
 
 ---
 # Conceitos base
@@ -119,6 +130,8 @@ class: center, middle, inverse
 ### Métodos
 - Procedimentos específicos
 ]
+
+<br>
 
 > *Ciência é conhecimento que entendemos tão bem que podemos ensiná-la
 > para um computador. Todo o resto é arte.*
@@ -169,6 +182,8 @@ histórico
 
 - A cultura popular é baseada no senso comum
 
+<br>
+
 > *Probability theory is nothing more than common sense reduced to
 > calculation.*
 
@@ -179,12 +194,14 @@ histórico
 
 ## Os tipos de conhecimento do "senso comum"
 
+.pull-left-70[
 1. A intuição
   - A intuição é a percepção imediata, sem necessidade de intervenção do
     raciocínio (o fogo queima, as coisas caem, ...)
   - Sua base é a simples observação
   - Parece auto-evidente, o que reduz a nossa vontade de testar a sua
     validade
+
 2. A tradição
   - Transmite saber que parece verdadeiro e útil para todos, no passado,
     no presente e no futuro
@@ -196,31 +213,48 @@ histórico
       (leite com manga)
      - As proibições semi-racionalizadas (passar debaixo de uma escada dá azar)
      - Os tabus sociais (a proibição do incesto, casamentos consanguíneos)
-3. A autoridade
+]
+.pull-right-30[
+3\. A autoridade
+
   - Se encarrega da transmissão da tradição de forma COERCITIVA.
+
   - Papel midiático, governos, força indevida
+
   - Exemplos do conhecimento autoritário
      - A escola tradicional
      - O conhecimento **mitológico** e/ou **religioso**
+
   - O valor do conhecimento imposto repousa em nosso consentimento em
     recebê-lo
+]
 
 ---
 # Senso comum
 
+<br>
+
 .pull-left[
-## Vantagens
+### Vantagens
+
 - Permite a solução rápida de muitos de nossos problemas imediatos
+
 - É cômodo porque não exige planejamento ou programação
+
 - É um conhecer sem o trabalho da reflexão e do teste crítico
 ]
 .pull-right[
-## Desvantagens
+### Desvantagens
+
 - Caráter utilitarista, sem um aprofundamento crítico
+
 - Utilizamos o conhecimento que "funciona", sem compreendermos as razões
   do seu sucesso
+
 - Subjetividade e baixo poder de crítica
+
 - Linguagem vaga
+
 - Desconhecimento dos limites de validade
 ]
 
@@ -252,6 +286,7 @@ enriquecido e reformulado
 
 ## O que é ciência
 
+.pull-left[
 - Uma forma particular de conhecer o mundo
 
 - Saber produzido através do raciocínio lógico associado à
@@ -261,7 +296,8 @@ enriquecido e reformulado
   investigação experimental e explanação teórica de fenômenos
 
 - O método científico envolve técnicas exatas, objetivas e sistemáticas
-
+]
+.pull-right[
 - Regras fixas para a formação de conceitos, condução de observações,
   realização de experimentos e validação de hipóteses
 
@@ -271,6 +307,9 @@ enriquecido e reformulado
   - Possibilita previsões confiáveis sobre acontecimentos futuros
   - Indica mecanismos de controle que possibilitem uma intervenção sobre
     eles
+]
+
+<br>
 
 > *A Ciência é um processo de aprendizado da natureza, onde ideias
 > concorrentes sobre como funciona o mundo são medidas contra
@@ -282,6 +321,8 @@ enriquecido e reformulado
 # Conceitos base
 
 ## O que é ciência
+
+<br>
 
 ### Poder da ciência
 
@@ -309,7 +350,9 @@ representações.
 - É perceber um PROBLEMA (que é a **pergunta de pesquisa**) e pensar que
   esta situação poderia ser compreendida ou resolvida por meio de
   explicações ou soluções possíveis
+
 - Deve-se oferecer tais explicações (**hipóteses de trabalho**)
+
 - **Testar estas explicações**
   - Ter a percepção de que este novo conhecimento é mais seguro e
     confiável, na medida em que ele pode ser usado para gerar novos
@@ -379,12 +422,17 @@ assimilação do meio interior e exterior do ser -->
 
 ## Tipos e formas de aquisição
 
+<br>
+
 Dependendo da forma pela qual se chega a essa representação, pode ser
 classificado de
 
 - Empírico
+
 - Filosófico
+
 - Teológico ou mítico
+
 - Científico
 
 <!-- - Supondo que todo conhecimento humano reporta a um ponto de vista
@@ -398,20 +446,30 @@ filosófico, científico e teológico -->
 ## Conhecimento empírico
 
 - Adquirido no cotidiano, por meio de nossas experiências
+
 - Construído por meio de tentativas e erros num agrupamento de ideias
+
 - Caracterizado pelo **senso comum**, pela forma espontânea e direta de
   entendermos
+
 - Características:
+
   - Conjunto de opiniões geralmente aceitas em épocas determinadas,
   e que as opiniões contrárias aparecem como aberrações individuais.
+
   - É **valorativo** por excelência, pois se fundamenta em operações base em
     estados de ânimo e emoções.
+
   - É também **reflexivo**.
+
   - É **verificável**.
+
   - É **falível e inexato**.
 
+.center[.content-box-red[
 O principal mérito do método empírico é o de assinalar com vigor
 a importância da experiência na origem dos nossos conhecimentos.
+]]
 
 ---
 # A construção do conhecimento
@@ -421,25 +479,39 @@ a importância da experiência na origem dos nossos conhecimentos.
 A palavra *filosofia* foi introduzida por Pitágoras, e é composta, em
 grego, de *philos*, “amigo”, e *sophia*, “sabedoria”.
 
+.pull-left[
 - A Filosofia é a fonte de **todas** as áreas do conhecimento humano
   - Todas as ciências não só dependem dela, como nela se incluem
   - É a ciência das primeiras causas e princípios.
   - Destituída de objeto particular, mas assume o papel orientador de
   cada ciência na solução de problemas universais.
+
 - Procura conhecer as causas reais dos fenômenos, não as causas próximas
 como as ciências particulares.
+]
+.pull-right[
 - Procura conhecer, também, as causas profundas e remotas de todas as
 coisas e, para elas, respostas.
+
 - Características:
+
   - É **valorativo**, pois seu ponto de partida consiste em hipóteses, que
 não poderão ser submetidas à observação.
-  - **Não é verificável**.
-  - Tem a característica de **sistemático**.
-  - É **infalível e exato**.
 
+  - **Não é verificável**.
+
+  - Tem a característica de **sistemático**.
+
+  - É **infalível e exato**.
+]
+
+<br>
+
+.center[.content-box-red[
 É caracterizado pelo esforço da **razão** para questionar os problemas
 humanos e poder discernir entre o certo e o errado, unicamente
 recorrendo às luzes da própria **razão humana**.
+]]
 
 <!-- - Tales de Mileto (precursor da filosofia): explicações criteriosas
 --> <!-- - Cosmologia, a ordem do mundo através de uma explicação
@@ -456,7 +528,8 @@ obtidas através de hipóteses e possibilidades -->
 ---
 # A construção do conhecimento
 
-## Conhecimento teológico
+.pull-left[
+### Conhecimento teológico
 
 - Revelado pela fé divina ou crença religiosa
 
@@ -467,57 +540,86 @@ obtidas através de hipóteses e possibilidades -->
 - Fundamentado exclusivamente na fé humana e desprovido de método
 
 - Crença na existência de entes divinos e superiores que controlam a
-  Vida e o Universo
+  vida e o universo
+]
+.pull-right[
+### Conhecimento mítico
 
-<!-- ## Conhecimento mítico --> <!-- - Inspirado pelos deuses e do qual
-se fala sem nenhuma preocupação em relação à prova dos acontecimentos.
---> <!-- - Se baseia na intuição --> <!-- - Foi a primeira forma de
-explicação sobre as coisas e era fantasiosa. -->
+- Inspirado pelos deuses e do qual se fala sem nenhuma preocupação em
+  relação à prova dos acontecimentos
+
+- Se baseia na intuição
+
+- Foi a primeira forma de explicação sobre as coisas e era fantasiosa.
+]
 
 ---
 # A construção do conhecimento
 
 ## Conhecimento científico
 
+.pull-left[
 - O conhecimento científico surge a partir:
   - Da determinação de um **objeto** específico de investigação
   - Da explicitação de um **método** para essa investigação
+
 - Forma de conhecimento objetivo, racional, sistemático, geral,
   verificável e falível
+
 - As áreas da Ciência podem ser classificadas em duas grandes dimensões:
-   - **Puras** (o desenvolvimento de teorias) e **aplicadas** (a aplicação de
+
+  - **Puras** (o desenvolvimento de teorias) e **aplicadas** (a
+   aplicação de
    teorias às necessidades humanas)
-   - **Naturais** (o estudo do mundo natural) e **sociais** (o estudo do
+
+  - **Naturais** (o estudo do mundo natural) e **sociais** (o estudo do
    comportamento humano e da sociedade)
+]
+.pull-right[
 - Características:
+
   - É **real** (factual), porque lida com ocorrências ou fatos
+
   - Constitui um **conhecimento contingente**, pois suas proposições ou
   hipóteses têm sua veracidade ou falsidade conhecida por intermédio da
   experiência e não apenas razão, como ocorre no conhecimento filosófico.
+
   - É **sistemático**.
+
   - Possui características de **verificabilidade**.
+
   - É **falível**, em virtude de não ser definitivo, absoluto ou final e,
   por este motivo, é **aproximadamente exato**.
+]
 
 ---
 # A construção do conhecimento
 
 ## Conhecimento científico
 
+.pull-left-60[
 - Pretende atingir o **melhor índice de validade e fidelidade** do
 conhecimento de um fenômeno
 
 - Para isso, é necessário que a busca do conhecimento de um fenômeno
 seja guiada por perguntas básicas que encaminharão o encontro de
 respostas
-    - O que conhecer?
-    - Por que conhecer?
-    - Para que conhecer?
-    - Como conhecer?
-    - Com que conhecer?
-    - Em que local conhecer?
 
 - Tais procedimentos acabam por caracterizar uma **ação metodológica**
+]
+.pull-right-30[
+- O que conhecer?
+
+- Por que conhecer?
+
+- Para que conhecer?
+
+- Como conhecer?
+
+- Com que conhecer?
+
+- Em que local conhecer?
+]
 
 ---
 # Método científico
@@ -526,29 +628,40 @@ respostas
 das coisas que cerceiam um fato** e montar formas de compreensão adequada
 dos fenômenos.
 
-
+.pull-left[
 - **Fatos**: acontecem na realidade, independentemente de haver ou não
 quem os conheça.
+
 - **Fenômeno**: é a percepção que o observador tem do fato. Pessoas
 diversas podem observar no mesmo fato fenômenos diferentes.
+
 - **Paradigmas**: constituem-se em referenciais teóricos que servirão
 de orientação para a opção metodológica de investigação.
+]
+.pull-right[
 - **Método Científico**: é a expressão lógica do raciocínio associada à
 formulação de argumentos convincentes. Utiliza-se de:
+
   - **Termos**: são palavras, declarações, significações convencionais que
 se referem a um objeto.
+
   - **Conceito**: é a representação, expressão e interiorização daquilo que
 a coisa é (compreensão da coisa).
+
   - **Definição**: é a manifestação e apreensão dos elementos contidos no
 conceito, tratando de decidir em torno do que se duvida ou do que é
 ambivalente.
+]
 
-*Saber utilizar adequadamente termos, conceitos e definições significa
+.center[.content-box-red[
+Saber utilizar adequadamente termos, conceitos e definições significa
 metodologicamente expressar na Ciência aquilo que o indivíduo
 sabe e quer transmitir
-*
+]]
 
 ---
+exclude: true
+
 # Método científico
 
 ## Método dedutivo
@@ -575,6 +688,8 @@ formal, em virtude de sua **lógica**.
  princípios podem ser enunciados por leis.
 
 ---
+exclude: true
+
 # Método científico
 
 ## Método indutivo
@@ -594,6 +709,8 @@ homem e dar-lhe poder sobre a natureza.
   - os casos em que o fenômeno apresenta **intensidade diferente**
 
 ---
+exclude: true
+
 # Método científico
 
 ## Método indutivo
@@ -618,6 +735,8 @@ explicativa** da causa do fenômeno.
 prováveis**.
 
 ---
+exclude: true
+
 # Método científico
 
 ## Método hipotético-dedutivo
@@ -643,6 +762,8 @@ testes
 momento poderá surgir um fato que a invalide.
 
 ---
+exclude: true
+
 # Conclusões
 
 ```{r, include=FALSE, eval=FALSE}

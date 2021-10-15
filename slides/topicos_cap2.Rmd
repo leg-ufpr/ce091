@@ -6,7 +6,7 @@ date: 2021-02-18 .footnotesize[(última atualização `r Sys.Date()`)]
 
 ```{r, cache=FALSE, include=FALSE}
 source("config/setup_knitr.R")
-opts_chunk$set(fig.path = "figures/03_RNG_inversa/")
+opts_chunk$set(fig.path = "figures/topicos_cap2")
 library(RefManageR)
 BibOptions(check.entries = FALSE,
            bib.style = "authoryear",

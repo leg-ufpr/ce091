@@ -1,25 +1,12 @@
 ---
 title: "Estruturação do projeto de pesquisa"
 author: "Fernando de Pol Mayer (LEG/DEST/UFPR)"
-date: |
-  | 2021-02-23
-  | Última atualização `r Sys.Date()`
-# bibliography: bib/ref.bib
-output:
-  xaringan::moon_reader:
-    css: ["default", "config/ibm-plex.css", "config/ibm-plex-fonts.css"]
-    self_contained: FALSE
-    includes:
-      in_header: "config/mathjax-equation-numbers.html"
-    nature:
-      ratio: "16:9"
-      highlightStyle: github
-      highlightLines: TRUE
-      countIncrementalSlides: FALSE
+date: 2021-02-23 .footnotesize[(última atualização `r Sys.Date()`)]
 ---
 
 ```{r, cache=FALSE, include=FALSE}
 source("config/setup_knitr.R")
+opts_chunk$set(fig.path = "figures/projeto-pesquisa")
 library(RefManageR)
 BibOptions(check.entries = FALSE,
            bib.style = "authoryear",
@@ -29,6 +16,7 @@ BibOptions(check.entries = FALSE,
            dashed = FALSE)
 bib <- ReadBib("config/refs.bib", check = FALSE)
 xaringanExtra::use_xaringan_extra("tachyons")
+## knitr::opts_chunk$set(out.width = "80%")
 ```
 
 # Estruturação do projeto de pesquisa

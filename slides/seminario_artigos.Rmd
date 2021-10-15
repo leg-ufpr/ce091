@@ -1,23 +1,12 @@
 ---
 title: "Apresentação de seminários"
 author: "Fernando de Pol Mayer (LEG/DEST/UFPR)"
-date: |
-  | 2021-02-18
-  | Última atualização `r Sys.Date()`
-# bibliography: bib/ref.bib
-output:
-  xaringan::moon_reader:
-    css: ["default", "config/ibm-plex.css", "config/ibm-plex-fonts.css"]
-    self_contained: FALSE
-    nature:
-      ratio: "16:9"
-      highlightStyle: github
-      highlightLines: TRUE
-      countIncrementalSlides: FALSE
+date: 2021-02-18 .footnotesize[(última atualização `r Sys.Date()`)]
 ---
 
 ```{r, cache=FALSE, include=FALSE}
 source("config/setup_knitr.R")
+opts_chunk$set(fig.path = "figures/seminario_artigos")
 library(RefManageR)
 BibOptions(check.entries = FALSE,
            bib.style = "authoryear",
@@ -26,12 +15,16 @@ BibOptions(check.entries = FALSE,
            hyperlink = FALSE,
            dashed = FALSE)
 bib <- ReadBib("config/refs.bib", check = FALSE)
+xaringanExtra::use_xaringan_extra("tachyons")
+## knitr::opts_chunk$set(out.width = "80%")
 ```
 
 <!-- Retirado de  -->
 <!-- https://github.com/fernandomayer/ce082-2016-2/blob/gh-pages/02_sem_CME.Rmd -->
 
 # Introdução
+
+<br>
 
 - Seminário é uma técnica de estudo que inclui **pesquisa**, **discussão**
 e **debate**.
@@ -58,11 +51,15 @@ também faz parte do aprendizado.
 ---
 # Objetivos
 
+<br>
+
 ## Objetivo geral
 
 O objetivo geral é fazer uma análise crítica sobre um artigo científico.
 
-## Objetivos específicos
+<br>
+
+### Objetivos específicos
 
 - Aprender a encontrar artigos científicos relevantes para sua pesquisa
 - Aprender a identificar o tipo de pesquisa exposta no artigo, quanto a
@@ -76,10 +73,11 @@ O objetivo geral é fazer uma análise crítica sobre um artigo científico.
 # Sobre o artigo
 
 .pull-left-60[
-## Tema
+### Tema
 
 - O tema do artigo deve estar preferencialmente relacionado ao tema do
 seu projeto de pesquisa.
+
 - Temas paralelos e/ou isolados podem também ser utilizados, por exemplo
   - Se o seu tema geral de pesquisa for "aplicar o método X para
     resolver o problema Y", o artigo pode ser sobre
@@ -88,15 +86,16 @@ seu projeto de pesquisa.
     - qual é o problema Y e por que ele deveria ser objeto de estudo
 ]
 .pull-right-40[
-## Tipo de publicação
+### Tipo de publicação
 
 - O artigo deve **obrigatoriamente** ser um artigo científico, ou seja,
   estão excluídos: artigos em blogs, sites, jornais, revistas ou
   qualquer outro meio, tutoriais online, etc.
+
 - Os artigos científicos devem ter sido publicados preferencialmente em
-  **revistas científicas com avaliação por pares**. No entanto isso não
-  exclui artigos publicados em anais de congresso, por exemplo (desde
-  que não seja resumo)
+  **revistas científicas com avaliação por pares**.
+  <!-- No entanto isso não exclui artigos publicados em anais de congresso, -->
+  <!-- por exemplo (desde que não seja resumo) -->
 ]
 
 ## Busca
@@ -104,16 +103,21 @@ seu projeto de pesquisa.
 - Evite usar o Google para pesquisar em revistas científicas, pois a
   busca geral trará informações de diversos meios não necessariamente
   científicos
-- Use o Google Scholar ou Google Acadêmico (https://scholar.google.com/)
+- Use o Google Scholar ou Google Acadêmico (https://scholar.google.com)
   para fazer a busca. Essa ferramenta procura apenas em revistas
   científicas
 
 ---
 # Publicações científicas
 
+<br>
+
 - Publicação periódica
+
 - Editor-chefe, editores associados e colaboradores
+
 - Revisão por pares
+
 - Registro científico permanente
 
 - Tipos de artigos
@@ -137,6 +141,7 @@ sequência:
   - Do que se trata o artigo?
   - Por que isso é importante ser estudado?
   - Como o artigo está estruturado? (Introdução, metodologia, etc).
+
 - **Desenvolvimento**: expor como o artigo foi estruturado e
   desenvolvido
   - Quais foram os objetivos?
@@ -145,8 +150,9 @@ sequência:
     necessário entrar nos detalhes).
   - Como você classificaria a pesquisa em relação à abordagem, natureza,
     objetivos e procedimentos? (Ver slides).
-- **Conclusão**: deve-se fazer uma interpretação pessoal (ou da dupla)
-  sobre o **formato** do artigo
+
+- **Conclusão**: deve-se fazer uma interpretação pessoal sobre o
+  **formato** do artigo
   - O texto está escrito de forma clara e acessível?
   - O texto segue uma linha de raciocínio lógica?
   - Os autores conseguiram atingir os objetivos propostos?
@@ -174,29 +180,42 @@ professor
      - Adequação das etapas obrigatórias (slide anterior)
   - Adequação da apresentação ao tempo disponível
   - Verificar se as perguntas (slide anterior) foram respondidas
+
 2. Sobre a exposição oral
   - Qualidade da exposição
      - Controle
      - Voz e vocabulário
   - Qualidade e quantidade de slides
 
+<br>
+
+.center[.content-box-red[
+Não será necessário entregar texto ou slides nos seminários. A avaliação
+será feita diretamente com base na apresentação.
+]]
 
 ---
 # Duração e datas
 
+<br>
+
 ## Duração
 
-- Cada aluno (ou dupla) terá 10 minutos para fazer a exposição oral
+- Cada aluno terá 15 minutos para fazer a exposição oral
 - Poderá haver de 2 a 3 minutos para comentários ao final de cada
   apresentação
+- A ordem das apresentações será definida por sorteio
+
+<br>
 
 ## Datas
 
-- Os seminários serão apresentados no dia 01/03/2021 (segunda-feira)
+- Os seminários serão apresentados no dia 05/11/2021 (ou 12/11/2021,
+  conforme o número de alunos)
 
 ```{r, include=FALSE, eval=FALSE}
 ## Para gerar o PDF
-xaringanBuilder::build_pdf("seminario_artigos.Rmd")
+xaringanBuilder::build_pdf("slides/seminario_artigos.Rmd")
 ```
 
 ---

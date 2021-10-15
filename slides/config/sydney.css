@@ -23,7 +23,8 @@ To specify the margin of the first title h1
   margin-bottom: 15px; /* 10px; */
   font-size: 30px;
 }
-.remark-slide-content > h2:first-of-type {
+.remark-slide-content > h2 {
+    /* .remark-slide-content > h2:first-of-type { */
     color: #5b5b5b; /* #b7b7b7; */
     margin-top: 5px;
     margin-bottom: 15px; /* 10px; */
