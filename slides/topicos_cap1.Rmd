@@ -6,7 +6,7 @@ date: 2019-01-25 .footnotesize[(última atualização `r Sys.Date()`)]
 
 ```{r, cache=FALSE, include=FALSE}
 source("config/setup_knitr.R")
-opts_chunk$set(fig.path = "figures/03_RNG_inversa/")
+opts_chunk$set(fig.path = "figures/topicos_cap1")
 library(RefManageR)
 BibOptions(check.entries = FALSE,
            bib.style = "authoryear",
@@ -76,20 +76,25 @@ class: center, middle, inverse
 
 ## O que é pesquisa?
 
+.pull-left[
 - Procedimento **racional** e **sistemático**
   - Proporcionar respostas aos problemas propostos
   - Processo constituído de várias fases
      - Formulação do problema até a apresentação e discussão dos
      resultados
+
 - Razões para a realização de uma pesquisa
   - Razões **intelectuais**: conhecer pela própria satisfação de
     conhecer
   - Razões **práticas**: conhecer para resolver problemas
+]
+.pull-right[
 - Fundamental ter:
   - Conhecimento do assunto (?)
   - Recursos humanos, materiais e financeiros
   - Noção dos próprios limites
      - Visão "romântica" do *gênio*, que inventa e promove descobertas
+
 - Primeira fase da pesquisa: **planejamento** de todos os processos
   utilizados
   - Escolha do tema
@@ -97,6 +102,7 @@ class: center, middle, inverse
   - Objetivos
   - Hipóteses
   - Operacionalização dos métodos
+]
 
 ---
 # Conceitos base
@@ -119,6 +125,8 @@ class: center, middle, inverse
 ### Métodos
 - Procedimentos específicos
 ]
+
+<br>
 
 > *Ciência é conhecimento que entendemos tão bem que podemos ensiná-la
 > para um computador. Todo o resto é arte.*
@@ -169,6 +177,8 @@ histórico
 
 - A cultura popular é baseada no senso comum
 
+<br>
+
 > *Probability theory is nothing more than common sense reduced to
 > calculation.*
 
@@ -179,12 +189,14 @@ histórico
 
 ## Os tipos de conhecimento do "senso comum"
 
+.pull-left-70[
 1. A intuição
   - A intuição é a percepção imediata, sem necessidade de intervenção do
     raciocínio (o fogo queima, as coisas caem, ...)
   - Sua base é a simples observação
   - Parece auto-evidente, o que reduz a nossa vontade de testar a sua
     validade
+
 2. A tradição
   - Transmite saber que parece verdadeiro e útil para todos, no passado,
     no presente e no futuro
@@ -196,7 +208,9 @@ histórico
       (leite com manga)
      - As proibições semi-racionalizadas (passar debaixo de uma escada dá azar)
      - Os tabus sociais (a proibição do incesto, casamentos consanguíneos)
-3. A autoridade
+]
+.pull-right-30[
+3\. A autoridade
   - Se encarrega da transmissão da tradição de forma COERCITIVA.
   - Papel midiático, governos, força indevida
   - Exemplos do conhecimento autoritário
@@ -204,18 +218,23 @@ histórico
      - O conhecimento **mitológico** e/ou **religioso**
   - O valor do conhecimento imposto repousa em nosso consentimento em
     recebê-lo
+]
 
 ---
 # Senso comum
 
+<br>
+
 .pull-left[
-## Vantagens
+### Vantagens
+
 - Permite a solução rápida de muitos de nossos problemas imediatos
 - É cômodo porque não exige planejamento ou programação
 - É um conhecer sem o trabalho da reflexão e do teste crítico
 ]
 .pull-right[
-## Desvantagens
+### Desvantagens
+
 - Caráter utilitarista, sem um aprofundamento crítico
 - Utilizamos o conhecimento que "funciona", sem compreendermos as razões
   do seu sucesso
@@ -252,6 +271,7 @@ enriquecido e reformulado
 
 ## O que é ciência
 
+.pull-left[
 - Uma forma particular de conhecer o mundo
 
 - Saber produzido através do raciocínio lógico associado à
@@ -261,7 +281,8 @@ enriquecido e reformulado
   investigação experimental e explanação teórica de fenômenos
 
 - O método científico envolve técnicas exatas, objetivas e sistemáticas
-
+]
+.pull-right[
 - Regras fixas para a formação de conceitos, condução de observações,
   realização de experimentos e validação de hipóteses
 
@@ -271,6 +292,9 @@ enriquecido e reformulado
   - Possibilita previsões confiáveis sobre acontecimentos futuros
   - Indica mecanismos de controle que possibilitem uma intervenção sobre
     eles
+]
+
+<br>
 
 > *A Ciência é um processo de aprendizado da natureza, onde ideias
 > concorrentes sobre como funciona o mundo são medidas contra
@@ -282,6 +306,8 @@ enriquecido e reformulado
 # Conceitos base
 
 ## O que é ciência
+
+<br>
 
 ### Poder da ciência
 
@@ -549,6 +575,8 @@ sabe e quer transmitir
 *
 
 ---
+exclude: true
+
 # Método científico
 
 ## Método dedutivo
@@ -575,6 +603,8 @@ formal, em virtude de sua **lógica**.
  princípios podem ser enunciados por leis.
 
 ---
+exclude: true
+
 # Método científico
 
 ## Método indutivo
@@ -594,6 +624,8 @@ homem e dar-lhe poder sobre a natureza.
   - os casos em que o fenômeno apresenta **intensidade diferente**
 
 ---
+exclude: true
+
 # Método científico
 
 ## Método indutivo
@@ -618,6 +650,8 @@ explicativa** da causa do fenômeno.
 prováveis**.
 
 ---
+exclude: true
+
 # Método científico
 
 ## Método hipotético-dedutivo
@@ -643,6 +677,8 @@ testes
 momento poderá surgir um fato que a invalide.
 
 ---
+exclude: true
+
 # Conclusões
 
 ```{r, include=FALSE, eval=FALSE}
