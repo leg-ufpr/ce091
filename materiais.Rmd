@@ -5,10 +5,37 @@ output:
     toc: false
 ---
 
+<!--
+1. Topicos 1
+2. Topicos 2
+3. Filosofia
+4. Topicos 3
+5. Estruturação do projeto
+-->
+
+## Aulas
+
 1. Questões gerais sobre ciência e conhecimento científico. Aspectos
    teóricos e conceituais: conceitos-base e construção do conhecimento.
    [PDF](slides/topicos_cap1.pdf)
-2. Introdução à filosofia da ciência e ao método científico.
-   [PDF](slides/metodo_cientifico.pdf)
-3. A pesquisa científica. Tipos de pesquisa. A construção da pesquisa.
+2. A pesquisa científica. Tipos de pesquisa.
    [PDF](slides/topicos_cap2.pdf)
+3. Introdução à filosofia da ciência e ao método científico.
+   [PDF](slides/metodo_cientifico.pdf)
+4. A construção da pesquisa. [PDF](slides/topicos_cap3.pdf)
+5. Estrutura do projeto de pesquisa. Formatação de projeto de pesquisa e
+   TCC. [PDF](slides/projeto-pesquisa.pdf)
+   - Ver (instalar e usar) o template em Rmarkdown para projeto e TCC do
+     curso de  Estatística da UFPR no pacote
+     [tcctemplate](https://github.com/fernandomayer/tcctemplate)
+6. Artigos científicos, referências bibliográficas, e gerenciamento de
+   bibliografia. [PDF](slides/mendeley.pdf)
+7. Pesquisa reproduzível.
+   [HTML](http://leg.ufpr.br/~fernandomayer/pesqrep/#1)
+   - Ferramentas para pesquisa reproduzível (com R). Ver o curso
+     [PRR](http://cursos.leg.ufpr.br/prr/)
+
+
+## Outros
+
+- Slides sobre o seminário. [PDF](slides/seminario_artigos.pdf)
