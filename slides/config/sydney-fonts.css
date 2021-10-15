@@ -15,12 +15,13 @@ https://www.slant.co/versus/224/287/~source-code-pro_vs_roboto-mono
 @import url('https://fonts.googleapis.com/css2?family=Fira+Mono&display=swap');
 
 body {
-  font-family: 'Roboto', Arial, sans-serif;
+    font-family: 'Roboto', Arial, sans-serif;
 }
-h1, h2, h3 {
-  font-family: 'Roboto Condensed';
-  font-weight: normal;
+h1, h2, h3, h4 {
+    font-family: 'Roboto Condensed';
+    font-weight: normal;
 }
+
 
 .remark-code, .remark-inline-code {
   font-family: 'Fira Mono', 'Source Code Pro', 'Lucida Console', Monaco, monospace;
