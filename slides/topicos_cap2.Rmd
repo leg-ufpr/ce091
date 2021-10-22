@@ -41,17 +41,17 @@ class: center, middle, inverse
 ---
 # Introdução
 
+<br>
+
+.pull-left[
 - Pesquisa é a atividade nuclear da ciência
   - Processo permanentemente inacabado
 
 - Descobrir e interpretar fatos inseridos na realidade
 
 - Resolução de problemas via procedimentos científicos
-
---
-
-</br>
-
+]
+.pull-right[
 A pesquisa pode ser classificada quanto à
 
 1. Abordagem
@@ -61,6 +61,7 @@ A pesquisa pode ser classificada quanto à
 3. Objetivos
 
 4. Procedimentos
+]
 
 ---
 class: center, middle, inverse
@@ -119,13 +120,12 @@ class: center, middle, inverse
 .bg-light-yellow.b--orange.ba.bw2.br3.shadow-5.ph4.mt5[
 Positivismo lógico
 - Empirismo lógico ou neopositivismo
-- Princípio central é o verificacionismo
+- Princípio central é o verificacionismo (declarações verificáveis por
+  observação)
 - Conhecimento científico é a única forma de conhecimento "verdadeiro"
 - "Teoria unificada da ciência"
 ]
 ]
-
---
 
 .pull-right[
 - Tenta explicar o porquê das coisas, mas não submete os fatos à provas
@@ -146,7 +146,7 @@ Positivismo lógico
 # Classificação quanto à abordagem
 
 .pull-left[
-## Característica da pesquisa qualitativa
+#### Característica da pesquisa qualitativa
 
 - Objetivação do fenômeno
 
@@ -165,10 +165,8 @@ Positivismo lógico
 - Oposição ao pressuposto de modelo único para todas as ciências
 ]
 
---
-
 .pull-right[
-## Limitações da pesquisa qualitativa
+#### Limitações da pesquisa qualitativa
 
 - Excessiva confiança no pesquisador
 
@@ -192,6 +190,9 @@ Positivismo lógico
 
 ## Pesquisa quantitativa
 
+<br>
+
+.pull-left[
 - Resultados quantificáveis
 
 - Amostras grandes, representativas de uma população
@@ -200,7 +201,8 @@ Positivismo lógico
     - *influenciada pelo Positivismo*
     - *instrumentos padronizados e neutros*
     - *realidade compreendida pela análise de dados*
-
+]
+.pull-right[
 - Recorre à linguagem matemática para descrever
     - *causas de um fenômeno*
     - *relações entre variáveis*
@@ -210,7 +212,7 @@ Positivismo lógico
   - *o raciocínio (hipotético-) dedutivo*
   - *as regras da lógica*
   - *os atributos mensuráveis da experiência humana*
-
+]
 
 ---
 exclude: true
@@ -267,23 +269,19 @@ j <- "Analisa dados numéricos através de procedimentos estatísticos"
 # Classificação quanto à natureza
 
 .pull-left[
-## Pesquisa básica
+### Pesquisa básica
 
 - Gerar conhecimentos novos, úteis para avanço da ciência
 - Sem aplicação prática prevista
 - Envolve verdades e interesses universais
 ]
 .pull-right[
-## Pesquisa aplicada
+### Pesquisa aplicada
 
 - Gerar conhecimentos para aplicação prática
 - Dirigida à solução de problemas específicos
 - Envolve verdades e interesses locais
 ]
-
---
-
-</br>
 
 ## Básica versus aplicada
 
@@ -307,7 +305,7 @@ j <- "Analisa dados numéricos através de procedimentos estatísticos"
 # Classificação quanto aos objetivos
 
 .pull-left[
-## Pesquisa exploratória
+#### Pesquisa exploratória
 
 Proporcionar maior familiaridade com o problema
   - Explicitar um assunto ou construir hipóteses
@@ -320,7 +318,7 @@ Proporcionar maior familiaridade com o problema
     - Estudo de caso
 ]
 .pull-right[
-## Pesquisa descritiva
+#### Pesquisa descritiva
 
 Descrever fatos e fenômenos de determinada realidade
   - Exige uma série de informações sobre o que se deseja pesquisar
@@ -334,7 +332,7 @@ Descrever fatos e fenômenos de determinada realidade
     - Pesquisa _ex-post-facto_
 ]
 
-## Pesquisa explicativa
+#### Pesquisa explicativa
 
 Identificar fatores que determinam ou contribuem para a ocorrência de
 fenômenos
@@ -368,7 +366,7 @@ exclude: true
 # Classificação quanto aos procedimentos
 
 .pull-left[
-## Pesquisa experimental
+#### Pesquisa experimental
 
 Delimitar objeto de estudo e variáveis influenciadoras e definir formas
 de controle e observação dos efeitos
@@ -380,7 +378,7 @@ de controle e observação dos efeitos
     - dois grupos: experimental e controle
     - um grupo: antes e depois
 
-## Pesquisa bibliográfica
+#### Pesquisa bibliográfica
 
 - Levantamento de referências teóricas publicadas
   - artigos científicos
@@ -390,7 +388,7 @@ de controle e observação dos efeitos
 - Faz parte de **toda pesquisa científica**
 ]
 .pull-right[
-## Pesquisa documental
+#### Pesquisa documental
 
 - Similar à pesquisa bibliográfica
 - Fontes mais diversificadas
@@ -413,7 +411,7 @@ de controle e observação dos efeitos
 # Classificação quanto aos procedimentos
 
 .pull-left[
-## Pesquisa de campo
+### Pesquisa de campo
 
 - Realiza coleta de dados **primários**
 
@@ -426,7 +424,9 @@ pesquisa/observação
   - pesquisa participante
 ]
 .pull-right[
-## Pesquisa _ex-post-facto_
+### Pesquisa _ex-post-facto_
+
+- "A partir do fato passado"
 
 - Relacionar possível relação causal entre um fato e um fenômeno
 
@@ -441,7 +441,7 @@ pesquisa/observação
 # Classificação quanto aos procedimentos
 
 .pull-left[
-## Pesquisa de levantamento
+### Pesquisa de levantamento
 
 - Utilizada em estudos exploratórios e descritivos
 
@@ -456,7 +456,7 @@ pesquisa/observação
   - Características econômicas e sociais
 ]
 .pull-right[
-## Pesquisa com _survey_
+### Pesquisa com _survey_
 
 - Busca informação diretamente num grupo de interesse, representante de
   uma população alvo
@@ -508,7 +508,7 @@ pesquisa/observação
 # Classificação quanto aos procedimentos
 
 .pull-left[
-## Pesquisa participante
+### Pesquisa participante
 
 - Envolvimento e identificação do pesquisador com as pessoas investigadas
 
@@ -522,7 +522,7 @@ pesquisa/observação
   - Determinação de ações básicas de grupos de trabalho
 ]
 .pull-right[
-## Pesquisa ação
+### Pesquisa ação
 
 - Participação planejada do pesquisador na situação problemática a ser
   investigada
@@ -539,7 +539,7 @@ pesquisa/observação
 # Classificação quanto aos procedimentos
 
 .pull-left-60[
-## Pesquisa etnográfica
+### Pesquisa etnográfica
 
 - Estudo de um grupo ou povo
 
@@ -558,7 +558,7 @@ pesquisa/observação
   - Pesquisas realizadas sobre os processos educativos
 ]
 .pull-right-40[
-## Pesquisa etnometodológica
+### Pesquisa etnometodológica
 
 - Raiz grega: estratégias que as pessoas utilizam cotidianamente para viver
 
@@ -577,5 +577,5 @@ pesquisa/observação
 
 ```{r, include=FALSE, eval=FALSE}
 ## Para gerar o PDF
-xaringanBuilder::build_pdf("slides/topicos_cap2.Rmd")
+xaringanBuilder::build_pdf("topicos_cap2.Rmd")
 ```
