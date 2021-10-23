@@ -20,7 +20,8 @@ output:
    [PDF](slides/topicos_cap1.pdf)
 2. A pesquisa científica. Tipos de pesquisa.
    [PDF](slides/topicos_cap2.pdf)
-3. Introdução à filosofia da ciência e ao método científico.
+3. Introdução à filosofia da ciência e ao método científico. Visões
+   alternativas do método científico.
    [PDF](slides/metodo_cientifico.pdf)
 4. A construção da pesquisa. [PDF](slides/topicos_cap3.pdf)
 5. Estrutura do projeto de pesquisa. Formatação de projeto de pesquisa e

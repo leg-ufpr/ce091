@@ -13,8 +13,9 @@ library(dplyr)
 library(tidyr)
 ```
 
-Abaixo está o cronograma inicial planejado para a disciplina. (Pode
-sofrer alterações).
+Abaixo está o cronograma inicial planejado para a disciplina.
+
+Atualizado em 2021-10-22.
 
 ```{r, eval=FALSE, include=FALSE}
 ## Gera a lista com as datas de todas as aulas. O resultado do último
