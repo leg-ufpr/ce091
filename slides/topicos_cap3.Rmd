@@ -42,6 +42,9 @@ class: center, middle, inverse
 
 ## Algumas condutas que dificultam começar (ou começar mal) uma pesquisa
 
+<br>
+
+.pull-left[
 - No início sabemos muito pouco sobre aquilo que queremos estudar
 
 - Desejamos que o trabalho seja útil e que possamos chegar ao fim
@@ -49,28 +52,34 @@ class: center, middle, inverse
 - Sensação de se perder mesmo antes de ter começado
 
 - **Como sair disso?**
-
---
-
+]
+.pull-right[
 - Isso pode ser chamado de fuga antecipada e pode se dar de três formas
+
   - Gulodice livresca ou estatística
   - Impasse das hipóteses
   - Ênfase obscura
+]
 
 ---
 # Algumas condutas que dificultam começar (ou começar mal) uma pesquisa
 
 ## Gulodice livresca ou estatística
 
+<br>
+
+.pull-left[
 - "Encher a cabeça" com grande quantidade de livros, artigos e dados
   pode gerar desmotivação
 
 - A abundância de informações mal absorvidas leva a embaralhar ainda
   mais as ideias. O que fazer:
+
   - Refletir mais
   - Ler poucos textos bem escolhidos
   - Interpretar judiciosamente dados significativos
-
+]
+.pull-right[
 - É preferível escolher o caminho mais simples e mais curto para chegar
   ao melhor resultado
 
@@ -79,12 +88,14 @@ class: center, middle, inverse
 
 - Descongestionar o cérebro de números e palavras é o primeiro passo
   para começar a pensar de forma ordenada e criativa
+]
 
 ---
 # Algumas condutas que dificultam começar (ou começar mal) uma pesquisa
 
 ## Impasse das hipóteses
 
+.pull-left[
 - Coleta de dados antes de formular hipóteses de pesquisa
 
 - Colocar em prática as técnicas de pesquisa antes de saber o que se vai
@@ -98,7 +109,8 @@ class: center, middle, inverse
   - Para responder a pergunta X, que dados são necessários?
   - Com os dados Y, qual técnica posso utilizar para responder à
     pergunta X?
-
+]
+.pull-right[
 - Isso implica que devemos definir muito bem o projeto de pesquisa
 
 - Esse tipo de fuga por antecipação é comum, e decorrente das crenças de
@@ -108,6 +120,7 @@ class: center, middle, inverse
   - basta acumular um grande número de informações sobre o tema e
     submetê-lo a uma variedade de técnicas estatísticas para se obter
     uma resposta
+]
 
 ---
 # Algumas condutas que dificultam começar (ou começar mal) uma pesquisa
@@ -115,11 +128,15 @@ class: center, middle, inverse
 ## Ênfase obscura
 
 .pull-left[
+
 - É comum que pesquisadores iniciantes sejam impressionados e
   intimidados pelo que eles pensam ser a ciência
+
 - Para assegurar uma credibilidade, acreditam ser útil expressar-se de
 uma forma "difícil" e incompreensível
+
 - Seguidamente, muitos também continuam a raciocinar dessa forma
+
 - Isso implica em duas formas dominates de projetos de pesquisa:
   - **Ambição desmesurada**: acredita-se que o problema é dos outros, da
     forma de ensino, do seu país em desenvolvivmento, etc
@@ -145,12 +162,6 @@ uma forma "difícil" e incompreensível
 ---
 class: center, middle, inverse
 # Os três grandes eixos da pesquisa
-
-Ruptura
-
-Construção
-
-Constatação
 
 ---
 # Os três grandes eixos da pesquisa
@@ -262,6 +273,8 @@ knitr::include_graphics("img/sete_etapas_pesquisa.png")
 ---
 ## 1. Questão incial
 
+<br>
+
 - Formular um projeto a partir de uma questão inical
 
 - Deve ser o fio condutor da pesquisa
@@ -269,11 +282,14 @@ knitr::include_graphics("img/sete_etapas_pesquisa.png")
 - Deve expressar o que se busca conhecer, elucidar, compreender
 
 - Deve apresentar clareza, exequiblidade, pertinência
+
   - Qualidades de clareza:
      - Ser precisa
      - Ser concisa e unívoca
+
   - Qualidades de exequibilidade:
      - Ser realista
+
   - Qualidades de pertinência
      - Ser uma questão verdadeira
      - Abordar o que já existe sobre o tema e fundamentar as
@@ -291,8 +307,10 @@ knitr::include_graphics("img/sete_etapas_pesquisa.png")
   - Escolher textos que apresentem abordagens e enfoques diferentes
   - Consulte pessoas informadas sobre o tema
   - Locais de busca (biblioteca, internet, etc)
+
 - Informação inicial das pesquisas já realizadas sobre o tema e
 contribuições para o projeto
+
 - Como ler
   - Resumir: evidenciar ideias principais e suas articulações
   - Tente tornar claro o pensamento do autor (tente explicar para você mesmo)
@@ -301,18 +319,22 @@ contribuições para o projeto
 ### Informações exploratórias
 
 - Complemento às leituras
+
 - Entrevistas, observações, dados secundários, documentos, entre outros
+
 - Permite tomar consciência de aspectos que experiência e leituras não
   puderam evidenciar
+
 - O objetivo não consiste em validar as ideias preconcebidas, mas em
 encontrar outras ideias
+
 - Três tipos de interlocutores são interessantes
   - especialistas científicos sobre o tema em estudo
   - informantes privilegiados
   - pessoas diretamente envolvidas
-- Ao final desta etapa, o pesquisador poderá ser levado a reformular sua questão
-inicial
 
+- Ao final desta etapa, o pesquisador poderá ser levado a reformular sua
+questão inicial
 ]
 
 ---
@@ -320,12 +342,16 @@ inicial
 
 .pull-left[
 - Abordagem ou perspectiva teórica a ser adotada
+
 - Significa responder a questão: **como vou abordar tal objeto**?
+
 - Dois momentos:
+
   - Primeiro momento
      - Levantamento das problemáticas possíveis e comparação
      - Elucidar as perspectivas teóricas por trás de diferente
        abordagens
+
   - Segundo momento
      - Explicitar sua própria problemática
      - Adotar um quadro teórico que convém e que temos a capacidade de
@@ -335,8 +361,11 @@ inicial
 ]
 .pull-right[
 - A formulação da questão inicial
+
 - As leituras
+
 - As observações exploratórias
+
 - A problemática
 
 são componentes complementares de um processo em *espiral* onde se efetua
@@ -357,11 +386,13 @@ leitura e coleta de dados iniciais (ver flechas no desenho)
 - É um prolongamento natural da **problemática**
 - É a **operacionalização** da abordagem teórica, que guiará o trabalho de
   coleta e análise de dados
+
 - A construção de conceitos é abstrata e tenta dar conta do real
   - mas não dá conta de todas as dimensões da realidade
   - expressa somente o essencial segundo o ponto de vista do pesquisador
 <!-- - Conceitos e hipóteses devem ser  interligadas para formar -->
   <!-- conjuntamente um quadro de análise coerente -->
+
 - Métodos principais de construção das hipóteses
   - **hipotético-indutivo**, prevalece inicialmente
      - parte da observação, derivando novos conceitos e hipóteses
@@ -441,19 +472,28 @@ knitr::include_graphics("img/feedback-loop.png")
 ---
 ## 7. Conclusões
 
+<br>
+
 .pull-left[
 1\. Síntese da linha de pesquisa, apresentando
+
   - Questão de pesquisa
+
   - Principais característica do modelo de análise e hipóteses
+
   - Coleta de dados, métodos escolhidos
+
   - Comparar resultados esperados e obtidos, descrevendo principais
     divergências encontradas
 ]
 .pull-right[
 2\. Perspectivas práticas
+
   - Todo pesquisador deseja que seu trabalho sirva para alguma coisa
+
   - O problema é que as conclusões raramente conduzem à uma aplicação
   prática **clara e indiscutível**
+
   - Procura-se responder
      - Quais elementos de análise são mais importantes e em que sua
        implicação é indiscutível?
@@ -465,22 +505,37 @@ knitr::include_graphics("img/feedback-loop.png")
 ## 7. Conclusões
 
 3\. Novos aportes de conhecimento produzido
+
+<br>
+
+.pull-left[
   - Novos conhecimentos relativos ao **objeto de análise**
+
      - O que sei a mais sobre o objeto de análise?
+
      - O que sei além do objeto de análise?
+
      - Quanto mais o resultado obtido se distanciar do conhecimento
      corrente, mais terá chances de que o novo conhecimento produzido traga
      contribuições
+]
+.pull-right[
   - Novos **conhecimentos teóricos**
+
      - Não somente o objeto de estudo foi explicitado, como também a
      pertinência da problemática e do modelo de análise foi testada
+
      - Um trabalho de pesquisa deve permitir igualmente a avaliação da
      problemática e do modelo de análise
+
      - Para o **pesquisador iniciante**, não se trata de fazer grandes
      descobertas teóricas inéditas
+
      - Trata-se de ele próprio descobrir novas perspectivas teóricas,
      mesmo que elas sejam amplamente conhecidas
+
      - Nossa ótica aqui é a da **formação**
+]
 
 ```{r, include=FALSE, eval=FALSE}
 ## Para gerar o PDF
