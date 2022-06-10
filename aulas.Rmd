@@ -15,8 +15,6 @@ library(tidyr)
 
 Abaixo está o cronograma inicial planejado para a disciplina.
 
-Atualizado em 2021-10-22.
-
 ```{r, eval=FALSE, include=FALSE}
 ## Gera a lista com as datas de todas as aulas. O resultado do último
 ## comando pode ser copiado direto para o documento
@@ -39,5 +37,5 @@ str(dd)
 dd |>
     kable(align = "cccl") |>
     kable_styling(bootstrap_options = c("striped", "bordered")) |>
-    row_spec(c(5, 6, 10, 11), background = "lightgray")
+    row_spec(c(6, 7, 14, 15), background = "lightgray")
 ```

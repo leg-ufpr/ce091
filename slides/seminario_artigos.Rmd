@@ -62,10 +62,13 @@ O objetivo geral é fazer uma análise crítica sobre um artigo científico.
 ### Objetivos específicos
 
 - Aprender a encontrar artigos científicos relevantes para sua pesquisa
+
 - Aprender a identificar o tipo de pesquisa exposta no artigo, quanto a
   alguns critérios
+
 - Aprender a identificar os objetivos e os métodos utilizados pelos
   autores para atingir esses objetivos
+
 - Fazer um julgamento crítico (pessoal) sobre a forma e o conteúdo do
   artigo (sem se aprofundar no método em si)
 
@@ -81,15 +84,15 @@ seu projeto de pesquisa.
 - Temas paralelos e/ou isolados podem também ser utilizados, por exemplo
   - Se o seu tema geral de pesquisa for "aplicar o método X para
     resolver o problema Y", o artigo pode ser sobre
-    - a aplicação do método X para resolver o problema Y (ideal)
-    - a aplicação ou exposição ou revisão do método X
-    - qual é o problema Y e por que ele deveria ser objeto de estudo
+      - a aplicação do método X para resolver o problema Y (ideal)
+      - a aplicação ou exposição ou revisão do método X
+      - qual é o problema Y e por que ele deveria ser objeto de estudo
 ]
 .pull-right-40[
 ### Tipo de publicação
 
 - O artigo deve **obrigatoriamente** ser um artigo científico, ou seja,
-  estão excluídos: artigos em blogs, sites, jornais, revistas ou
+  estão **excluídos**: artigos em blogs, sites, jornais, revistas ou
   qualquer outro meio, tutoriais online, etc.
 
 - Os artigos científicos devem ter sido publicados preferencialmente em
@@ -112,6 +115,7 @@ seu projeto de pesquisa.
 
 <br>
 
+.pull-left[
 - Publicação periódica
 
 - Editor-chefe, editores associados e colaboradores
@@ -128,6 +132,15 @@ seu projeto de pesquisa.
   - Revisão de literatura
 
 - Custos
+]
+.pull-right[
+
+Ler (e se basear) no artigo:
+
+Keshav, S. (2007). [How to read a
+paper](https://doi.org/10.1145/1273445.1273458). Computer Communication
+Review, 37(3), 83–84.
+]
 
 ---
 # Etapas e conteúdo
@@ -202,16 +215,21 @@ será feita diretamente com base na apresentação.
 ## Duração
 
 - Cada aluno terá 15 minutos para fazer a exposição oral
+
 - Poderá haver de 2 a 3 minutos para comentários ao final de cada
   apresentação
+
 - A ordem das apresentações será definida por sorteio
 
-<br>
+- Ao final de cada apresentação, um aluno será sorteado para comentar e
+  fazer perguntas
 
-## Datas
+<!-- <br> -->
 
-- Os seminários serão apresentados no dia 05/11/2021 (ou 12/11/2021,
-  conforme o número de alunos)
+<!-- ## Datas -->
+
+<!-- - Os seminários serão apresentados no dia 05/11/2021 (ou 12/11/2021, -->
+<!--   conforme o número de alunos) -->
 
 ```{r, include=FALSE, eval=FALSE}
 ## Para gerar o PDF
