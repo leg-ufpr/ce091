@@ -17,11 +17,11 @@ source("setup_knitr.R")
 # Detalhes da oferta da disciplina
 
 - **Curso:** Estatística
-- **Período:** primeiro semestre de 2021 (*online*)
+- **Período:** segundo semestre de 2022
 - **Professor Responsável:** [Fernando de Pol Mayer][],
   [LEG][]/DEST/UFPR
 - **Horários e Locais:**
-  - Sexta, 19:00 - 21:00h, **Teams**
+  - Sexta, 19:00 - 22:00h, **Sala DEST Multimídia**
 <!-- - **Horários de atendimento dos professores:** -->
 <!--     - Segundas, 15:30 - 19:00 (preferenciais). Outros horários -->
 <!--       podem ser agendados previamente por email. -->
@@ -33,9 +33,9 @@ source("setup_knitr.R")
   - Atividades complementares
   - Participação nas aulas
 - **Datas importantes:**
-    - **08/10/2021**: Início das aulas
-    - **17/12/2021**: Final das aulas
-    - **22/12/2021**: Exame final
+    - **06/06/2022**: Início das aulas
+    - **17/09/2022**: Final das aulas
+    - **23/09/2022**: Exame final
 
 # Ojetivos
 
