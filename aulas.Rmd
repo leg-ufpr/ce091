@@ -15,6 +15,12 @@ library(tidyr)
 
 Abaixo está o cronograma inicial planejado para a disciplina.
 
+Responder aos questionários iniciais da disciplina:
+
+- [Questionário 1](https://forms.gle/1yyMCRvTpZ8uFhEJ9) (hoje)
+- [Questionário 2](https://forms.gle/XauKyUeX5s6hDEBM8) (para a próxima
+  aula)
+
 ```{r, eval=FALSE, include=FALSE}
 ## Gera a lista com as datas de todas as aulas. O resultado do último
 ## comando pode ser copiado direto para o documento
