@@ -154,8 +154,8 @@ class: center, middle, inverse
 - Essas representações não constituem o objeto real
   - Existe independentemente de o homem o conhecer ou não
 
-- O conhecimento humano é na sua essência um esforço para **resolver
-  contradições** entre as representações do objeto e sua realidade
+- *O conhecimento humano é na sua essência um esforço para **resolver
+  contradições** entre as representações do objeto e sua realidade*
 
 - Dependendo da forma pela qual se chega a essa representação, pode ser:
   - Popular (senso comum)
@@ -385,12 +385,17 @@ class: center, middle, inverse
 
 ## Conhecimento
 
+.pull-left-40[
 - É um processo dinâmico e inacabado
+
 - Essencial a existência do homem
+
 - O desejo de saber é inato ao seres humanos
+
 - Para Platão, conhecimento é crença, verdadeira e justificada
+]
 
-
+.pull-right-60[
 - **Crença**
   - Estado mental que pode ser verdadeiro ou falso
   - Elemento subjetivo do conhecimento
@@ -399,14 +404,17 @@ class: center, middle, inverse
 
 - **Verdade**
   - O que é real ou possivelmente real dentro de um sistema de valores
-  <!-- - Para Nietzsche é um ponto de vista -->
+  - Para Nietzsche é um ponto de vista
+  - Para Newton da Costa, deveria ser *quasi*-verdade $^*$
 
 - **Justificação**
   - Autorização a crer em alguma coisa
   - Quando o indivíduo acredita em alguma coisa verdadeira, e está
   justificado a crer, sua crença é conhecimento
-  - A justificação é um elemento fundamental do conhecimento
+  - **A justificação é um elemento fundamental do conhecimento**
+]
 
+$^*$ *quasi*: (Latim) quase, como se
 
 <!-- - Conhecimento como a manifestação da consciência de conhecer -->
 <!-- - ao viver, o ser humano tem experiências progressivas, da dor e do
@@ -550,7 +558,7 @@ obtidas através de hipóteses e possibilidades -->
 
 - Se baseia na intuição
 
-- Foi a primeira forma de explicação sobre as coisas e era fantasiosa.
+- Foi a primeira forma de explicação sobre as coisas
 ]
 
 ---
