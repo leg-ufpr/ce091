@@ -21,6 +21,8 @@ xaringanExtra::use_xaringan_extra("tachyons")
 
 # Visões alternativas do método científico
 
+<br>
+
 ## Material baseado em:
 
 - Hilborn, R; Mangel, M. [The ecological detective: confronting models
@@ -41,12 +43,30 @@ class: center, middle, inverse
 # Método científico
 
 ---
+# Método científico
+
+## Aprendizado dedutivo-indutivo
+
+- O processo **dedutivo-indutivo** de aprendizado é orientado pelo
+  cérebro humano
+- É conhecido desde o tempo de Aristóteles e faz parte de nossa
+  **experiência cotidiana**
+
+O aprendizado avança conforme ilustrado na figura abaixo
+`r Citep(bib, "Box2005", before = "extraída de ")`:
+
+```{r, echo=FALSE, out.width='70%'}
+knitr::include_graphics("img/deduction-induction.png")
+## knitr::include_graphics("../img/deduction-induction.png")
+```
+
+---
 # Método dedutivo
 
 .pull-left-60[
-- **René Descartes** (1596-1650) apresenta o método dedutivo a partir da
-**matemática** e de suas regras de evidência, análise, síntese e
-enumeração
+<!-- - **René Descartes** (1596-1650) apresenta o método dedutivo a partir da -->
+<!-- **matemática** e de suas regras de evidência, análise, síntese e -->
+<!-- enumeração -->
 
 - Esse método parte **do geral** e, a seguir, desce **para o particular**
 
@@ -54,11 +74,11 @@ enumeração
   - A partir de duas proposições chamadas **premissas**, retira uma
     terceira chamada conclusão
 
-- As duas premissas são verdadeiras, portanto a conclusão é verdadeira.
+- Se as duas premissas são verdadeiras, então a conclusão é verdadeira.
 
 - Parte-se de princípios reconhecidos como **verdadeiros e
 indiscutíveis**, possibilitando chegar a conclusões de maneira puramente
-formal, em virtude de sua **lógica**.
+formal, em virtude de sua **lógica** (clássica).
 
 - Este método tem larga aplicação na Matemática e na Física, cujos
  princípios podem ser enunciados por leis.
@@ -82,25 +102,38 @@ Algum comnetário aqui
 # Método indutivo
 
 .pull-left[
-- Para **Francis Bacon** (1561-1626), o conhecimento científico é o
-único caminho seguro para a verdade dos fatos
+<!-- - Para **Francis Bacon** (1561-1626), o conhecimento científico é o -->
+<!-- único caminho seguro para a verdade dos fatos -->
 
-- Como Galileu, critica Aristóteles por considerar que **o silogismo e o
-processo de abstração não propiciam um conhecimento completo do
-universo**
+<!-- - Como Galileu, critica Aristóteles por considerar que **o silogismo e o -->
+<!-- processo de abstração não propiciam um conhecimento completo do -->
+<!-- universo** -->
 <!-- - O conhecimento é fundamentado exclusivamente na experiência, sem levar -->
 <!-- em consideração princípios preestabelecidos. -->
 
-- O conhecimento científico, para Bacon, tem por finalidade servir o
-homem e dar-lhe poder sobre a natureza.
+<!-- - O conhecimento científico, para Bacon, tem por finalidade servir o -->
+<!-- homem e dar-lhe poder sobre a natureza. -->
 
-- Bacon, um dos fundadores do Método Indutivo, considera:
-  - as circunstâncias e a **frequência** com que ocorre determinado fenômeno
-  - os casos em que o fenômeno não se **verifica**
-  - os casos em que o fenômeno apresenta **intensidade diferente**
+- Parte do particular para o geral
+
+- A partir de observações, é possível formular uma **hipótese
+explicativa** da causa do fenômeno.
+
+- O Método Indutivo, considera
+
+  - As circunstâncias e a **frequência** com que ocorre determinado
+    fenômeno
+
+  - Os casos em que o fenômeno não se **verifica**
+
+  - Os casos em que o fenômeno apresenta **intensidade diferente**
+
+- Portanto, por meio da indução chega-se a **conclusões que são apenas
+prováveis**.
+
 ]
 .pull-right[
-- Exemplo:
+Exemplo:
 
 > Antônio é mortal.
 
@@ -122,30 +155,13 @@ prováveis**.
 
 ]
 
----
-# Método científico
-
-## Aprendizado dedutivo-indutivo
-
-- O processo **dedutivo-indutivo** de aprendizado é orientado pelo
-  cérebro humano
-- É conhecido desde o tempo de Aristóteles e faz parte de nossa
-  **experiência cotidiana**
-
-O aprendizado avança conforme ilustrado na figura abaixo
-`r Citep(bib, "Box2005", before = "extraída de ")`:
-
-```{r, echo=FALSE, out.width='70%'}
-knitr::include_graphics("img/deduction-induction.png")
-## knitr::include_graphics("../img/deduction-induction.png")
-```
 
 ---
 # Método hipotético-dedutivo
 
 .pull-left[
 - Método definido por **Karl Popper**, a partir de suas críticas ao
-método indutivo.
+método indutivo ("problema da indução")
 
 - Para ele, o método indutivo não se justifica, pois o **salto** de
 “alguns” para “todos” exigiria que a **observação de fatos isolados
@@ -199,6 +215,8 @@ class: center, middle, inverse
 ---
 # Como a ciência funciona
 
+<br>
+
 .pull-left[
 > *A Ciência é um processo de aprendizado da natureza, onde ideias
 > concorrentes sobre como funciona o mundo são medidas contra
@@ -216,17 +234,11 @@ class: center, middle, inverse
   **Estatística**
 ]
 
-</br>
-
---
+<br>
 
 - Nenhum cientista consegue ser verdadeiramente **neutro**
 
---
-
 - Todos os cientistas atuam dentro de uma **visão fundamental filosófica**
-
---
 
 - Isso intefere:
   - Nas ferrmentas estatísticas que serão utilizadas
@@ -250,8 +262,6 @@ class: center, middle, inverse
    possibilidades que restam
 ]
 
---
-
 .pull-right-60[
 - Esta visão de Platt é naturalmente uma extensão lógica do trabalho de
 **Popper**
@@ -271,19 +281,16 @@ de **Ronald Fisher**, **Karl Pearson**, **Jerzy Neyman** e outros, que
 desenvolveram grande parte da teoria estatística atual associada a
 **testes de hipótese**.
 
---
-
-</br>
+<br>
 
 Em um teste de hipótese, nós concentramos em uma única hipótese
 ("**hipótese nula**" ou $H_0$) e calculamos a probabilidade dos dados
 terem sido observados **assumindo que a hipótese nula seja verdadeira**
+(cuidado com essa condicional)
 
 $$
 P(\text{Dados} | H_0 \text{ verdadeira}) = \alpha^{\star} = p\text{-valor}
 $$
-
---
 
 Se essa probabilidade:
 
@@ -292,15 +299,11 @@ Se essa probabilidade:
   - For alta (usualmenta acima de $0.05$), então **não rejeitamos** a
     hipótese nula.
 
---
-
 Lembre-se que, segundo a filosofia de Popper:
 
   - Uma hipótese não pode ser provada, apenas desprovada.
   - Por isso, não podemos **aceitar** uma hipótese (já que ela não pode
   ser provada)
-
---
 
 .large.center[**aceitar** `\\(\neq\\)` **não rejeitar**]
 
@@ -389,8 +392,6 @@ hipótese alternativa é, algumas vezes, chamada de **hipótese de
 pesquisa**.
 ]
 
---
-
 .pull-right[
 No exemplo anterior, a **hipótese de pesquisa** é a de que
 > *a proporção de fêmeas é maior do que a proporção de machos*
@@ -409,7 +410,7 @@ a afirmativa de a proporção de fêmeas na população é maior do que a
 de machos.
 ]
 
---
+<br>
 
 .large.center[**hipótese de pesquisa** `\\(\neq\\)` **hipótese estatística**]
 
@@ -424,9 +425,7 @@ a proporção de machos
   "estatisticamente significativo" ou não (*i.e* rejeitamos ou não a
   hipótese nula)
 
---
-
-</br>
+<br>
 
 Os pontos chave para essa visão da ciência são:
 
@@ -434,9 +433,7 @@ Os pontos chave para essa visão da ciência são:
 2. O experimento crítico
 3. A falsificação como a única "verdade"
 
---
-
-</br>
+<br>
 
 > Popper forneceu a filosofia, e Fisher, Pearson e colegas forneceram a
 estatística.
@@ -453,10 +450,8 @@ Se a hipótese nula for rejeitada
 <!-- - Hipóteses alternativas podem ser **deduzidas** (sobe na árvore) -->
 - Se esse experimento for realizado repetidas vezes, e o resultado
   permanece o mesmo, então essa hipótese de pesquisa vai adquirindo seu
-  **grau de confiança**
+  **grau de confiança** (corroboração)
 ]
-
---
 
 .pull-right[
 Se a hipótese nula **não** for rejeitada
@@ -468,9 +463,7 @@ Se a hipótese nula **não** for rejeitada
   - ?
 ]
 
---
-
-</br>
+<br>
 
 > Apesar de ser a mais utilizada na estatística (e na ciência em geral), a
 visão Popperiana do método científico é apenas uma entre várias
@@ -484,13 +477,13 @@ class: center, middle, inverse
 ---
 # Visões alternativas do método científico
 
-</br>
+<br>
 
 | Filósofo | Tema central                                       | Tipo de confronto                                                                                                                                                                                                  |
 | :--      | :--                                                | :--                                                                                                                                                                                                                |
 | Popper   | Falsificação da hipótese nula                      | Uma única hipótese é desprovada em confronto com os dados                                                                                                                                                          |
 | Kuhn     | Paradigmas, ciência normal, revoluções científicas | Uma única hipótese é utilizada até que existam informações contraditórias suficientes para que ela seja "derrubada" por uma hipótese "melhor"                                                                      |
-| Polanyi  | República da ciência                               | Múltiplas visões do mundo são permitidas de acordo com a opinião de diferentes cientistas. O confronto entre essas visões e os dados é julgado de acordo com (i) a plausibilidade, (ii) o valor, (iii) o interesse |
+| Polanyi  | República da ciência                               | Múltiplas visões do mundo são permitidas de acordo com a opinião de diferentes cientistas. |
 | Lakatos  | Programa de Pesquisa Científica                  | Confronto entre múltiplas hipóteses, tendo os dados como mediador                                                                                                                                                  |
 
 
@@ -545,8 +538,6 @@ knitr::include_graphics("img/Thomas_Kuhn.jpg")
   até ocorrer, **mas** somente dentro de um paradigma individual
   - Isso de fato caracteriza os procedimentos da ciência normal
 
---
-
 - No exemplo anterior
   - O **procedimento** para a verificação da proporção de fêmeas seria a
   "ciência normal"
@@ -577,10 +568,16 @@ knitr::include_graphics("img/Thomas_Kuhn.jpg")
   desenvolve sua própria capacidade de julgamento para assuntos
   científicos
 
-- Segundo Polanyi, existem três critérios para esse julgamento
-  1. Plausibilidade (conformidade)
-  2. Valor científico (interesse, importância)
-  3. Originalidade (pensamento criativo)
+- Polanyi argumenta implicitamente que o confronto
+  - não é entre **uma** hipótese e os dados
+  - mas sim **entre hipóteses** (diferentes descrições de
+  como o mundo funciona) e os **dados** (observações e medidas)
+
+
+<!-- - Segundo Polanyi, existem três critérios para esse julgamento -->
+<!--   1. Plausibilidade (conformidade) -->
+<!--   2. Valor científico (interesse, importância) -->
+<!--   3. Originalidade (pensamento criativo) -->
 
 <!-- - Estes três critérios são apropriados para confrontar hipóteses com -->
 <!--   dados -->
@@ -648,8 +645,9 @@ knitr::include_graphics("img/Imre_Lakatos.jpg")
 
 ## Imre Lakatos
 
-- O valor de um PPC é a sua habilidade em fazer novas predições e prover
-  explicações simples e detalhadas **sobre o que é conhecido**
+.pull-left-80[
+<!-- - O valor de um PPC é a sua habilidade em fazer novas predições e prover -->
+<!--   explicações simples e detalhadas **sobre o que é conhecido** -->
 
 - Um PPC só pode ser substituído por outro PPC
   - *Não podemos rejeitar uma hipótese a menos que exista uma outra
@@ -657,9 +655,17 @@ knitr::include_graphics("img/Imre_Lakatos.jpg")
 
 - Portanto, na visão Lakatosiana, **o confronto deve ser sempre entre
   hipóteses concorrentes e os dados**
+
   - Uma hipótese individual **pode** ser *inconsistente* com os dados
+
   - Mas a menos que exista outra mais consistente, não descartaremos a
     primeira, pois é necessário que se continue investigando
+]
+.pull-right-20[
+```{r, echo=FALSE, out.width="90%"}
+knitr::include_graphics("img/Imre_Lakatos.jpg")
+```
+]
 
 ---
 # Visões alternativas do método científico
@@ -675,8 +681,6 @@ De maneira geral
 são descrições diferentes da **mesma atividade científica**.
 ]
 
---
-
 .pull-right[
 Será muito raro que as ideias gerais como
 
@@ -686,9 +690,7 @@ Será muito raro que as ideias gerais como
 sejam **verdadeiramente testadas**.
 ]
 
-</br>
-
---
+<br>
 
 Na verdade, a maior parte do trabalho de um cientista será em um nível
 muito mais "mundano", que, dependendo do filósofo, será
@@ -706,30 +708,20 @@ muito mais "mundano", que, dependendo do filósofo, será
 A teoria estatística **mais utilizada/ensinada atualmente** é aquela
 baseada na visão filosófica da ciência de Popper
 
-- falseamento de uma **única** hipótese
-- árvore de aprendizado
+- Falseamento de uma **única** hipótese
+- Árvore de aprendizado
 
---
+### Será que existem alternativas?
 
-Será que existem alternativas?
+A **inferência bayesiana** (ou **estatística bayesiana**)
 
---
-
-Sim!
-
---
-
-O campo chamado de **inferência bayesiana** (ou **estatística
-bayesiana**)
-
-- provê a teoria e as ferramentas para o teste de **múltiplas hipóteses
+- Provê a teoria e as ferramentas para o teste de **múltiplas hipóteses
 concorrentes**
-- vai de encontro com a visão filosófica da ciência de **Lakatos**
-  - o confronto deve ser entre **hipóteses concorrente e os dados**
 
---
+- Vai de encontro com a visão filosófica da ciência de **Lakatos**
+  - O confronto deve ser entre **hipóteses concorrente e os dados**
 
-<br/>
+<br>
 
 > Para simplificar a comparação vamos chamar essas duas visões de
 > **clássica/Popperiana** e **bayesiana/Lakatosiana**
@@ -750,16 +742,18 @@ Baseada no **Teorema de Bayes**
 
 - $[H_i|D]$ é a probabilidade da hipótese $H_i$, condicionada aos dados
   $D$ (**posterior**)
+
 - $[D|H_i]$ é a probabilidade do dado, condicionada à hipótese
   (**verossimilhança**)
+
 - $[H_i]$ é a distribuição de probabilidade **a priori** para a hipótese
+
 - O resultado será a probabilidade de cada uma das $i=1,\ldots,k$
   hipóteses concorrentes
-<!-- - É possível incorporar informações prévias sobre uma hipótese, por meio -->
-<!--   da (distribuição) *a priori* -->
-]
 
---
+- É possível incorporar informações prévias sobre uma hipótese, por meio
+  da (distribuição) *a priori*
+]
 
 .pull-right-40[
 
@@ -795,6 +789,9 @@ $$
 - Hipótese é **falsificada** (mas nunca provada)
 - **Experimentos críticos** são aqueles que (geralmente) fazem a
   hipótese nula ser rejeitada
+- As probabilidades são atribuídas apenas aos **conjuntos** de uma
+  $\sigma$-algebra, e manipuladas por meio dos axiomas de Kolmogorov
+  - Não é possível atribuir probabilidades para hipóteses
 
 ]
 
@@ -812,12 +809,13 @@ $$
   confiança
 - **Experimentos críticos** são aqueles capazes de mudar os graus de
   confiança entre as hipóteses
-
+- A probabilidade é considerada como **extensão da lógica** indutiva, e
+  manipuladas por meio dos desideratos de Pòlya e as algebras de RT Cox
+  - As hipóteses naturalmente recebem probabilidades (a priori e a
+  posteriori)
 ]
 
---
-
-</br>
+<br>
 
 - Para **Lakatos**, uma hipótese não pode ser rejeitada, a menos que
   exista uma **alternativa melhor**
