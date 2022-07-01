@@ -6,7 +6,7 @@ date: 2021-02-01 .footnotesize[(última atualização `r Sys.Date()`)]
 
 ```{r, cache=FALSE, include=FALSE}
 source("config/setup_knitr.R")
-opts_chunk$set(fig.path = "figures/03_RNG_inversa/")
+opts_chunk$set(fig.path = "figures/mc/")
 library(RefManageR)
 BibOptions(check.entries = FALSE,
            bib.style = "authoryear",
@@ -147,12 +147,6 @@ Exemplo:
 
 > Logo, (todos) os homens são mortais.
 
-- A partir da observação, é possível formular uma **hipótese
-explicativa** da causa do fenômeno.
-
-- Portanto, por meio da indução chega-se a **conclusões que são apenas
-prováveis**.
-
 ]
 
 
@@ -251,12 +245,15 @@ class: center, middle, inverse
 
 .pull-left-40[
 1. Conceber **hipóteses alternativas**.
+
 2. Conceber um **experimento crucial** (ou vários deles)
   - Possíveis resultados alternativos
   - Cada um poderá **excluir**, dentro do possível, **uma ou mais
     hipóteses**
+
 3. Realizar o experimento de forma a obter resultados mais confiáveis
    possíveis.
+
 4. **Reciclar o procedimento**
   - Criar sub-hipóteses ou hipóteses sequenciais para refinar as
    possibilidades que restam
@@ -590,6 +587,7 @@ knitr::include_graphics("img/Michael_Polanyi.png")
 ]
 
 ---
+exclude: true
 # Visões alternativas do método científico
 
 ## Michael Polanyi
@@ -843,7 +841,149 @@ knitr::include_graphics("img/feynman.jpg")
 ]
 
 ---
-exclude: false
+# Exemplo
+
+**Hipótese de pesquisa**: bandos maiores de pássaros possuem uma taxa maior
+de consumo (forrageamento)
+
+.pull-left[
+
+- Quatro modelos de forrageamento podem ser propostos
+- Cada "modelo" aqui se refere à uma hipótese
+
+| Hipótese | Modelo | Descrição                                                  |
+|:---------|:-------|:-----------------------------------------------------------|
+| A        | $C=a$  | Consumo independente do tamanho do bando (modelo **nulo**) |
+
+]
+
+.pull-right[
+
+```{r, echo=FALSE, out.width="100%", fig.width=8, fig.height=6}
+cons <- seq(0, 8, length.out = 100)
+flock <- seq(0, 16, length.out = 100)
+## plot(cons ~ flock)
+
+a <- 2
+b <- 0.2
+x <- flock
+## y <- (a * flock * exp(-b * flock)) * exp(log(rnorm(100)))
+set.seed(20)
+y <- abs((a * x * exp(-b * x)) + rnorm(100))
+## plot(y ~ x)
+
+modA <- nls(y ~ a * x, start = list(a = 1))
+modB <- nls(y ~ (a * x/(1 + b * x)), start = list(a = 1, b = 0.1))
+modC <- nls(y ~ a * x * exp(-b * x), start = list(a = 1, b = 0.1))
+
+plot(y ~ x, ylab = "Taxa de consumo (C)", xlab = "Tamanho do bando (S)")
+lines(x, rep(2.3, length(x)), col = 1, lwd = 2)
+## lines(x, predict(modA), col = 2, lwd = 2)
+## lines(x, predict(modB), col = 3, lwd = 2)
+## lines(x, predict(modC), col = 4, lwd = 2)
+legend("topright", legend = LETTERS[1], col = 1, lty = 1, lwd = 2)
+```
+]
+
+
+---
+# Exemplo
+
+**Hipótese de pesquisa**: bandos maiores de pássaros possuem uma taxa maior
+de consumo (forrageamento)
+
+.pull-left[
+
+- Quatro modelos de forrageamento podem ser propostos
+- Cada "modelo" aqui se refere à uma hipótese
+
+| Hipótese | Modelo | Descrição                                                  |
+|:---------|:-------|:-----------------------------------------------------------|
+| A        | $C=a$  | Consumo independente do tamanho do bando (modelo **nulo**) |
+| B        | $C=aS$ | Consumo é proporcional ao tamanho do bando                 |
+
+]
+
+.pull-right[
+
+```{r, echo=FALSE, out.width="100%", fig.width=8, fig.height=6}
+cons <- seq(0, 8, length.out = 100)
+flock <- seq(0, 16, length.out = 100)
+## plot(cons ~ flock)
+
+a <- 2
+b <- 0.2
+x <- flock
+## y <- (a * flock * exp(-b * flock)) * exp(log(rnorm(100)))
+set.seed(20)
+y <- abs((a * x * exp(-b * x)) + rnorm(100))
+## plot(y ~ x)
+
+modA <- nls(y ~ a * x, start = list(a = 1))
+modB <- nls(y ~ (a * x/(1 + b * x)), start = list(a = 1, b = 0.1))
+modC <- nls(y ~ a * x * exp(-b * x), start = list(a = 1, b = 0.1))
+
+plot(y ~ x, ylab = "Taxa de consumo (C)", xlab = "Tamanho do bando (S)")
+lines(x, rep(2.3, length(x)), col = 1, lwd = 2)
+lines(x, predict(modA), col = 2, lwd = 2)
+## lines(x, predict(modB), col = 3, lwd = 2)
+## lines(x, predict(modC), col = 4, lwd = 2)
+legend("topright", legend = LETTERS[1:2], col = 1:2, lty = 1, lwd = 2)
+```
+]
+
+
+
+
+---
+# Exemplo
+
+**Hipótese de pesquisa**: bandos maiores de pássaros possuem uma taxa maior
+de consumo (forrageamento)
+
+.pull-left[
+
+- Quatro modelos de forrageamento podem ser propostos
+- Cada "modelo" aqui se refere à uma hipótese
+
+| Hipótese | Modelo              | Descrição                                                          |
+| :--      | :--                 | :--                                                                |
+| A        | $C=a$               | Consumo independente do tamanho do bando (modelo **nulo**)         |
+| B        | $C=aS$              | Consumo é proporcional ao tamanho do bando                         |
+| C        | $C=\frac{aS}{1+bS}$ | Consumo satura à medida que o tamanho da bando aumenta             |
+
+]
+
+.pull-right[
+
+```{r, echo=FALSE, out.width="100%", fig.width=8, fig.height=6}
+cons <- seq(0, 8, length.out = 100)
+flock <- seq(0, 16, length.out = 100)
+## plot(cons ~ flock)
+
+a <- 2
+b <- 0.2
+x <- flock
+## y <- (a * flock * exp(-b * flock)) * exp(log(rnorm(100)))
+set.seed(20)
+y <- abs((a * x * exp(-b * x)) + rnorm(100))
+## plot(y ~ x)
+
+modA <- nls(y ~ a * x, start = list(a = 1))
+modB <- nls(y ~ (a * x/(1 + b * x)), start = list(a = 1, b = 0.1))
+modC <- nls(y ~ a * x * exp(-b * x), start = list(a = 1, b = 0.1))
+
+plot(y ~ x, ylab = "Taxa de consumo (C)", xlab = "Tamanho do bando (S)")
+lines(x, rep(2.3, length(x)), col = 1, lwd = 2)
+lines(x, predict(modA), col = 2, lwd = 2)
+lines(x, predict(modB), col = 3, lwd = 2)
+## lines(x, predict(modC), col = 4, lwd = 2)
+legend("topright", legend = LETTERS[1:3], col = 1:3, lty = 1, lwd = 2)
+```
+]
+
+
+---
 # Exemplo
 
 **Hipótese de pesquisa**: bandos maiores de pássaros possuem uma taxa maior
@@ -891,6 +1031,7 @@ lines(x, predict(modC), col = 4, lwd = 2)
 legend("topright", legend = LETTERS[1:4], col = 1:4, lty = 1, lwd = 2)
 ```
 ]
+
 
 ---
 exclude: false
