@@ -16,7 +16,7 @@ source("setup_knitr.R")
 
 # Detalhes da oferta da disciplina
 
-- **Curso:** Estatística
+- **Curso:** Estatística.
 - **Período:** segundo semestre de 2022
 - **Professor Responsável:** [Fernando de Pol Mayer][],
   [LEG][]/DEST/UFPR
