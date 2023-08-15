@@ -16,12 +16,12 @@ source("setup_knitr.R")
 
 # Detalhes da oferta da disciplina
 
-- **Curso:** Estatística.
+- **Curso:** Estatística
 - **Período:** segundo semestre de 2022
 - **Professor Responsável:** [Fernando de Pol Mayer][],
   [LEG][]/DEST/UFPR
 - **Horários e Locais:**
-  - Sexta, 19:00 - 22:00h, **Sala DEST Multimídia**
+  - Sexta, 19:00 - 22:00h, **Sala DEST**
 <!-- - **Horários de atendimento dos professores:** -->
 <!--     - Segundas, 15:30 - 19:00 (preferenciais). Outros horários -->
 <!--       podem ser agendados previamente por email. -->
