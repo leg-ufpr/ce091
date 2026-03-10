@@ -26,15 +26,6 @@ library(rmarkdown)
 render_site()
 ```
 
-**Observações**:
-
-- A publicação no site é automatizada através do
-  [Travis](https://travis-ci.org). Os arquivos para essa automatização
-  são [.travis.yml](./.travis.yml) (configura o build como se fosse um
-  pacote do R), [_build.sh](./_build.sh) (roda o **rmarkdown**) na raíz
-  do site, e [_deploy.sh](./_deploy.sh) (clona e gera o site diretamente
-  no branch *gh-pages*).
-
 ### Licença
 
 O conteúdo deste repositório, das páginas, e do material da disciplina
